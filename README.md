@@ -1,3 +1,3 @@
-# Analog_FA23_SP24
+# FA23_SP24 Mixed Signal Delta Sigma ADC Branch
 
-This repository is meant to serve as a location for all files worked on by the C2S2 Analog Subteam for the 2023-2024 academic year.
+This branch of the Analog_FA23_SP24 respotory is meant to house the working files for the ADC design. This should include more or less all files the analog subteam memebers are working with, including desing, verification, and testing related files. The main repository will be used when these files are in a cleaned up and functional state, while temporary work can and should be published to this temporary branch. The main branch is the "final" project branch, and will only be updated when the design reaches critical points, whereas this branch can be updated even with minor or semi-functional updates (if these are critical failures in the design, it would be best to resolve them locally before pushing them here, unless they are to be shared with someone else). 
