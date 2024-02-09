@@ -2,4 +2,6 @@
 
 This repository is meant to serve as a location for all files worked on by the C2S2 Analog Subteam for the 2023-2024 academic year.
 
-![alt text](Logo.png?raw=true)
+<p align="center">
+  <img src="Logo.png" width="350" title="hover text">
+</p>
