@@ -2,4 +2,4 @@
 
 This repository is meant to serve as a location for all files worked on by the C2S2 Analog Subteam for the 2023-2024 academic year.
 
-![alt text](https://github.com/cornell-c2s2/Analog_FA23_SP24/tree/main/Logo.png?raw=true)
+![alt text](Logo.png?raw=true)
