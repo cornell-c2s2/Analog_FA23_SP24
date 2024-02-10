@@ -29,18 +29,28 @@ N 340 -240 340 -140 {
 lab=#net2}
 N 340 -320 340 -300 {
 lab=DACOUT}
-N 80 -320 80 -300 {
+N 80 -500 80 -480 {
 lab=#net3}
 N 340 -220 420 -220 {
 lab=#net2}
-N 310 -320 410 -320 {
-lab=DACOUT}
-N 80 -220 160 -220 {
-lab=#net1}
 N 220 -220 220 -120 {
 lab=INTOUT1}
 N 480 -220 480 -120 {
 lab=INTOUT2}
+N 580 -500 680 -500 {
+lab=OUT}
+N 680 -500 680 -320 {
+lab=OUT}
+N 310 -500 500 -500 {
+lab=OUT}
+N 80 -420 80 -240 {
+lab=#net1}
+N 80 -220 160 -220 {
+lab=#net1}
+N 340 -320 410 -320 {
+lab=DACOUT}
+N 500 -500 580 -500 {
+lab=OUT}
 C {devices/res.sym} 270 -120 3 0 {name=R1
 value=100k
 footprint=1206
@@ -58,7 +68,7 @@ value=100k
 footprint=1206
 device=resistor
 m=1}
-C {devices/res.sym} 80 -270 0 0 {name=R4
+C {devices/res.sym} 80 -450 0 0 {name=R4
 value=100k
 footprint=1206
 device=resistor
@@ -106,7 +116,7 @@ save all
 tran 0.5u 0.5m
 *ac dec 10 100 100k
 
-write DS_2024_rev1.raw
+write DS_2024_rev2.raw
 .endc
 "}
 C {devices/code.sym} -40 120 0 0 {name=TT_MODELS
@@ -134,8 +144,8 @@ C {devices/vdd.sym} -480 -140 0 0 {name=l22 lab=VREFP}
 C {devices/gnd.sym} -480 -80 0 1 {name=l23 lab=GND}
 C {devices/vdd.sym} 520 -390 0 0 {name=l16 lab=VREFP}
 C {devices/vdd.sym} 520 -250 1 0 {name=l17 lab=VREFN}
-C {/foss/designs/dsigma2024/1-bit_DAC_INV.sym} 190 -320 0 1 {name=x5}
-C {devices/gnd.sym} 310 -280 0 0 {name=l24 lab=GND}
-C {devices/vdd.sym} 310 -360 0 0 {name=l25 lab=VDD}
-C {devices/vdd.sym} 190 -390 0 0 {name=l26 lab=VREFP}
-C {devices/vdd.sym} 190 -250 1 0 {name=l27 lab=VREFN}
+C {/foss/designs/dsigma2024/1-bit_DAC_INV.sym} 190 -500 0 1 {name=x5}
+C {devices/gnd.sym} 310 -460 0 0 {name=l24 lab=GND}
+C {devices/vdd.sym} 310 -540 0 0 {name=l25 lab=VDD}
+C {devices/vdd.sym} 190 -570 0 0 {name=l26 lab=VREFP}
+C {devices/vdd.sym} 190 -430 1 0 {name=l27 lab=VREFN}
