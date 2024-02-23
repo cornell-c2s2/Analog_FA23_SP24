@@ -89,4 +89,4 @@ C {sky130_stdcells/clkinv_1.sym} 640 -250 0 0 {name=x14 VGND=VSS VNB=VSS VPB=VDD
 C {sky130_stdcells/inv_4.sym} 920 -330 3 0 {name=x13 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/ipin.sym} 170 -290 0 0 {name=p1 sig_type=std_logic lab=VMID}
 C {devices/lab_pin.sym} 460 -270 3 0 {name=p8 sig_type=std_logic lab=COMP}
-C {/foss/designs/Analog_FA23_SP24/DeltaSigma/C2S2_Amp_F.sym} 320 -270 0 0 {name=x1}
+C {/foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/C2S2_Amp_F.sym} 320 -270 0 0 {name=x1}

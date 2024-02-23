@@ -1,0 +1,53 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1708718598
+<< checkpaint >>
+rect 111743 59618 115741 59671
+rect 111743 59565 117166 59618
+rect 111743 59512 118591 59565
+rect -1260 5245 90778 16686
+rect -1260 4452 106040 5245
+rect 111743 4452 120016 59512
+rect -1260 -1260 120016 4452
+rect 111743 -1313 120016 -1260
+rect 113168 -1366 120016 -1313
+rect 114593 -1419 120016 -1366
+rect 116018 -1472 120016 -1419
+use C2S2_Amp_F_I  x1
+timestamp 1708718588
+transform 1 0 53 0 1 11034
+box -53 -11034 44706 4392
+use C2S2_Amp_F_I  x2
+timestamp 1708718588
+transform 1 0 44812 0 1 11034
+box -53 -11034 44706 4392
+use 1Bit_Clk_ADC  x3
+timestamp 1708718592
+transform 1 0 104818 0 1 2000
+box -38 -2000 8238 1192
+use 1Bit_DAC  x4
+timestamp 1708718592
+transform 1 0 97202 0 1 2000
+box -53 -2000 7578 1985
+use 1Bit_DAC_Inv  x5
+timestamp 1708718590
+transform 1 0 89571 0 1 2000
+box -53 -2000 7578 1985
+use sky130_fd_pr__res_xhigh_po_5p73_7B4CKM  XR1
+timestamp 0
+transform 1 0 115167 0 1 29126
+box -739 -29232 739 29232
+use sky130_fd_pr__res_xhigh_po_5p73_7B4CKM  XR2
+timestamp 0
+transform 1 0 116592 0 1 29073
+box -739 -29232 739 29232
+use sky130_fd_pr__res_xhigh_po_5p73_7B4CKM  XR3
+timestamp 0
+transform 1 0 118017 0 1 29020
+box -739 -29232 739 29232
+use sky130_fd_pr__res_xhigh_po_5p73_7B4CKM  XR5
+timestamp 0
+transform 1 0 113742 0 1 29179
+box -739 -29232 739 29232
+<< end >>

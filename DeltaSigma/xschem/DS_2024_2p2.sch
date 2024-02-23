@@ -51,26 +51,6 @@ N 340 -320 410 -320 {
 lab=DACOUT}
 N 500 -500 580 -500 {
 lab=OUT}
-C {devices/res.sym} 270 -120 3 0 {name=R1
-value=100k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 30 -140 3 0 {name=R2
-value=100k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 340 -270 0 0 {name=R3
-value=100k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 80 -450 0 0 {name=R4
-value=100k
-footprint=1206
-device=resistor
-m=1}
 C {devices/vdd.sym} 140 -180 0 0 {name=l1 lab=VDD}
 C {devices/vdd.sym} 400 -180 0 0 {name=l2 lab=VDD}
 C {devices/gnd.sym} 400 -60 0 1 {name=l3 lab=GND}
@@ -149,3 +129,40 @@ C {/foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/C2S2_Amp_F_I.sym} 400 -120 0
 C {/foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/1Bit_DAC_Inv.sym} 190 -500 0 1 {name=x5}
 C {/foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/1Bit_DAC.sym} 490 -320 0 1 {name=x4}
 C {/foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/1Bit_Clk_ADC.sym} 610 10 0 0 {name=x3}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 30 -140 3 0 {name=R5
+W=5.73
+L=286.5
+model=res_xhigh_po_5p73
+spiceprefix=X
+mult=1
+
+}
+C {devices/gnd.sym} 30 -120 0 1 {name=l28 lab=GND}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 270 -120 3 0 {name=R1
+W=5.73
+L=286.5
+model=res_xhigh_po_5p73
+spiceprefix=X
+mult=1
+
+}
+C {devices/gnd.sym} 270 -100 0 1 {name=l29 lab=GND}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 80 -450 0 0 {name=R2
+W=5.73
+L=286.5
+model=res_xhigh_po_5p73
+spiceprefix=X
+mult=1
+
+}
+C {devices/gnd.sym} 60 -450 0 1 {name=l30 lab=GND}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 340 -270 0 0 {name=R3
+W=5.73
+L=286.5
+model=res_xhigh_po_5p73
+spiceprefix=X
+mult=1
+
+}
+C {devices/gnd.sym} 320 -270 0 1 {name=l31 lab=GND}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 490 -40 0 0 {name=C3 model=cap_mim_m3_1 W=16 L=16 MF=12 spiceprefix=X}
