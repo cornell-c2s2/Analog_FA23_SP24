@@ -6,15 +6,15 @@ V {}
 S {}
 E {}
 B 2 80 -1040 880 -640 {flags=graph
-y1=-7.6e-15
-y2=0.0021
+y1=7.7e-15
+y2=1.1e-05
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.419e-15
-x2=1.8
+x1=1.54809
+x2=1.68681
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -32,7 +32,7 @@ sim_type=dc
 color=4
 node=i(vd1)
 rainbow=1
-dataset=-1}
+dataset=1}
 B 2 80 -1480 880 -1080 {flags=graph
 
 
@@ -41,15 +41,15 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.419e-15
-x2=1.8
+x1=1.54809
+x2=1.68681
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=-1
+dataset=1
 unitx=1
 logx=0
 logy=0
@@ -57,8 +57,8 @@ color=4
 node="\\"ro = dVds/dIds; 1 i(vd1) deriv() /\\""
 
 rainbow=1
-y2=0
-y1=-50k}
+y2=-41000
+y1=-480000}
 B 2 80 -1920 880 -1520 {flags=graph
 y1=0
 
@@ -67,34 +67,34 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.419e-15
-x2=1.8
+x1=1.54809
+x2=1.68681
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=-1
+dataset=1
 unitx=1
 logx=0
 logy=0
 
 
-y2=0.0026
+y2=0.00039
 color=4
 node=@m.xm1.msky130_fd_pr__pfet_01v8[gm]
 rainbow=1}
 B 2 1000 -1040 1800 -640 {flags=graph
-y1=-7.6e-15
-y2=0.0021
+y1=-3.7e-15
+y2=0.00017
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
-unity=T
-x1=-1.419e-15
-x2=1.8
+unity=1
+x1=1.54809
+x2=1.68681
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -113,30 +113,30 @@ color=4
 node=i(vd1)
 rawfile=$netlist_dir/test_pmos_1v8_2.raw
 rainbow=1
-dataset=-1}
+dataset=1}
 B 2 1000 -1480 1800 -1080 {flags=graph
-y1=-0.0026
+y1=-0.00038
 
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.419e-15
-x2=1.8
+x1=1.54809
+x2=1.68681
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=-1
+dataset=1
 unitx=1
 logx=0
 logy=0
 color=4
 node="\\"gm = dIds/dVgs; i(vd1) deriv() /\\""
-y2=4e-12
+y2=1.1e-12
 rawfile=$netlist_dir/test_pmos_1v8_2.raw
 rainbow=1}
 B 2 1000 -1920 1800 -1520 {flags=graph
@@ -147,25 +147,51 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.419e-15
-x2=1.8
+x1=1.54809
+x2=1.68681
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=-1
+dataset=1
 unitx=1
 logx=0
 logy=0
 
 
-y2=0.0026
+y2=0.00038
 color=4
 node=@m.xm1.msky130_fd_pr__pfet_01v8[gm]
 rainbow=1
 rawfile=$netlist_dir/test_pmos_1v8_2.raw}
+B 2 80 -2360 880 -1960 {flags=graph
+y1=1
+
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.54809
+x2=1.68681
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=1
+unitx=1
+logx=0
+logy=0
+
+
+y2=1.1
+color=4
+node=@m.xm1.msky130_fd_pr__pfet_01v8[vth]
+rainbow=1}
 N 480 -320 480 -280 {
 lab=VDD}
 N 720 -200 720 -180 {
@@ -210,11 +236,13 @@ C {devices/code_shown.sym} 920 -510 0 0 {name=COMMANDS only_toplevel=false value
 "
 .options savecurrents
 .save @m.xm1.msky130_fd_pr__pfet_01v8[gm]
+.save @m.xm1.msky130_fd_pr__pfet_01v8[vth]
+
 .control
 
 save all
 
-dc VD 1.8 0 -0.01 VG 1.8 0 -0.2
+dc VD 1.8 0 -0.01 VG 0.8 0.5 -0.1
 remzerovec
 write test_pmos_1v8.raw
 
@@ -238,8 +266,8 @@ C {devices/gnd.sym} 600 -110 0 0 {name=l3 lab=GND}
 C {devices/vsource.sym} 720 -230 0 0 {name=VD value=0 savecurrent=false}
 C {devices/lab_pin.sym} 480 -80 2 1 {name=p2 sig_type=std_logic lab=D}
 C {sky130_fd_pr/pfet_01v8.sym} 460 -250 0 0 {name=M1
-L=0.15
-W=1
+L=0.6
+W=11
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

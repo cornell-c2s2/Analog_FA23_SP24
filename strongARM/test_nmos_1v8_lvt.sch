@@ -6,8 +6,8 @@ V {}
 S {}
 E {}
 B 2 80 -1040 880 -640 {flags=graph
-y1=-1.5e-21
-y2=2.6e-05
+y1=-2.4e-21
+y2=8.7e-05
 ypos1=0
 ypos2=2
 divy=5
@@ -32,7 +32,7 @@ sim_type=dc
 color=4
 node=i(vd1)
 rainbow=1
-dataset=2}
+dataset=-1}
 B 2 80 -1480 880 -1080 {flags=graph
 y1=0
 
@@ -49,7 +49,7 @@ xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=2
+dataset=-1
 unitx=1
 logx=0
 logy=0
@@ -57,7 +57,7 @@ color=4
 node="\\"ro = dVds/dIds; 1 i(vd1) deriv() /\\""
 
 rainbow=1
-y2=7.4e+07}
+y2=1.7e+07}
 B 2 80 -1920 880 -1520 {flags=graph
 y1=0
 
@@ -74,19 +74,19 @@ xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=2
+dataset=-1
 unitx=1
 logx=0
 logy=0
 
 
-y2=0.00024
+y2=0.00052
 color=4
-node=@m.xm1.msky130_fd_pr__nfet_01v8[gm]
+node=@m.xm1.msky130_fd_pr__nfet_01v8_lvt[gm]
 rainbow=1}
 B 2 1000 -1040 1800 -640 {flags=graph
-y1=-1.1e-19
-y2=0.00078
+y1=-4.5e-20
+y2=0.00069
 ypos1=0
 ypos2=2
 divy=5
@@ -112,9 +112,9 @@ color=4
 node=i(vd1)
 rawfile=$netlist_dir/test_nmos_1v8_2.raw
 rainbow=1
-dataset=2}
+dataset=-1}
 B 2 1000 -1480 1800 -1080 {flags=graph
-y1=-1.9e-13
+y1=0.000312
 
 ypos1=0
 ypos2=2
@@ -129,13 +129,13 @@ xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=2
+dataset=-1
 unitx=1
 logx=0
 logy=0
 color=4
 node="\\"gm = dIds/dVgs; i(vd1) deriv() /\\""
-y2=0.00078
+y2=0.001092
 rawfile=$netlist_dir/test_nmos_1v8_2.raw
 rainbow=1}
 B 2 1000 -1920 1800 -1520 {flags=graph
@@ -154,19 +154,19 @@ xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=2
+dataset=-1
 unitx=1
 logx=0
 logy=0
 
 
-y2=0.00078
+y2=0.00052
 color=4
-node=@m.xm1.msky130_fd_pr__nfet_01v8[gm]
+node=@m.xm1.msky130_fd_pr__nfet_01v8_lvt[gm]
 rainbow=1
-rawfile=$netlist_dir/test_nmos_1v8_2.raw}
+rawfile=$netlist_dir/test_nmos_1v8_lvt_2.raw}
 B 2 80 -2360 880 -1960 {flags=graph
-y1=0.62
+y1=0.5
 
 ypos1=0
 ypos2=2
@@ -181,15 +181,15 @@ xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=2
+dataset=-1
 unitx=1
 logx=0
 logy=0
 
 
-y2=0.63
+y2=0.51
 color=4
-node=@m.xm1.msky130_fd_pr__nfet_01v8[vth]
+node=@m.xm1.msky130_fd_pr__nfet_01v8_lvt[vth]
 rainbow=1}
 N 580 -320 580 -280 {
 lab=#net1}
@@ -226,19 +226,19 @@ C {sky130_fd_pr/corner.sym} 920 -170 0 0 {name=CORNER only_toplevel=false corner
 C {devices/code_shown.sym} 920 -510 0 0 {name=COMMANDS only_toplevel=false value=
 "
 .options savecurrents
-.save @m.xm1.msky130_fd_pr__nfet_01v8[gm]
-.save @m.xm1.msky130_fd_pr__nfet_01v8[vth]
+.save @m.xm1.msky130_fd_pr__nfet_01v8_lvt[gm]
+.save @m.xm1.msky130_fd_pr__nfet_01v8_lvt[vth]
 .control
 
 save all
 
-dc VD 0 2 0.01 VG 0.5 0.8 0.1
+dc VD 0 2 0.01 VG 0.4 0.8 0.1
 remzerovec	
-write test_nmos_1v8.raw
+write test_nmos_1v8_lvt.raw
 
 dc VG 0 2 0.01 VD 0 2 0.2
 remzerovec
-write test_nmos_1v8_2.raw
+write test_nmos_1v8__lvt_2.raw
 
 .endc
 "}
@@ -247,10 +247,14 @@ descr=Backannotate
 tclcommand="ngspice::annotate"}
 C {devices/lab_pin.sym} 800 -300 2 1 {name=p3 sig_type=std_logic lab=G}
 C {devices/lab_pin.sym} 720 -300 2 1 {name=p4 sig_type=std_logic lab=D}
-C {sky130_fd_pr/nfet_01v8.sym} 560 -250 0 0 {name=M1
+C {devices/launcher.sym} 1440 -510 0 0 {name=h5
+descr="load waves" 
+tclcommand="xschem raw_read $netlist_dir/test_nmos_1v8.raw"
+}
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 560 -250 0 0 {name=M1
 L=0.60
-W=4.75
-nf=1 
+W=4.0
+nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -258,10 +262,6 @@ as="'int((nf+2)/2) * W/nf * 0.29'"
 ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
-model=nfet_01v8
+model=nfet_01v8_lvt
 spiceprefix=X
-}
-C {devices/launcher.sym} 1440 -510 0 0 {name=h5
-descr="load waves" 
-tclcommand="xschem raw_read $netlist_dir/test_nmos_1v8.raw"
 }
