@@ -6,15 +6,15 @@ V {}
 S {}
 E {}
 B 2 80 -1040 880 -640 {flags=graph
-y1=7.7e-15
-y2=1.1e-05
+y1=-1.6e-14
+y2=6.6e-05
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.54809
-x2=1.68681
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -32,7 +32,7 @@ sim_type=dc
 color=4
 node=i(vd1)
 rainbow=1
-dataset=1}
+dataset=-1}
 B 2 80 -1480 880 -1080 {flags=graph
 
 
@@ -41,15 +41,15 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.54809
-x2=1.68681
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=1
+dataset=-1
 unitx=1
 logx=0
 logy=0
@@ -57,8 +57,8 @@ color=4
 node="\\"ro = dVds/dIds; 1 i(vd1) deriv() /\\""
 
 rainbow=1
-y2=-41000
-y1=-480000}
+y2=0
+y1=-6.1e+06}
 B 2 80 -1920 880 -1520 {flags=graph
 y1=0
 
@@ -67,34 +67,34 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.54809
-x2=1.68681
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=1
+dataset=-1
 unitx=1
 logx=0
 logy=0
 
 
-y2=0.00039
+y2=0.0004
 color=4
 node=@m.xm1.msky130_fd_pr__pfet_01v8[gm]
 rainbow=1}
 B 2 1000 -1040 1800 -640 {flags=graph
-y1=-3.7e-15
-y2=0.00017
+y1=-2.4e-14
+y2=0.00039
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.54809
-x2=1.68681
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -113,30 +113,30 @@ color=4
 node=i(vd1)
 rawfile=$netlist_dir/test_pmos_1v8_2.raw
 rainbow=1
-dataset=1}
+dataset=-1}
 B 2 1000 -1480 1800 -1080 {flags=graph
-y1=-0.00038
+y1=-0.00088
 
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.54809
-x2=1.68681
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=1
+dataset=-1
 unitx=1
 logx=0
 logy=0
 color=4
 node="\\"gm = dIds/dVgs; i(vd1) deriv() /\\""
-y2=1.1e-12
+y2=3.4e-12
 rawfile=$netlist_dir/test_pmos_1v8_2.raw
 rainbow=1}
 B 2 1000 -1920 1800 -1520 {flags=graph
@@ -147,21 +147,21 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.54809
-x2=1.68681
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=1
+dataset=-1
 unitx=1
 logx=0
 logy=0
 
 
-y2=0.00038
+y2=0.00088
 color=4
 node=@m.xm1.msky130_fd_pr__pfet_01v8[gm]
 rainbow=1
@@ -174,15 +174,15 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.54809
-x2=1.68681
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=1
+dataset=-1
 unitx=1
 logx=0
 logy=0
@@ -231,7 +231,7 @@ C {devices/gnd.sym} 800 -180 0 0 {name=l1 lab=GND}
 C {devices/vsource.sym} 600 -180 0 0 {name=VDD value=1.8 savecurrent=false}
 C {devices/gnd.sym} 720 -180 0 0 {name=l2 lab=GND}
 C {devices/ammeter.sym} 480 -150 0 0 {name=VD1 savecurrent=true}
-C {sky130_fd_pr/corner.sym} 920 -170 0 0 {name=CORNER only_toplevel=false corner=tt}
+C {sky130_fd_pr/corner.sym} 930 -130 0 0 {name=CORNER only_toplevel=false corner=tt}
 C {devices/code_shown.sym} 920 -510 0 0 {name=COMMANDS only_toplevel=false value=
 "
 .options savecurrents
