@@ -1,15 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1708718588
-<< checkpaint >>
-rect 38349 752 42183 805
-rect 38349 699 43444 752
-rect 38349 646 44705 699
-rect 38349 -12135 45966 646
-rect 39610 -12188 45966 -12135
-rect 40871 -12241 45966 -12188
-rect 42132 -12294 45966 -12241
+timestamp 1709390584
 << error_s >>
 rect 3822 1897 3857 1931
 rect 3823 1878 3857 1897
@@ -145,7 +137,9 @@ rect 41841 -10796 41899 -10790
 rect 40906 -10873 40921 -10839
 rect 42133 -10892 42148 -597
 rect 42167 -631 42202 -597
+rect 43374 -631 43409 -597
 rect 42167 -10892 42201 -631
+rect 43375 -650 43409 -631
 rect 42416 -699 42474 -693
 rect 42612 -699 42670 -693
 rect 42808 -699 42866 -693
@@ -177,6 +171,40 @@ rect 42710 -10849 42768 -10843
 rect 42906 -10849 42964 -10843
 rect 43102 -10849 43160 -10843
 rect 42167 -10926 42182 -10892
+rect 43394 -10945 43409 -650
+rect 43428 -684 43463 -650
+rect 43428 -10945 43462 -684
+rect 43677 -752 43735 -746
+rect 43873 -752 43931 -746
+rect 44069 -752 44127 -746
+rect 44265 -752 44323 -746
+rect 44461 -752 44519 -746
+rect 43677 -786 43689 -752
+rect 43873 -786 43885 -752
+rect 44069 -786 44081 -752
+rect 44265 -786 44277 -752
+rect 44461 -786 44473 -752
+rect 43677 -792 43735 -786
+rect 43873 -792 43931 -786
+rect 44069 -792 44127 -786
+rect 44265 -792 44323 -786
+rect 44461 -792 44519 -786
+rect 43579 -10862 43637 -10856
+rect 43775 -10862 43833 -10856
+rect 43971 -10862 44029 -10856
+rect 44167 -10862 44225 -10856
+rect 44363 -10862 44421 -10856
+rect 43579 -10896 43591 -10862
+rect 43775 -10896 43787 -10862
+rect 43971 -10896 43983 -10862
+rect 44167 -10896 44179 -10862
+rect 44363 -10896 44375 -10862
+rect 43579 -10902 43637 -10896
+rect 43775 -10902 43833 -10896
+rect 43971 -10902 44029 -10896
+rect 44167 -10902 44225 -10896
+rect 44363 -10902 44421 -10896
+rect 43428 -10979 43443 -10945
 << metal1 >>
 rect 0 0 200 200
 rect 0 -400 200 -200
@@ -184,83 +212,83 @@ rect 0 -800 200 -600
 rect 0 -1200 200 -1000
 rect 0 -1600 200 -1400
 use sky130_fd_pr__res_generic_m3_7P7WHS  R16
-timestamp 0
+timestamp 1709390584
 transform 1 0 38662 0 1 -3215
 box -1000 -7607 1000 7607
 use sky130_fd_pr__cap_mim_m3_1_RJVX7Z  XC2
-timestamp 0
+timestamp 1709390584
 transform 1 0 25629 0 1 -3411
 box -1786 -7040 1786 7040
 use sky130_fd_pr__nfet_01v8_X9T245  XM28
-timestamp 0
+timestamp 1709390584
 transform 1 0 1920 0 1 1257
 box -1973 -710 1973 710
 use sky130_fd_pr__nfet_01v8_F7BW33  XM29
-timestamp 0
+timestamp 1709390584
 transform 1 0 4560 0 1 1204
 box -720 -710 720 710
 use sky130_fd_pr__nfet_01v8_F7BW33  XM30
-timestamp 0
+timestamp 1709390584
 transform 1 0 5947 0 1 1151
 box -720 -710 720 710
 use sky130_fd_pr__pfet_01v8_GCT3F7  XM31
-timestamp 0
+timestamp 1709390584
 transform 1 0 8440 0 1 1107
 box -1826 -719 1826 719
 use sky130_fd_pr__pfet_01v8_GCT3F7  XM32
-timestamp 0
+timestamp 1709390584
 transform 1 0 12039 0 1 1054
 box -1826 -719 1826 719
 use sky130_fd_pr__pfet_01v8_ED7GUS  XM38
-timestamp 0
+timestamp 1709390584
 transform 1 0 17139 0 1 1001
 box -3327 -719 3327 719
 use sky130_fd_pr__nfet_01v8_6JG44H  XM39
-timestamp 0
+timestamp 1709390584
 transform 1 0 22128 0 1 939
 box -1715 -710 1715 710
 use sky130_fd_pr__pfet_01v8_3H5TVM  XM40
-timestamp 0
+timestamp 1709390584
 transform 1 0 29728 0 1 -9838
 box -941 -719 941 719
 use sky130_fd_pr__pfet_01v8_3H5TVM  XM41
-timestamp 0
+timestamp 1709390584
 transform 1 0 31557 0 1 -9891
 box -941 -719 941 719
 use sky130_fd_pr__nfet_01v8_UFMA4B  XM42
-timestamp 0
+timestamp 1709390584
 transform 1 0 33386 0 1 -9953
 box -941 -710 941 710
 use sky130_fd_pr__nfet_01v8_UR5WPG  XM43
-timestamp 0
+timestamp 1709390584
 transform 1 0 34957 0 1 -10381
 box -683 -335 683 335
 use sky130_fd_pr__nfet_01v8_G6BLWB  XM44
-timestamp 0
+timestamp 1709390584
 transform 1 0 35912 0 1 -10309
 box -325 -460 325 460
 use sky130_fd_pr__nfet_01v8_8WJ4K3  XM57
-timestamp 0
+timestamp 1709390584
 transform 1 0 40266 0 1 -5665
 box -657 -5210 657 5210
 use sky130_fd_pr__nfet_01v8_8WJ4K3  XM58
-timestamp 0
+timestamp 1709390584
 transform 1 0 41527 0 1 -5718
 box -657 -5210 657 5210
 use sky130_fd_pr__nfet_01v8_8WJ4K3  XM59
-timestamp 0
+timestamp 1709390584
 transform 1 0 42788 0 1 -5771
 box -657 -5210 657 5210
 use sky130_fd_pr__nfet_01v8_8WJ4K3  XM60
-timestamp 0
+timestamp 1709390584
 transform 1 0 44049 0 1 -5824
 box -657 -5210 657 5210
 use sky130_fd_pr__res_xhigh_po_5p73_ETCMCS  XR6
-timestamp 0
+timestamp 1709390584
 transform 1 0 28101 0 1 -8922
 box -739 -1582 739 1582
 use sky130_fd_pr__res_xhigh_po_5p73_5TXYRS  XR8
-timestamp 0
+timestamp 1709390584
 transform 1 0 36923 0 1 -3340
 box -739 -7482 739 7482
 << labels >>

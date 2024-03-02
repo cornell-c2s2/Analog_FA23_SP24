@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1708718590
-<< checkpaint >>
-rect 5726 -978 8838 2962
+timestamp 1709390584
 << error_s >>
 rect 2034 1915 2069 1932
 rect 2035 1914 2069 1915
@@ -167,6 +165,7 @@ rect 3197 494 3250 530
 rect 5302 477 5372 1738
 rect 6430 1737 6500 1738
 rect 6447 1703 6518 1737
+rect 6968 1703 7003 1720
 rect 5584 1670 5642 1676
 rect 5776 1670 5834 1676
 rect 5968 1670 6026 1676
@@ -196,7 +195,12 @@ rect 6064 520 6122 526
 rect 6256 520 6314 526
 rect 5302 441 5355 477
 rect 6447 424 6517 1703
+rect 6969 1702 7003 1703
+rect 6969 1666 7039 1702
+rect 6986 1632 7057 1666
 rect 6447 388 6500 424
+rect 6986 371 7056 1632
+rect 6986 335 7039 371
 << metal1 >>
 rect 0 0 200 200
 rect 0 -400 200 -200
@@ -205,27 +209,27 @@ rect 0 -1200 200 -1000
 rect 0 -1600 200 -1400
 rect 0 -2000 200 -1800
 use sky130_fd_pr__pfet_01v8_BDZ9JN  XM1
-timestamp 0
+timestamp 1709390584
 transform 1 0 1026 0 1 1266
 box -1079 -719 1079 719
 use sky130_fd_pr__nfet_01v8_KBNS5F  XM2
-timestamp 0
+timestamp 1709390584
 transform 1 0 2651 0 1 1204
 box -599 -710 599 710
 use sky130_fd_pr__pfet_01v8_BDZ9JN  XM3
-timestamp 0
+timestamp 1709390584
 transform 1 0 4276 0 1 1160
 box -1079 -719 1079 719
 use sky130_fd_pr__nfet_01v8_KBNS5F  XM4
-timestamp 0
+timestamp 1709390584
 transform 1 0 5901 0 1 1098
 box -599 -710 599 710
 use sky130_fd_pr__nfet_01v8_MMMA4V  XM5
-timestamp 0
+timestamp 1709390584
 transform 1 0 7282 0 1 992
 box -296 -710 296 710
 use sky130_fd_pr__pfet_01v8_3HZ9VM  XM8
-timestamp 0
+timestamp 1709390584
 transform 1 0 6743 0 1 1054
 box -296 -719 296 719
 << labels >>
