@@ -1,0 +1,77 @@
+magic
+tech sky130A
+timestamp 1683382099
+<< nwell >>
+rect -2569 -2569 2569 2569
+<< pwell >>
+rect -2638 2569 2638 2638
+rect -2638 -2569 -2569 2569
+rect 2569 -2569 2638 2569
+rect -2638 -2638 2638 -2569
+<< psubdiff >>
+rect -2620 2603 -2572 2620
+rect 2572 2603 2620 2620
+rect -2620 2572 -2603 2603
+rect 2603 2572 2620 2603
+rect -2620 -2603 -2603 -2572
+rect 2603 -2603 2620 -2572
+rect -2620 -2620 -2572 -2603
+rect 2572 -2620 2620 -2603
+<< nsubdiff >>
+rect -2551 2534 -2503 2551
+rect 2503 2534 2551 2551
+rect -2551 2503 -2534 2534
+rect 2534 2503 2551 2534
+rect -2551 -2534 -2534 -2503
+rect 2534 -2534 2551 -2503
+rect -2551 -2551 -2503 -2534
+rect 2503 -2551 2551 -2534
+<< psubdiffcont >>
+rect -2572 2603 2572 2620
+rect -2620 -2572 -2603 2572
+rect 2603 -2572 2620 2572
+rect -2572 -2620 2572 -2603
+<< nsubdiffcont >>
+rect -2503 2534 2503 2551
+rect -2551 -2503 -2534 2503
+rect 2534 -2503 2551 2503
+rect -2503 -2551 2503 -2534
+<< pdiode >>
+rect -2500 2494 2500 2500
+rect -2500 -2494 -2494 2494
+rect 2494 -2494 2500 2494
+rect -2500 -2500 2500 -2494
+<< pdiodec >>
+rect -2494 -2494 2494 2494
+<< locali >>
+rect -2620 2603 -2572 2620
+rect 2572 2603 2620 2620
+rect -2620 2572 -2603 2603
+rect 2603 2572 2620 2603
+rect -2551 2534 -2503 2551
+rect 2503 2534 2551 2551
+rect -2551 2503 -2534 2534
+rect 2534 2503 2551 2534
+rect -2502 -2494 -2494 2494
+rect 2494 -2494 2502 2494
+rect -2551 -2534 -2534 -2503
+rect 2534 -2534 2551 -2503
+rect -2551 -2551 -2503 -2534
+rect 2503 -2551 2551 -2534
+rect -2620 -2603 -2603 -2572
+rect 2603 -2603 2620 -2572
+rect -2620 -2620 -2572 -2603
+rect 2572 -2620 2620 -2603
+<< viali >>
+rect -2494 -2494 2494 2494
+<< metal1 >>
+rect -2500 2494 2500 2497
+rect -2500 -2494 -2494 2494
+rect 2494 -2494 2500 2494
+rect -2500 -2497 2500 -2494
+<< properties >>
+string FIXED_BBOX -2542 -2542 2542 2542
+string gencell sky130_fd_pr__diode_pd2nw_05v5
+string library sky130
+string parameters w 50 l 50 area 2.5k peri 200.0 nx 1 ny 1 dummy 0 lmin 0.45 wmin 0.45 elc 1 erc 1 etc 1 ebc 1 glc 1 grc 1 gtc 1 gbc 1 doverlap 0 compatible {sky130_fd_pr__diode_pd2nw_05v5 sky130_fd_pr__diode_pd2nw_05v5_lvt  sky130_fd_pr__diode_pd2nw_05v5_hvt sky130_fd_pr__diode_pd2nw_11v0} full_metal 1 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>
