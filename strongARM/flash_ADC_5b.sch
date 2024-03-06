@@ -80,8 +80,8 @@ node="y2
 v2
 vin"}
 B 2 880 -2160 1680 -1760 {flags=graph
-y1=-0.068
-y2=2.1
+y1=0.6
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -175,8 +175,8 @@ logx=0
 logy=0
 }
 B 2 880 -3760 1680 -3360 {flags=graph
-y1=-0.063
-y2=2
+y1=-0.00087
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -200,7 +200,7 @@ v7
 vin"}
 B 2 1840 -960 2640 -560 {flags=graph
 y1=0
-y2=2
+y2=1.8
 ypos1=0
 ypos2=2
 divy=5
@@ -241,8 +241,8 @@ unitx=1
 logx=0
 logy=0
 color="4 5 6"
-node="y1
-v1
+node="y9
+v9
 vin"}
 B 2 1840 -1760 2640 -1360 {flags=graph
 y1=1.1e-10
@@ -269,8 +269,8 @@ logy=0
 
 
 color="4 5 6"
-node="y2
-v2
+node="y10
+v10
 vin"}
 B 2 1840 -2160 2640 -1760 {flags=graph
 y1=-0.068
@@ -293,8 +293,8 @@ unitx=1
 logx=0
 logy=0
 color="4 5 6"
-node="y3
-v3
+node="y11
+v11
 vin"}
 B 2 1840 -2560 2640 -2160 {flags=graph
 y1=-0.066
@@ -310,8 +310,8 @@ divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="y4
-v4
+node="y12
+v12
 vin"
 color="4 5 6"
 dataset=-1
@@ -341,8 +341,8 @@ logx=0
 logy=0
 
 color="4 5 6"
-node="y5
-v5
+node="y13
+v13
 vin"}
 B 2 1840 -3360 2640 -2960 {flags=graph
 y1=-0.064
@@ -358,8 +358,8 @@ divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="y6
-v6
+node="y14
+v14
 vin"
 color="4 5 6"
 dataset=-1
@@ -388,8 +388,8 @@ unitx=1
 logx=0
 logy=0
 color="4 5 6"
-node="y7
-v7
+node="y15
+v15
 vin"}
 B 2 2800 -960 3600 -560 {flags=graph
 y1=0
@@ -434,8 +434,8 @@ unitx=1
 logx=0
 logy=0
 color="4 5 6"
-node="y1
-v1
+node="y17
+v17
 vin"}
 B 2 2800 -1760 3600 -1360 {flags=graph
 y1=1.1e-10
@@ -462,8 +462,8 @@ logy=0
 
 
 color="4 5 6"
-node="y2
-v2
+node="y18
+v18
 vin"}
 B 2 2800 -2160 3600 -1760 {flags=graph
 y1=-0.068
@@ -486,8 +486,8 @@ unitx=1
 logx=0
 logy=0
 color="4 5 6"
-node="y3
-v3
+node="y19
+v19
 vin"}
 B 2 2800 -2560 3600 -2160 {flags=graph
 y1=-0.066
@@ -503,8 +503,8 @@ divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="y4
-v4
+node="y20
+v20
 vin"
 color="4 5 6"
 dataset=-1
@@ -534,8 +534,8 @@ logx=0
 logy=0
 
 color="4 5 6"
-node="y5
-v5
+node="y21
+v21
 vin"}
 B 2 2800 -3360 3600 -2960 {flags=graph
 y1=-0.064
@@ -551,8 +551,8 @@ divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="y6
-v6
+node="y22
+v22
 vin"
 color="4 5 6"
 dataset=-1
@@ -581,8 +581,8 @@ unitx=1
 logx=0
 logy=0
 color="4 5 6"
-node="y7
-v7
+node="y23
+v23
 vin"}
 B 2 3760 -960 4560 -560 {flags=graph
 y1=0
@@ -627,8 +627,8 @@ unitx=1
 logx=0
 logy=0
 color="4 5 6"
-node="y1
-v1
+node="y25
+v25
 vin"}
 B 2 3760 -1760 4560 -1360 {flags=graph
 y1=1.1e-10
@@ -655,8 +655,8 @@ logy=0
 
 
 color="4 5 6"
-node="y2
-v2
+node="y26
+v26
 vin"}
 B 2 3760 -2160 4560 -1760 {flags=graph
 y1=-0.068
@@ -679,8 +679,8 @@ unitx=1
 logx=0
 logy=0
 color="4 5 6"
-node="y3
-v3
+node="y27
+v27
 vin"}
 B 2 3760 -2560 4560 -2160 {flags=graph
 y1=-0.066
@@ -696,8 +696,8 @@ divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="y4
-v4
+node="y28
+v28
 vin"
 color="4 5 6"
 dataset=-1
@@ -727,8 +727,8 @@ logx=0
 logy=0
 
 color="4 5 6"
-node="y5
-v5
+node="y29
+v29
 vin"}
 B 2 3760 -3360 4560 -2960 {flags=graph
 y1=-0.064
@@ -744,8 +744,8 @@ divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="y6
-v6
+node="y30
+v30
 vin"
 color="4 5 6"
 dataset=-1
@@ -774,8 +774,104 @@ unitx=1
 logx=0
 logy=0
 color="4 5 6"
-node="y7
-v7
+node="y31
+v31
+vin"}
+B 2 880 -4160 1680 -3760 {flags=graph
+y1=0.26
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=1.2e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color="4 5 6"
+node="y8
+v8
+vin"}
+B 2 1840 -4160 2640 -3760 {flags=graph
+y1=0.26
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=1.2e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color="4 5 6"
+node="y16
+v16
+vin"}
+B 2 2800 -4160 3600 -3760 {flags=graph
+y1=0.26
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=1.2e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color="4 5 6"
+node="y24
+v24
+vin"}
+B 2 3760 -4160 4560 -3760 {flags=graph
+y1=0.26
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=1.2e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color="4 5 6"
+node="y32
+v32
 vin"}
 N 180 -1220 180 -1180 {
 lab=V7}
@@ -1894,15 +1990,195 @@ m=1
 value=10p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/capa.sym} 220 -570 0 0 {name=C4
+C {devices/capa.sym} 220 -570 0 0 {name=C3
 m=1
-value=10p
+value=30p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/gnd.sym} 220 -540 0 0 {name=l39 lab=GND}
-C {devices/capa.sym} 220 -670 0 0 {name=C3
+C {devices/gnd.sym} 220 -540 0 0 {name=l38 lab=GND}
+C {devices/capa.sym} 220 -670 0 0 {name=C4
 m=1
-value=10p
+value=30p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/gnd.sym} 220 -640 0 0 {name=l38 lab=GND}
+C {devices/gnd.sym} 220 -640 0 0 {name=l39 lab=GND}
+C {devices/capa.sym} 220 -770 0 0 {name=C5
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -740 0 0 {name=l40 lab=GND}
+C {devices/capa.sym} 220 -870 0 0 {name=C6
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -840 0 0 {name=l41 lab=GND}
+C {devices/capa.sym} 220 -970 0 0 {name=C7
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -940 0 0 {name=l42 lab=GND}
+C {devices/capa.sym} 220 -1070 0 0 {name=C8
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1040 0 0 {name=l43 lab=GND}
+C {devices/capa.sym} 220 -1170 0 0 {name=C9
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1140 0 0 {name=l44 lab=GND}
+C {devices/capa.sym} 220 -1270 0 0 {name=C10
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1240 0 0 {name=l45 lab=GND}
+C {devices/capa.sym} 220 -1370 0 0 {name=C11
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1340 0 0 {name=l46 lab=GND}
+C {devices/capa.sym} 220 -1470 0 0 {name=C12
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1440 0 0 {name=l47 lab=GND}
+C {devices/capa.sym} 220 -1570 0 0 {name=C13
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1540 0 0 {name=l48 lab=GND}
+C {devices/capa.sym} 220 -1670 0 0 {name=C14
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1640 0 0 {name=l49 lab=GND}
+C {devices/capa.sym} 220 -1770 0 0 {name=C15
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1740 0 0 {name=l50 lab=GND}
+C {devices/capa.sym} 220 -1870 0 0 {name=C16
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1840 0 0 {name=l51 lab=GND}
+C {devices/capa.sym} 220 -1970 0 0 {name=C17
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -1940 0 0 {name=l52 lab=GND}
+C {devices/capa.sym} 220 -2070 0 0 {name=C18
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2040 0 0 {name=l53 lab=GND}
+C {devices/capa.sym} 220 -2170 0 0 {name=C19
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2140 0 0 {name=l54 lab=GND}
+C {devices/capa.sym} 220 -2270 0 0 {name=C20
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2240 0 0 {name=l55 lab=GND}
+C {devices/capa.sym} 220 -2370 0 0 {name=C21
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2340 0 0 {name=l56 lab=GND}
+C {devices/capa.sym} 220 -2470 0 0 {name=C22
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2440 0 0 {name=l57 lab=GND}
+C {devices/capa.sym} 220 -2570 0 0 {name=C23
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2540 0 0 {name=l58 lab=GND}
+C {devices/capa.sym} 220 -2670 0 0 {name=C24
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2640 0 0 {name=l59 lab=GND}
+C {devices/capa.sym} 220 -2770 0 0 {name=C25
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2740 0 0 {name=l60 lab=GND}
+C {devices/capa.sym} 220 -2870 0 0 {name=C26
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2840 0 0 {name=l61 lab=GND}
+C {devices/capa.sym} 220 -2970 0 0 {name=C27
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -2940 0 0 {name=l62 lab=GND}
+C {devices/capa.sym} 220 -3070 0 0 {name=C28
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -3040 0 0 {name=l63 lab=GND}
+C {devices/capa.sym} 220 -3170 0 0 {name=C29
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -3140 0 0 {name=l64 lab=GND}
+C {devices/capa.sym} 220 -3270 0 0 {name=C30
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -3240 0 0 {name=l65 lab=GND}
+C {devices/capa.sym} 220 -3370 0 0 {name=C31
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -3340 0 0 {name=l66 lab=GND}
+C {devices/capa.sym} 220 -3470 0 0 {name=C32
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -3440 0 0 {name=l67 lab=GND}
+C {devices/capa.sym} 220 -3570 0 0 {name=C33
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -3540 0 0 {name=l68 lab=GND}
+C {devices/capa.sym} 220 -3670 0 0 {name=C34
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 220 -3640 0 0 {name=l69 lab=GND}

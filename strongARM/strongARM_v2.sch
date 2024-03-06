@@ -6,8 +6,8 @@ V {}
 S {}
 E {}
 B 2 140 -1920 940 -1520 {flags=graph
-y1=-0.034
-y2=2.1
+y1=-0.00078
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -28,8 +28,8 @@ logy=0
 color=4
 node=x}
 B 2 140 -1520 940 -1120 {flags=graph
-y1=0
-y2=1.8
+y1=0.58
+y2=0.62
 ypos1=0
 ypos2=2
 divy=5
@@ -41,10 +41,9 @@ divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="clk
-vref
+node="vref
 vin"
-color="6 7 8"
+color="6 7"
 dataset=-1
 unitx=1
 logx=0
@@ -185,10 +184,6 @@ N 930 -810 940 -810 {
 lab=CLK}
 N 1060 -810 1100 -810 {
 lab=CLK}
-N 400 -730 460 -730 {
-lab=X}
-N 700 -730 760 -730 {
-lab=Y}
 N 300 -780 300 -760 {
 lab=X}
 N 300 -760 460 -760 {
@@ -260,19 +255,21 @@ lab=VIN}
 N 840 -100 840 -60 {
 lab=GND}
 N 1000 -400 1000 -360 {
-lab=VREF}
+lab=#net2}
 N 1000 -300 1000 -260 {
 lab=GND}
 N 1000 -200 1000 -160 {
 lab=CLK}
 N 1000 -100 1000 -60 {
 lab=GND}
-N 140 -600 140 -580 {
-lab=P}
 N 1020 -600 1020 -580 {
 lab=Q}
-N 1020 -600 1020 -580 {
-lab=Q}
+N 1000 -500 1000 -460 {
+lab=VREF}
+N 760 -550 760 -520 {
+lab=VREF}
+N 760 -460 760 -440 {
+lab=GND}
 C {devices/lab_pin.sym} 60 -810 1 0 {name=p1 sig_type=std_logic lab=CLK}
 C {devices/lab_pin.sym} 220 -810 1 0 {name=p2 sig_type=std_logic lab=CLK}
 C {devices/lab_pin.sym} 940 -810 1 0 {name=p3 sig_type=std_logic lab=CLK}
@@ -301,7 +298,6 @@ C {devices/gnd.sym} 840 -60 0 0 {name=l7 lab=GND}
 C {devices/lab_pin.sym} 840 -200 2 0 {name=p9 sig_type=std_logic lab=VIN}
 C {devices/vsource.sym} 1000 -330 0 0 {name=V2 value=0.6 savecurrent=false}
 C {devices/gnd.sym} 1000 -260 0 0 {name=l8 lab=GND}
-C {devices/lab_pin.sym} 1000 -400 2 0 {name=p10 sig_type=std_logic lab=VREF}
 C {devices/vsource.sym} 1000 -130 0 0 {name=V4 value="pulse(0 1.8 8ns 1ns 1ns 20ns 40ns)" savecurrent=false}
 C {devices/gnd.sym} 1000 -60 0 0 {name=l9 lab=GND}
 C {devices/lab_pin.sym} 1000 -200 2 0 {name=p11 sig_type=std_logic lab=CLK}
@@ -480,3 +476,15 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X
 }
+C {devices/res.sym} 1000 -430 0 0 {name=R1
+value=100
+footprint=1206
+device=resistor
+m=1}
+C {devices/lab_pin.sym} 1000 -500 2 0 {name=p10 sig_type=std_logic lab=VREF}
+C {devices/capa.sym} 760 -490 0 0 {name=C1
+m=1
+value=30p
+footprint=1206
+device="ceramic capacitor"}
+C {devices/gnd.sym} 760 -440 0 0 {name=l10 lab=GND}
