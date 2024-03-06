@@ -106,7 +106,6 @@ N 400 -510 440 -510 {
 lab=GND}
 N 440 -510 440 -480 {
 lab=GND}
-C {/foss/designs/Analog_FA23_SP24/strongARM/strongARM_v1_sym.sym} 250 -540 0 0 {name=x1}
 C {devices/vsource.sym} 80 -350 0 0 {name=V1 value=1.8 savecurrent=false}
 C {devices/gnd.sym} 80 -280 0 0 {name=l3 lab=GND}
 C {devices/lab_pin.sym} 80 -420 2 0 {name=p8 sig_type=std_logic lab=VDD}
@@ -147,3 +146,4 @@ C {devices/launcher.sym} 940 -140 0 0 {name=h5
 descr="load waves" 
 tclcommand="xschem raw_read $netlist_dir/test_pmos_1v8.raw"
 }
+C {/foss/designs/Analog_FA23_SP24/strongARM/strongARM_v2_sym.sym} 250 -540 0 0 {name=x1}

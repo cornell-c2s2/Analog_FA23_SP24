@@ -6,15 +6,15 @@ V {}
 S {}
 E {}
 B 2 80 -1040 880 -640 {flags=graph
-y1=8.8e-06
-y2=1e-05
+y1=-1.8e-14
+y2=6.7e-05
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.57486
-x2=1.66626
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -32,7 +32,7 @@ sim_type=dc
 color=4
 node=i(vd1)
 rainbow=1
-dataset=0}
+dataset=-1}
 B 2 80 -1480 880 -1080 {flags=graph
 
 
@@ -41,15 +41,15 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.57486
-x2=1.66626
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=0
+dataset=-1
 unitx=1
 logx=0
 logy=0
@@ -57,45 +57,45 @@ color=4
 node="\\"ro = dVds/dIds; 1 i(vd1) deriv() /\\""
 
 rainbow=1
-y2=-40000
-y1=-120000
+y2=0
+y1=-570000
 hilight_wave=0}
 B 2 80 -1920 880 -1520 {flags=graph
-y1=1e-19
+y1=0
 
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.57486
-x2=1.66626
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=0
+dataset=-1
 unitx=1
 logx=0
 logy=0
 
 
-y2=6.7e-05
+y2=0.00015
 color=4
 node=@m.xm1.msky130_fd_pr__pfet_01v8_lvt[gm]
 rainbow=1}
 B 2 1000 -1040 1800 -640 {flags=graph
-y1=-7.8e-15
-y2=1.1e-14
+y1=-1.8e-14
+y2=0.0012
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.57486
-x2=1.66626
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -114,30 +114,30 @@ color=4
 node=i(vd1)
 rawfile=$netlist_dir/test_pmos_1v8_lvt_2.raw
 rainbow=1
-dataset=0}
+dataset=-1}
 B 2 1000 -1480 1800 -1080 {flags=graph
-y1=-0.00079
+y1=-0.0015
 
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.57486
-x2=1.66626
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=0
+dataset=-1
 unitx=1
 logx=0
 logy=0
 color=4
 node="\\"gm = dIds/dVgs; i(vd1) deriv() /\\""
-y2=1.3e-11
+y2=2.4e-11
 rawfile=$netlist_dir/test_pmos_1v8_lvt_2.raw
 rainbow=1}
 B 2 1000 -1920 1800 -1520 {flags=graph
@@ -148,48 +148,48 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.57486
-x2=1.66626
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=0
+dataset=-1
 unitx=1
 logx=0
 logy=0
 
 
-y2=6.9e-19
+y2=0.0015
 color=4
 node=@m.xm1.msky130_fd_pr__pfet_01v8_lvt[gm]
 rainbow=1
 rawfile=$netlist_dir/test_pmos_1v8_lvt_2.raw}
 B 2 80 -2360 880 -1960 {flags=graph
-y1=0.41
+y1=0.47
 
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.57486
-x2=1.66626
+x1=-1.419e-15
+x2=1.8
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
 
 
-dataset=0
+dataset=-1
 unitx=1
 logx=0
 logy=0
 
 
-y2=0.42
+y2=0.48
 color=4
 node=@m.xm1.msky130_fd_pr__pfet_01v8_lvt[vth]
 rainbow=1}
