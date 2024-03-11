@@ -1,71 +1,79 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1709390584
+timestamp 1710005936
 << error_s >>
-rect 3924 621 3955 653
+rect 360 389 550 710
+rect 1360 389 1518 710
+rect 2320 389 2518 710
+rect 3240 389 3478 710
+rect 4160 389 4398 710
+rect 6260 389 6478 710
+rect 7220 389 7418 710
+rect 8220 389 8378 710
+rect 8600 389 8826 710
 << metal1 >>
-rect 0 0 200 200
-rect 0 -400 200 -200
-rect 0 -800 200 -600
-rect 0 -1200 200 -1000
-rect 0 -1600 200 -1400
-rect 0 -2000 200 -1800
-use sky130_fd_sc_hd__nand2_4  x3 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+rect -760 -180 -560 20
+rect -700 -560 -500 -360
+rect -800 -1060 -600 -860
+rect -880 -1460 -680 -1260
+rect -880 -1720 -680 -1520
+rect -920 -2200 -720 -2000
+use sky130_fd_sc_hd__nand2_4  x3 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1701704242
-transform 1 0 0 0 1 600
+transform 1 0 398 0 1 128
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x4
 timestamp 1701704242
-transform 1 0 866 0 1 552
+transform 1 0 1398 0 1 128
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x5
 timestamp 1701704242
-transform 1 0 1732 0 1 504
+transform 1 0 2358 0 1 128
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x6
 timestamp 1701704242
-transform 1 0 2598 0 1 456
+transform 1 0 3278 0 1 128
 box -38 -48 866 592
-use sky130_fd_sc_hd__inv_4  x8 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+use sky130_fd_sc_hd__inv_4  x8 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1701704242
-transform 1 0 3464 0 1 408
+transform 1 0 -202 0 1 128
 box -38 -48 498 592
 use sky130_fd_sc_hd__nand2_4  x9
 timestamp 1701704242
-transform 1 0 3962 0 1 360
+transform 1 0 4198 0 1 128
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x10
 timestamp 1701704242
-transform 1 0 4828 0 1 312
+transform 1 0 5358 0 1 128
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x11
 timestamp 1701704242
-transform 1 0 5694 0 1 264
+transform 1 0 6298 0 1 128
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x12
 timestamp 1701704242
-transform 1 0 6560 0 1 216
+transform 1 0 7258 0 1 128
 box -38 -48 866 592
 use sky130_fd_sc_hd__inv_4  x13
 timestamp 1701704242
-transform 1 0 7740 0 1 120
+transform 1 0 8638 0 1 128
 box -38 -48 498 592
-use sky130_fd_sc_hd__clkinv_1  x14 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+use sky130_fd_sc_hd__clkinv_1  x14 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1701704242
-transform 1 0 7426 0 1 168
+transform 1 0 8258 0 1 128
 box -38 -48 314 592
 << labels >>
-flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 VDD
+flabel metal1 -760 -180 -560 20 0 FreeSans 256 0 0 0 VDD
 port 0 nsew
-flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 SIG
+flabel metal1 -700 -560 -500 -360 0 FreeSans 256 0 0 0 SIG
 port 1 nsew
-flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 OUT
+flabel metal1 -800 -1060 -600 -860 0 FreeSans 256 0 0 0 OUT
 port 2 nsew
-flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 CLK
+flabel metal1 -880 -1460 -680 -1260 0 FreeSans 256 0 0 0 CLK
 port 3 nsew
-flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 VSS
+flabel metal1 -880 -1720 -680 -1520 0 FreeSans 256 0 0 0 VSS
 port 4 nsew
-flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 VMID
+flabel metal1 -920 -2200 -720 -2000 0 FreeSans 256 0 0 0 VMID
 port 5 nsew
 << end >>
