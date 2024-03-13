@@ -624,7 +624,7 @@ lab=VFS}
 N 640 -240 640 -200 {
 lab=GND}
 N 480 -700 480 -660 {
-lab=VIN}
+lab=V_IGNORE}
 N 480 -980 680 -980 {
 lab=V1}
 N 680 -980 700 -980 {
@@ -1017,9 +1017,15 @@ N 660 -2460 700 -2460 {
 lab=VIN}
 N 660 -2420 700 -2420 {
 lab=CLK}
+N 260 -600 260 -560 {
+lab=#net4}
+N 260 -500 260 -460 {
+lab=GND}
+N 260 -700 260 -660 {
+lab=VIN}
 C {devices/vsource.sym} 480 -530 0 0 {name=V3 value="sin(1.1 0.5 12.5MEG)" savecurrent=false}
 C {devices/gnd.sym} 480 -460 0 0 {name=l34 lab=GND}
-C {devices/lab_pin.sym} 480 -700 2 0 {name=p196 sig_type=std_logic lab=VIN}
+C {devices/lab_pin.sym} 480 -700 2 0 {name=p196 sig_type=std_logic lab=V_IGNORE}
 C {devices/vsource.sym} 640 -530 0 0 {name=V4 value="pulse(0 1.8 8ns 1ns 1ns 20ns 40ns)" savecurrent=false}
 C {devices/gnd.sym} 640 -460 0 0 {name=l35 lab=GND}
 C {devices/lab_pin.sym} 640 -600 2 0 {name=p197 sig_type=std_logic lab=CLK}
@@ -1371,19 +1377,27 @@ C {devices/lab_pin.sym} 660 -2360 2 1 {name=p45 sig_type=std_logic lab=VIN}
 C {devices/lab_pin.sym} 660 -2440 2 1 {name=p46 sig_type=std_logic lab=IB}
 C {devices/lab_pin.sym} 660 -2420 2 1 {name=p47 sig_type=std_logic lab=CLK}
 C {devices/lab_pin.sym} 660 -2460 2 1 {name=p48 sig_type=std_logic lab=VIN}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -950 0 0 {name=x1}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1050 0 0 {name=x2}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1150 0 0 {name=x3}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1250 0 0 {name=x4}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1350 0 0 {name=x5}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1450 0 0 {name=x6}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1550 0 0 {name=x7}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1650 0 0 {name=x8}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1750 0 0 {name=x9}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1850 0 0 {name=x10}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -1950 0 0 {name=x11}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -2050 0 0 {name=x12}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -2150 0 0 {name=x13}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -2250 0 0 {name=x14}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -2350 0 0 {name=x15}
-C {/foss/designs/Analog_FA23_SP24/class_AB_v2_sym.sym} 850 -2450 0 0 {name=x16}
+C {devices/vsource.sym} 260 -530 0 0 {name=V7 value="PWL(0ns 0.5 230ns 1.7)" savecurrent=false}
+C {devices/gnd.sym} 260 -460 0 0 {name=l19 lab=GND}
+C {devices/lab_pin.sym} 260 -700 2 0 {name=p133 sig_type=std_logic lab=VIN}
+C {devices/res.sym} 260 -630 0 0 {name=R36
+value=1k
+footprint=1206
+device=resistor
+m=1}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -950 0 0 {name=x1}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1050 0 0 {name=x2}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1150 0 0 {name=x3}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1250 0 0 {name=x4}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1350 0 0 {name=x5}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1450 0 0 {name=x6}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1550 0 0 {name=x7}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1650 0 0 {name=x8}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1750 0 0 {name=x9}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1850 0 0 {name=x10}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -1950 0 0 {name=x11}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -2050 0 0 {name=x12}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -2150 0 0 {name=x13}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -2250 0 0 {name=x14}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -2350 0 0 {name=x15}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 850 -2450 0 0 {name=x16}
