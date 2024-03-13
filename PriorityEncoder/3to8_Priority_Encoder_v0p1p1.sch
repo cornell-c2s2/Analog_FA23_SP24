@@ -73,12 +73,6 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
-C {devices/vdd.sym} 400 -500 0 0 {name=l3 lab=VDD}
-C {sky130_stdcells/or4_4.sym} 920 -460 0 0 {name=x0 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/or4_4.sym} 920 -260 0 0 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/or4_4.sym} 920 -70 0 0 {name=x2 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {devices/vsource.sym} 400 -470 0 0 {name=VDD value=1.8 savecurrent=false}
-C {devices/gnd.sym} 400 -440 0 0 {name=l2 lab=GND}
 C {devices/ipin.sym} 610 -360 0 0 {name=p2 lab=D2}
 C {devices/ipin.sym} 610 -310 0 0 {name=p3 lab=D3}
 C {devices/ipin.sym} 610 -260 0 0 {name=p4 lab=D4
@@ -92,3 +86,6 @@ C {devices/noconn.sym} 610 -455 2 0 {name=l4}
 C {devices/opin.sym} 980 -460 0 0 {name=p10 lab=Q0}
 C {devices/opin.sym} 980 -260 0 0 {name=p11 lab=Q1}
 C {devices/opin.sym} 980 -70 0 0 {name=p12 lab=Q2}
+C {sky130_stdcells/or4_1.sym} 920 -460 0 0 {name=x2 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/or4_1.sym} 920 -260 0 0 {name=x3 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/or4_1.sym} 920 -70 0 0 {name=x4 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
