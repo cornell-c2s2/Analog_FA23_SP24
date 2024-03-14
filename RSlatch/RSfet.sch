@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=3e-09
+x1=-1.7140986e-10
+x2=2.885474e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -36,8 +36,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=3e-09
+x1=-1.7140986e-10
+x2=2.885474e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -58,8 +58,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=3e-09
+x1=-1.7140986e-10
+x2=2.885474e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -228,7 +228,7 @@ C {devices/code_shown.sym} 290 -310 0 0 {name=COMMANDS only_toplevel=false value
 
 save all
 
-tran 0.01p 3n
+tran 0.1p 3n
 remzerovec
 write RSfet.raw
 
@@ -256,7 +256,7 @@ place=header}
 C {devices/lab_pin.sym} 740 -850 0 1 {name=p4 sig_type=std_logic lab=Q}
 C {devices/lab_pin.sym} 270 -860 0 0 {name=p5 sig_type=std_logic lab=!Q}
 C {sky130_fd_pr/nfet_01v8.sym} 330 -810 0 0 {name=M1
-L=0.35
+L=0.15
 W=1
 nf=1 
 mult=1
@@ -270,7 +270,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 330 -710 0 0 {name=M2
-L=0.35
+L=0.15
 W=1
 nf=1 
 mult=1
@@ -284,7 +284,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 680 -810 0 1 {name=M3
-L=0.35
+L=0.15
 W=1
 nf=1 
 mult=1
@@ -298,7 +298,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 680 -710 0 1 {name=M4
-L=0.35
+L=0.15
 W=1
 nf=1 
 mult=1
@@ -312,8 +312,8 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 330 -910 0 0 {name=M5
-L=0.35
-W=1
+L=0.30
+W=2
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -326,8 +326,8 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 680 -910 0 1 {name=M6
-L=0.35
-W=1
+L=0.30
+W=2
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -346,9 +346,9 @@ C {devices/gnd.sym} 630 -810 0 1 {name=l6 lab=GND}
 C {devices/gnd.sym} 510 -650 0 0 {name=l7 lab=GND}
 C {devices/lab_pin.sym} 510 -1010 2 0 {name=p6 sig_type=std_logic lab=VDD}
 C {sky130_fd_pr/pfet_01v8.sym} 160 -910 0 0 {name=M7
-L=0.35
-W=10
-nf=1
+L=0.25
+W=4
+nf=2
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -360,9 +360,9 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 860 -910 0 1 {name=M8
-L=0.35
-W=10
-nf=1
+L=0.25
+W=4
+nf=2
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -375,16 +375,16 @@ spiceprefix=X
 }
 C {devices/vsource.sym} 990 -210 0 0 {name=V4 value="pulse(0 1.8 0.5ns 10ps 10ps 0.8ns 1ns)" savecurrent=false}
 C {devices/gnd.sym} 990 -140 0 0 {name=l9 lab=GND}
-C {devices/lab_pin.sym} 990 -300 2 0 {name=p11 sig_type=std_logic lab=!R
+C {devices/lab_pin.sym} 990 -240 2 0 {name=p11 sig_type=std_logic lab=!R
 }
 C {devices/vsource.sym} 710 -210 0 0 {name=V3 value="pulse(0 1.8 0.0ns 10ps 10ps 0.8ns 1ns)" savecurrent=false}
 C {devices/gnd.sym} 710 -140 0 0 {name=l1 lab=GND}
-C {devices/lab_pin.sym} 710 -300 2 0 {name=p1 sig_type=std_logic lab=!S
+C {devices/lab_pin.sym} 710 -240 2 0 {name=p1 sig_type=std_logic lab=!S
 }
 C {sky130_fd_pr/nfet_01v8.sym} 190 -710 0 0 {name=M9
-L=0.35
-W=10
-nf=1 
+L=0.25
+W=2
+nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -397,9 +397,9 @@ spiceprefix=X
 }
 C {devices/gnd.sym} 230 -710 0 0 {name=l8 lab=GND}
 C {sky130_fd_pr/nfet_01v8.sym} 820 -710 0 1 {name=M10
-L=0.35
-W=10
-nf=1 
+L=0.25
+W=2
+nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -410,16 +410,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_stdcells/inv_16.sym} 520 -570 0 1 {name=x2 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/inv_16.sym} 520 -510 0 0 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_4.sym} 520 -570 0 1 {name=x2 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_4.sym} 520 -510 0 0 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/gnd.sym} 780 -710 0 1 {name=l10 lab=GND}
-C {devices/res.sym} 710 -270 0 0 {name=R1
-value=50
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 990 -270 0 0 {name=R2
-value=50
-footprint=1206
-device=resistor
-m=1}

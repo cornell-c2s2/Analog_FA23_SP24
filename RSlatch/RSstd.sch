@@ -25,8 +25,9 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color=4
-node=!Q}
+color="4 5"
+node="!Q
+Q"}
 B 2 140 -1520 940 -1120 {flags=graph
 y1=-5.5511151e-17
 y2=1.8
