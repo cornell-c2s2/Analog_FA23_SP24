@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.7140986e-10
-x2=2.885474e-09
+x1=-1.8565664e-11
+x2=3.0383182e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -36,8 +36,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.7140986e-10
-x2=2.885474e-09
+x1=-1.8565664e-11
+x2=3.0383182e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -58,8 +58,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.7140986e-10
-x2=2.885474e-09
+x1=-1.8565664e-11
+x2=3.0383182e-09
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -373,7 +373,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vsource.sym} 990 -210 0 0 {name=V4 value="pulse(0 1.8 0.5ns 10ps 10ps 0.8ns 1ns)" savecurrent=false}
+C {devices/vsource.sym} 990 -210 0 0 {name=V4 value="pulse(0.8 1.8 0.5ns 10ps 10ps 0.8ns 1ns)" savecurrent=false}
 C {devices/gnd.sym} 990 -140 0 0 {name=l9 lab=GND}
 C {devices/lab_pin.sym} 990 -240 2 0 {name=p11 sig_type=std_logic lab=!R
 }
