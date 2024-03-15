@@ -141,18 +141,6 @@ write Priority_Encoder_Testing_v0p0p1.raw
 C {devices/vdd.sym} -710 65 0 0 {name=l9 lab=VDD}
 C {devices/vsource.sym} -710 95 0 0 {name=VDD value=1.8 savecurrent=false}
 C {devices/gnd.sym} -710 125 0 0 {name=l10 lab=GND}
-C {devices/lab_pin.sym} -280 50 0 0 {name=p9 sig_type=std_logic lab=IN0}
-C {devices/lab_pin.sym} -280 70 0 0 {name=p10 sig_type=std_logic lab=IN1}
-C {devices/lab_pin.sym} -280 90 0 0 {name=p11 sig_type=std_logic lab=IN2}
-C {devices/lab_pin.sym} -280 110 0 0 {name=p12 sig_type=std_logic lab=IN3}
-C {devices/lab_pin.sym} -280 130 0 0 {name=p13 sig_type=std_logic lab=IN4}
-C {devices/lab_pin.sym} -280 150 0 0 {name=p14 sig_type=std_logic lab=IN5}
-C {devices/lab_pin.sym} -280 170 0 0 {name=p15 sig_type=std_logic lab=IN6}
-C {devices/lab_pin.sym} -280 190 0 0 {name=p16 sig_type=std_logic lab=IN7}
-C {devices/lab_pin.sym} 20 70 2 0 {name=p18 sig_type=std_logic lab=OUT1}
-C {devices/lab_pin.sym} 20 90 2 0 {name=p19 sig_type=std_logic lab=OUT2}
-C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/Priority_Encoder_v0p0p1.sym} -130 120 0 0 {name=x1}
-C {devices/lab_pin.sym} 20 50 2 0 {name=p17 sig_type=std_logic lab=OUT0}
 C {devices/code.sym} -610 190 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
@@ -161,3 +149,15 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
+C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/Priority_Encoder_v0p1p1.sym} -130 120 0 0 {name=x1}
+C {devices/lab_pin.sym} -280 50 0 0 {name=p9 sig_type=std_logic lab=IN0}
+C {devices/lab_pin.sym} -280 70 0 0 {name=p10 sig_type=std_logic lab=IN1}
+C {devices/lab_pin.sym} -280 90 0 0 {name=p11 sig_type=std_logic lab=IN2}
+C {devices/lab_pin.sym} -280 110 0 0 {name=p12 sig_type=std_logic lab=IN3}
+C {devices/lab_pin.sym} -280 130 0 0 {name=p13 sig_type=std_logic lab=IN4}
+C {devices/lab_pin.sym} -280 150 0 0 {name=p14 sig_type=std_logic lab=IN5}
+C {devices/lab_pin.sym} -280 170 0 0 {name=p15 sig_type=std_logic lab=IN6}
+C {devices/lab_pin.sym} -280 190 0 0 {name=p16 sig_type=std_logic lab=IN7}
+C {devices/lab_pin.sym} 20 50 2 0 {name=p17 sig_type=std_logic lab=OUT0}
+C {devices/lab_pin.sym} 20 70 2 0 {name=p18 sig_type=std_logic lab=OUT1}
+C {devices/lab_pin.sym} 20 90 2 0 {name=p19 sig_type=std_logic lab=OUT2}
