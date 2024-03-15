@@ -1678,11 +1678,6 @@ C {devices/gnd.sym} 1720 -650 2 0 {name=l53 lab=GND}
 C {devices/gnd.sym} 1720 -630 2 0 {name=l54 lab=GND}
 C {devices/gnd.sym} 1720 -610 2 0 {name=l55 lab=GND}
 C {devices/gnd.sym} 1720 -590 2 0 {name=l56 lab=GND}
-C {devices/lab_pin.sym} 2080 -3190 2 0 {name=p135 sig_type=std_logic lab=OUT4}
-C {devices/lab_pin.sym} 2080 -3170 2 0 {name=p153 sig_type=std_logic lab=OUT3}
-C {devices/lab_pin.sym} 2080 -3150 2 0 {name=p154 sig_type=std_logic lab=OUT2}
-C {devices/lab_pin.sym} 2080 -3130 2 0 {name=p155 sig_type=std_logic lab=OUT1}
-C {devices/lab_pin.sym} 2080 -3110 2 0 {name=p156 sig_type=std_logic lab=OUT0}
 C {devices/noconn.sym} 1210 -140 2 0 {name=l57}
 C {devices/noconn.sym} 1210 -240 2 0 {name=l58}
 C {devices/noconn.sym} 1210 -340 2 0 {name=l59}
