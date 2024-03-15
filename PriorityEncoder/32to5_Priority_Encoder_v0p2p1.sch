@@ -374,40 +374,12 @@ C {sky130_stdcells/inv_4.sym} 555 -410 0 0 {name=x42 VGND=GND VNB=GND VPB=VDD VP
 C {sky130_stdcells/inv_16.sym} 635 -410 0 0 {name=x43 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/noconn.sym} 117.5 380 2 0 {name=l1}
 C {devices/noconn.sym} 117.5 400 2 0 {name=l2}
-C {sky130_fd_pr/nfet_01v8.sym} 770 510 0 0 {name=M1
-L=0.3
-W=32
-nf=8
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8.sym} 770 440 0 0 {name=M2
-L=0.3
-W=64
-nf=16
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
 C {devices/opin.sym} 810 -405 0 0 {name=p35 lab=A4}
 C {sky130_fd_pr/nfet_01v8.sym} 720 -370 0 0 {name=M3
-L=0.3
+L=0.15
 W=32
-nf=8
-mult=1
+nf=1
+mult=8
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -418,10 +390,10 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 720 -440 0 0 {name=M4
-L=0.3
+L=0.15
 W=64
-nf=16
-mult=1
+nf=1
+mult=16
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -432,11 +404,15 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {devices/opin.sym} 807.5 -180 0 0 {name=p38 lab=A3}
+C {devices/opin.sym} 807.5 42.5 0 0 {name=p43 lab=A2}
+C {devices/opin.sym} 807.5 262.5 0 0 {name=p46 lab=A1}
+C {devices/ipin.sym} 937.5 -507.5 1 0 {name=p44 lab=VDD}
+C {devices/ipin.sym} 995 -507.5 1 0 {name=p36 lab=GND}
 C {sky130_fd_pr/nfet_01v8.sym} 717.5 -145 0 0 {name=M5
-L=0.3
+L=0.15
 W=32
-nf=8
-mult=1
+nf=1
+mult=8
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -447,10 +423,10 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 717.5 -215 0 0 {name=M6
-L=0.3
+L=0.15
 W=64
-nf=16
-mult=1
+nf=1
+mult=16
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -460,12 +436,11 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/opin.sym} 807.5 42.5 0 0 {name=p43 lab=A2}
 C {sky130_fd_pr/nfet_01v8.sym} 717.5 77.5 0 0 {name=M7
-L=0.3
+L=0.15
 W=32
-nf=8
-mult=1
+nf=1
+mult=8
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -476,10 +451,10 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 717.5 7.5 0 0 {name=M8
-L=0.3
+L=0.15
 W=64
-nf=16
-mult=1
+nf=1
+mult=16
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -489,12 +464,11 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/opin.sym} 807.5 262.5 0 0 {name=p46 lab=A1}
 C {sky130_fd_pr/nfet_01v8.sym} 717.5 297.5 0 0 {name=M9
-L=0.3
+L=0.15
 W=32
-nf=8
-mult=1
+nf=1
+mult=8
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -505,10 +479,10 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 717.5 227.5 0 0 {name=M10
-L=0.3
+L=0.15
 W=64
-nf=16
-mult=1
+nf=1
+mult=16
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -518,5 +492,31 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/ipin.sym} 937.5 -507.5 1 0 {name=p44 lab=VDD}
-C {devices/ipin.sym} 995 -507.5 1 0 {name=p36 lab=GND}
+C {sky130_fd_pr/nfet_01v8.sym} 770 510 0 0 {name=M1
+L=0.15
+W=32
+nf=1
+mult=8
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 770 440 0 0 {name=M2
+L=0.15
+W=64
+nf=1
+mult=16
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}

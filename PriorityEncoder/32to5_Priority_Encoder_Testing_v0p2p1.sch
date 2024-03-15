@@ -5,7 +5,7 @@ K {}
 V {}
 S {}
 E {}
-B 2 55 180 855 580 {flags=graph
+B 2 55 660 855 1060 {flags=graph
 y1=0
 y2=1.8
 ypos1=0
@@ -14,43 +14,221 @@ divy=5
 subdivy=1
 unity=1
 x1=0
-x2=4e-07
+x2=8e-07
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="in7
-in6
-in5
-in4
-in3
-in2
-in1
-in0"
-color="21 13 12 11 10 5 8 6"
+
+
 dataset=-1
 unitx=1
 logx=0
 logy=0
-}
-B 2 55 -220 855 180 {flags=graph
-y1=-0.11
-y2=1.9
+color="5 21 8 4 6"
+node="in31
+in30
+in29
+in28
+in27"}
+B 2 55 1060 855 1460 {flags=graph
+y1=-0.14
+y2=2
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
 x1=0
-x2=4e-07
+x2=8e-07
 divx=5
 subdivx=1
 xlabmag=1.0
 ylabmag=1.0
-node="out2
+node="out4
+out3
+out2
 out1
 out0"
-color="8 21 7"
+color="7 21 8 4 6"
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
+B 2 55 260 855 660 {flags=graph
+y1=0
+y2=1.8
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=8e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color="5 21"
+node="in22
+in21"}
+B 2 55 -140 855 260 {flags=graph
+y1=0
+y2=1.8
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=8e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color="5 21"
+node="in10
+in9"}
+B 2 55 -540 855 -140 {flags=graph
+y1=0
+y2=1.8
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=8e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+
+color="7 21 8 4 6"
+node="in4
+in3
+in2
+in1
+in0"}
+B 2 855 -540 1655 -140 {flags=graph
+y1=-0.14
+y2=2
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=8e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node=out4
+color=7
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
+B 2 855 -140 1655 260 {flags=graph
+y1=-0.14
+y2=2
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=8e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node=out3
+color=21
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
+B 2 855 260 1655 660 {flags=graph
+y1=-0.045
+y2=2
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=8e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node=out2
+color=8
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
+B 2 855 660 1655 1060 {flags=graph
+y1=-0.14
+y2=2
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=8e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node=out1
+color=4
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
+B 2 855 1060 1655 1460 {flags=graph
+y1=-0.14
+y2=2
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=8e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node=out0
+color=6
 dataset=-1
 unitx=1
 logx=0
