@@ -1,4 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -42,7 +42,7 @@ lab=VDD}
 N -160 0 -110 0 {
 lab=VIN}
 N 240 -70 240 70 {
-lab=#net2}
+lab=VIN}
 N -70 0 0 0 {
 lab=#net1}
 N -70 100 -70 120 {
@@ -106,20 +106,20 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} -90 -70 0 0 {name=M8
-L=1
-W=5
+L=0.15
+W=20
 ad="'W * 0.29'" pd="'2 * (W + 0.29)'"
 as="'W * 0.29'" ps="'2 * (W + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
-nf=1 mult=1
+nf=4 mult=1
 model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} -90 70 0 0 {name=M5
-L=1
-W=5
-nf=1 
+L=0.15
+W=10
+nf=2 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
