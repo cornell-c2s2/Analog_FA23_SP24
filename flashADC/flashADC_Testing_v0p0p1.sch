@@ -1044,8 +1044,6 @@ N 60 300 60 340 {
 lab=GND}
 N 60 100 60 140 {
 lab=VIN}
-N 1210 -1620 1570 -1620 {
-lab=#net5}
 N 1570 -1620 1570 -1210 {
 lab=#net5}
 N 1570 -1210 1720 -1210 {
@@ -1134,98 +1132,90 @@ N 280 -1600 280 -1580 {
 lab=V15}
 N 280 -1700 280 -1680 {
 lab=V16}
-N 1210 -1520 1550 -1520 {
-lab=#net6}
 N 1550 -1520 1550 -1190 {
 lab=#net6}
 N 1550 -1190 1720 -1190 {
 lab=#net6}
-N 1210 -1420 1530 -1420 {
-lab=#net7}
 N 1530 -1420 1530 -1170 {
 lab=#net7}
 N 1530 -1170 1720 -1170 {
 lab=#net7}
-N 1210 -1320 1510 -1320 {
-lab=#net8}
 N 1510 -1320 1510 -1150 {
 lab=#net8}
 N 1510 -1150 1720 -1150 {
 lab=#net8}
-N 1210 -1220 1490 -1220 {
-lab=#net9}
 N 1490 -1220 1490 -1130 {
 lab=#net9}
 N 1490 -1130 1720 -1130 {
 lab=#net9}
-N 1210 -1120 1470 -1120 {
-lab=#net10}
 N 1470 -1120 1470 -1110 {
 lab=#net10}
 N 1470 -1110 1720 -1110 {
 lab=#net10}
-N 1210 -1020 1480 -1020 {
-lab=#net11}
-N 1480 -1090 1480 -1020 {
+N 1480 -1090 1480 -1040 {
 lab=#net11}
 N 1480 -1090 1720 -1090 {
 lab=#net11}
-N 1210 -920 1500 -920 {
-lab=#net12}
-N 1500 -1070 1500 -920 {
+N 1500 -1070 1500 -940 {
 lab=#net12}
 N 1500 -1070 1720 -1070 {
 lab=#net12}
-N 1210 -820 1520 -820 {
-lab=#net13}
-N 1520 -1050 1520 -820 {
+N 1520 -1050 1520 -840 {
 lab=#net13}
 N 1520 -1050 1720 -1050 {
 lab=#net13}
-N 1210 -720 1530 -720 {
-lab=#net14}
-N 1530 -1030 1530 -720 {
+N 1530 -1030 1530 -740 {
 lab=#net14}
 N 1530 -1030 1720 -1030 {
 lab=#net14}
-N 1210 -620 1550 -620 {
-lab=#net15}
-N 1550 -1010 1550 -620 {
+N 1550 -1010 1550 -640 {
 lab=#net15}
 N 1550 -1010 1720 -1010 {
 lab=#net15}
-N 1210 -520 1570 -520 {
-lab=#net16}
-N 1570 -990 1570 -520 {
+N 1570 -990 1570 -540 {
 lab=#net16}
 N 1570 -990 1720 -990 {
 lab=#net16}
-N 1210 -420 1580 -420 {
-lab=#net17}
-N 1580 -970 1580 -420 {
+N 1580 -970 1580 -440 {
 lab=#net17}
 N 1580 -970 1720 -970 {
 lab=#net17}
-N 1210 -320 1590 -320 {
-lab=#net18}
-N 1590 -940 1590 -320 {
+N 1590 -940 1590 -340 {
 lab=#net18}
 N 1590 -950 1590 -940 {
 lab=#net18}
 N 1590 -950 1720 -950 {
 lab=#net18}
-N 1210 -220 1600 -220 {
-lab=#net19}
-N 1600 -930 1600 -220 {
+N 1600 -930 1600 -240 {
 lab=#net19}
 N 1600 -930 1720 -930 {
 lab=#net19}
-N 1210 -120 1610 -120 {
-lab=#net20}
-N 1610 -910 1610 -120 {
+N 1610 -910 1610 -140 {
 lab=#net20}
 N 1610 -910 1720 -910 {
 lab=#net20}
+N 1210 -1640 1570 -1640 {}
+N 1570 -1640 1570 -1620 {}
+N 1210 -1540 1550 -1540 {}
+N 1550 -1540 1550 -1520 {}
+N 1210 -1440 1530 -1440 {}
+N 1530 -1440 1530 -1420 {}
+N 1210 -1340 1510 -1340 {}
+N 1510 -1340 1510 -1320 {}
+N 1210 -1240 1490 -1240 {}
+N 1490 -1240 1490 -1220 {}
+N 1210 -1140 1470 -1140 {}
+N 1470 -1140 1470 -1120 {}
+N 1210 -1040 1480 -1040 {}
+N 1210 -940 1500 -940 {}
+N 1210 -840 1520 -840 {}
+N 1210 -740 1530 -740 {}
+N 1210 -640 1550 -640 {}
+N 1210 -540 1570 -540 {}
+N 1210 -440 1580 -440 {}
+N 1210 -340 1590 -340 {}
+N 1210 -240 1600 -240 {}
+N 1210 -140 1610 -140 {}
 C {devices/vsource.sym} 280 270 0 0 {name=V3 value="sin(1.1 0.5 12.5MEG)" savecurrent=false}
 C {devices/gnd.sym} 280 340 0 0 {name=l34 lab=GND}
 C {devices/lab_pin.sym} 280 100 2 0 {name=p196 sig_type=std_logic lab=V_IGNORE}
@@ -1659,9 +1649,7 @@ C {devices/lab_pin.sym} 1210 -1560 2 0 {name=p150 sig_type=std_logic lab=VDD}
 C {/foss/designs/Analog_FA23_SP24/RSlatch/RSfetsym.sym} 1060 -1630 0 0 {name=x32}
 C {devices/gnd.sym} 1210 -1600 0 0 {name=l39 lab=GND}
 C {devices/lab_pin.sym} 1210 -1660 2 0 {name=p151 sig_type=std_logic lab=VDD}
-C {/foss/designs/Analog_FA23_SP24/flashADC/32to5_Priority_Encoder_v0p2p1.sym} 1870 -930 0 0 {name=x33}
 C {devices/lab_pin.sym} 1720 -1230 0 0 {name=p152 sig_type=std_logic lab=VDD}
-C {devices/gnd.sym} 1720 -1270 2 0 {name=l40 lab=GND}
 C {devices/gnd.sym} 1720 -890 2 0 {name=l41 lab=GND}
 C {devices/gnd.sym} 1720 -870 2 0 {name=l42 lab=GND}
 C {devices/gnd.sym} 1720 -850 2 0 {name=l43 lab=GND}
@@ -1678,25 +1666,25 @@ C {devices/gnd.sym} 1720 -650 2 0 {name=l53 lab=GND}
 C {devices/gnd.sym} 1720 -630 2 0 {name=l54 lab=GND}
 C {devices/gnd.sym} 1720 -610 2 0 {name=l55 lab=GND}
 C {devices/gnd.sym} 1720 -590 2 0 {name=l56 lab=GND}
-C {devices/noconn.sym} 1210 -140 2 0 {name=l57}
-C {devices/noconn.sym} 1210 -240 2 0 {name=l58}
-C {devices/noconn.sym} 1210 -340 2 0 {name=l59}
-C {devices/noconn.sym} 1210 -440 2 0 {name=l60}
-C {devices/noconn.sym} 1210 -540 2 0 {name=l61}
-C {devices/noconn.sym} 1210 -640 2 0 {name=l62}
-C {devices/noconn.sym} 1210 -740 2 0 {name=l63}
-C {devices/noconn.sym} 1210 -840 2 0 {name=l64}
-C {devices/noconn.sym} 1210 -940 2 0 {name=l65}
-C {devices/noconn.sym} 1210 -1040 2 0 {name=l66}
-C {devices/noconn.sym} 1210 -1140 2 0 {name=l67}
-C {devices/noconn.sym} 1210 -1240 2 0 {name=l68}
-C {devices/noconn.sym} 1210 -1340 2 0 {name=l69}
-C {devices/noconn.sym} 1210 -1440 2 0 {name=l70}
-C {devices/noconn.sym} 1210 -1540 2 0 {name=l71}
-C {devices/noconn.sym} 1210 -1640 2 0 {name=l72}
-C {devices/lab_pin.sym} 1720 -1250 0 0 {name=p157 sig_type=std_logic lab=VDD}
-C {devices/lab_pin.sym} 2020 -1270 2 0 {name=p158 sig_type=std_logic lab=OUT4}
-C {devices/lab_pin.sym} 2020 -1250 2 0 {name=p136 sig_type=std_logic lab=OUT3}
-C {devices/lab_pin.sym} 2020 -1230 2 0 {name=p159 sig_type=std_logic lab=OUT2}
-C {devices/lab_pin.sym} 2020 -1210 2 0 {name=p160 sig_type=std_logic lab=OUT1}
-C {devices/lab_pin.sym} 2020 -1190 2 0 {name=p161 sig_type=std_logic lab=OUT0}
+C {devices/noconn.sym} 1210 -120 2 0 {name=l57}
+C {devices/noconn.sym} 1210 -220 2 0 {name=l58}
+C {devices/noconn.sym} 1210 -320 2 0 {name=l59}
+C {devices/noconn.sym} 1210 -420 2 0 {name=l60}
+C {devices/noconn.sym} 1210 -520 2 0 {name=l61}
+C {devices/noconn.sym} 1210 -620 2 0 {name=l62}
+C {devices/noconn.sym} 1210 -720 2 0 {name=l63}
+C {devices/noconn.sym} 1210 -820 2 0 {name=l64}
+C {devices/noconn.sym} 1210 -920 2 0 {name=l65}
+C {devices/noconn.sym} 1210 -1020 2 0 {name=l66}
+C {devices/noconn.sym} 1210 -1120 2 0 {name=l67}
+C {devices/noconn.sym} 1210 -1220 2 0 {name=l68}
+C {devices/noconn.sym} 1210 -1320 2 0 {name=l69}
+C {devices/noconn.sym} 1210 -1420 2 0 {name=l70}
+C {devices/noconn.sym} 1210 -1520 2 0 {name=l71}
+C {devices/noconn.sym} 1210 -1620 2 0 {name=l72}
+C {devices/lab_pin.sym} 2020 -1230 2 0 {name=p158 sig_type=std_logic lab=OUT4}
+C {devices/lab_pin.sym} 2020 -1210 2 0 {name=p136 sig_type=std_logic lab=OUT3}
+C {devices/lab_pin.sym} 2020 -1190 2 0 {name=p159 sig_type=std_logic lab=OUT2}
+C {devices/lab_pin.sym} 2020 -1170 2 0 {name=p160 sig_type=std_logic lab=OUT1}
+C {devices/lab_pin.sym} 2020 -1150 2 0 {name=p161 sig_type=std_logic lab=OUT0}
+C {/foss/designs/Analog_FA23_SP24/flashADC/32to5_Priority_Encoder_v0p2p2.sym} 1870 -910 0 0 {name=x33}
