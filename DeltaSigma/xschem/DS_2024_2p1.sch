@@ -71,7 +71,7 @@ C {devices/lab_pin.sym} 610 -70 3 0 {name=p2 sig_type=std_logic lab=CLK}
 C {devices/gnd.sym} -320 -80 0 1 {name=l13 lab=GND}
 C {devices/gnd.sym} 640 -280 0 0 {name=l14 lab=GND}
 C {devices/vdd.sym} 640 -360 0 0 {name=l15 lab=VDD}
-C {devices/vsource.sym} -80 -110 0 0 {name=V4 value="sin(0.9 0.2 5e3)" savecurrent=false}
+C {devices/vsource.sym} -80 -110 0 0 {name=V4 value="sin(0.9 0.4 5e3)" savecurrent=false}
 C {devices/gnd.sym} -80 -80 0 1 {name=l18 lab=GND}
 C {devices/lab_pin.sym} -80 -140 1 0 {name=p3 sig_type=std_logic lab=SIG}
 C {devices/capa.sym} 190 -220 1 0 {name=C1
@@ -89,7 +89,7 @@ C {devices/code_shown.sym} 140 70 0 0 {name=s1 only_toplevel=false value=
 .control
 save all
 
-tran 0.5u 0.5m
+tran 0.3u 0.5m
 *ac dec 10 100 100k
 
 write DS_2024_rev2.raw
