@@ -338,7 +338,7 @@ node="y12
 v12
 vin
 a12
-q8"
+q12"
 color="4 5 6 8 21"
 dataset=-1
 unitx=1
@@ -539,8 +539,8 @@ logx=0
 logy=0
 hilight_wave=3}
 B 2 3040 -1686.25 3840 -1286.25 {flags=graph
-y1=-0.15
-y2=2.1
+y1=-0.0054
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -562,8 +562,8 @@ logy=0
 color=7
 node=out3}
 B 2 3040 -1286.25 3840 -886.25 {flags=graph
-y1=-0.15
-y2=2.1
+y1=-0.0054
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -585,8 +585,8 @@ logy=0
 color=21
 node=out2}
 B 2 3840 -1686.25 4640 -1286.25 {flags=graph
-y1=-0.15
-y2=2.1
+y1=-0.0054
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -608,8 +608,8 @@ logy=0
 color=8
 node=out1}
 B 2 3840 -1286.25 4640 -886.25 {flags=graph
-y1=-0.14
-y2=2.1
+y1=-0.0054
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -654,8 +654,8 @@ color=4
 node=clk
 hilight_wave=0}
 B 2 3041.25 -886.25 3840 -443.75 {flags=graph
-y1=0
-y2=1.8
+y1=0.49
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -678,6 +678,31 @@ logy=0
 hilight_wave=0
 color=10
 node=vin}
+B 2 5111.25 -1463.75 5911.25 -1063.75 {flags=graph
+y1=-0.056
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=2.4e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+
+color="4 5 6"
+node="y5
+q5
+out0"}
 N 593.75 -901.25 593.75 -881.25 {
 lab=V2}
 N 593.75 -801.25 593.75 -781.25 {
@@ -1214,137 +1239,137 @@ N 593.75 -2221.25 593.75 -2201.25 {
 lab=V15}
 N 593.75 -2321.25 593.75 -2301.25 {
 lab=V16}
-N 1793.75 -1711.25 1793.75 -1661.25 {
+N 1792.5 -1711.25 1792.5 -1661.25 {
 lab=Q10}
-N 1813.75 -1691.25 1813.75 -1561.25 {
+N 1812.5 -1691.25 1812.5 -1561.25 {
 lab=Q9}
-N 1833.75 -1671.25 1833.75 -1461.25 {
+N 1832.5 -1671.25 1832.5 -1461.25 {
 lab=Q8}
-N 1843.75 -1651.25 1843.75 -1361.25 {
+N 1842.5 -1651.25 1842.5 -1361.25 {
 lab=Q7}
-N 1863.75 -1631.25 1863.75 -1261.25 {
+N 1862.5 -1631.25 1862.5 -1261.25 {
 lab=Q6}
-N 1883.75 -1611.25 1883.75 -1161.25 {
+N 1882.5 -1611.25 1882.5 -1161.25 {
 lab=Q5}
-N 1893.75 -1591.25 1893.75 -1061.25 {
+N 1892.5 -1591.25 1892.5 -1061.25 {
 lab=Q4}
-N 1903.75 -1561.25 1903.75 -961.25 {
+N 1902.5 -1561.25 1902.5 -961.25 {
 lab=Q3}
-N 1903.75 -1571.25 1903.75 -1561.25 {
+N 1902.5 -1571.25 1902.5 -1561.25 {
 lab=Q3}
-N 1913.75 -1551.25 1913.75 -861.25 {
+N 1912.5 -1551.25 1912.5 -861.25 {
 lab=Q2}
-N 1923.75 -1531.25 1923.75 -761.25 {
+N 1922.5 -1531.25 1922.5 -761.25 {
 lab=Q1}
-N 1523.75 -2261.25 1885 -2261.25 {
+N 1522.5 -2261.25 1883.75 -2261.25 {
 lab=Q16}
-N 1885 -2261.25 1885 -2241.25 {
+N 1883.75 -2261.25 1883.75 -2241.25 {
 lab=Q16}
-N 1523.75 -2161.25 1863.75 -2161.25 {
+N 1522.5 -2161.25 1862.5 -2161.25 {
 lab=Q15}
-N 1863.75 -2161.25 1863.75 -2141.25 {
+N 1862.5 -2161.25 1862.5 -2141.25 {
 lab=Q15}
-N 1523.75 -2061.25 1843.75 -2061.25 {
+N 1522.5 -2061.25 1842.5 -2061.25 {
 lab=Q14}
-N 1843.75 -2061.25 1843.75 -2041.25 {
+N 1842.5 -2061.25 1842.5 -2041.25 {
 lab=Q14}
-N 1523.75 -1961.25 1823.75 -1961.25 {
+N 1522.5 -1961.25 1822.5 -1961.25 {
 lab=Q13}
-N 1823.75 -1961.25 1823.75 -1942.5 {
+N 1822.5 -1961.25 1822.5 -1942.5 {
 lab=Q13}
-N 1523.75 -1861.25 1803.75 -1861.25 {
+N 1522.5 -1861.25 1802.5 -1861.25 {
 lab=Q12}
-N 1803.75 -1861.25 1803.75 -1841.25 {
+N 1802.5 -1861.25 1802.5 -1841.25 {
 lab=Q12}
-N 1523.75 -1761.25 1783.75 -1761.25 {
+N 1522.5 -1761.25 1782.5 -1761.25 {
 lab=Q11}
-N 1783.75 -1761.25 1783.75 -1741.25 {
+N 1782.5 -1761.25 1782.5 -1741.25 {
 lab=Q11}
-N 1523.75 -1661.25 1793.75 -1661.25 {
+N 1522.5 -1661.25 1792.5 -1661.25 {
 lab=Q10}
-N 1523.75 -1561.25 1813.75 -1561.25 {
+N 1522.5 -1561.25 1812.5 -1561.25 {
 lab=Q9}
-N 1523.75 -1461.25 1833.75 -1461.25 {
+N 1522.5 -1461.25 1832.5 -1461.25 {
 lab=Q8}
-N 1523.75 -1361.25 1843.75 -1361.25 {
+N 1522.5 -1361.25 1842.5 -1361.25 {
 lab=Q7}
-N 1523.75 -1261.25 1863.75 -1261.25 {
+N 1522.5 -1261.25 1862.5 -1261.25 {
 lab=Q6}
-N 1523.75 -1161.25 1883.75 -1161.25 {
+N 1522.5 -1161.25 1882.5 -1161.25 {
 lab=Q5}
-N 1523.75 -1061.25 1893.75 -1061.25 {
+N 1522.5 -1061.25 1892.5 -1061.25 {
 lab=Q4}
-N 1523.75 -961.25 1903.75 -961.25 {
+N 1522.5 -961.25 1902.5 -961.25 {
 lab=Q3}
-N 1523.75 -861.25 1913.75 -861.25 {
+N 1522.5 -861.25 1912.5 -861.25 {
 lab=Q2}
-N 1523.75 -761.25 1923.75 -761.25 {
+N 1522.5 -761.25 1922.5 -761.25 {
 lab=Q1}
 N 463.75 -42.5 463.75 -12.5 {
 lab=GND}
-N 1923.75 -1532.5 1923.75 -1531.25 {
+N 1922.5 -1532.5 1922.5 -1531.25 {
 lab=Q1}
-N 1923.75 -1532.5 2066.25 -1532.5 {
+N 1922.5 -1532.5 2065 -1532.5 {
 lab=Q1}
-N 1913.75 -1552.5 1913.75 -1551.25 {
+N 1912.5 -1552.5 1912.5 -1551.25 {
 lab=Q2}
-N 1913.75 -1552.5 2065 -1552.5 {
+N 1912.5 -1552.5 2063.75 -1552.5 {
 lab=Q2}
-N 1903.75 -1572.5 1903.75 -1571.25 {
+N 1902.5 -1572.5 1902.5 -1571.25 {
 lab=Q3}
-N 1903.75 -1572.5 2065 -1572.5 {
+N 1902.5 -1572.5 2063.75 -1572.5 {
 lab=Q3}
-N 1893.75 -1592.5 1893.75 -1591.25 {
+N 1892.5 -1592.5 1892.5 -1591.25 {
 lab=Q4}
-N 1893.75 -1592.5 2066.25 -1592.5 {
+N 1892.5 -1592.5 2065 -1592.5 {
 lab=Q4}
-N 1883.75 -1612.5 1883.75 -1611.25 {
+N 1882.5 -1612.5 1882.5 -1611.25 {
 lab=Q5}
-N 1883.75 -1612.5 2065 -1612.5 {
+N 1882.5 -1612.5 2063.75 -1612.5 {
 lab=Q5}
-N 1863.75 -1632.5 1863.75 -1631.25 {
+N 1862.5 -1632.5 1862.5 -1631.25 {
 lab=Q6}
-N 1863.75 -1632.5 2065 -1632.5 {
+N 1862.5 -1632.5 2063.75 -1632.5 {
 lab=Q6}
-N 1843.75 -1652.5 1843.75 -1651.25 {
+N 1842.5 -1652.5 1842.5 -1651.25 {
 lab=Q7}
-N 1843.75 -1652.5 2066.25 -1652.5 {
+N 1842.5 -1652.5 2065 -1652.5 {
 lab=Q7}
-N 1833.75 -1672.5 1833.75 -1671.25 {
+N 1832.5 -1672.5 1832.5 -1671.25 {
 lab=Q8}
-N 1833.75 -1672.5 2065 -1672.5 {
+N 1832.5 -1672.5 2063.75 -1672.5 {
 lab=Q8}
-N 1813.75 -1692.5 2065 -1692.5 {
+N 1812.5 -1692.5 2063.75 -1692.5 {
 lab=Q9}
-N 1813.75 -1692.5 1813.75 -1691.25 {
+N 1812.5 -1692.5 1812.5 -1691.25 {
 lab=Q9}
-N 1793.75 -1712.5 2065 -1712.5 {
+N 1792.5 -1712.5 2063.75 -1712.5 {
 lab=Q10}
-N 1793.75 -1712.5 1793.75 -1711.25 {
+N 1792.5 -1712.5 1792.5 -1711.25 {
 lab=Q10}
-N 1783.75 -1732.5 2065 -1732.5 {
+N 1782.5 -1732.5 2063.75 -1732.5 {
 lab=Q11}
-N 1783.75 -1741.25 1783.75 -1732.5 {
+N 1782.5 -1741.25 1782.5 -1732.5 {
 lab=Q11}
-N 1803.75 -1752.5 2065 -1752.5 {
+N 1802.5 -1752.5 2063.75 -1752.5 {
 lab=Q12}
-N 1803.75 -1841.25 1803.75 -1752.5 {
+N 1802.5 -1841.25 1802.5 -1752.5 {
 lab=Q12}
-N 1823.75 -1772.5 2065 -1772.5 {
+N 1822.5 -1772.5 2063.75 -1772.5 {
 lab=Q13}
-N 1823.75 -1942.5 1823.75 -1772.5 {
+N 1822.5 -1942.5 1822.5 -1772.5 {
 lab=Q13}
-N 1843.75 -2041.25 1843.75 -1792.5 {
+N 1842.5 -2041.25 1842.5 -1792.5 {
 lab=Q14}
-N 1843.75 -1792.5 2065 -1792.5 {
+N 1842.5 -1792.5 2063.75 -1792.5 {
 lab=Q14}
-N 1863.75 -2141.25 1863.75 -1812.5 {
+N 1862.5 -2141.25 1862.5 -1812.5 {
 lab=Q15}
-N 1863.75 -1812.5 2065 -1812.5 {
+N 1862.5 -1812.5 2063.75 -1812.5 {
 lab=Q15}
-N 1885 -2241.25 1885 -1832.5 {
+N 1883.75 -2241.25 1883.75 -1832.5 {
 lab=Q16}
-N 1885 -1832.5 2067.5 -1832.5 {
+N 1883.75 -1832.5 2066.25 -1832.5 {
 lab=Q16}
 C {devices/vsource.sym} 593.75 -351.25 0 0 {name=V3 value="sin(1.1 0.5 12.5MEG)" savecurrent=false}
 C {devices/gnd.sym} 593.75 -281.25 0 0 {name=l34 lab=GND}
@@ -1455,7 +1480,7 @@ C {devices/code_shown.sym} 1203.75 -221.25 0 0 {name=COMMANDS only_toplevel=fals
 save all
 
 tran 0.005n 240n
-write flashADC_Testing_v0p3p1.raw
+write flashADC_Testing_v0p3p2.raw
 
 .endc
 "}
@@ -1778,48 +1803,47 @@ C {devices/noconn.sym} 1523.75 -1941.25 2 0 {name=l69}
 C {devices/noconn.sym} 1523.75 -2041.25 2 0 {name=l70}
 C {devices/noconn.sym} 1523.75 -2141.25 2 0 {name=l71}
 C {devices/noconn.sym} 1523.75 -2241.25 2 0 {name=l72}
-C {devices/lab_pin.sym} 2365 -2132.5 2 0 {name=p158 sig_type=std_logic lab=OUT2}
-C {devices/lab_pin.sym} 2365 -2112.5 2 0 {name=p159 sig_type=std_logic lab=OUT1}
-C {devices/lab_pin.sym} 2365 -2092.5 2 0 {name=p160 sig_type=std_logic lab=OUT0}
-C {devices/lab_pin.sym} 2065 -2172.5 0 0 {name=p161 sig_type=std_logic lab=VDD}
-C {devices/lab_pin.sym} 2365 -2152.5 2 0 {name=p162 sig_type=std_logic lab=OUT3}
-C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/32to5_Priority_Encoder_v0p2p2.sym} 2215 -1852.5 0 0 {name=x33}
+C {devices/lab_pin.sym} 2363.75 -2172.5 2 0 {name=p158 sig_type=std_logic lab=OUT2}
+C {devices/lab_pin.sym} 2363.75 -2152.5 2 0 {name=p159 sig_type=std_logic lab=OUT1}
+C {devices/lab_pin.sym} 2363.75 -2132.5 2 0 {name=p160 sig_type=std_logic lab=OUT0}
+C {devices/lab_pin.sym} 2063.75 -2172.5 0 0 {name=p161 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 2363.75 -2192.5 2 0 {name=p162 sig_type=std_logic lab=OUT3}
 C {devices/vdd.sym} 593.75 -121.25 0 0 {name=l80 lab=VDD}
 C {devices/lab_pin.sym} 463.75 -42.5 1 0 {name=p164 sig_type=std_logic lab=GND}
 C {devices/gnd.sym} 463.75 -12.5 0 0 {name=l81 lab=GND}
-C {devices/gnd.sym} 2065 -2152.5 0 0 {name=l56 lab=GND}
-C {devices/gnd.sym} 2065 -2132.5 0 0 {name=l73 lab=GND}
-C {devices/gnd.sym} 2065 -2112.5 0 0 {name=l74 lab=GND}
-C {devices/gnd.sym} 2065 -2092.5 0 0 {name=l75 lab=GND}
-C {devices/gnd.sym} 2065 -2072.5 0 0 {name=l76 lab=GND}
-C {devices/gnd.sym} 2065 -2052.5 0 0 {name=l77 lab=GND}
-C {devices/gnd.sym} 2065 -2032.5 0 0 {name=l78 lab=GND}
-C {devices/gnd.sym} 2065 -2012.5 0 0 {name=l79 lab=GND}
-C {devices/gnd.sym} 2065 -1992.5 0 0 {name=l82 lab=GND}
-C {devices/gnd.sym} 2065 -1972.5 0 0 {name=l83 lab=GND}
-C {devices/gnd.sym} 2065 -1952.5 0 0 {name=l84 lab=GND}
-C {devices/gnd.sym} 2065 -1932.5 0 0 {name=l85 lab=GND}
-C {devices/gnd.sym} 2065 -1912.5 0 0 {name=l86 lab=GND}
-C {devices/gnd.sym} 2065 -1892.5 0 0 {name=l87 lab=GND}
-C {devices/gnd.sym} 2065 -1872.5 0 0 {name=l88 lab=GND}
-C {devices/gnd.sym} 2065 -1852.5 0 0 {name=l40 lab=GND}
-C {devices/noconn.sym} 2365 -2172.5 2 0 {name=l41}
-C {devices/lab_pin.sym} 1598.75 -2261.25 2 0 {name=p135 sig_type=std_logic lab=Q16}
-C {devices/lab_pin.sym} 1598.75 -2161.25 2 0 {name=p136 sig_type=std_logic lab=Q15}
-C {devices/lab_pin.sym} 1598.75 -2061.25 2 0 {name=p152 sig_type=std_logic lab=Q14}
-C {devices/lab_pin.sym} 1598.75 -1961.25 2 0 {name=p153 sig_type=std_logic lab=Q13}
-C {devices/lab_pin.sym} 1598.75 -1861.25 2 0 {name=p154 sig_type=std_logic lab=Q12}
-C {devices/lab_pin.sym} 1598.75 -1761.25 2 0 {name=p155 sig_type=std_logic lab=Q11}
-C {devices/lab_pin.sym} 1598.75 -1661.25 2 0 {name=p156 sig_type=std_logic lab=Q10}
-C {devices/lab_pin.sym} 1598.75 -1561.25 2 0 {name=p157 sig_type=std_logic lab=Q9}
-C {devices/lab_pin.sym} 1598.75 -1461.25 2 0 {name=p163 sig_type=std_logic lab=Q8}
-C {devices/lab_pin.sym} 1598.75 -1361.25 2 0 {name=p165 sig_type=std_logic lab=Q7}
-C {devices/lab_pin.sym} 1598.75 -1261.25 2 0 {name=p166 sig_type=std_logic lab=Q6}
-C {devices/lab_pin.sym} 1598.75 -1161.25 2 0 {name=p167 sig_type=std_logic lab=Q5}
-C {devices/lab_pin.sym} 1598.75 -1061.25 2 0 {name=p168 sig_type=std_logic lab=Q4}
-C {devices/lab_pin.sym} 1598.75 -961.25 2 0 {name=p169 sig_type=std_logic lab=Q3}
-C {devices/lab_pin.sym} 1598.75 -861.25 2 0 {name=p170 sig_type=std_logic lab=Q2}
-C {devices/lab_pin.sym} 1598.75 -761.25 2 0 {name=p171 sig_type=std_logic lab=Q1}
+C {devices/gnd.sym} 2063.75 -2152.5 0 0 {name=l56 lab=GND}
+C {devices/gnd.sym} 2063.75 -2132.5 0 0 {name=l73 lab=GND}
+C {devices/gnd.sym} 2063.75 -2112.5 0 0 {name=l74 lab=GND}
+C {devices/gnd.sym} 2063.75 -2092.5 0 0 {name=l75 lab=GND}
+C {devices/gnd.sym} 2063.75 -2072.5 0 0 {name=l76 lab=GND}
+C {devices/gnd.sym} 2063.75 -2052.5 0 0 {name=l77 lab=GND}
+C {devices/gnd.sym} 2063.75 -2032.5 0 0 {name=l78 lab=GND}
+C {devices/gnd.sym} 2063.75 -2012.5 0 0 {name=l79 lab=GND}
+C {devices/gnd.sym} 2063.75 -1992.5 0 0 {name=l82 lab=GND}
+C {devices/gnd.sym} 2063.75 -1972.5 0 0 {name=l83 lab=GND}
+C {devices/gnd.sym} 2063.75 -1952.5 0 0 {name=l84 lab=GND}
+C {devices/gnd.sym} 2063.75 -1932.5 0 0 {name=l85 lab=GND}
+C {devices/gnd.sym} 2063.75 -1912.5 0 0 {name=l86 lab=GND}
+C {devices/gnd.sym} 2063.75 -1892.5 0 0 {name=l87 lab=GND}
+C {devices/gnd.sym} 2063.75 -1872.5 0 0 {name=l88 lab=GND}
+C {devices/gnd.sym} 2063.75 -1852.5 0 0 {name=l40 lab=GND}
+C {devices/noconn.sym} 2363.75 -2212.5 2 0 {name=l41}
+C {devices/lab_pin.sym} 1597.5 -2261.25 2 0 {name=p135 sig_type=std_logic lab=Q16}
+C {devices/lab_pin.sym} 1597.5 -2161.25 2 0 {name=p136 sig_type=std_logic lab=Q15}
+C {devices/lab_pin.sym} 1597.5 -2061.25 2 0 {name=p152 sig_type=std_logic lab=Q14}
+C {devices/lab_pin.sym} 1597.5 -1961.25 2 0 {name=p153 sig_type=std_logic lab=Q13}
+C {devices/lab_pin.sym} 1597.5 -1861.25 2 0 {name=p154 sig_type=std_logic lab=Q12}
+C {devices/lab_pin.sym} 1597.5 -1761.25 2 0 {name=p155 sig_type=std_logic lab=Q11}
+C {devices/lab_pin.sym} 1597.5 -1661.25 2 0 {name=p156 sig_type=std_logic lab=Q10}
+C {devices/lab_pin.sym} 1597.5 -1561.25 2 0 {name=p157 sig_type=std_logic lab=Q9}
+C {devices/lab_pin.sym} 1597.5 -1461.25 2 0 {name=p163 sig_type=std_logic lab=Q8}
+C {devices/lab_pin.sym} 1597.5 -1361.25 2 0 {name=p165 sig_type=std_logic lab=Q7}
+C {devices/lab_pin.sym} 1597.5 -1261.25 2 0 {name=p166 sig_type=std_logic lab=Q6}
+C {devices/lab_pin.sym} 1597.5 -1161.25 2 0 {name=p167 sig_type=std_logic lab=Q5}
+C {devices/lab_pin.sym} 1597.5 -1061.25 2 0 {name=p168 sig_type=std_logic lab=Q4}
+C {devices/lab_pin.sym} 1597.5 -961.25 2 0 {name=p169 sig_type=std_logic lab=Q3}
+C {devices/lab_pin.sym} 1597.5 -861.25 2 0 {name=p170 sig_type=std_logic lab=Q2}
+C {devices/lab_pin.sym} 1597.5 -761.25 2 0 {name=p171 sig_type=std_logic lab=Q1}
 C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1373.75 -2251.25 0 0 {name=x32}
 C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1373.75 -2151.25 0 0 {name=x17}
 C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1373.75 -2051.25 0 0 {name=x18}
@@ -1836,3 +1860,6 @@ C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1373.75 -1051.25 0 0 {n
 C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1373.75 -951.25 0 0 {name=x29}
 C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1373.75 -851.25 0 0 {name=x30}
 C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1373.75 -751.25 0 0 {name=x31}
+C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/32to5_Priority_Encoder_v0p2p1.sym} 2213.75 -1872.5 0 0 {name=x34}
+C {devices/lab_pin.sym} 2063.75 -2192.5 0 0 {name=p172 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 2063.75 -2212.5 0 0 {name=l42 lab=GND}

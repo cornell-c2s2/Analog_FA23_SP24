@@ -158,57 +158,57 @@ lab=A0}
 N 790 475 860 475 {
 lab=A0}
 N 790 540 790 550 {
-lab=#net22}
+lab=GND}
 N 740 -405 740 -400 {
 lab=A4}
 N 740 -405 810 -405 {
 lab=A4}
 N 675 -410 690 -410 {
-lab=#net23}
+lab=#net22}
 N 687.5 -185 687.5 -145 {
-lab=#net24}
+lab=#net23}
 N 687.5 -215 697.5 -215 {
-lab=#net24}
+lab=#net23}
 N 687.5 -145 697.5 -145 {
-lab=#net24}
+lab=#net23}
 N 737.5 -180 737.5 -175 {
 lab=A3}
 N 737.5 -180 807.5 -180 {
 lab=A3}
 N 672.5 -185 687.5 -185 {
-lab=#net24}
+lab=#net23}
 N 687.5 37.5 687.5 77.5 {
-lab=#net25}
+lab=#net24}
 N 687.5 7.5 697.5 7.5 {
-lab=#net25}
+lab=#net24}
 N 687.5 77.5 697.5 77.5 {
-lab=#net25}
+lab=#net24}
 N 737.5 42.5 737.5 47.5 {
 lab=A2}
 N 737.5 42.5 807.5 42.5 {
 lab=A2}
 N 672.5 37.5 687.5 37.5 {
-lab=#net25}
+lab=#net24}
 N 687.5 257.5 687.5 297.5 {
-lab=#net26}
+lab=#net25}
 N 687.5 227.5 697.5 227.5 {
-lab=#net26}
+lab=#net25}
 N 687.5 297.5 697.5 297.5 {
-lab=#net26}
+lab=#net25}
 N 737.5 262.5 737.5 267.5 {
 lab=A1}
 N 737.5 262.5 807.5 262.5 {
 lab=A1}
 N 672.5 257.5 687.5 257.5 {
-lab=#net26}
+lab=#net25}
 N 690 -370 700 -370 {
-lab=#net23}
+lab=#net22}
 N 195 -390 195 -125 {
-lab=#net27}
+lab=#net26}
 N 195 -390 315 -390 {
-lab=#net27}
+lab=#net26}
 N 117.5 -125 195 -125 {
-lab=#net27}
+lab=#net26}
 N 117.5 -145 160 -145 {
 lab=#net5}
 N 117.5 460 142.5 460 {
@@ -220,85 +220,89 @@ lab=A4}
 N 737.5 -185 737.5 -180 {
 lab=A3}
 N 687.5 -215 687.5 -185 {
-lab=#net24}
+lab=#net23}
 N 737.5 37.5 737.5 42.5 {
 lab=A2}
 N 687.5 7.5 687.5 37.5 {
-lab=#net25}
+lab=#net24}
 N 737.5 257.5 737.5 262.5 {
 lab=A1}
 N 687.5 227.5 687.5 257.5 {
-lab=#net26}
+lab=#net25}
 N 705 475 740 475 {
 lab=#net21}
 N 612.5 475 625 475 {
-lab=#net28}
+lab=#net27}
 N 522.5 475 532.5 475 {
-lab=#net29}
+lab=#net28}
 N 432.5 475 442.5 475 {
-lab=#net30}
+lab=#net29}
 N 310 57.5 312.5 57.5 {
 lab=#net11}
 N 690 -410 690 -370 {
-lab=#net23}
+lab=#net22}
 N 690 -440 690 -410 {
-lab=#net23}
+lab=#net22}
 N 690 -440 700 -440 {
-lab=#net23}
+lab=#net22}
 N 937.5 -505 937.5 542.5 {
-lab=#net31}
+lab=VDD}
 N 995 -505 995 542.5 {
-lab=#net22}
+lab=GND}
 N 740 -470 937.5 -470 {
-lab=#net31}
+lab=VDD}
 N 737.5 -440 937.5 -440 {
-lab=#net31}
+lab=VDD}
 N 737.5 -245 937.5 -245 {
-lab=#net31}
+lab=VDD}
 N 735 -215 937.5 -215 {
-lab=#net31}
+lab=VDD}
 N 737.5 -22.5 937.5 -22.5 {
-lab=#net31}
+lab=VDD}
 N 735 7.5 937.5 7.5 {
-lab=#net31}
+lab=VDD}
 N 737.5 197.5 937.5 197.5 {
-lab=#net31}
+lab=VDD}
 N 735 227.5 937.5 227.5 {
-lab=#net31}
+lab=VDD}
 N 790 410 937.5 410 {
-lab=#net31}
+lab=VDD}
 N 787.5 440 937.5 440 {
-lab=#net31}
+lab=VDD}
 N 790 510 995 510 {
-lab=#net22}
+lab=GND}
 N 787.5 510 790 510 {
-lab=#net22}
+lab=GND}
 N 790 550 995 550 {
-lab=#net22}
+lab=GND}
 N 937.5 542.5 937.5 582.5 {
-lab=#net31}
+lab=VDD}
 N 995 542.5 995 580 {
-lab=#net22}
+lab=GND}
 N 737.5 327.5 995 327.5 {
-lab=#net22}
+lab=GND}
 N 735 297.5 995 297.5 {
-lab=#net22}
+lab=GND}
 N 737.5 107.5 995 107.5 {
-lab=#net22}
+lab=GND}
 N 735 77.5 995 77.5 {
-lab=#net22}
+lab=GND}
 N 737.5 -115 995 -115 {
-lab=#net22}
+lab=GND}
 N 735 -145 992.5 -145 {
-lab=#net22}
+lab=GND}
 N 740 -370 995 -370 {
-lab=#net22}
+lab=GND}
 N 737.5 -370 740 -370 {
-lab=#net22}
+lab=GND}
 N 740 -340 995 -340 {
-lab=#net22}
+lab=GND}
 N 992.5 -145 995 -145 {
-lab=#net22}
+lab=GND}
+N 937.5 -507.5 937.5 -505 {
+lab=VDD}
+N 995 -507.5 995 -505 {
+lab=GND}
 C {devices/code.sym} -720 -325 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
@@ -348,9 +352,7 @@ C {devices/ipin.sym} -132.5 480 0 0 {name=p30 lab=I3
 C {devices/ipin.sym} -132.5 500 0 0 {name=p31 lab=I2}
 C {devices/ipin.sym} -132.5 520 0 0 {name=p32 lab=I1}
 C {devices/ipin.sym} -132.5 540 0 0 {name=p33 lab=I0}
-C {sky130_stdcells/inv_1.sym} -242.5 -145 0 0 {name=x5 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/inv_1.sym} -245 117.5 0 0 {name=x6 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/inv_1.sym} -245 380 0 0 {name=x7 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} -242.5 -145 0 0 {name=x5 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/or4_1.sym} 372.5 475 0 0 {name=x9 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/or4_1.sym} 372.5 257.5 0 0 {name=x8 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/or4_1.sym} 372.5 37.5 0 0 {name=x10 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
@@ -520,3 +522,5 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
+C {sky130_stdcells/inv_1.sym} -245 117.5 0 0 {name=x6 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} -245 380 0 0 {name=x7 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }

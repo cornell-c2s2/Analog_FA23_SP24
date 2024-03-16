@@ -193,8 +193,8 @@ logx=0
 logy=0
 }
 B 2 855 660 1655 1060 {flags=graph
-y1=-0.14
-y2=2
+y1=-0.0053
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -278,15 +278,15 @@ C {devices/lab_pin.sym} -180 330 2 0 {name=p19 sig_type=std_logic lab=OUT0}
 C {devices/lab_pin.sym} -480 290 0 0 {name=p20 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} -180 270 2 0 {name=p21 sig_type=std_logic lab=OUT3}
 C {devices/lab_pin.sym} -180 250 2 0 {name=p22 sig_type=std_logic lab=OUT4}
-C {devices/vsource.sym} -960 -130 0 0 {name=V8 value="pulse(0.0 1.8 400n 1n 1n 50n 400n)" savecurrent=false}
-C {devices/vsource.sym} -720 -130 0 0 {name=V1 value="pulse(0.0 1.8 450n 1n 1n 50n 400n)" savecurrent=false
+C {devices/vsource.sym} -960 -130 0 0 {name=V8 value="pulse(0.0 1.8 400n 1n 1n 50n 800n)" savecurrent=false}
+C {devices/vsource.sym} -720 -130 0 0 {name=V1 value="pulse(0.0 1.8 450n 1n 1n 50n 800n)" savecurrent=false
 }
-C {devices/vsource.sym} -480 -130 0 0 {name=V2 value="pulse(0.0 1.8 500n 1n 1n 50n 400n)" savecurrent=false}
-C {devices/vsource.sym} -230 -130 0 0 {name=V3 value="pulse(0.0 1.8 550n 1n 1n 50n 400n)" savecurrent=false}
-C {devices/vsource.sym} -960 -30 0 0 {name=V4 value="pulse(0.0 1.8 600n 1n 1n 50n 400n)" savecurrent=false  }
-C {devices/vsource.sym} -720 -30 0 0 {name=V6 value="pulse(0.0 1.8 650n 1n 1n 50n 400n)" savecurrent=false}
-C {devices/vsource.sym} -480 -30 0 0 {name=V7 value="pulse(0.0 1.8 700n 1n 1n 50n 400n)" savecurrent=false}
-C {devices/vsource.sym} -230 -30 0 0 {name=V9 value="pulse(0.0 1.8 750n 1n 1n 50n 400n)" savecurrent=false}
+C {devices/vsource.sym} -480 -130 0 0 {name=V2 value="pulse(0.0 1.8 500n 1n 1n 50n 800n)" savecurrent=false}
+C {devices/vsource.sym} -230 -130 0 0 {name=V3 value="pulse(0.0 1.8 550n 1n 1n 50n 800n)" savecurrent=false}
+C {devices/vsource.sym} -960 -30 0 0 {name=V4 value="pulse(0.0 1.8 600n 1n 1n 50n 800n)" savecurrent=false  }
+C {devices/vsource.sym} -720 -30 0 0 {name=V6 value="pulse(0.0 1.8 650n 1n 1n 50n 800n)" savecurrent=false}
+C {devices/vsource.sym} -480 -30 0 0 {name=V7 value="pulse(0.0 1.8 700n 1n 1n 50n 800n)" savecurrent=false}
+C {devices/vsource.sym} -230 -30 0 0 {name=V9 value="pulse(0.0 1.8 750n 1n 1n 50n 800n)" savecurrent=false}
 C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/32to5_Priority_Encoder_v0p2p1.sym} -330 590 0 0 {name=x1}
 C {devices/lab_pin.sym} -960 -370 0 0 {name=p31 sig_type=std_logic lab=IN0}
 C {devices/gnd.sym} -960 -310 0 0 {name=l11 lab=GND}
