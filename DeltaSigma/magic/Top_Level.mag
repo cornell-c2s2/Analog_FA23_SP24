@@ -1,11 +1,15 @@
 magic
 tech sky130A
-timestamp 1710004686
+timestamp 1710532818
 use C2S2_Fingers_Amplifier  C2S2_Fingers_Amplifier_0
 timestamp 1710000196
 transform 1 0 35634 0 1 357381
 box 17085 331400 27603 350630
 use C2S2_Fingers_Amplifier  C2S2_Fingers_Amplifier_1
+timestamp 1710000196
+transform 1 0 55770 0 1 357553
+box 17085 331400 27603 350630
+use C2S2_Fingers_Amplifier  C2S2_Fingers_Amplifier_2
 timestamp 1710000196
 transform 1 0 45827 0 1 357474
 box 17085 331400 27603 350630
