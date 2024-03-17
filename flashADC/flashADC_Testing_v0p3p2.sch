@@ -1374,7 +1374,7 @@ lab=Q16}
 C {devices/vsource.sym} 593.75 -351.25 0 0 {name=V3 value="sin(1.1 0.5 12.5MEG)" savecurrent=false}
 C {devices/gnd.sym} 593.75 -281.25 0 0 {name=l34 lab=GND}
 C {devices/lab_pin.sym} 593.75 -521.25 2 0 {name=p196 sig_type=std_logic lab=V_IGNORE}
-C {devices/vsource.sym} 753.75 -351.25 0 0 {name=V4 value="pulse(0 1.8 8ns 1ns 1ns 5ns 10ns)" savecurrent=false}
+C {devices/vsource.sym} 753.75 -351.25 0 0 {name=V4 value="pulse(0 1.8 8ns 1ns 1ns 20ns 40ns)" savecurrent=false}
 C {devices/gnd.sym} 753.75 -281.25 0 0 {name=l35 lab=GND}
 C {devices/lab_pin.sym} 753.75 -421.25 2 0 {name=p197 sig_type=std_logic lab=CLK}
 C {devices/vsource.sym} 593.75 -91.25 0 0 {name=V1 value=1.8 savecurrent=false}
