@@ -1,0 +1,30 @@
+** sch_path: /foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/8to3_Priority_Encoder_v0p2p0.sch
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.subckt 8to3_Priority_Encoder_v0p2p0 I1 I5 I3 I0 I2 I6 I7 I4 EO GS A2 A1 A0 EI
+*.PININFO I0:I I1:I I2:I I3:I I4:I I5:I I6:I I7:I EI:I EO:O GS:O A2:O A1:O A0:O
+x9 EI GND GND VDD VDD net5 sky130_fd_sc_hd__inv_1
+x1 I0 I1 I2 I3 GND GND VDD VDD net7 sky130_fd_sc_hd__or4_1
+x2 I4 I5 I6 I7 GND GND VDD VDD net6 sky130_fd_sc_hd__or4_1
+x4 net5 net7 net6 GND GND VDD VDD EO sky130_fd_sc_hd__or3_1
+x8 EO EI GND GND VDD VDD GS sky130_fd_sc_hd__and2_1
+x10 EI I4 GND GND VDD VDD net8 sky130_fd_sc_hd__and2_1
+x11 EI I5 GND GND VDD VDD net9 sky130_fd_sc_hd__and2_1
+x12 EI I6 GND GND VDD VDD net10 sky130_fd_sc_hd__and2_1
+x13 EI I7 GND GND VDD VDD net11 sky130_fd_sc_hd__and2_1
+x14 net8 net9 net10 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__or4_1
+x17 net10 net11 net13 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__or4_1
+x15 I2 net2 net3 EI GND GND VDD VDD net13 sky130_fd_sc_hd__and4_1
+x16 I3 net2 net3 EI GND GND VDD VDD net12 sky130_fd_sc_hd__and4_1
+x18 net2 I1 net1 net4 GND GND VDD VDD net14 sky130_fd_sc_hd__and4_1
+x19 EI I3 net2 net4 GND GND VDD VDD net15 sky130_fd_sc_hd__and4_1
+x20 I5 net4 EI GND GND VDD VDD net17 sky130_fd_sc_hd__and3_1
+x21 EI net14 GND GND VDD VDD net16 sky130_fd_sc_hd__and2_1
+x22 net11 net16 net15 net17 GND GND VDD VDD A0 sky130_fd_sc_hd__or4_1
+x3 I6 GND GND VDD VDD net4 sky130_fd_sc_hd__inv_1
+x5 I5 GND GND VDD VDD net3 sky130_fd_sc_hd__inv_1
+x6 I4 GND GND VDD VDD net2 sky130_fd_sc_hd__inv_1
+x7 I2 GND GND VDD VDD net1 sky130_fd_sc_hd__inv_1
+.ends
+.end
