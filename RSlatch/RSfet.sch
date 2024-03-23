@@ -373,13 +373,13 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/vsource.sym} 990 -210 0 0 {name=V4 value="pulse(0.8 1.8 0.5ns 10ps 10ps 0.8ns 1ns)" savecurrent=false}
+C {devices/vsource.sym} 990 -210 0 0 {name=V4 value="pulse(0.0 1.8 0.5ns 10ps 10ps 0.8ns 1ns)" savecurrent=false}
 C {devices/gnd.sym} 990 -140 0 0 {name=l9 lab=GND}
-C {devices/lab_pin.sym} 990 -240 2 0 {name=p11 sig_type=std_logic lab=!R
+C {devices/lab_pin.sym} 990 -300 2 0 {name=p11 sig_type=std_logic lab=!R
 }
 C {devices/vsource.sym} 710 -210 0 0 {name=V3 value="pulse(0 1.8 0.0ns 10ps 10ps 0.8ns 1ns)" savecurrent=false}
 C {devices/gnd.sym} 710 -140 0 0 {name=l1 lab=GND}
-C {devices/lab_pin.sym} 710 -240 2 0 {name=p1 sig_type=std_logic lab=!S
+C {devices/lab_pin.sym} 710 -300 2 0 {name=p1 sig_type=std_logic lab=!S
 }
 C {sky130_fd_pr/nfet_01v8.sym} 190 -710 0 0 {name=M9
 L=0.25
@@ -413,3 +413,13 @@ spiceprefix=X
 C {sky130_stdcells/inv_4.sym} 520 -570 0 1 {name=x2 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/inv_4.sym} 520 -510 0 0 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/gnd.sym} 780 -710 0 1 {name=l10 lab=GND}
+C {devices/res.sym} 990 -270 0 0 {name=R1
+value=8k
+footprint=1206
+device=resistor
+m=1}
+C {devices/res.sym} 710 -270 0 0 {name=R2
+value=8k
+footprint=1206
+device=resistor
+m=1}
