@@ -585,7 +585,7 @@ logy=0
 color=8
 node=out1}
 B 2 3840 -1286.25 4640 -886.25 {flags=graph
-y1=-0.0054
+y1=-0.0058
 y2=1.9
 ypos1=0
 ypos2=2
@@ -1457,7 +1457,7 @@ C {devices/code_shown.sym} 1203.75 -221.25 0 0 {name=COMMANDS only_toplevel=fals
 save all
 
 tran 0.005n 240n
-write flashADC_Testing_v0p3p2.raw
+write flashADC_Testing_v0p4p2.raw
 
 .endc
 "}

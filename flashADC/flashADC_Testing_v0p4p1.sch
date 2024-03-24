@@ -1410,7 +1410,7 @@ C {devices/code_shown.sym} 1203.75 -221.25 0 0 {name=COMMANDS only_toplevel=fals
 save all
 
 tran 0.005n 240n
-write flashADC_Testing_v0p4p0.raw
+write flashADC_Testing_v0p4p2.raw
 
 .endc
 "}
@@ -1677,10 +1677,10 @@ C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1971.25
 C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -2071.25 0 0 {name=x14}
 C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -2171.25 0 0 {name=x15}
 C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -2271.25 0 0 {name=x16}
-C {devices/code.sym} 1253.75 -441.25 0 0 {name=TT_MODELS
+C {devices/code.sym} 1253.75 -441.25 0 0 {name=SS_MODELS
 only_toplevel=true
 format="tcleval(@value )"
-value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice ss
 .include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
 "
 spice_ignore=false
