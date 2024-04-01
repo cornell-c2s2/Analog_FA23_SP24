@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1711916323
+timestamp 1711824350
 << pwell >>
 rect -256 -1119 256 1119
 << nmoslvt >>
@@ -32,15 +32,13 @@ rect 72 -897 106 -121
 << psubdiff >>
 rect -220 1049 -124 1083
 rect 124 1049 220 1083
-rect -220 987 -186 1049
+rect -220 -1049 -186 1049
 rect 186 987 220 1049
-rect -220 -1049 -186 -987
 rect 186 -1049 220 -987
 rect -220 -1083 -124 -1049
 rect 124 -1083 220 -1049
 << psubdiffcont >>
 rect -124 1049 124 1083
-rect -220 -987 -186 987
 rect 186 -987 220 987
 rect -124 -1083 124 -1049
 << poly >>
@@ -68,7 +66,7 @@ rect -44 -981 44 -947
 << locali >>
 rect -220 1049 -124 1083
 rect 124 1049 220 1083
-rect -220 987 -186 1049
+rect -220 -1049 -186 1049
 rect 186 987 220 1049
 rect -60 947 -44 981
 rect 44 947 60 981
@@ -86,7 +84,6 @@ rect 72 -121 106 -105
 rect 72 -913 106 -897
 rect -60 -981 -44 -947
 rect 44 -981 60 -947
-rect -220 -1049 -186 -987
 rect 186 -1049 220 -987
 rect -220 -1083 -124 -1049
 rect 124 -1083 220 -1049
@@ -136,5 +133,5 @@ rect -56 -987 56 -981
 string FIXED_BBOX -203 -1066 203 1066
 string gencell sky130_fd_pr__nfet_01v8_lvt
 string library sky130
-string parameters w 4.0 l 0.6 m 2 nf 1 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__nfet_01v8 sky130_fd_pr__nfet_01v8_lvt  sky130_fd_bs_flash__special_sonosfet_star  sky130_fd_pr__nfet_g5v0d10v5 sky130_fd_pr__nfet_05v0_nvt  sky130_fd_pr__nfet_03v3_nvt} full_metal 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
+string parameters w 4.0 l 0.6 m 2 nf 1 diffcov 100 polycov 100 guard 1 glc 0 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__nfet_01v8 sky130_fd_pr__nfet_01v8_lvt  sky130_fd_bs_flash__special_sonosfet_star  sky130_fd_pr__nfet_g5v0d10v5 sky130_fd_pr__nfet_05v0_nvt  sky130_fd_pr__nfet_03v3_nvt} full_metal 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
 << end >>
