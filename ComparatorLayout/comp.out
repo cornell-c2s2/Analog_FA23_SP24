@@ -42,13 +42,13 @@ Circuit 1: sky130_fd_pr__cap_var_lvt       |Circuit 2: sky130_fd_pr__cap_var_lvt
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__cap_var_lvt and sky130_fd_pr__cap_var_lvt are equivalent.
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_AWHWK2 in circuit class_AB_v3_symmag (4)(5 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_4QFHB3 in circuit class_AB_v3_symmag (4)(5 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_WJMR3R in circuit class_AB_v3_symmag (4)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_64Z3AY in circuit class_AB_v3_symmag (4)(3 instances)
-Flattening unmatched subcell sky130_fd_pr__cap_var_lvt_CYVAFU in circuit class_AB_v3_symmag (4)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_AWHWK2 in circuit class_AB_v3_symmag (0)(5 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_4QFHB3 in circuit class_AB_v3_symmag (0)(5 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_WJMR3R in circuit class_AB_v3_symmag (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_64Z3AY in circuit class_AB_v3_symmag (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_var_lvt_CYVAFU in circuit class_AB_v3_symmag (0)(2 instances)
 
-Class class_AB_v3_symmag (4):  Merged 1 parallel devices.
+Class class_AB_v3_symmag (0):  Merged 1 parallel devices.
 Subcircuit summary:
 Circuit 1: class_AB_v3_symmag              |Circuit 2: class_AB_v3_sym                 
 -------------------------------------------|-------------------------------------------
