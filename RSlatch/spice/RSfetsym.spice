@@ -1,0 +1,18 @@
+** sch_path: /foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sch
+.subckt RSfetsym VDD !S !R !Q Q GND
+*.PININFO Q:O !Q:O !S:I !R:I VDD:B GND:B
+XM1 Q !S net1 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM2 net1 !Q GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM3 !Q !R net2 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM4 net2 Q GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM5 Q !Q VDD VDD sky130_fd_pr__pfet_01v8 L=0.30 W=2 nf=1 m=1
+XM6 !Q Q VDD VDD sky130_fd_pr__pfet_01v8 L=0.30 W=2 nf=1 m=1
+XM7 Q !S VDD VDD sky130_fd_pr__pfet_01v8 L=0.25 W=4 nf=2 m=1
+XM8 !Q !R VDD VDD sky130_fd_pr__pfet_01v8 L=0.25 W=4 nf=2 m=1
+XM9 Q net3 GND GND sky130_fd_pr__nfet_01v8 L=0.25 W=2 nf=1 m=1
+XM10 !Q net4 GND GND sky130_fd_pr__nfet_01v8 L=0.25 W=2 nf=1 m=1
+x2 !R GND GND VDD VDD net3 sky130_fd_sc_hd__inv_4
+x1 !S GND GND VDD VDD net4 sky130_fd_sc_hd__inv_4
+.ends
+.GLOBAL GND
+.end
