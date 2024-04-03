@@ -226,7 +226,7 @@ lab=VIP}
 N 720 -480 780 -480 {
 lab=VIN}
 N 640 -530 680 -530 {
-lab=VSS}
+lab=#net4}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 500 -390 0 0 {name=M17
 L=0.6
 W=4
@@ -455,6 +455,6 @@ C {devices/lab_pin.sym} 1220 -220 0 1 {name=p25 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 660 -390 3 1 {name=p28 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 260 -160 0 1 {name=p29 sig_type=std_logic lab=VSS}
 C {devices/ipin.sym} 1140 -310 0 0 {name=p30 lab=CLK}
-C {devices/iopin.sym} 660 -530 3 1 {name=p1 lab=VSS}
 C {sky130_fd_pr/cap_var_lvt.sym} 600 -510 2 0 {name=C1 model=cap_var_lvt W=2 L=0.18 VM=1 spiceprefix=X}
 C {sky130_fd_pr/cap_var_lvt.sym} 720 -510 2 1 {name=C2 model=cap_var_lvt W=2 L=0.18 VM=1 spiceprefix=X}
+C {devices/lab_pin.sym} 660 -530 3 0 {name=p1 sig_type=std_logic lab=VSS}

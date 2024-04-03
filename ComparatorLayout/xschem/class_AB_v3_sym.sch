@@ -169,28 +169,6 @@ N 860 -480 860 -390 {
 lab=VIN}
 N 520 -390 760 -390 {
 lab=VSS}
-N 580 -450 580 -440 {
-lab=#net2}
-N 580 -440 600 -440 {
-lab=#net2}
-N 600 -520 600 -440 {
-lab=#net2}
-N 580 -520 600 -520 {
-lab=#net2}
-N 580 -520 580 -510 {
-lab=#net2}
-N 740 -520 740 -510 {
-lab=#net3}
-N 720 -520 740 -520 {
-lab=#net3}
-N 720 -520 720 -450 {
-lab=#net3}
-N 720 -450 720 -440 {
-lab=#net3}
-N 720 -440 740 -440 {
-lab=#net3}
-N 740 -450 740 -440 {
-lab=#net3}
 N 800 -840 800 -800 {
 lab=VDD}
 N 520 -840 520 -800 {
@@ -215,26 +193,10 @@ N 950 -480 950 -440 {
 lab=CLK}
 N 950 -700 950 -520 {
 lab=VDD}
-N 600 -540 600 -520 {
-lab=#net2}
-N 600 -540 720 -620 {
-lab=#net2}
-N 720 -620 800 -620 {
-lab=#net2}
-N 720 -540 720 -520 {
-lab=#net3}
-N 600 -620 720 -540 {
-lab=#net3}
-N 520 -620 600 -620 {
-lab=#net3}
 N 800 -770 840 -770 {
 lab=VSS}
 N 480 -770 520 -770 {
 lab=VSS}
-N 580 -480 600 -480 {
-lab=#net2}
-N 720 -480 740 -480 {
-lab=#net3}
 N 980 -700 1340 -700 {
 lab=VON}
 N 950 -610 1000 -610 {
@@ -251,6 +213,20 @@ N 1220 -240 1220 -220 {
 lab=VSS}
 N 260 -180 260 -160 {
 lab=VSS}
+N 600 -540 720 -620 {
+lab=#net2}
+N 720 -620 800 -620 {
+lab=#net2}
+N 600 -620 720 -540 {
+lab=#net3}
+N 520 -620 600 -620 {
+lab=#net3}
+N 540 -480 600 -480 {
+lab=VIP}
+N 720 -480 780 -480 {
+lab=VIN}
+N 640 -530 680 -530 {
+lab=#net4}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 500 -390 0 0 {name=M17
 L=0.6
 W=4
@@ -402,34 +378,6 @@ spiceprefix=X
 }
 C {devices/lab_pin.sym} 1220 -540 3 0 {name=p3 sig_type=std_logic lab=CLK}
 C {devices/lab_pin.sym} 1220 -640 1 0 {name=p6 sig_type=std_logic lab=VDD}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 560 -480 0 0 {name=M5
-L=0.15
-W=2
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 760 -480 0 1 {name=M8
-L=0.15
-W=2
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 950 -500 1 1 {name=M9
 L=0.35
 W=4
@@ -507,3 +455,6 @@ C {devices/lab_pin.sym} 1220 -220 0 1 {name=p25 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 660 -390 3 1 {name=p28 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 260 -160 0 1 {name=p29 sig_type=std_logic lab=VSS}
 C {devices/ipin.sym} 1140 -310 0 0 {name=p30 lab=CLK}
+C {sky130_fd_pr/cap_var_lvt.sym} 600 -510 2 0 {name=C1 model=cap_var_lvt W=2 L=0.18 VM=1 spiceprefix=X}
+C {sky130_fd_pr/cap_var_lvt.sym} 720 -510 2 1 {name=C2 model=cap_var_lvt W=2 L=0.18 VM=1 spiceprefix=X}
+C {devices/lab_pin.sym} 660 -530 3 0 {name=p1 sig_type=std_logic lab=VSS}
