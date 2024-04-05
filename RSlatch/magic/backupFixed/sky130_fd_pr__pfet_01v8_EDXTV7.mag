@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1712340251
+timestamp 1712020331
 << error_p >>
 rect 25 281 83 287
 rect 25 247 37 281
@@ -35,13 +35,15 @@ rect 91 -188 125 188
 rect -239 349 -143 383
 rect 143 349 239 383
 rect -239 287 -205 349
+rect 205 287 239 349
 rect -239 -349 -205 -287
-rect 205 -349 239 349
+rect 205 -349 239 -287
 rect -239 -383 -143 -349
 rect 143 -383 239 -349
 << nsubdiffcont >>
 rect -143 349 143 383
 rect -239 -287 -205 287
+rect 205 -287 239 287
 rect -143 -383 143 -349
 << poly >>
 rect 21 281 87 297
@@ -63,6 +65,7 @@ rect -71 -281 -37 -247
 rect -239 349 -143 383
 rect 143 349 239 383
 rect -239 287 -205 349
+rect 205 287 239 349
 rect 21 247 37 281
 rect 71 247 87 281
 rect -125 188 -91 204
@@ -74,7 +77,7 @@ rect 91 -204 125 -188
 rect -87 -281 -71 -247
 rect -37 -281 -21 -247
 rect -239 -349 -205 -287
-rect 205 -349 239 349
+rect 205 -349 239 -287
 rect -239 -383 -143 -349
 rect 143 -383 239 -349
 << viali >>
@@ -108,5 +111,5 @@ rect -83 -287 -25 -281
 string FIXED_BBOX -222 -366 222 366
 string gencell sky130_fd_pr__pfet_01v8
 string library sky130
-string parameters w 2.0 l 0.25 m 1 nf 2 diffcov 100 polycov 100 guard 1 glc 1 grc 0 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__pfet_01v8  sky130_fd_pr__pfet_01v8_lvt sky130_fd_pr__pfet_01v8_hvt  sky130_fd_pr__pfet_g5v0d10v5} full_metal 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
+string parameters w 2.0 l 0.25 m 1 nf 2 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__pfet_01v8  sky130_fd_pr__pfet_01v8_lvt sky130_fd_pr__pfet_01v8_hvt  sky130_fd_pr__pfet_g5v0d10v5} full_metal 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
 << end >>
