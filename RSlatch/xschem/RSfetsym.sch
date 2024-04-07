@@ -6,23 +6,23 @@ V {}
 S {}
 E {}
 N 110 -910 140 -910 {
-lab=!S}
+lab=S}
 N 880 -910 910 -910 {
-lab=!R}
+lab=R}
 N 350 -780 350 -740 {
 lab=#net1}
 N 660 -780 660 -740 {
 lab=#net2}
 N 270 -710 310 -710 {
-lab=!Q}
+lab=QN}
 N 270 -910 270 -710 {
-lab=!Q}
+lab=QN}
 N 270 -910 310 -910 {
-lab=!Q}
+lab=QN}
 N 350 -880 350 -840 {
 lab=Q}
 N 660 -880 660 -840 {
-lab=!Q}
+lab=QN}
 N 350 -810 370 -810 {
 lab=GND}
 N 630 -810 660 -810 {
@@ -32,9 +32,9 @@ lab=GND}
 N 350 -710 370 -710 {
 lab=GND}
 N 350 -680 660 -680 {
-lab=VDD}
+lab=GND}
 N 510 -680 510 -650 {
-lab=VDD}
+lab=GND}
 N 510 -1010 510 -970 {
 lab=VDD}
 N 350 -970 480 -970 {
@@ -60,7 +60,7 @@ lab=VDD}
 N 350 -850 700 -850 {
 lab=Q}
 N 270 -860 660 -860 {
-lab=!Q}
+lab=QN}
 N 700 -710 740 -710 {
 lab=Q}
 N 740 -910 740 -710 {
@@ -92,25 +92,25 @@ lab=VDD}
 N 660 -970 840 -970 {
 lab=VDD}
 N 660 -880 840 -880 {
-lab=!Q}
+lab=QN}
 N 140 -810 310 -810 {
-lab=!S}
+lab=S}
 N 140 -910 140 -810 {
-lab=!S}
+lab=S}
 N 700 -810 880 -810 {
-lab=!R}
+lab=R}
 N 880 -910 880 -810 {
-lab=!R}
+lab=R}
 N 210 -680 350 -680 {
-lab=VDD}
+lab=GND}
 N 210 -710 230 -710 {
 lab=GND}
 N 800 -760 800 -740 {
-lab=!Q}
+lab=QN}
 N 650 -680 800 -680 {
-lab=VDD}
+lab=GND}
 N 140 -810 140 -520 {
-lab=!S}
+lab=S}
 N 170 -710 170 -580 {
 lab=#net3}
 N 170 -580 170 -570 {
@@ -118,13 +118,13 @@ lab=#net3}
 N 170 -570 480 -570 {
 lab=#net3}
 N 140 -520 140 -510 {
-lab=!S}
+lab=S}
 N 140 -510 480 -510 {
-lab=!S}
+lab=S}
 N 560 -570 880 -570 {
-lab=!R}
+lab=R}
 N 880 -810 880 -570 {
-lab=!R}
+lab=R}
 N 840 -710 840 -510 {
 lab=#net4}
 N 560 -510 840 -510 {
@@ -132,9 +132,9 @@ lab=#net4}
 N 780 -710 800 -710 {
 lab=GND}
 N 660 -860 800 -860 {
-lab=!Q}
+lab=QN}
 N 800 -860 800 -760 {
-lab=!Q}
+lab=QN}
 N 210 -850 350 -850 {
 lab=Q}
 N 210 -850 210 -740 {
@@ -288,8 +288,8 @@ C {sky130_stdcells/inv_4.sym} 520 -570 0 1 {name=x2 VGND=GND VNB=GND VPB=VDD VPW
 C {sky130_stdcells/inv_4.sym} 520 -510 0 0 {name=x1 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/gnd.sym} 780 -710 0 1 {name=l10 lab=GND}
 C {devices/opin.sym} 740 -850 0 0 {name=p1 lab=Q}
-C {devices/opin.sym} 270 -860 0 1 {name=p4 lab=!Q}
-C {devices/ipin.sym} 110 -910 0 0 {name=p5 lab=!S}
-C {devices/ipin.sym} 910 -910 0 1 {name=p2 lab=!R}
+C {devices/opin.sym} 270 -860 0 1 {name=p4 lab=QN}
+C {devices/ipin.sym} 110 -910 0 0 {name=p5 lab=S}
+C {devices/ipin.sym} 910 -910 0 1 {name=p2 lab=R}
 C {devices/iopin.sym} 510 -1010 0 0 {name=p3 lab=VDD}
 C {devices/iopin.sym} 510 -650 0 0 {name=p6 lab=GND}
