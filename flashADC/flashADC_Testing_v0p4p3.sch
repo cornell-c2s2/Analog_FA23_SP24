@@ -6,8 +6,8 @@ V {}
 S {}
 E {}
 B 2 3025 -2178.75 3825 -1778.75 {flags=graph
-y1=1.08
-y2=2.88
+y1=-0.36
+y2=1.44
 ypos1=0
 ypos2=2
 divy=5
@@ -515,33 +515,9 @@ logx=0
 logy=0
 color=4
 node=clk}
-B 2 1985 -4078.75 2785 -3678.75 {flags=graph
-y1=-0.0013
-y2=1.9
-ypos1=0
-ypos2=2
-divy=5
-subdivy=1
-unity=1
-x1=0
-x2=2.4e-07
-divx=5
-subdivx=1
-xlabmag=1.0
-ylabmag=1.0
-node="y16
-x16
-q16
-bufout"
-color="4 21 7 6"
-dataset=-1
-unitx=1
-logx=0
-logy=0
-hilight_wave=3}
 B 2 3040 -1686.25 3840 -1286.25 {flags=graph
-y1=1.51892
-y2=3.42432
+y1=-0.0054
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
@@ -609,7 +585,7 @@ logy=0
 color=8
 node=out1}
 B 2 3840 -1286.25 4640 -886.25 {flags=graph
-y1=-0.0054
+y1=-0.0058
 y2=1.9
 ypos1=0
 ypos2=2
@@ -655,7 +631,7 @@ color=4
 node=clk
 hilight_wave=0}
 B 2 3041.25 -886.25 3840 -443.75 {flags=graph
-y1=0.5
+y1=0.49
 y2=1.9
 ypos1=0
 ypos2=2
@@ -704,31 +680,6 @@ color="4 5 6"
 node="y5
 q5
 out0"}
-B 2 1476.25 -646.25 2275 -203.75 {flags=graph
-y1=0.5
-y2=1.9
-ypos1=0
-ypos2=2
-divy=5
-subdivy=1
-unity=1
-x1=0
-x2=2.4e-07
-divx=5
-subdivx=1
-xlabmag=1.0
-ylabmag=1.0
-
-
-dataset=-1
-unitx=1
-logx=0
-logy=0
-
-
-hilight_wave=0
-color=10
-node=vin}
 N 593.75 -901.25 593.75 -881.25 {
 lab=V2}
 N 593.75 -801.25 593.75 -781.25 {
@@ -1265,17 +1216,51 @@ N 593.75 -2221.25 593.75 -2201.25 {
 lab=V15}
 N 593.75 -2321.25 593.75 -2301.25 {
 lab=V16}
+N 1872.5 -1711.25 1872.5 -1661.25 {
+lab=Q10}
+N 1892.5 -1691.25 1892.5 -1561.25 {
+lab=Q9}
+N 1912.5 -1671.25 1912.5 -1461.25 {
+lab=Q8}
+N 1922.5 -1651.25 1922.5 -1361.25 {
+lab=Q7}
+N 1942.5 -1631.25 1942.5 -1261.25 {
+lab=Q6}
+N 1962.5 -1611.25 1962.5 -1161.25 {
+lab=Q5}
+N 1972.5 -1591.25 1972.5 -1061.25 {
+lab=Q4}
+N 1982.5 -1561.25 1982.5 -961.25 {
+lab=Q3}
+N 1982.5 -1571.25 1982.5 -1561.25 {
+lab=Q3}
+N 1992.5 -1551.25 1992.5 -861.25 {
+lab=Q2}
+N 2002.5 -1531.25 2002.5 -761.25 {
+lab=Q1}
 N 1602.5 -2261.25 1963.75 -2261.25 {
+lab=Q16}
+N 1963.75 -2261.25 1963.75 -2241.25 {
 lab=Q16}
 N 1602.5 -2161.25 1942.5 -2161.25 {
 lab=Q15}
+N 1942.5 -2161.25 1942.5 -2141.25 {
+lab=Q15}
 N 1602.5 -2061.25 1922.5 -2061.25 {
+lab=Q14}
+N 1922.5 -2061.25 1922.5 -2041.25 {
 lab=Q14}
 N 1602.5 -1961.25 1902.5 -1961.25 {
 lab=Q13}
+N 1902.5 -1961.25 1902.5 -1942.5 {
+lab=Q13}
 N 1602.5 -1861.25 1882.5 -1861.25 {
 lab=Q12}
+N 1882.5 -1861.25 1882.5 -1841.25 {
+lab=Q12}
 N 1602.5 -1761.25 1862.5 -1761.25 {
+lab=Q11}
+N 1862.5 -1761.25 1862.5 -1741.25 {
 lab=Q11}
 N 1602.5 -1661.25 1872.5 -1661.25 {
 lab=Q10}
@@ -1299,8 +1284,70 @@ N 1602.5 -761.25 2002.5 -761.25 {
 lab=Q1}
 N 463.75 -42.5 463.75 -12.5 {
 lab=GND}
-N 1303.75 -2310 1303.75 -2281.25 {
-lab=bufout}
+N 2002.5 -1532.5 2002.5 -1531.25 {
+lab=Q1}
+N 2002.5 -1532.5 2145 -1532.5 {
+lab=Q1}
+N 1992.5 -1552.5 1992.5 -1551.25 {
+lab=Q2}
+N 1992.5 -1552.5 2143.75 -1552.5 {
+lab=Q2}
+N 1982.5 -1572.5 1982.5 -1571.25 {
+lab=Q3}
+N 1982.5 -1572.5 2143.75 -1572.5 {
+lab=Q3}
+N 1972.5 -1592.5 1972.5 -1591.25 {
+lab=Q4}
+N 1972.5 -1592.5 2145 -1592.5 {
+lab=Q4}
+N 1962.5 -1612.5 1962.5 -1611.25 {
+lab=Q5}
+N 1962.5 -1612.5 2143.75 -1612.5 {
+lab=Q5}
+N 1942.5 -1632.5 1942.5 -1631.25 {
+lab=Q6}
+N 1942.5 -1632.5 2143.75 -1632.5 {
+lab=Q6}
+N 1922.5 -1652.5 1922.5 -1651.25 {
+lab=Q7}
+N 1922.5 -1652.5 2145 -1652.5 {
+lab=Q7}
+N 1912.5 -1672.5 1912.5 -1671.25 {
+lab=Q8}
+N 1912.5 -1672.5 2143.75 -1672.5 {
+lab=Q8}
+N 1892.5 -1692.5 2143.75 -1692.5 {
+lab=Q9}
+N 1892.5 -1692.5 1892.5 -1691.25 {
+lab=Q9}
+N 1872.5 -1712.5 2143.75 -1712.5 {
+lab=Q10}
+N 1872.5 -1712.5 1872.5 -1711.25 {
+lab=Q10}
+N 1862.5 -1732.5 2143.75 -1732.5 {
+lab=Q11}
+N 1862.5 -1741.25 1862.5 -1732.5 {
+lab=Q11}
+N 1882.5 -1752.5 2143.75 -1752.5 {
+lab=Q12}
+N 1882.5 -1841.25 1882.5 -1752.5 {
+lab=Q12}
+N 1902.5 -1772.5 2143.75 -1772.5 {
+lab=Q13}
+N 1902.5 -1942.5 1902.5 -1772.5 {
+lab=Q13}
+N 1922.5 -2041.25 1922.5 -1792.5 {
+lab=Q14}
+N 1922.5 -1792.5 2143.75 -1792.5 {
+lab=Q14}
+N 1942.5 -2141.25 1942.5 -1812.5 {
+lab=Q15}
+N 1942.5 -1812.5 2143.75 -1812.5 {
+lab=Q15}
+N 1963.75 -2241.25 1963.75 -1832.5 {
+lab=Q16}
+N 1963.75 -1832.5 2146.25 -1832.5 {
+lab=Q16}
 C {devices/vsource.sym} 593.75 -351.25 0 0 {name=V3 value="sin(1.1 0.5 12.5MEG)" savecurrent=false}
 C {devices/gnd.sym} 593.75 -281.25 0 0 {name=l34 lab=GND}
 C {devices/lab_pin.sym} 593.75 -521.25 2 0 {name=p196 sig_type=std_logic lab=V_IGNORE}
@@ -1410,7 +1457,7 @@ C {devices/code_shown.sym} 1203.75 -221.25 0 0 {name=COMMANDS only_toplevel=fals
 save all
 
 tran 0.005n 240n
-write flashADC_Testing_v0p4p2.raw
+write flashADC_Testing_v0p4p3.raw
 
 .endc
 "}
@@ -1661,26 +1708,10 @@ value=1k
 footprint=1206
 device=resistor
 m=1}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -771.25 0 0 {name=x1}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -871.25 0 0 {name=x2}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -971.25 0 0 {name=x3}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1071.25 0 0 {name=x4}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1171.25 0 0 {name=x5}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1271.25 0 0 {name=x6}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1371.25 0 0 {name=x7}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1471.25 0 0 {name=x8}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1571.25 0 0 {name=x9}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1671.25 0 0 {name=x10}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1771.25 0 0 {name=x11}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1871.25 0 0 {name=x12}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -1971.25 0 0 {name=x13}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -2071.25 0 0 {name=x14}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -2171.25 0 0 {name=x15}
-C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v2_sym.sym} 963.75 -2271.25 0 0 {name=x16}
-C {devices/code.sym} 1253.75 -441.25 0 0 {name=SS_MODELS
+C {devices/code.sym} 1253.75 -441.25 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
-value=".lib $::SKYWATER_MODELS/sky130.lib.spice ss
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 .include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
 "
 spice_ignore=false
@@ -1733,6 +1764,10 @@ C {devices/noconn.sym} 1603.75 -1941.25 2 0 {name=l69}
 C {devices/noconn.sym} 1603.75 -2041.25 2 0 {name=l70}
 C {devices/noconn.sym} 1603.75 -2141.25 2 0 {name=l71}
 C {devices/noconn.sym} 1603.75 -2241.25 2 0 {name=l72}
+C {devices/lab_pin.sym} 2442.5 -1872.5 2 0 {name=p158 sig_type=std_logic lab=OUT2}
+C {devices/lab_pin.sym} 2442.5 -1852.5 2 0 {name=p159 sig_type=std_logic lab=OUT1}
+C {devices/lab_pin.sym} 2442.5 -1832.5 2 0 {name=p160 sig_type=std_logic lab=OUT0}
+C {devices/lab_pin.sym} 2442.5 -1892.5 2 0 {name=p162 sig_type=std_logic lab=OUT3}
 C {devices/vdd.sym} 593.75 -121.25 0 0 {name=l80 lab=VDD}
 C {devices/lab_pin.sym} 463.75 -42.5 1 0 {name=p164 sig_type=std_logic lab=GND}
 C {devices/gnd.sym} 463.75 -12.5 0 0 {name=l81 lab=GND}
@@ -1752,52 +1787,73 @@ C {devices/lab_pin.sym} 1677.5 -1061.25 2 0 {name=p168 sig_type=std_logic lab=Q4
 C {devices/lab_pin.sym} 1677.5 -961.25 2 0 {name=p169 sig_type=std_logic lab=Q3}
 C {devices/lab_pin.sym} 1677.5 -861.25 2 0 {name=p170 sig_type=std_logic lab=Q2}
 C {devices/lab_pin.sym} 1677.5 -761.25 2 0 {name=p171 sig_type=std_logic lab=Q1}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -2251.25 0 0 {name=x32}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -2151.25 0 0 {name=x17}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -2051.25 0 0 {name=x18}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1951.25 0 0 {name=x19}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1851.25 0 0 {name=x20}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1751.25 0 0 {name=x21}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1651.25 0 0 {name=x22}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1551.25 0 0 {name=x23}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1451.25 0 0 {name=x24}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1351.25 0 0 {name=x25}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1251.25 0 0 {name=x26}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1151.25 0 0 {name=x27}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -1051.25 0 0 {name=x28}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -951.25 0 0 {name=x29}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -851.25 0 0 {name=x30}
-C {/foss/designs/Analog_FA23_SP24/flashADC/RSfetsym.sym} 1453.75 -751.25 0 0 {name=x31}
+C {devices/gnd.sym} 2142.5 -1892.5 0 0 {name=l40 lab=GND}
+C {devices/lab_pin.sym} 2142.5 -1872.5 0 0 {name=p161 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 2142.5 -1852.5 0 0 {name=p172 sig_type=std_logic lab=VDD}
 C {sky130_stdcells/buf_1.sym} 1263.75 -2281.25 0 0 {name=x64 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -2261.25 0 0 {name=x33 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -2181.25 0 0 {name=x34 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -2161.25 0 0 {name=x35 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -2081.25 0 0 {name=x36 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -2061.25 0 0 {name=x37 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1981.25 0 0 {name=x38 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1961.25 0 0 {name=x39 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1881.25 0 0 {name=x40 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1861.25 0 0 {name=x41 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1781.25 0 0 {name=x42 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1761.25 0 0 {name=x43 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1681.25 0 0 {name=x44 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1661.25 0 0 {name=x45 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1581.25 0 0 {name=x46 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1561.25 0 0 {name=x47 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1481.25 0 0 {name=x48 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1461.25 0 0 {name=x49 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1381.25 0 0 {name=x50 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1361.25 0 0 {name=x51 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1281.25 0 0 {name=x52 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1261.25 0 0 {name=x53 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1181.25 0 0 {name=x54 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1161.25 0 0 {name=x55 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1081.25 0 0 {name=x56 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -1061.25 0 0 {name=x57 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -981.25 0 0 {name=x58 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -961.25 0 0 {name=x59 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -881.25 0 0 {name=x60 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -861.25 0 0 {name=x61 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -781.25 0 0 {name=x62 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/buf_1.sym} 1263.75 -761.25 0 0 {name=x63 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {devices/lab_pin.sym} 1303.75 -2310 0 0 {name=p158 sig_type=std_logic lab=bufout}
+C {sky130_stdcells/buf_1.sym} 1263.75 -2261.25 0 0 {name=x34 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -2181.25 0 0 {name=x35 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -2161.25 0 0 {name=x36 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -2081.25 0 0 {name=x37 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -2061.25 0 0 {name=x38 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1981.25 0 0 {name=x39 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1961.25 0 0 {name=x40 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1881.25 0 0 {name=x41 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1861.25 0 0 {name=x42 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1781.25 0 0 {name=x43 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1761.25 0 0 {name=x44 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1681.25 0 0 {name=x45 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1661.25 0 0 {name=x46 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1581.25 0 0 {name=x47 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1561.25 0 0 {name=x48 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1481.25 0 0 {name=x49 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1461.25 0 0 {name=x50 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1381.25 0 0 {name=x51 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1361.25 0 0 {name=x52 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1281.25 0 0 {name=x53 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1261.25 0 0 {name=x54 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1181.25 0 0 {name=x55 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1161.25 0 0 {name=x56 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1081.25 0 0 {name=x57 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -1061.25 0 0 {name=x58 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -981.25 0 0 {name=x59 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -961.25 0 0 {name=x60 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -881.25 0 0 {name=x61 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -861.25 0 0 {name=x62 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -781.25 0 0 {name=x63 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_1.sym} 1263.75 -761.25 0 0 {name=x65 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -2171.25 0 0 {name=x1}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -2271.25 0 0 {name=x2}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -2171.25 0 0 {name=x3}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -2271.25 0 0 {name=x4}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1971.25 0 0 {name=x5}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -2071.25 0 0 {name=x6}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1771.25 0 0 {name=x7}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1871.25 0 0 {name=x8}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1571.25 0 0 {name=x9}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1671.25 0 0 {name=x10}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1371.25 0 0 {name=x11}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1471.25 0 0 {name=x12}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1171.25 0 0 {name=x13}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1271.25 0 0 {name=x14}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -971.25 0 0 {name=x15}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -1071.25 0 0 {name=x16}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -771.25 0 0 {name=x17}
+C {/foss/designs/Analog_FA23_SP24/strongARM/class_AB_v3_sym.sym} 963.75 -871.25 0 0 {name=x18}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -2251.25 0 0 {name=x19}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -2151.25 0 0 {name=x20}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -2051.25 0 0 {name=x21}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1951.25 0 0 {name=x22}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1851.25 0 0 {name=x23}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1751.25 0 0 {name=x24}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1651.25 0 0 {name=x25}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1551.25 0 0 {name=x26}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1451.25 0 0 {name=x27}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1351.25 0 0 {name=x28}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1251.25 0 0 {name=x29}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1151.25 0 0 {name=x30}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1051.25 0 0 {name=x31}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -951.25 0 0 {name=x32}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -851.25 0 0 {name=x33}
+C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -751.25 0 0 {name=x66}
+C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sym} 2292.5 -1712.5 0 0 {name=x67}

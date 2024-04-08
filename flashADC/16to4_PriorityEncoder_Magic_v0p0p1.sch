@@ -169,6 +169,8 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
+C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/8to3_Priority_Encoder_v0p2p0.sym} 337.5 -55 0 0 {name=x3}
+C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/8to3_Priority_Encoder_v0p2p0.sym} 337.5 207.5 0 0 {name=x4}
 C {devices/ipin.sym} 237.5 -95 0 0 {name=p19 lab=I14}
 C {devices/ipin.sym} 237.5 -75 0 0 {name=p20 lab=I13}
 C {devices/ipin.sym} 237.5 -55 0 0 {name=p21 lab=I12}
@@ -322,8 +324,4 @@ C {sky130_stdcells/or2_1.sym} 707.5 212.5 0 0 {name=x1 VGND=GND VNB=GND VPB=VDD 
 C {sky130_stdcells/or2_1.sym} 707.5 432.5 0 0 {name=x2 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {devices/ipin.sym} 237.5 -115 0 0 {name=p2 lab=I15
 }
-C {devices/noconn.sym} 487.5 127.5 2 0 {name=l1}
-C {devices/noconn.sym} 487.5 147.5 2 0 {name=l2}
 C {devices/ipin.sym} 237.5 -135 0 0 {name=p1 lab=EI}
-C {/foss/designs/Analog_FA23_SP24/flashADC/8to3_Priority_Encoder_v0p2p0.sym} 337.5 -55 0 0 {name=x5}
-C {/foss/designs/Analog_FA23_SP24/flashADC/8to3_Priority_Encoder_v0p2p0.sym} 337.5 207.5 0 0 {name=x3}

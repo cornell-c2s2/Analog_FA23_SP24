@@ -1,0 +1,42 @@
+| units: 500000 tech: sky130A format: MIT
+x IB VSS a_810_n2630# VSS s=46400,1716 d=46400,1716 l=120 w=800 x=810 y=-2749 sky130_fd_pr__nfet_01v8_lvt
+x CLK VON w_1880_n1260# VDD s=46400,1716 d=46400,1716 l=70 w=800 x=706 y=-2180 sky130_fd_pr__pfet_01v8_lvt
+x VIP w_1258_n1260# VSS s=38800,994 l=36 w=400 x=1391 y=-1141 sky130_fd_pr__cap_var_lvt
+x IB IB VSS VSS s=46400,1716 d=46400,1716 l=120 w=800 x=386 y=-3439 sky130_fd_pr__nfet_01v8_lvt
+x CLK w_1258_n1260# VOP VDD s=46400,1716 d=46400,1716 l=70 w=800 x=2666 y=-2190 sky130_fd_pr__pfet_01v8_lvt
+x IB VSS a_810_n2630# VSS s=46400,1716 d=46400,1716 l=120 w=800 x=1828 y=-2749 sky130_fd_pr__nfet_01v8_lvt
+x VIP w_1880_n1260# a_810_n2630# VSS s=46400,1716 d=46400,1716 l=120 w=800 x=1456 y=-2329 sky130_fd_pr__nfet_01v8_lvt
+x CLK VON VOP VDD s=46400,1716 d=46400,1716 l=70 w=800 x=1319 y=216 sky130_fd_pr__pfet_01v8_lvt
+x CLK w_1880_n1260# VDD VSS s=46400,1716 d=46400,1716 l=120 w=800 x=1874 y=-393 sky130_fd_pr__nfet_01v8_lvt
+x CLK w_1258_n1260# VDD VSS s=46400,1716 d=46400,1716 l=120 w=800 x=760 y=-393 sky130_fd_pr__nfet_01v8_lvt
+x CLK a_872_n982# VSS VSS s=11600,516 d=11600,516 l=30 w=200 x=3236 y=-971 sky130_fd_pr__nfet_01v8_lvt
+x VON a_872_n982# VOP VSS s=11600,516 d=11600,516 l=30 w=200 x=872 y=-923 sky130_fd_pr__nfet_01v8_lvt
+x VIN w_1880_n1260# VSS s=38800,994 l=36 w=400 x=2013 y=-1141 sky130_fd_pr__cap_var_lvt
+x VOP a_872_n982# VON VSS s=11600,516 d=11600,516 l=30 w=200 x=2368 y=-933 sky130_fd_pr__nfet_01v8_lvt
+x VIN a_810_n2630# w_1258_n1260# VSS s=46400,1716 d=46400,1716 l=120 w=800 x=1862 y=-2329 sky130_fd_pr__nfet_01v8_lvt
+x VOP VON VDD VDD s=46400,1716 d=46400,1716 l=70 w=800 x=3022 y=-2190 sky130_fd_pr__pfet_01v8_lvt
+x VON VDD VOP VDD s=46400,1716 d=46400,1716 l=70 w=800 x=350 y=-2180 sky130_fd_pr__pfet_01v8_lvt
+C VON VDD 2.9
+C CLK VOP 2.6
+C CLK VDD 2.4
+C VOP VDD 2.7
+C VON VOP 3.2
+C IB0 3.4
+R IB 3785
+C VIN0 2.2
+R VIN 1205
+R VIP 1204
+R VON 11770
+C CLK0 3.2
+R CLK 4113
+R VOP 11770
+C VDD0 15.9
+R VDD 67504
+R VSS 146055
+C a_810_n2630#0 2.7
+R a_810_n2630# 8672
+R a_872_n982# 2114
+C w_1880_n1260#0 2.7
+R w_1880_n1260# 10976
+C w_1258_n1260#0 2.7
+R w_1258_n1260# 10977
