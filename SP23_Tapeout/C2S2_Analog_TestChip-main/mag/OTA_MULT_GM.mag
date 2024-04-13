@@ -1,0 +1,39 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1683391037
+<< metal1 >>
+rect -190 4120 -180 4210
+rect -92 4120 -82 4210
+rect -200 1930 -190 1990
+rect -130 1930 -90 1990
+rect -30 1930 10 1990
+rect 70 1930 110 1990
+rect 170 1930 180 1990
+rect -200 1910 180 1930
+<< via1 >>
+rect -180 4120 -92 4210
+rect -190 1930 -130 1990
+rect -90 1930 -30 1990
+rect 10 1930 70 1990
+rect 110 1930 170 1990
+<< metal2 >>
+rect -210 4210 190 4260
+rect -210 4120 -180 4210
+rect -92 4120 190 4210
+rect -210 1990 190 4120
+rect -210 1930 -190 1990
+rect -130 1930 -90 1990
+rect -30 1930 10 1990
+rect 70 1930 110 1990
+rect 170 1930 190 1990
+rect -210 1910 190 1930
+use constant_gm_local_030423  constant_gm_local_030423_0
+timestamp 1683391037
+transform 1 0 4 0 1 362
+box -4170 -15020 4040 3640
+use ota_3_11_23_nonflat  ota_3_11_23_nonflat_0
+timestamp 1683391037
+transform 1 0 -31 0 1 3926
+box -10013 -60 10243 13190
+<< end >>
