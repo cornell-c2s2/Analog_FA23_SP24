@@ -1,693 +1,249 @@
-timestamp 1713027243
+timestamp 1713128413
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
-use OTA_fingers_031123_NON_FLAT#0 OTA_fingers_031123_NON_FLAT#0_0 1 0 42740 0 1 684710
-use constant_gm_fingers#0 constant_gm_fingers#0_0 1 0 43810 0 1 682900
-use diode_connected_nmos diode_connected_nmos_3 1 0 60844 0 1 684520
-use diode_connected_nmos diode_connected_nmos_0 1 0 16868 0 1 688490
-use diode_connected_nmos diode_connected_nmos_1 1 0 6468 0 1 688490
-use diode_connected_nmos diode_connected_nmos_7 1 0 71244 0 1 684520
-port "VOUT" 6 29800 686400 30800 687400 m3
-port "VDDA" 5 52400 680000 56400 684000 m4
+use OTA_fingers_031123_NON_FLAT OTA_fingers_031123_NON_FLAT_0 1 0 42740 0 1 684710
+use constant_gm_fingers constant_gm_fingers_0 1 0 43810 0 1 682900
 port "VSS" 8 35200 662800 40000 665000 m4
-port "VP" 3 56683 689400 57683 690400 m3
+port "OUT" 9 29800 686400 30800 687400 m3
+port "VDD" 10 52400 680000 56400 682800 m4
 port "VN" 7 29800 687800 30800 688800 m3
-node "VOUT" 1 10553.4 29800 686400 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15060000 38000 0 0 0 0 0 0
-node "VDDA" 0 101536 52400 680000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22218400 59140 230819500 239128 0 0 0 0
+port "VP" 3 56683 689400 57683 690400 m3
+node "VSS" 0 58269.7 35200 662800 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 103689420 84220 60830000 93200 0 0
+node "OUT" 1 10628.2 29800 686400 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15060000 38000 0 0 0 0 0 0
+node "VDD" 1 27718.7 52400 680000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21358400 46240 48000000 32000 0 0 0 0
 node "m2_46640_683020#" 1 1517.7 46640 683020 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 636000 3980 201600 3600 0 0 0 0 0 0
 node "m2_42240_683020#" 1 1746.82 42240 683020 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 636000 3980 200400 3580 0 0 0 0 0 0
 node "m1_40920_662800#" 2 6091.33 40920 662800 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4428000 15960 0 0 0 0 0 0 0 0 0 0
-node "m1_71204_684480#" 1 711.979 71204 684480 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204800 2880 0 0 0 0 0 0 0 0 0 0
-node "m1_62024_685280#" 4 5981.74 62024 685280 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168000 2480 89600 2400 3880800 19320 0 0 0 0 0 0
-node "VSS" 2 64386.9 35200 662800 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84000 1240 44800 1200 4509960 22316 103689420 84220 60830000 93200 0 0
-node "m1_6408_688230#" 6 33188.2 6408 688230 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 642400 5480 260000 5960 42959040 84664 6837604 15400 0 0 0 0
+node "VN" 3 9070.03 29800 687800 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 540600 5540 46000 1520 12404000 26808 0 0 0 0 0 0
 node "m1_43870_689830#" 0 108.479 43870 689830 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14400 520 0 0 0 0 0 0 0 0 0 0
-node "VP" 5 46618.4 56683 689400 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 849000 8420 154000 3800 26826260 67322 77506604 60810 0 0 0 0
-node "VN" 6 47887.2 29800 687800 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 694200 7780 130000 4120 31377028 82544 79430400 51680 0 0 0 0
+node "VP" 3 8564.6 56683 689400 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 615000 6100 46000 1520 10584000 23168 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VDD" "m2_46640_683020#" 253.355
+cap "VP" "m1_43870_689830#" 5.46207
+cap "VDD" "VP" 11659.5
+cap "VSS" "VDD" 2326.46
+cap "OUT" "VN" 1949.12
 cap "VSS" "m1_40920_662800#" 26.1369
-cap "VDDA" "VSS" 7762.15
-cap "m1_6408_688230#" "VN" 18146.2
-cap "VDDA" "VP" 19424.8
 cap "m2_46640_683020#" "m2_42240_683020#" 5.80392
-cap "VP" "VSS" 1670.7
-cap "m1_62024_685280#" "m1_71204_684480#" 4.81991
-cap "VDDA" "VN" 8481.25
-cap "VSS" "VOUT" 58.2384
-cap "m1_43870_689830#" "VP" 5.46207
-cap "VN" "VOUT" 2010.84
-cap "m2_46640_683020#" "VDDA" 253.355
-cap "VDDA" "m1_6408_688230#" 10054.7
-cap "m1_62024_685280#" "VSS" 53.072
-cap "VP" "m1_62024_685280#" 6724.92
-cap "constant_gm_fingers#0_0/VSS" "VSS" 5.96748
-cap "constant_gm_fingers#0_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_2/a_n573_n7332#" "VSS" 12.4444
-cap "VSS" "constant_gm_fingers#0_0/VSS" 14.2239
-cap "VSS" "constant_gm_fingers#0_0/VSS" 10.2615
-cap "VSS" "constant_gm_fingers#0_0/VSS" 1.34296
-cap "VSS" "constant_gm_fingers#0_0/VSS" 4.54707
-cap "constant_gm_fingers#0_0/VDD" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" -1.77957
-cap "constant_gm_fingers#0_0/VDD" "constant_gm_fingers#0_0/Vout" 11.2367
-cap "constant_gm_fingers#0_0/VDD" "constant_gm_fingers#0_0/Vout" 51.6985
-cap "constant_gm_fingers#0_0/VDD" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 116.823
-cap "constant_gm_fingers#0_0/VDD" "constant_gm_fingers#0_0/Vout" 0.163143
-cap "constant_gm_fingers#0_0/VDD" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" -3.70914
-cap "constant_gm_fingers#0_0/Vout" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 0.0967307
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 5.12219
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/VDD" 12.5536
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/VDD" 294.084
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n803_n500#" "constant_gm_fingers#0_0/VDD" 0.629542
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 56.2655
-cap "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers#0_0/VDD" -5.69523
-cap "constant_gm_fingers#0_0/Vout" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 0.937279
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers#0_0/VDD" 17.6401
-cap "constant_gm_fingers#0_0/Vout" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 1.66724
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/VDD" 136.654
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_745_n500#" "constant_gm_fingers#0_0/VDD" 0.629542
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers#0_0/VDD" 56.7529
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 2.34694
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_229_n500#" "constant_gm_fingers#0_0/VDD" 0.629542
-cap "constant_gm_fingers#0_0/VDD" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 105.246
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n287_n500#" "constant_gm_fingers#0_0/VDD" 0.629542
-cap "constant_gm_fingers#0_0/Vout" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 0.915218
-cap "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers#0_0/VDD" 5.53762
-cap "constant_gm_fingers#0_0/VDD" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 1.71111
-cap "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers#0_0/Vout" 59.5635
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/VDD" 167.403
-cap "diode_connected_nmos_3/m1_n30_n30#" "VP" 0.340534
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "VP" 0.0657014
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "VP" 0.0188956
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "VP" 0.0179508
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "VP" 0.0188956
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "VP" 0.0188956
-cap "diode_connected_nmos_3/m1_n30_n30#" "VP" 1.35291
-cap "VP" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 1.06301
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "VP" 0.0170061
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/VDD" 6.28888
-cap "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers#0_0/Vout" 1.02612
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers#0_0/Vout" 0.0400979
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "constant_gm_fingers#0_0/Vout" 45.9034
-cap "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 36.568
-cap "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers#0_0/VDD" -0.238562
-cap "constant_gm_fingers#0_0/VDD" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 174.132
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "constant_gm_fingers#0_0/VDD" 0.0098458
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 9.87223
-cap "constant_gm_fingers#0_0/Vout" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 0.87929
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/VDD" 17.8168
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "constant_gm_fingers#0_0/VDD" 0.0295374
-cap "constant_gm_fingers#0_0/VDD" "constant_gm_fingers#0_0/Vout" 13.6226
-cap "constant_gm_fingers#0_0/VDD" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" -0.131209
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers#0_0/Vout" 7.32926
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 135.255
-cap "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers#0_0/Vout" 18.2792
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers#0_0/VDD" 473.163
-cap "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers#0_0/VDD" -0.107353
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/VDD" 18.6728
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers#0_0/VDD" 46.8566
-cap "constant_gm_fingers#0_0/Vout" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 5.90584
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers#0_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 2.47028
-cap "constant_gm_fingers#0_0/Vout" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 41.7016
-cap "constant_gm_fingers#0_0/Vout" "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" 4.24607
-cap "VP" "diode_connected_nmos_3/m1_n30_n30#" 0.476703
-cap "VP" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 0.0180963
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "VP" 0.00398488
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "VP" 0.00398488
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "VP" 0.00398488
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "VP" 0.147787
-cap "diode_connected_nmos_3/m1_n30_n30#" "VP" 2.03078
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "VP" 0.00398488
-cap "VP" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 0.00398488
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 1.15753
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 0.576197
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 1.15753
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" 1.15753
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 0.576197
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 0.576197
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 13.7503
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 0.576197
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 1.15753
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 3.2961
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 17.2754
-cap "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 542.165
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" 207.942
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n500_70#" -27.0441
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" -2.61416
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 4.62151
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -0.329125
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" 291.703
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n500_70#" 363.971
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 38.4881
-cap "constant_gm_fingers#0_0/VDD" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 0.057055
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" -16.9756
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n500_70#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 6.68827
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 75.6514
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "constant_gm_fingers#0_0/w_n100_n1800#" 0.117765
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n500_70#" -8.12051
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 88.533
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 1.27633
-cap "constant_gm_fingers#0_0/VDD" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 0.171165
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 0.0123119
-cap "constant_gm_fingers#0_0/w_n100_n1800#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 0.353296
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n500_70#" 5.25176
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n500_70#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -2.8617
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 0.3226
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n287_n500#" -0.114818
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n287_n500#" 0.46278
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n500_70#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 3.5119
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" 3.37655
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_3/m1_n30_n30#" 3.78573
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_3/m1_n30_n30#" 6.23584
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" "diode_connected_nmos_3/m1_n30_n30#" 1.13624
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" "diode_connected_nmos_3/m1_n30_n30#" 2.41316
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" "diode_connected_nmos_3/m1_n30_n30#" 3.95273
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "diode_connected_nmos_3/m1_n30_n30#" 4.97696
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" 2.17741
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "diode_connected_nmos_3/m1_n30_n30#" 13.483
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" "diode_connected_nmos_3/m1_n30_n30#" 7.18054
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" 1.6048
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_3/m1_n30_n30#" 43.9791
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "diode_connected_nmos_3/m1_n30_n30#" 2.85544
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" 1.58661
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 3.25778
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" 4.317
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 5.58454
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" "diode_connected_nmos_3/m1_n30_n30#" 7.04151
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 2.46789
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" 3.88755
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" 2.38051
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_3/m1_n30_n30#" 41.0139
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" 13.2303
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" 6.70192
-cap "diode_connected_nmos_3/m1_n30_n30#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" 1.12519
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 3.95273
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 1.13624
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 2.85544
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 3.78573
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" 1.6048
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 2.17741
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 7.18054
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 4.97696
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 6.23584
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 13.483
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 2.41316
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 1.13687e-13
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 0.589711
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" 0.181023
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 1.00345
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 1.17942
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 0.956543
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "m1_6408_688230#" 1.9657
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "m1_6408_688230#" 1.95016
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "m1_6408_688230#" 1.00345
-cap "m1_6408_688230#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" 1.00345
-cap "m1_6408_688230#" "diode_connected_nmos_0/m1_n30_n30#" 3.25434
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" "m1_6408_688230#" 1.00345
-cap "m1_6408_688230#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 1.9657
-cap "m1_6408_688230#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 11.0664
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" "m1_6408_688230#" 1.00345
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_0/m1_n30_n30#" 1.95793
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" "diode_connected_nmos_0/m1_n30_n30#" 1.00345
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" 1.00345
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 6.18422
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 1.9657
-cap "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 1806.76
-cap "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" "VN" 481.189
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" -0.679601
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" -3.34521
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 530.111
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 158.199
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 15.8279
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 88.2487
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" -0.144667
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 1.37674
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 3.88425
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 146.666
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" -45.0472
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 8.44617
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -0.233131
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" -4.04572
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 26.29
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 1.37674
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 1.58111
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 93.2606
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 151.621
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" -5.42163
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 7.36622
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" -7.10061
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 165.198
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -17.1045
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -36.7269
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 0.0613741
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -1.42147
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" -1.96244
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 1.87087
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" -8.53982
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 236.947
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" -0.0297243
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" 39.8647
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -71.6998
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 10.9828
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n745_n588#" -24.021
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" -0.233131
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 87.796
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n745_n588#" 134.831
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 4.51142
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" -2.88545
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 81.3688
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n745_n588#" -3.27937
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_803_n588#" 37.2513
-cap "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 17.9307
-cap "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_803_n588#" -0.621212
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" 9.87299
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 12.289
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" 20.881
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 27.1751
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" 39.7678
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" 26.7785
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" 27.1751
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 24.1241
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 17.4576
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" 43.2929
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" 9.60183
-cap "m1_6408_688230#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" 0.202754
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" 8.20324
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "VDDA" 22.1922
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" "VDDA" 21.1323
-cap "m1_6408_688230#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 0.202754
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 8.2526
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" 21.154
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" 21.154
-cap "m1_6408_688230#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 1.30661
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 134.195
-cap "m1_6408_688230#" "diode_connected_nmos_0/m1_n30_n30#" 10.111
-cap "m1_6408_688230#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 0.202754
-cap "diode_connected_nmos_0/m1_n30_n30#" "VDDA" 89.91
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 8.24872
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" "diode_connected_nmos_0/m1_n30_n30#" 3.47612
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/m1_n30_n30#" 3.59699
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" 22.6127
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 77.674
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" "diode_connected_nmos_0/m1_n30_n30#" 2.31625
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_0/m1_n30_n30#" 10.0389
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" "diode_connected_nmos_0/m1_n30_n30#" 10.3085
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 8.24977
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "diode_connected_nmos_0/m1_n30_n30#" 4.75157
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "diode_connected_nmos_0/m1_n30_n30#" 1.64241
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" "diode_connected_nmos_0/m1_n30_n30#" 5.67988
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" "diode_connected_nmos_0/m1_n30_n30#" 19.68
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_0/m1_n30_n30#" 60.6452
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "diode_connected_nmos_0/m1_n30_n30#" 8.37497
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" 8.34568
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_0/m1_n30_n30#" 6.30411
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" 21.154
-cap "VDDA" "diode_connected_nmos_0/m1_n30_n30#" 30.6266
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" 0.103409
-cap "VN" "m1_6408_688230#" 1825.13
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" -21.3213
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 0.140698
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 168.961
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 703.758
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 11.3485
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1519_n588#" 14.9988
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 0.77958
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1519_n588#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 25.0818
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 2.18496
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 345.055
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" -8.51899
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 307.85
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1519_n588#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" -0.940654
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 0.732551
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" -0.160157
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" 9.8719
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" -0.0462702
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 0.178355
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" -0.0824738
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n745_n588#" -0.496456
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 0.518506
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 51.1304
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" 173.519
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 4.09154
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "VDDA" 7.11573
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" 7.11573
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" "VDDA" 7.11573
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" "VDDA" 7.11573
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" "VDDA" 14.9629
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" "VDDA" 7.11573
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "VDDA" 7.11573
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 5.9466
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "VDDA" 7.11573
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" 14.9629
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" "VDDA" 7.11573
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 3.02418
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "VDDA" 847.556
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" "VDDA" 14.9629
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "VDDA" 7.11573
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" "VDDA" 14.9629
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" "VDDA" 14.9629
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_7/m1_60_4610#" -4.1649
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" "diode_connected_nmos_7/m1_60_4610#" 2.79595
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_7/m1_60_4610#" 7.68505
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" "diode_connected_nmos_7/m1_60_4610#" 4.93239
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" "diode_connected_nmos_7/m1_60_4610#" 2.84585
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" "diode_connected_nmos_7/m1_60_4610#" 15.9255
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "diode_connected_nmos_7/m1_60_4610#" 7.6875
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" "diode_connected_nmos_7/m1_60_4610#" 7.69382
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" "diode_connected_nmos_7/m1_60_4610#" 0.589087
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" "diode_connected_nmos_7/m1_60_4610#" -0.30664
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_7/m1_60_4610#" -5.42761
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "diode_connected_nmos_7/m1_60_4610#" -5.42761
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_7/m1_60_4610#" 0.305326
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" "diode_connected_nmos_7/m1_60_4610#" 0.764652
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_7/m1_60_4610#" 51.9796
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" "diode_connected_nmos_7/m1_60_4610#" 15.8265
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 5.9466
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_7/m1_60_4610#" 7.11573
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" 0.177893
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" 15.1145
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" 1.13687e-13
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" 40.8745
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" "VDDA" 39.5648
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "VDDA" 164.59
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" "VDDA" 39.5648
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "VDDA" 14.014
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 14.014
-cap "VDDA" "diode_connected_nmos_0/m1_n30_n30#" 36.6164
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 14.014
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" "VDDA" 39.5648
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" 0.836178
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "VDDA" 14.014
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" 39.5648
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" 9.84066
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" 41.5277
-cap "VDDA" "diode_connected_nmos_0/m1_n30_n30#" 16.769
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" 3.20821
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" "diode_connected_nmos_0/m1_n30_n30#" 1.76909
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 1.83387
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 2.4209
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "diode_connected_nmos_0/m1_n30_n30#" 4.15059
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_0/m1_n30_n30#" 30.4825
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" "diode_connected_nmos_0/m1_n30_n30#" 2.88912
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_0/m1_n30_n30#" 4.98174
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" 1.17908
-cap "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" 5.23355
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "VDDA" 14.014
-cap "VDDA" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 103.304
-cap "m1_6408_688230#" "VN" -1.46671
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" 0.469185
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 31.4775
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT#0_0/li_900_7430#" 1.33734
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n684_n674#" 5.68434e-14
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n1630_n597#" 3.3846
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" 30.3004
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" -4.87169
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 241.164
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n682_n597#" -2.8125
-cap "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 0.0233893
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" -4.47392
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" 299.986
-cap "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" 10.582
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" 24.4309
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n682_n597#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" 272.796
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" 875.751
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n2620_8810#" -3.33333
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_740_n597#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" -2.8125
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_60_860#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" -3.50877
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_n2620_8810#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" 53.9937
-cap "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" 55.9356
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_740_n597#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" 5.40343
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_60_860#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" 34.3115
-cap "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" "VP" 2315.57
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" 649.455
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "VDDA" 114.524
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" "VDDA" -2.73448e-16
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "VDDA" 14.6797
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" "VDDA" 3.589e-16
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "VDDA" 2911.51
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" -3.07629e-16
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" -2.1648e-16
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" "VDDA" 3.589e-16
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" "diode_connected_nmos_7/m1_60_4610#" 8.18545e-12
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "diode_connected_nmos_7/m1_60_4610#" 1.42109e-14
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_7/m1_60_4610#" 114.602
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" "diode_connected_nmos_7/m1_60_4610#" 1.42109e-14
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_7/m1_60_4610#" -1.42109e-14
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" "diode_connected_nmos_7/m1_60_4610#" 5.45697e-12
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" "diode_connected_nmos_7/m1_60_4610#" 7.27596e-12
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_7/m1_60_4610#" -2.84217e-14
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" "diode_connected_nmos_7/m1_60_4610#" -1.42109e-14
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" 7.27596e-12
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "diode_connected_nmos_7/m1_60_4610#" -2.84217e-14
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" 4.44089e-16
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_7/m1_60_4610#" -1.42109e-14
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" -2.04636e-12
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_7/m1_60_4610#" 14.6797
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" 14.014
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" 39.5648
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" 14.014
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 14.014
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" 39.5648
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 36.6164
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" 3.85385
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" 39.5648
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" 14.014
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 14.014
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 14.014
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" 39.5648
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" "diode_connected_nmos_0/m1_60_4610#" 10.1601
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" 39.5648
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_0/m1_60_4610#" 46.7521
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" "diode_connected_nmos_0/m1_60_4610#" 14.014
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 14.014
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_0/m1_60_4610#" 14.014
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n1630_n597#" -0.986899
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_49C6SK_0/a_n1530_n500#" "OTA_fingers_031123_NON_FLAT#0_0/li_900_7430#" -0.81627
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n1630_n597#" 4.29757
-cap "OTA_fingers_031123_NON_FLAT#0_0/li_900_7430#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n1630_n597#" -0.0602648
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n682_n597#" "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" 215.031
-cap "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" -3.30172
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n682_n597#" 18.8635
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n424_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n682_n597#" -3.52048
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n682_n597#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" -0.583397
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" 788.066
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n682_n597#" -11.1962
-cap "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" -1.83851
-cap "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" 805.735
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_n1432#" "VDDA" 1.079
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" "VDDA" 1.56075
-cap "VDDA" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" 2408.57
-cap "VDDA" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_1000#" 0.0321352
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_1000#" "VDDA" 1.05552
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" "VDDA" 0.850228
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "VDDA" 31.1068
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "VDDA" 125.272
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 3.11307
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "VDDA" 3.07398
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" 10.1586
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" "VDDA" 10.1586
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" "VDDA" 10.1586
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" 5.41403
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" 5.41403
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" "VDDA" 10.1586
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" 5.41403
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "VDDA" 5.41403
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "VDDA" 5.41403
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "VDDA" 2.30096
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 5.41403
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" 10.1586
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 5.41403
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" "VDDA" 588.683
-cap "VDDA" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" 5.41403
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" "VDDA" 5.41403
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" "diode_connected_nmos_7/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" 5.41403
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 5.41403
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" 10.1586
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" "diode_connected_nmos_7/m1_60_4610#" 10.1586
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 5.41403
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" 5.41403
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "diode_connected_nmos_7/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" "diode_connected_nmos_7/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" 10.1586
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 31.2267
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" "diode_connected_nmos_7/m1_60_4610#" 10.1586
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" "diode_connected_nmos_7/m1_60_4610#" 5.27868
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_7/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 3.07398
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" 10.1586
-cap "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" "diode_connected_nmos_7/m1_60_4610#" 0.135351
-cap "diode_connected_nmos_7/m1_60_4610#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" 5.41403
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" "diode_connected_nmos_1/m1_60_4610#" 9.31076
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" 5.11373
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_1/m1_60_4610#" 5.11373
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" 5.11373
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/m1_60_4610#" 74.4521
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 5.11373
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" "diode_connected_nmos_1/m1_60_4610#" 5.11373
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_1/m1_60_4610#" 5.11373
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" "diode_connected_nmos_1/m1_60_4610#" 9.31076
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" "diode_connected_nmos_1/m1_60_4610#" 5.11373
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" 9.31076
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 5.11373
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 5.11373
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" "diode_connected_nmos_1/m1_60_4610#" 9.31076
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" 5.11373
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" 9.31076
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" -3.81462
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" 6.28709
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" "diode_connected_nmos_0/m1_60_4610#" 12.5262
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_0/m1_60_4610#" 35.5699
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" -3.81462
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" -2.5519
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" -1.04902
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" "diode_connected_nmos_0/m1_60_4610#" 25.5613
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" 12.5262
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" -0.0264765
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" 8.81252
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" -3.81462
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" 25.5613
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" 2.49895
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 8.81252
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 45.9158
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" 4.81068
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" 12.5262
-cap "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_49C6SK_0/a_n582_n500#" 8.38699
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n682_n597#" "OTA_fingers_031123_NON_FLAT#0_0/w_n1410_6040#" 3.93657
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n682_n597#" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__pfet_01v8_49C6SK_0/a_n582_n500#" -0.393704
-cap "VDDA" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" 0.228286
-cap "VDDA" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_n1432#" 0.517407
-cap "VDDA" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" 13.725
-cap "VDDA" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_1000#" 0.0156425
-cap "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" "VDDA" 0.228286
-cap "VDDA" "OTA_fingers_031123_NON_FLAT#0_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_1000#" 0.513797
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" 2.72848e-12
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" 4.09273e-12
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" -1.42109e-14
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" -2.84217e-14
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" 4.54747e-12
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" 4.54747e-12
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" -1.42109e-14
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 148.332
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" -2.84217e-14
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 1.42109e-14
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" -1.42109e-14
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" 5.00222e-12
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" "diode_connected_nmos_0/m1_60_4610#" 4.26326e-14
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/m1_60_4610#" 1.42109e-14
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" "diode_connected_nmos_0/m1_60_4610#" 4.54747e-12
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" 5.91172e-12
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_0/m1_60_4610#" 31.7984
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_0/m1_60_4610#" -2.84217e-14
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" "diode_connected_nmos_0/m1_60_4610#" -2.84217e-14
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "diode_connected_nmos_0/m1_60_4610#" -4.26326e-14
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_0/m1_60_4610#" -1.42109e-14
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" "diode_connected_nmos_0/m1_60_4610#" 5.91172e-12
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" 6.36646e-12
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_0/m1_60_4610#" 42.421
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" "diode_connected_nmos_0/m1_60_4610#" -1.36424e-12
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_0/m1_60_4610#" -4.26326e-14
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" "diode_connected_nmos_0/m1_60_4610#" -4.26326e-14
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" "diode_connected_nmos_0/m1_60_4610#" 2.84217e-14
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 3.42447
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 12.5388
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 33.8301
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 33.2488
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 256.754
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 24.705
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" -0.175547
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" 24.705
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 8.13435
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 17.9162
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 29.5078
-cap "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 22.1634
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" "diode_connected_nmos_1/m1_60_4610#" 10.1586
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" "diode_connected_nmos_1/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" "diode_connected_nmos_1/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" "diode_connected_nmos_1/m1_60_4610#" 10.1586
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" 10.1586
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_1/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 5.41403
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" "diode_connected_nmos_1/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_1/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/m1_60_4610#" 22.0662
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "diode_connected_nmos_1/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" "diode_connected_nmos_1/m1_60_4610#" 10.1586
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_1/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" 5.41403
-cap "diode_connected_nmos_1/m1_60_4610#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" 5.41403
-cap "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" "diode_connected_nmos_1/m1_60_4610#" 10.1586
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_0/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n421_n5000#" "diode_connected_nmos_0/m1_60_4610#" 10.1586
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" 5.41403
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n180_5022#" "diode_connected_nmos_0/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" 1.48886
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n29_n5000#" 10.1586
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n225_n5000#" 10.1586
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" "diode_connected_nmos_0/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 9.32354
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_0/m1_60_4610#" 5.41403
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_0/m1_60_4610#" 9.98992
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" 5.41403
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" 3.92517
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_167_n5000#" 10.1586
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_363_n5000#" 10.1586
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_212_5022#" 5.41403
-cap "diode_connected_nmos_0/m1_60_4610#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_408_5022#" 5.41403
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" 19.6366
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_69_n5000#" 15.6516
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n278_n5088#" 24.5118
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n82_n5088#" 23.228
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" 3.44914
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n323_n5000#" 15.3555
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" 147.691
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n127_n5000#" 15.0509
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 34.1818
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n519_n5000#" -0.175547
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" 73.532
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_114_n5088#" 17.8878
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_265_n5000#" 16.3642
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" 13.5447
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_310_n5088#" 19.445
-cap "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_461_n5000#" -0.175547
-merge "diode_connected_nmos_7/m1_n30_n30#" "diode_connected_nmos_0/m1_n30_n30#" -42230.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3978240 -23754 0 0 -4403240 -12934 -17498469 -55272 -36492280 -60886 0 0
-merge "diode_connected_nmos_0/m1_n30_n30#" "diode_connected_nmos_1/m1_n30_n30#"
-merge "diode_connected_nmos_1/m1_n30_n30#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#"
-merge "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#"
-merge "diode_connected_nmos_1/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "m1_6408_688230#"
-merge "m1_6408_688230#" "diode_connected_nmos_0/VSUBS"
-merge "diode_connected_nmos_0/VSUBS" "diode_connected_nmos_1/VSUBS"
-merge "diode_connected_nmos_1/VSUBS" "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#"
-merge "OTA_fingers_031123_NON_FLAT#0_0/li_n4040_8650#" "diode_connected_nmos_7/VSUBS"
-merge "diode_connected_nmos_7/VSUBS" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#"
-merge "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n621_n5174#" "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#"
-merge "diode_connected_nmos_7/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n474_n5088#" "m1_71204_684480#"
-merge "m1_71204_684480#" "diode_connected_nmos_3/VSUBS"
-merge "diode_connected_nmos_3/VSUBS" "m1_62024_685280#"
-merge "m1_62024_685280#" "diode_connected_nmos_3/m1_n30_n30#"
-merge "diode_connected_nmos_3/m1_n30_n30#" "OTA_fingers_031123_NON_FLAT#0_0/VSUBS"
-merge "OTA_fingers_031123_NON_FLAT#0_0/VSUBS" "constant_gm_fingers#0_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_3/a_n573_n7332#"
-merge "constant_gm_fingers#0_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_3/a_n573_n7332#" "VSS"
-merge "VSS" "constant_gm_fingers#0_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_0/a_n573_n7332#"
-merge "constant_gm_fingers#0_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_0/a_n573_n7332#" "constant_gm_fingers#0_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_1/a_n573_n7332#"
-merge "constant_gm_fingers#0_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_1/a_n573_n7332#" "constant_gm_fingers#0_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_2/a_n573_n7332#"
-merge "constant_gm_fingers#0_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_2/a_n573_n7332#" "constant_gm_fingers#0_0/VSS"
-merge "constant_gm_fingers#0_0/VSS" "VSUBS"
+cap "VSS" "OUT" 58.2384
+cap "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_2/a_n573_n7332#" "VSS" 6.19477
+cap "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_2/a_n573_n7332#" "VSS" 12.5956
+cap "constant_gm_fingers_0/VSS" "VSS" 14.1009
+cap "constant_gm_fingers_0/VSS" "constant_gm_fingers_0/VSS" 10.5625
+cap "VSS" "constant_gm_fingers_0/VSS" 1.23866
+cap "constant_gm_fingers_0/VSS" "VSS" 4.09487
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers_0/VDD" -1.77957
+cap "constant_gm_fingers_0/Vout" "constant_gm_fingers_0/VDD" 9.08866
+cap "constant_gm_fingers_0/VDD" "constant_gm_fingers_0/Vout" 2.14804
+cap "constant_gm_fingers_0/VDD" "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 2.3948
+cap "constant_gm_fingers_0/Vout" "constant_gm_fingers_0/VDD" 52.7756
+cap "constant_gm_fingers_0/VDD" "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 124.594
+cap "constant_gm_fingers_0/Vout" "constant_gm_fingers_0/VDD" 280.999
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers_0/Vout" 63.0815
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers_0/VDD" -5.49741
+cap "constant_gm_fingers_0/Vout" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 1.00075
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/VDD" 2.91425
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n287_n500#" "constant_gm_fingers_0/VDD" 0.629542
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers_0/Vout" -1.4414
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers_0/VDD" -0.197819
+cap "constant_gm_fingers_0/Vout" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 1.58027
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/VDD" 59.1961
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_229_n500#" "constant_gm_fingers_0/VDD" 0.629542
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n803_n500#" "constant_gm_fingers_0/VDD" 0.629542
+cap "constant_gm_fingers_0/Vout" "constant_gm_fingers_0/VDD" 35.0791
+cap "constant_gm_fingers_0/VDD" "constant_gm_fingers_0/Vout" 281.663
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers_0/Vout" 56.4608
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers_0/VDD" 96.9091
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/Vout" 1.03544
+cap "constant_gm_fingers_0/VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_745_n500#" 0.629542
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/VDD" 13.9937
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_287_n597#" "constant_gm_fingers_0/Vout" 5.71995
+cap "constant_gm_fingers_0/Vout" "constant_gm_fingers_0/VDD" 14.2797
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" 17.9023
+cap "constant_gm_fingers_0/Vout" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 28.0453
+cap "constant_gm_fingers_0/VDD" "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" -0.238562
+cap "constant_gm_fingers_0/Vout" "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 5.99671
+cap "constant_gm_fingers_0/VDD" "constant_gm_fingers_0/Vout" 18.3486
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 7.69453
+cap "constant_gm_fingers_0/VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 62.9851
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 136.403
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/Vout" 8.2044
+cap "constant_gm_fingers_0/VDD" "constant_gm_fingers_0/Vout" 11.5088
+cap "constant_gm_fingers_0/VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 0.0295374
+cap "constant_gm_fingers_0/VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 477.004
+cap "constant_gm_fingers_0/Vout" "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 18.7713
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" "constant_gm_fingers_0/Vout" 8.87946
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/VDD" 154.162
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" 30.1955
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "constant_gm_fingers_0/Vout" 0.044246
+cap "constant_gm_fingers_0/VDD" "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_n745_n597#" -0.238562
+cap "constant_gm_fingers_0/VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n803_n500#" 0.0098458
+cap "constant_gm_fingers_0/VDD" "constant_gm_fingers_0/Vout" 17.8727
+cap "constant_gm_fingers_0/Vout" "constant_gm_fingers_0/w_n100_n1800#" 6.43132
+cap "constant_gm_fingers_0/sky130_fd_pr__pfet_01v8_LK874N_1/a_287_n597#" "constant_gm_fingers_0/Vout" 0.913216
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_487_n500#" "constant_gm_fingers_0/Vout" 45.9034
+cap "OUT" "OTA_fingers_031123_NON_FLAT_0/li_n4040_8650#" 526.997
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/li_n4040_8650#" 207.942
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" -13.2849
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" 282.585
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 161.58
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 137.068
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -26.1249
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" 234.01
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -21.8633
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 173.987
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 0.0123119
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" -2.8617
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" 5.06281
+cap "constant_gm_fingers_0/w_n100_n1800#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 0.353296
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 1.27633
+cap "constant_gm_fingers_0/VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 0.171165
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n803_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -0.114818
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n803_n500#" "constant_gm_fingers_0/VDD" 0.057055
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n803_n500#" "constant_gm_fingers_0/w_n100_n1800#" 0.117765
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n803_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 0.46278
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 4.92533
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 0.3226
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_487_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 3.37655
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" 0.202625
+cap "OUT" "OTA_fingers_031123_NON_FLAT_0/li_n4040_8650#" 1761.48
+cap "VN" "OTA_fingers_031123_NON_FLAT_0/li_n4040_8650#" 526.473
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 173.367
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 85.5409
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/m1_90_7730#" 2.00775
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 8.44617
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 236.663
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" 4.64305
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 1.86368
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1577_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" -17.1183
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 349.347
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -50.1546
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" -4.24581
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 0.233612
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" 3.85891
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 36.7326
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" -4.30208
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 229.792
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" 2.00775
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -17.8255
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" -5.41451
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" 2.50065
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 161.744
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" -0.151795
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 1.47753
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" 38.6455
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 1.31778
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -69.2421
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" -8.02051
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 0.0920611
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1835_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -2.31319
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" 234.867
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 10.5655
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1777_n588#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 0.742301
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1937_n674#" -1.42147
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 8.43601
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1003_n588#" -6.59721
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1061_n500#" 108.905
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n803_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1061_n500#" -2.88545
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n803_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 87.796
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1061_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1003_n588#" -30.6401
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1003_n588#" 34.6372
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 0.399189
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_n1061_n500#" -0.466263
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_487_n500#" 32.2309
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_287_n588#" 149.667
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_487_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JT3SH9_0/a_287_n588#" -6.7158
+cap "VN" "OTA_fingers_031123_NON_FLAT_0/li_n4040_8650#" 1780.73
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1519_n588#" 4.30572
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/m1_90_7730#" 10.7175
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/m1_60_860#" 44.6233
+cap "OTA_fingers_031123_NON_FLAT_0/m1_60_860#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" -10.2679
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 693.243
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1519_n588#" -0.940654
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" -0.160157
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1519_n588#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 35.1551
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 295.96
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 0.814154
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" -10.3444
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 455.772
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 0.815395
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" -12.4093
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 0.248908
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n424_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 11.2593
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" -0.0462702
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" -0.568826
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 13.1406
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1519_n588#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 0.619782
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" 0.0578535
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" 11.2427
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1679_n674#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" -0.0824738
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_JEXVB9_0/a_n1003_n588#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" -0.496456
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 0.518506
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" 0.469185
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" 181.452
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n684_n674#" -2.84217e-14
+cap "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 0.0233893
+cap "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n582_n500#" 1.97457
+cap "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" 14.3271
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" -4.47392
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n998_n597#" 276.181
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n998_n597#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" -2.8125
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 272.641
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n684_n674#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_n582_n500#" 1.13687e-13
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_366_n500#" 202.828
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_366_n500#" "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" 8.60738
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" 832.442
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_266_n597#" -2.8125
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_366_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" -3.50877
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_366_n500#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" -8.20503
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" 67.3767
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_266_n597#" 5.40343
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_1/a_366_n500#" 34.3115
+cap "VP" "OTA_fingers_031123_NON_FLAT_0/li_n4040_8650#" 2181.51
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" -3.30172
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n998_n597#" "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" 164.925
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n998_n597#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_n424_n500#" -4.50738
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n998_n597#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" 23.161
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n998_n597#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_49C6SK_0/a_n898_n500#" -11.1962
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n998_n597#" "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" -0.583397
+cap "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" -0.652032
+cap "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_49C6SK_0/a_n898_n500#" -0.0753589
+cap "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" -1.18648
+cap "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" 805.735
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_266_n597#" "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" 50.046
+cap "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__nfet_01v8_EJ3ASN_0/a_366_n500#" 787.325
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" "VDD" 1.0913
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_n1432#" "VDD" 1.079
+cap "VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" 2408.57
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" "VDD" 1.31968
+cap "VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_1000#" 1.08765
+cap "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_49C6SK_0/a_n898_n500#" -1.44904
+cap "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n998_n597#" 3.93657
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_GNAJ57_0/a_n998_n597#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_49C6SK_0/a_n898_n500#" -0.393704
+cap "OTA_fingers_031123_NON_FLAT_0/w_n1410_6040#" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__pfet_01v8_49C6SK_0/a_366_n500#" 9.83603
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_n1432#" "VDD" 0.517407
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" "VDD" 0.228286
+cap "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" "VDD" 13.725
+cap "VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n573_1000#" 0.529439
+cap "VDD" "OTA_fingers_031123_NON_FLAT_0/sky130_fd_pr__res_xhigh_po_5p73_F7BMVG_2/a_n703_n1562#" 0.228286
+merge "OTA_fingers_031123_NON_FLAT_0/li_n4040_8650#" "OTA_fingers_031123_NON_FLAT_0/VSUBS" -36115.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3853440 -15280 0 0 0 0 -16373013 -49571 -36101100 -63150 0 0
+merge "OTA_fingers_031123_NON_FLAT_0/VSUBS" "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_3/a_n573_n7332#"
+merge "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_3/a_n573_n7332#" "VSS"
+merge "VSS" "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_0/a_n573_n7332#"
+merge "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_0/a_n573_n7332#" "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_1/a_n573_n7332#"
+merge "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_1/a_n573_n7332#" "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_2/a_n573_n7332#"
+merge "constant_gm_fingers_0/sky130_fd_pr__res_xhigh_po_5p73_B5N4SD_2/a_n573_n7332#" "constant_gm_fingers_0/VSS"
+merge "constant_gm_fingers_0/VSS" "VSUBS"
 merge "VSUBS" "m1_40920_662800#"
-merge "diode_connected_nmos_0/m1_60_4610#" "OTA_fingers_031123_NON_FLAT#0_0/li_900_7430#" -28231.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16893840 -49196 -38901908 -43905 0 0 0 0
-merge "OTA_fingers_031123_NON_FLAT#0_0/li_900_7430#" "constant_gm_fingers#0_0/VDD"
-merge "constant_gm_fingers#0_0/VDD" "VDDA"
-merge "diode_connected_nmos_3/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" -9415.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -386480 -5614 -46000 -1520 -8979790 -28079 0 0 0 0 0 0
-merge "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_4630#" "m1_43870_689830#"
-merge "m1_43870_689830#" "diode_connected_nmos_7/m1_60_4610#"
-merge "diode_connected_nmos_7/m1_60_4610#" "VP"
-merge "OTA_fingers_031123_NON_FLAT#0_0/m1_n500_70#" "constant_gm_fingers#0_0/Vout" -689.158 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -18000 -780 0 0 0 0 0 0
-merge "constant_gm_fingers#0_0/Vout" "m2_46640_683020#"
+merge "OTA_fingers_031123_NON_FLAT_0/m1_n500_70#" "constant_gm_fingers_0/Vout" -689.158 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1600 -18000 -780 0 0 0 0 0 0
+merge "constant_gm_fingers_0/Vout" "m2_46640_683020#"
 merge "m2_46640_683020#" "m2_42240_683020#"
-merge "OTA_fingers_031123_NON_FLAT#0_0/m1_n1130_9530#" "VOUT" -4776.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4455888 -17046 0 0 0 0 0 0
-merge "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_16_5022#" "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" -6150.53 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40220 -2320 0 0 -5451688 -13746 -240000 -2240 0 0 0 0
-merge "diode_connected_nmos_0/sky130_fd_pr__nfet_01v8_UXPKRJ_0/a_n376_5022#" "diode_connected_nmos_1/m1_60_4610#"
-merge "diode_connected_nmos_1/m1_60_4610#" "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#"
-merge "OTA_fingers_031123_NON_FLAT#0_0/m1_1130_3110#" "VN"
+merge "OTA_fingers_031123_NON_FLAT_0/li_900_7430#" "constant_gm_fingers_0/VDD" -19857.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16459040 -36142 -23901000 -22321 0 0 0 0
+merge "constant_gm_fingers_0/VDD" "VDD"
+merge "OTA_fingers_031123_NON_FLAT_0/m1_1130_3110#" "VN" -2938.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360 0 0 -4480000 -5600 0 0 0 0 0 0
+merge "OTA_fingers_031123_NON_FLAT_0/m1_1130_4630#" "VP" -5724.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28800 -1040 0 0 -6125000 -19375 0 0 0 0 0 0
+merge "VP" "m1_43870_689830#"
+merge "OTA_fingers_031123_NON_FLAT_0/m1_n1130_9530#" "OUT" -4829.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5017800 -17020 0 0 0 0 0 0

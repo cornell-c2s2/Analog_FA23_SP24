@@ -90,3 +90,11 @@ C {sky130_stdcells/inv_4.sym} 920 -330 3 0 {name=x13 VGND=VSS VNB=VSS VPB=VDD VP
 C {devices/ipin.sym} 170 -290 0 0 {name=p1 sig_type=std_logic lab=VMID}
 C {devices/lab_pin.sym} 460 -270 3 0 {name=p8 sig_type=std_logic lab=COMP}
 C {/foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/C2S2_Amp_F.sym} 320 -270 0 0 {name=x1}
+C {devices/code.sym} 630 -580 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval(@value )"
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+"
+spice_ignore=false
+place=header}

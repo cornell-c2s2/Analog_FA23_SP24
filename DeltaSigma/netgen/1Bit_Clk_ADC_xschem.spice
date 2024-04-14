@@ -1,0 +1,44 @@
+** sch_path: /foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/1Bit_Clk_ADC.sch
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.subckt 1Bit_Clk_ADC VDD SIG OUT CLK VSS VMID
+*.PININFO SIG:I VDD:I VSS:I CLK:I OUT:O VMID:I
+x3 net4 net1 VSS VSS VDD VDD net2 sky130_fd_sc_hd__nand2_4
+x4 net2 net3 VSS VSS VDD VDD net1 sky130_fd_sc_hd__nand2_4
+x5 net5 CLK VSS VSS VDD VDD net4 sky130_fd_sc_hd__nand2_4
+x6 CLK COMP VSS VSS VDD VDD net3 sky130_fd_sc_hd__nand2_4
+x8 COMP VSS VSS VDD VDD net5 sky130_fd_sc_hd__inv_4
+x9 net8 net6 VSS VSS VDD VDD OUT sky130_fd_sc_hd__nand2_4
+x10 OUT net7 VSS VSS VDD VDD net6 sky130_fd_sc_hd__nand2_4
+x11 net10 net9 VSS VSS VDD VDD net8 sky130_fd_sc_hd__nand2_4
+x12 net9 net1 VSS VSS VDD VDD net7 sky130_fd_sc_hd__nand2_4
+x14 CLK VSS VSS VDD VDD net9 sky130_fd_sc_hd__clkinv_1
+x13 net1 VSS VSS VDD VDD net10 sky130_fd_sc_hd__inv_4
+x1 VDD VMID SIG COMP VSS C2S2_Amp_F
+.ends
+
+* expanding   symbol:  /foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/C2S2_Amp_F.sym # of pins=5
+** sym_path: /foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/C2S2_Amp_F.sym
+** sch_path: /foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/C2S2_Amp_F.sch
+.subckt C2S2_Amp_F VDD VP VN OUT VSS
+*.PININFO VN:I VDD:I VSS:I VP:I OUT:O
+XM28 net1 net4 VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=70 nf=14 m=1
+XM29 net2 VN net1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=35 nf=7 m=1
+XM30 net3 VP net1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=35 nf=7 m=1
+XM31 net2 net2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=105 nf=21 m=1
+XM32 net3 net2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=105 nf=21 m=1
+XM38 OUT net3 VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=200 nf=40 m=1
+XM39 OUT net4 VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=60 nf=12 m=1
+XC2 OUT net5 sky130_fd_pr__cap_mim_m3_1 W=16 L=16 m=4
+XR6 net5 net3 VSS sky130_fd_pr__res_xhigh_po_5p73 L=10 mult=4 m=4
+XM40 net4 net6 VDD VDD sky130_fd_pr__pfet_01v8 L=1 W=30 nf=6 m=1
+XM41 net6 net6 VDD VDD sky130_fd_pr__pfet_01v8 L=1 W=30 nf=6 m=1
+XM42 net6 net4 net7 VSS sky130_fd_pr__nfet_01v8 L=1 W=30 nf=6 m=1
+XM43 net4 net4 VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=5 nf=4 m=1
+XM44 net6 net6 net4 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=5 nf=2 m=1
+XR8 VSS net7 VSS sky130_fd_pr__res_xhigh_po_5p73 L=69 mult=4 m=4
+.ends
+
+.GLOBAL VDD
+.end

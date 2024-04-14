@@ -225,62 +225,6 @@ N 2080 -810 2080 -770 {
 lab=#net5}
 N 2080 -770 2460 -770 {
 lab=#net5}
-N 2100 -560 2100 -530 {
-lab=VSS}
-N 2100 -640 2100 -620 {
-lab=#net2}
-N 2400 -920 2400 -880 {
-lab=VN}
-N 2400 -820 2400 -640 {
-lab=#net2}
-N 2720 -920 2720 -880 {
-lab=VP}
-N 2720 -820 2760 -820 {
-lab=#net2}
-N 2760 -850 2760 -820 {
-lab=#net2}
-N 2720 -820 2720 -700 {
-lab=#net2}
-N 2400 -1090 2400 -1020 {
-lab=VDD}
-N 2400 -960 2400 -920 {
-lab=VN}
-N 2360 -990 2360 -960 {
-lab=VN}
-N 2360 -960 2400 -960 {
-lab=VN}
-N 2720 -960 2720 -920 {
-lab=VP}
-N 2360 -850 2360 -820 {
-lab=#net2}
-N 2360 -820 2400 -820 {
-lab=#net2}
-N 2720 -960 2760 -960 {
-lab=VP}
-N 2760 -990 2760 -960 {
-lab=VP}
-N 2720 -1090 2720 -1020 {
-lab=VDD}
-N 2400 -850 2410 -850 {
-lab=#net2}
-N 2410 -850 2410 -810 {
-lab=#net2}
-N 2400 -810 2410 -810 {
-lab=#net2}
-N 2400 -990 2410 -990 {
-lab=#net2}
-N 2410 -990 2410 -850 {
-lab=#net2}
-N 2710 -850 2720 -850 {
-lab=#net2}
-N 2710 -850 2710 -820 {
-lab=#net2}
-N 2710 -820 2720 -820 {
-lab=#net2}
-N 2710 -990 2710 -850 {
-lab=#net2}
-N 2710 -990 2720 -990 {
-lab=#net2}
 C {sky130_fd_pr/nfet_01v8.sym} 2540 -750 0 0 {name=M28
 L=1
 W=70
@@ -463,70 +407,9 @@ L=69
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=4}
-C {sky130_fd_pr/res_generic_m3.sym} 2100 -590 0 0 {name=R16
-W=10
-L=75.5
-model=res_generic_m3
-mult=1}
-C {sky130_fd_pr/nfet_01v8.sym} 2380 -850 2 1 {name=M57
-L=0.2
-W=500
-nf=10
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8.sym} 2740 -850 2 0 {name=M58
-L=0.2
-W=500
-nf=10
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8.sym} 2380 -990 2 1 {name=M59
-L=0.2
-W=500
-nf=10
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8.sym} 2740 -990 2 0 {name=M60
-L=0.2
-W=500
-nf=10
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
 C {devices/ipin.sym} 2360 -920 0 0 {name=p6 lab=VN}
 C {devices/ipin.sym} 2550 -1090 1 0 {name=p1 lab=VDD}
-C {devices/ipin.sym} 2100 -530 0 0 {name=p4 lab=VSS
+C {devices/ipin.sym} 2360 -640 3 0 {name=p4 lab=VSS
 }
 C {devices/ipin.sym} 2760 -920 2 0 {name=p2 lab=VP}
 C {devices/opin.sym} 3220 -870 0 0 {name=p3 lab=OUT}

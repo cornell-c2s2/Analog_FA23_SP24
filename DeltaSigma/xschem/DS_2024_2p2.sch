@@ -89,7 +89,7 @@ C {devices/code_shown.sym} 140 70 0 0 {name=s1 only_toplevel=false value=
 .control
 save all
 
-tran 0.5u 0.5m
+tran 0.2u 500u
 *ac dec 10 100 100k
 
 write DS_2024_rev2.raw
