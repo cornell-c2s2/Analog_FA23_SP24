@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713023766
+timestamp 1713148681
 << viali >>
 rect 1620 100 1660 140
 rect 2060 100 2100 140
@@ -972,6 +972,14 @@ use sky130_fd_pr__nfet_01v8_KBNS5F  XM4
 timestamp 1709392794
 transform 1 0 5249 0 1 -2040
 box -599 -710 599 710
+use sky130_fd_pr__nfet_01v8_J4PS55  XM5
+timestamp 1713148681
+transform 1 0 6723 0 1 -2146
+box 0 0 1 1
+use sky130_fd_pr__pfet_01v8_UGNTUG  XM8
+timestamp 1713148681
+transform 1 0 6154 0 1 -2084
+box 0 0 1 1
 << labels >>
 rlabel metal2 6900 -2200 7000 -395 1 VREF_N
 port 9 n

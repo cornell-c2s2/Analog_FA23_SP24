@@ -146,52 +146,122 @@ A                                          |A
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__clkinv_1 and sky130_fd_sc_hd__clkinv_1 are equivalent.
-Flattening unmatched subcell C2S2_Amp_F in circuit 1Bit_Clk_ADC (0)(1 instance)
-Flattening unmatched subcell C2S2_Fingers_Amplifier in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell OTA_fingers_031123_NON_FLAT in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_95KK7Z in circuit x1Bit_Clk_ADC (1)(4 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_49C6SK in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_JT3SH9 in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_F7BMVG in circuit x1Bit_Clk_ADC (1)(4 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_JEXVB9 in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_EJ3ASN in circuit x1Bit_Clk_ADC (1)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_9F67JW in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_GNAJ57 in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell constant_gm_fingers in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_A5635U in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_H7FLKU in circuit x1Bit_Clk_ADC (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_B5N4SD in circuit x1Bit_Clk_ADC (1)(4 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LK874N in circuit x1Bit_Clk_ADC (1)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_GLZPWL in circuit x1Bit_Clk_ADC (1)(1 instance)
+Flattening unmatched subcell OTA_fingers_031123_NON_FLAT in circuit C2S2_Amp_F_I (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_95KK7Z in circuit C2S2_Amp_F_I (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_49C6SK in circuit C2S2_Amp_F_I (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_JT3SH9 in circuit C2S2_Amp_F_I (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_F7BMVG in circuit C2S2_Amp_F_I (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_JEXVB9 in circuit C2S2_Amp_F_I (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_9F67JW in circuit C2S2_Amp_F_I (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_EJ3ASN in circuit C2S2_Amp_F_I (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_GNAJ57 in circuit C2S2_Amp_F_I (1)(1 instance)
+Flattening unmatched subcell constant_gm_fingers in circuit C2S2_Amp_F_I (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_A5635U in circuit C2S2_Amp_F_I (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_H7FLKU in circuit C2S2_Amp_F_I (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_B5N4SD in circuit C2S2_Amp_F_I (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LK874N in circuit C2S2_Amp_F_I (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_GLZPWL in circuit C2S2_Amp_F_I (1)(1 instance)
 
-Class x1Bit_Clk_ADC (1):  Merged 143 parallel devices.
+Class C2S2_Amp_F_I (1):  Merged 143 parallel devices.
 Subcircuit summary:
-Circuit 1: 1Bit_Clk_ADC                    |Circuit 2: x1Bit_Clk_ADC                   
+Circuit 1: C2S2_Amp_F_I                    |Circuit 2: C2S2_Amp_F_I                    
 -------------------------------------------|-------------------------------------------
-sky130_fd_sc_hd__nand2_4 (8)               |sky130_fd_sc_hd__nand2_4 (8)               
-sky130_fd_sc_hd__inv_4 (2)                 |sky130_fd_sc_hd__inv_4 (2)                 
-sky130_fd_sc_hd__clkinv_1 (1)              |sky130_fd_sc_hd__clkinv_1 (1)              
 sky130_fd_pr__nfet_01v8 (7)                |sky130_fd_pr__nfet_01v8 (52->7)            
 sky130_fd_pr__pfet_01v8 (5)                |sky130_fd_pr__pfet_01v8 (94->5)            
 sky130_fd_pr__cap_mim_m3_1 (4->1)          |sky130_fd_pr__cap_mim_m3_1 (4->1)          
 sky130_fd_pr__res_xhigh_po_5p73 (8->2)     |sky130_fd_pr__res_xhigh_po_5p73 (8->2)     
-Number of devices: 26                      |Number of devices: 26                      
-Number of nets: 24                         |Number of nets: 24                         
+Number of devices: 15                      |Number of devices: 15                      
+Number of nets: 12                         |Number of nets: 12                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: 1Bit_Clk_ADC                    |Circuit 2: x1Bit_Clk_ADC                   
+Circuit 1: C2S2_Amp_F_I                    |Circuit 2: C2S2_Amp_F_I                    
 -------------------------------------------|-------------------------------------------
-SIG                                        |SIG                                        
-VMID                                       |VMID                                       
-CLK                                        |CLK                                        
 VDD                                        |VDD                                        
+VP                                         |VP                                         
+VN                                         |VN                                         
 VSS                                        |VSS                                        
 OUT                                        |OUT                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes 1Bit_Clk_ADC and x1Bit_Clk_ADC are equivalent.
+Device classes C2S2_Amp_F_I and C2S2_Amp_F_I are equivalent.
+Flattening unmatched subcell 1Bit_DAC_Inv in circuit DS_2024_3p0 (0)(1 instance)
+Flattening unmatched subcell 1Bit_DAC in circuit DS_2024_3p0 (0)(1 instance)
+Flattening unmatched subcell 1Bit_Clk_ADC in circuit DS_2024_3p0 (0)(1 instance)
+Flattening unmatched subcell C2S2_Amp_F in circuit DS_2024_3p0 (0)(1 instance)
+Flattening unmatched subcell x1Bit_DAC in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H2JYD in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_KBNS5F in circuit DS_2024_2p2 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_BDZ9JN in circuit DS_2024_2p2 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_UJHYGH in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_WTH63S in circuit DS_2024_2p2 (1)(4 instances)
+Flattening unmatched subcell x1Bit_DAC_Inv in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H2JYD in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_KBNS5F in circuit DS_2024_2p2 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_BDZ9JN in circuit DS_2024_2p2 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_UJHYGH in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell x1Bit_Clk_ADC in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell C2S2_Fingers_Amplifier in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell OTA_fingers_031123_NON_FLAT in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_95KK7Z in circuit DS_2024_2p2 (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_49C6SK in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_JT3SH9 in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_F7BMVG in circuit DS_2024_2p2 (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_JEXVB9 in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_9F67JW in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_EJ3ASN in circuit DS_2024_2p2 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_GNAJ57 in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell constant_gm_fingers in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_A5635U in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_H7FLKU in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_B5N4SD in circuit DS_2024_2p2 (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LK874N in circuit DS_2024_2p2 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_GLZPWL in circuit DS_2024_2p2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_Z67P85 in circuit DS_2024_2p2 (1)(2 instances)
+
+Class DS_2024_2p2 (1):  Merged 277 parallel devices.
+Subcircuit summary:
+Circuit 1: DS_2024_3p0                     |Circuit 2: DS_2024_2p2                     
+-------------------------------------------|-------------------------------------------
+C2S2_Amp_F_I (2)                           |C2S2_Amp_F_I (2)                           
+sky130_fd_pr__pfet_01v8 (11)               |sky130_fd_pr__pfet_01v8 (178->11)          
+sky130_fd_pr__nfet_01v8 (13)               |sky130_fd_pr__nfet_01v8 (92->13)           
+sky130_fd_sc_hd__nand2_4 (8)               |sky130_fd_sc_hd__nand2_4 (8)               
+sky130_fd_sc_hd__inv_4 (2)                 |sky130_fd_sc_hd__inv_4 (2)                 
+sky130_fd_sc_hd__clkinv_1 (1)              |sky130_fd_sc_hd__clkinv_1 (1)              
+sky130_fd_pr__cap_mim_m3_1 (28->3)         |sky130_fd_pr__cap_mim_m3_1 (28->3)         
+sky130_fd_pr__res_xhigh_po_5p73 (12->6)    |sky130_fd_pr__res_xhigh_po_5p73 (12->6)    
+Number of devices: 46                      |Number of devices: 46                      
+Number of nets: 34                         |Number of nets: 34                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__res_xhigh_po_5p73:R1 vs. sky130_fd_pr__res_xhigh_po_5p73_WTH63S_1/sky130_fd_pr__res_xhigh_po_5p73:0:
+ L circuit1: 286.5   circuit2: 246   (delta=15.2%, cutoff=5%)
+sky130_fd_pr__res_xhigh_po_5p73:R5 vs. sky130_fd_pr__res_xhigh_po_5p73_WTH63S:XR3/sky130_fd_pr__res_xhigh_po_5p73:0:
+ L circuit1: 286.5   circuit2: 246   (delta=15.2%, cutoff=5%)
+sky130_fd_pr__res_xhigh_po_5p73:R3 vs. sky130_fd_pr__res_xhigh_po_5p73_WTH63S_2/sky130_fd_pr__res_xhigh_po_5p73:0:
+ L circuit1: 286.5   circuit2: 246   (delta=15.2%, cutoff=5%)
+sky130_fd_pr__res_xhigh_po_5p73:R2 vs. sky130_fd_pr__res_xhigh_po_5p73_WTH63S_0/sky130_fd_pr__res_xhigh_po_5p73:0:
+ L circuit1: 286.5   circuit2: 246   (delta=15.2%, cutoff=5%)
+
+Subcircuit pins:
+Circuit 1: DS_2024_3p0                     |Circuit 2: DS_2024_2p2                     
+-------------------------------------------|-------------------------------------------
+SIG                                        |SIG                                        
+OUT                                        |OUT                                        
+GND                                        |GND                                        
+VREFN                                      |VREFN                                      
+VREFP                                      |VREFP                                      
+VMID                                       |VMID                                       
+CLK                                        |CLK                                        
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes DS_2024_3p0 and DS_2024_2p2 are equivalent.
 
 Final result: Circuits match uniquely.
-.
+Property errors were found.
+
+The following cells had property errors:
+ DS_2024_3p0

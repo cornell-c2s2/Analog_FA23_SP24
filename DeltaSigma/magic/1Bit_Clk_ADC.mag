@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713130403
+timestamp 1713141386
 << nwell >>
 rect 747 -340 4700 68
 rect 1250 -1394 5200 -952
@@ -562,7 +562,7 @@ rect -1850 -700 -1849 -600
 rect -1951 -701 -1849 -700
 rect -17100 -15200 -12400 -13200
 use C2S2_Fingers_Amplifier  C2S2_Fingers_Amplifier_0
-timestamp 1713128413
+timestamp 1713140669
 transform 1 0 -52296 0 1 -678100
 box 29796 662800 57684 701260
 use sky130_fd_sc_hd__nand2_4  sky130_fd_sc_hd__nand2_4_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag

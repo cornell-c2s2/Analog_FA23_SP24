@@ -21,8 +21,6 @@ N 680 -320 680 -120 {
 lab=OUT}
 N 640 -320 680 -320 {
 lab=OUT}
-N -80 -140 -0 -140 {
-lab=SIG}
 N 80 -240 80 -140 {
 lab=#net1}
 N 340 -240 340 -140 {
@@ -56,36 +54,12 @@ C {devices/vdd.sym} 400 -180 0 0 {name=l2 lab=VDD}
 C {devices/gnd.sym} 400 -60 0 1 {name=l3 lab=GND}
 C {devices/gnd.sym} 140 -60 0 1 {name=l4 lab=GND}
 C {devices/vdd.sym} 540 -150 0 0 {name=l5 lab=VDD}
-C {devices/vsource.sym} -240 -110 0 0 {name=V1 value=1.8 savecurrent=false}
-C {devices/vsource.sym} -160 -110 0 0 {name=V2 value=0.9 savecurrent=false}
-C {devices/vdd.sym} -240 -140 0 0 {name=l6 lab=VDD}
-C {devices/gnd.sym} -240 -80 0 1 {name=l7 lab=GND}
-C {devices/gnd.sym} -160 -80 0 1 {name=l8 lab=GND}
-C {devices/vdd.sym} -160 -140 0 0 {name=l9 lab=VMID}
 C {devices/vdd.sym} 80 -100 3 0 {name=l10 lab=VMID}
 C {devices/vdd.sym} 340 -100 3 0 {name=l11 lab=VMID}
 C {devices/gnd.sym} 540 -90 0 1 {name=l12 lab=GND}
-C {devices/sqwsource.sym} -320 -110 0 0 {name=V3 vhi=1.8 freq=1.2e6}
-C {devices/lab_pin.sym} -320 -140 1 0 {name=p1 sig_type=std_logic lab=CLK}
-C {devices/lab_pin.sym} 610 -70 3 0 {name=p2 sig_type=std_logic lab=CLK}
-C {devices/gnd.sym} -320 -80 0 1 {name=l13 lab=GND}
 C {devices/gnd.sym} 640 -280 0 0 {name=l14 lab=GND}
 C {devices/vdd.sym} 640 -360 0 0 {name=l15 lab=VDD}
-C {devices/vsource.sym} -80 -110 0 0 {name=V4 value="sin(0.9 0.2 5e3)" savecurrent=false}
-C {devices/gnd.sym} -80 -80 0 1 {name=l18 lab=GND}
-C {devices/lab_pin.sym} -80 -140 1 0 {name=p3 sig_type=std_logic lab=SIG}
-C {devices/code_shown.sym} 140 70 0 0 {name=s1 only_toplevel=false value=
-"
-.control
-save all
-
-tran 0.1u 500u
-*ac dec 10 100 100k
-
-write DS_2024_rev2.raw
-.endc
-"}
-C {devices/code.sym} -40 120 0 0 {name=TT_MODELS
+C {devices/code.sym} 760 -530 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
 value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
@@ -93,21 +67,11 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
-C {devices/launcher.sym} -320 210 0 0 {name=h15
-descr="Annotate OP" 
-tclcommand="set show_hidden_texts 1; xschem annotate_op"
-}
 C {devices/lab_pin.sym} 680 -210 2 0 {name=p4 sig_type=std_logic lab=OUT}
 C {devices/lab_pin.sym} 380 -320 1 0 {name=p5 sig_type=std_logic lab=DACOUT}
 C {devices/vdd.sym} 610 -170 0 0 {name=l19 lab=VMID}
 C {devices/lab_pin.sym} 220 -210 2 0 {name=p6 sig_type=std_logic lab=INTOUT1}
 C {devices/lab_pin.sym} 480 -200 2 0 {name=p7 sig_type=std_logic lab=INTOUT2}
-C {devices/vsource.sym} -400 -110 0 0 {name=V5 value=0.4 savecurrent=false}
-C {devices/vdd.sym} -400 -140 0 0 {name=l20 lab=VREFN}
-C {devices/gnd.sym} -400 -80 0 1 {name=l21 lab=GND}
-C {devices/vsource.sym} -480 -110 0 0 {name=V6 value=1.4 savecurrent=false}
-C {devices/vdd.sym} -480 -140 0 0 {name=l22 lab=VREFP}
-C {devices/gnd.sym} -480 -80 0 1 {name=l23 lab=GND}
 C {devices/vdd.sym} 520 -390 0 0 {name=l16 lab=VREFP}
 C {devices/vdd.sym} 520 -250 1 0 {name=l17 lab=VREFN}
 C {devices/gnd.sym} 310 -460 0 0 {name=l24 lab=GND}
@@ -157,3 +121,17 @@ mult=1
 C {devices/gnd.sym} 320 -270 0 1 {name=l31 lab=GND}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 450 -220 3 0 {name=C3 model=cap_mim_m3_1 W=15.7 L=15.7 MF=12 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 190 -220 3 0 {name=C1 model=cap_mim_m3_1 W=15.7 L=15.7 MF=12 spiceprefix=X}
+C {devices/ipin.sym} 0 -140 0 0 {name=p1 lab=SIG}
+C {devices/ipin.sym} 610 -70 3 0 {name=p2 lab=CLK}
+C {devices/ipin.sym} 820 -340 2 0 {name=p3 lab=VDD}
+C {devices/ipin.sym} 820 -300 2 0 {name=p8 lab=VMID
+}
+C {devices/ipin.sym} 820 -260 2 0 {name=p9 lab=VREFP}
+C {devices/opin.sym} 680 -260 0 0 {name=p10 lab=OUT}
+C {devices/ipin.sym} 820 -220 2 0 {name=p11 lab=VREFN}
+C {devices/ipin.sym} 820 -180 2 0 {name=p12 lab=GND}
+C {devices/vdd.sym} 820 -260 0 0 {name=l6 lab=VREFP}
+C {devices/vdd.sym} 820 -220 0 0 {name=l7 lab=VREFN}
+C {devices/vdd.sym} 820 -300 0 0 {name=l8 lab=VMID}
+C {devices/vdd.sym} 820 -340 0 0 {name=l9 lab=VDD}
+C {devices/gnd.sym} 820 -180 0 1 {name=l13 lab=GND}

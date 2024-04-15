@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713128413
+timestamp 1713140669
 << metal1 >>
 rect 47100 690276 47400 690400
 rect 47100 690224 47224 690276
@@ -301,11 +301,11 @@ rect 38000 666400 38800 667200
 rect 39600 666400 48300 667200
 rect 35200 666200 48300 666400
 use constant_gm_fingers  constant_gm_fingers_0
-timestamp 1713027117
+timestamp 1713140669
 transform 1 0 43810 0 1 682900
 box -2700 -20020 4420 1140
 use OTA_fingers_031123_NON_FLAT  OTA_fingers_031123_NON_FLAT_0
-timestamp 1713027127
+timestamp 1713140669
 transform 1 0 42740 0 1 684710
 box -5940 -310 9780 16550
 << labels >>
