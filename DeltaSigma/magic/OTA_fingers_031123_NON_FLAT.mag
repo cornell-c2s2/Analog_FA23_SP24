@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713140669
+timestamp 1713196850
 << nwell >>
 rect -1410 6040 5250 10790
 << locali >>
@@ -5392,11 +5392,11 @@ timestamp 1713140669
 transform 0 -1 -3790 1 0 14670
 box -1750 -1700 1749 1700
 use sky130_fd_pr__nfet_01v8_EJ3ASN  sky130_fd_pr__nfet_01v8_EJ3ASN_0 /foss/designs/C2S2_Analog_TestChip/mag
-timestamp 1713140669
+timestamp 1713196850
 transform 1 0 1911 0 1 5211
 box -720 -710 720 710
 use sky130_fd_pr__nfet_01v8_EJ3ASN  sky130_fd_pr__nfet_01v8_EJ3ASN_1
-timestamp 1713140669
+timestamp 1713196850
 transform 1 0 1911 0 1 3691
 box -720 -710 720 710
 use sky130_fd_pr__nfet_01v8_JEXVB9  sky130_fd_pr__nfet_01v8_JEXVB9_0 /foss/designs/C2S2_Analog_TestChip/mag

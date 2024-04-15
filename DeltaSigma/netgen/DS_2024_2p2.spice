@@ -76,10 +76,6 @@ Xsky130_fd_pr__pfet_01v8_UJHYGH_0 m1_1720_n1000# m1_1720_n1000# VIN VIN VDD VIN 
 + VDD VIN VDD sky130_fd_pr__pfet_01v8_UJHYGH
 .ends
 
-.subckt sky130_fd_pr__res_xhigh_po_5p73_WTH63S a_n3057_n5808# a_n3187_n5938# a_1911_5376#
-X0 a_1911_5376# a_n3057_n5808# a_n3187_n5938# sky130_fd_pr__res_xhigh_po_5p73 l=246
-.ends
-
 .subckt x1Bit_DAC_Inv OUT VREF_N VREF_P VIN VDD VSS
 Xsky130_fd_pr__nfet_01v8_6H2JYD_0 VIN VSS m1_1720_n1000# VIN VSS VSS sky130_fd_pr__nfet_01v8_6H2JYD
 XXM2 OUT OUT VREF_P VREF_P m1_1720_n1000# m1_1720_n1000# m1_1720_n1000# OUT VREF_P
@@ -97,6 +93,16 @@ Xsky130_fd_pr__pfet_01v8_BDZ9JN_1 OUT OUT OUT VREF_P VREF_P VIN VIN VIN VIN VREF
 + OUT VREF_P OUT VIN OUT OUT VREF_P VIN VIN VIN VDD VREF_P VIN sky130_fd_pr__pfet_01v8_BDZ9JN
 Xsky130_fd_pr__pfet_01v8_UJHYGH_0 m1_1720_n1000# m1_1720_n1000# VIN VIN VDD VIN VDD
 + VDD VIN VDD sky130_fd_pr__pfet_01v8_UJHYGH
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_5p73_UF8E3R a_1911_5714# a_n1815_n6146# a_669_5714#
++ a_n3187_n6276# a_n573_5714# a_n573_n6146# a_n3057_5714# a_1911_n6146# a_n1815_5714#
++ a_669_n6146# a_n3057_n6146#
+X0 a_669_5714# a_669_n6146# a_n3187_n6276# sky130_fd_pr__res_xhigh_po_5p73 l=57.1
+X1 a_1911_5714# a_1911_n6146# a_n3187_n6276# sky130_fd_pr__res_xhigh_po_5p73 l=57.1
+X2 a_n1815_5714# a_n1815_n6146# a_n3187_n6276# sky130_fd_pr__res_xhigh_po_5p73 l=57.1
+X3 a_n3057_5714# a_n3057_n6146# a_n3187_n6276# sky130_fd_pr__res_xhigh_po_5p73 l=57.1
+X4 a_n573_5714# a_n573_n6146# a_n3187_n6276# sky130_fd_pr__res_xhigh_po_5p73 l=57.1
 .ends
 
 .subckt sky130_fd_pr__cap_mim_m3_1_95KK7Z c1_n1650_n1600# m3_n1750_n1700#
@@ -434,7 +440,7 @@ XOTA_fingers_031123_NON_FLAT_0 OUT VN VDD constant_gm_fingers_0/Vout VP VSS OTA_
 Xconstant_gm_fingers_0 constant_gm_fingers_0/Vout VDD VSS constant_gm_fingers
 .ends
 
-.subckt x1Bit_Clk_ADC OUT VMID VSS VDD CLK SIG
+.subckt x1Bit_Clk_ADC OUT SIG VMID VSS CLK VDD
 Xx3 x5/Y x4/Y VSS VSS VDD VDD x4/A sky130_fd_sc_hd__nand2_4
 Xx4 x4/A x6/Y VSS VSS VDD VDD x4/Y sky130_fd_sc_hd__nand2_4
 Xsky130_fd_sc_hd__nand2_4_0 x14/Y x4/Y VSS VSS VDD VDD x10/B sky130_fd_sc_hd__nand2_4
@@ -465,21 +471,27 @@ X10 c1_n1716_n6760# m3_n1756_n6800# sky130_fd_pr__cap_mim_m3_1 l=15.7 w=15.7
 X11 c1_2036_n6760# m3_1996_n6800# sky130_fd_pr__cap_mim_m3_1 l=15.7 w=15.7
 .ends
 
-.subckt DS_2024_2p2 CLK GND OUT SIG VDD VMID VREFN VREFP
+.subckt DS_2024_2p2 GND VDD VREFP VREFN SIG OUT VMID CLK
 X1Bit_DAC_0 1Bit_DAC_0/OUT VREFN VREFP OUT VDD GND x1Bit_DAC
-Xsky130_fd_pr__res_xhigh_po_5p73_WTH63S_0 1Bit_DAC_Inv_0/OUT GND C2S2_Amp_F_I_1/VN
-+ sky130_fd_pr__res_xhigh_po_5p73_WTH63S
-Xsky130_fd_pr__res_xhigh_po_5p73_WTH63S_1 C2S2_Amp_F_I_1/OUT GND C2S2_Amp_F_I_2/VN
-+ sky130_fd_pr__res_xhigh_po_5p73_WTH63S
-XXR3 SIG GND C2S2_Amp_F_I_1/VN sky130_fd_pr__res_xhigh_po_5p73_WTH63S
 X1Bit_DAC_Inv_0 1Bit_DAC_Inv_0/OUT VREFN VREFP OUT VDD GND x1Bit_DAC_Inv
-Xsky130_fd_pr__res_xhigh_po_5p73_WTH63S_2 C2S2_Amp_F_I_2/VN GND 1Bit_DAC_0/OUT sky130_fd_pr__res_xhigh_po_5p73_WTH63S
+Xsky130_fd_pr__res_xhigh_po_5p73_UF8E3R_0 C2S2_Amp_F_I_0/VN m1_173400_n24300# m1_174700_n12500#
++ GND m1_174700_n12500# m1_173400_n24300# m1_172100_n12500# m1_175900_n24300# m1_172100_n12500#
++ m1_175900_n24300# C2S2_Amp_F_I_1/OUT sky130_fd_pr__res_xhigh_po_5p73_UF8E3R
+Xsky130_fd_pr__res_xhigh_po_5p73_UF8E3R_1 C2S2_Amp_F_I_1/VN m1_141900_n24300# m1_143200_n12500#
++ GND m1_143200_n12500# m1_141900_n24300# m1_140600_n12500# m1_144400_n24300# m1_140600_n12500#
++ m1_144400_n24300# SIG sky130_fd_pr__res_xhigh_po_5p73_UF8E3R
+Xsky130_fd_pr__res_xhigh_po_5p73_UF8E3R_2 C2S2_Amp_F_I_1/VN m1_177900_n46400# m1_166100_n45100#
++ GND m1_166100_n45100# m1_177900_n46400# m1_166100_n47600# m1_177900_n43900# m1_166100_n47600#
++ m1_177900_n43900# 1Bit_DAC_Inv_0/OUT sky130_fd_pr__res_xhigh_po_5p73_UF8E3R
+Xsky130_fd_pr__res_xhigh_po_5p73_UF8E3R_3 C2S2_Amp_F_I_0/VN m1_208324_n46400# m1_196424_n45100#
++ GND m1_196424_n45100# m1_208324_n46400# m1_196424_n47600# m1_208324_n43900# m1_196424_n47600#
++ m1_208324_n43900# 1Bit_DAC_0/OUT sky130_fd_pr__res_xhigh_po_5p73_UF8E3R
+XC2S2_Amp_F_I_0 VDD C2S2_Amp_F_I_0/VN VMID C2S2_Amp_F_I_0/OUT GND C2S2_Amp_F_I
 XC2S2_Amp_F_I_1 VDD C2S2_Amp_F_I_1/VN VMID C2S2_Amp_F_I_1/OUT GND C2S2_Amp_F_I
-XC2S2_Amp_F_I_2 VDD C2S2_Amp_F_I_2/VN VMID C2S2_Amp_F_I_2/OUT GND C2S2_Amp_F_I
-X1Bit_Clk_ADC_0 OUT VMID GND VDD CLK C2S2_Amp_F_I_2/OUT x1Bit_Clk_ADC
+X1Bit_Clk_ADC_0 OUT C2S2_Amp_F_I_0/OUT VMID GND CLK VDD x1Bit_Clk_ADC
 Xsky130_fd_pr__cap_mim_m3_1_Z67P85_0 C2S2_Amp_F_I_1/OUT C2S2_Amp_F_I_1/VN C2S2_Amp_F_I_1/OUT
 + C2S2_Amp_F_I_1/OUT C2S2_Amp_F_I_1/VN C2S2_Amp_F_I_1/VN sky130_fd_pr__cap_mim_m3_1_Z67P85
-Xsky130_fd_pr__cap_mim_m3_1_Z67P85_1 C2S2_Amp_F_I_2/OUT C2S2_Amp_F_I_2/VN C2S2_Amp_F_I_2/OUT
-+ C2S2_Amp_F_I_2/OUT C2S2_Amp_F_I_2/VN C2S2_Amp_F_I_2/VN sky130_fd_pr__cap_mim_m3_1_Z67P85
+Xsky130_fd_pr__cap_mim_m3_1_Z67P85_1 C2S2_Amp_F_I_0/OUT C2S2_Amp_F_I_0/VN C2S2_Amp_F_I_0/OUT
++ C2S2_Amp_F_I_0/OUT C2S2_Amp_F_I_0/VN C2S2_Amp_F_I_0/VN sky130_fd_pr__cap_mim_m3_1_Z67P85
 .ends
 

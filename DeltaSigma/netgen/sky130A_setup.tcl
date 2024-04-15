@@ -51,7 +51,7 @@ foreach dev $devices {
 	property "-circuit1 $dev" parallel {l critical}
 	property "-circuit1 $dev" parallel {w add}
 	property "-circuit1 $dev" parallel {value par}
-	property "-circuit1 $dev" tolerance {l 0.05} {w 0.05}
+	property "-circuit1 $dev" tolerance {l 0.01} {w 0.01}
 	# Ignore these properties
 	property "-circuit1 $dev" delete mult
     }
