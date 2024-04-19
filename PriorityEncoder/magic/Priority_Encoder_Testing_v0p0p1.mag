@@ -1,8 +1,0 @@
-magic
-tech sky130A
-timestamp 1709401280
-use Priority_Encoder_v0p0p1  x1
-timestamp 1709401280
-transform 1 0 19 0 1 2300
-box 0 -2260 1585 324
-<< end >>
