@@ -1,0 +1,60 @@
+| units: 500000 tech: sky130A format: MIT
+x S Q VDD VDD s=11600,458 d=23200,916 l=50 w=400 x=501 y=-826 sky130_fd_pr__pfet_01v8
+x Q QN VDD VDD s=23200,916 d=23200,916 l=60 w=400 x=1589 y=-463 sky130_fd_pr__pfet_01v8
+x R GND x1.Y GND s=3510,184 d=3510,184 l=30 w=130 x=1485 y=-1634 sky130_fd_pr__nfet_01v8
+x S GND x2.Y GND s=3510,184 d=3510,184 l=30 w=130 x=1485 y=-2574 sky130_fd_pr__nfet_01v8
+x S VDD x2.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=1485 y=-2324 sky130_fd_pr__pfet_01v8_hvt
+x R VDD QN VDD s=23200,916 d=11600,458 l=50 w=400 x=2300 y=-826 sky130_fd_pr__pfet_01v8
+x R x1.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=1401 y=-1634 sky130_fd_pr__nfet_01v8
+x x2.Y QN GND GND s=23200,916 d=23200,916 l=50 w=400 x=2086 y=-1659 sky130_fd_pr__nfet_01v8
+x S VDD Q VDD s=23200,916 d=11600,458 l=50 w=400 x=393 y=-826 sky130_fd_pr__pfet_01v8
+x S a_1070_n1178# Q GND s=11600,516 d=12580,544 l=30 w=200 x=1070 y=-891 sky130_fd_pr__nfet_01v8
+x R GND x1.Y GND s=6760,364 d=3510,184 l=30 w=130 x=1317 y=-1634 sky130_fd_pr__nfet_01v8
+x R x1.Y GND GND s=3510,184 d=6760,364 l=30 w=130 x=1569 y=-1634 sky130_fd_pr__nfet_01v8
+x S x2.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=1401 y=-2324 sky130_fd_pr__pfet_01v8_hvt
+x S x2.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=1401 y=-2574 sky130_fd_pr__nfet_01v8
+x S GND x2.Y GND s=6760,364 d=3510,184 l=30 w=130 x=1317 y=-2574 sky130_fd_pr__nfet_01v8
+x S x2.Y GND GND s=3510,184 d=6760,364 l=30 w=130 x=1569 y=-2574 sky130_fd_pr__nfet_01v8
+x S VDD x2.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=1317 y=-2324 sky130_fd_pr__pfet_01v8_hvt
+x S x2.Y VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=1569 y=-2324 sky130_fd_pr__pfet_01v8_hvt
+x QN GND a_1070_n1178# GND s=11600,516 d=11600,516 l=30 w=200 x=1070 y=-1207 sky130_fd_pr__nfet_01v8
+x R VDD x1.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=1485 y=-1954 sky130_fd_pr__pfet_01v8_hvt
+x Q GND a_1583_n1177# GND s=11600,516 d=11600,516 l=30 w=200 x=1583 y=-1206 sky130_fd_pr__nfet_01v8
+x R x1.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=1401 y=-1954 sky130_fd_pr__pfet_01v8_hvt
+x R VDD x1.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=1317 y=-1954 sky130_fd_pr__pfet_01v8_hvt
+x R x1.Y VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=1569 y=-1954 sky130_fd_pr__pfet_01v8_hvt
+x R a_1583_n1177# QN GND s=11600,516 d=11600,516 l=30 w=200 x=1583 y=-890 sky130_fd_pr__nfet_01v8
+x QN Q VDD VDD s=23200,916 d=23200,916 l=60 w=400 x=859 y=-463 sky130_fd_pr__pfet_01v8
+x R QN VDD VDD s=11600,458 d=23200,916 l=50 w=400 x=2408 y=-826 sky130_fd_pr__pfet_01v8
+x x1.Y Q GND GND s=23200,916 d=23200,916 l=50 w=400 x=720 y=-1659 sky130_fd_pr__nfet_01v8
+C S VDD 2.9
+C QN VDD 2.6
+C Q VDD 2.5
+C Q S 2.3
+C QN Q 2.0
+C R VDD 2.6
+C R0 3.9
+R R 5011
+= R x1.A
+C QN0 3.5
+R QN 6625
+C Q0 3.5
+R Q 6643
+C S0 4.0
+R S 5004
+= S x2.A
+C VDD0 16.1
+R VDD 60457
+= VDD x2.VPWR
+= VDD x2.VPB
+= VDD x1.VPWR
+= VDD x1.VPB
+R x2.Y 3813
+R x1.Y 3817
+R a_1583_n1177# 1311
+R a_1070_n1178# 1311
+R GND 58050
+= GND x2.VGND
+= GND x1.VNB
+= GND x2.VNB
+= GND x1.VGND
