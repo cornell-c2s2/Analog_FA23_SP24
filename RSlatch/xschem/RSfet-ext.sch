@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.7853024e-09
-x2=3.3604497e-08
+x1=0
+x2=3e-08
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -42,8 +42,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.7853024e-09
-x2=3.3604497e-08
+x1=0
+x2=3e-08
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -56,32 +56,6 @@ unitx=1
 logx=0
 logy=0
 }
-B 2 140 -2320 940 -1920 {flags=graph
-y1=-0.064
-y2=2.1
-ypos1=0
-ypos2=2
-divy=5
-subdivy=1
-unity=1
-x1=-2.7853024e-09
-x2=3.3604497e-08
-divx=5
-subdivx=1
-xlabmag=1.0
-ylabmag=1.0
-
-
-dataset=-1
-unitx=1
-logx=0
-logy=0
-
-
-
-color="5 4"
-node="net4
-net3"}
 N 720 -480 720 -440 {
 lab=VDD}
 N 720 -380 720 -340 {

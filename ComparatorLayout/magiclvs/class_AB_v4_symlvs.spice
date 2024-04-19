@@ -1,8 +1,4 @@
-* NGSPICE file created from class_AB_v3_symmag.ext - technology: sky130A
-
-.subckt sky130_fd_pr__nfet_01v8_lvt_AWHWK2 a_60_n400# a_n118_n400# a_n60_n488# a_n220_n574#
-X0 a_60_n400# a_n60_n488# a_n118_n400# a_n220_n574# sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.6
-.ends
+* NGSPICE file created from class_AB_v4_symlvs.ext - technology: sky130A
 
 .subckt sky130_fd_pr__pfet_01v8_lvt_4QFHB3 a_35_n400# w_n231_n619# a_n93_n400# a_n35_n497#
 X0 a_35_n400# a_n35_n497# a_n93_n400# w_n231_n619# sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.35
@@ -14,6 +10,10 @@ X0 a_60_n909# a_n60_n997# a_n118_n909# a_n220_n1083# sky130_fd_pr__nfet_01v8_lvt
 X1 a_60_109# a_n60_21# a_n118_109# a_n220_n1083# sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.6
 .ends
 
+.subckt sky130_fd_pr__nfet_01v8_lvt_AWHWK2 a_60_n400# a_n118_n400# a_n60_n488# a_n220_n574#
+X0 a_60_n400# a_n60_n488# a_n118_n400# a_n220_n574# sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.6
+.ends
+
 .subckt sky130_fd_pr__nfet_01v8_lvt_64Z3AY a_15_n131# a_n175_n243# a_n33_91# a_n73_n131#
 X0 a_15_n131# a_n33_91# a_n73_n131# a_n175_n243# sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
 .ends
@@ -22,8 +22,7 @@ X0 a_15_n131# a_n33_91# a_n73_n131# a_n175_n243# sky130_fd_pr__nfet_01v8_lvt ad=
 X0 a_n33_n288# w_n151_n291# VSUBS sky130_fd_pr__cap_var_lvt w=2 l=0.18
 .ends
 
-.subckt class_AB_v3_symmag VDD VOP VON VIN VIP IB CLK VSS
-XXM12 VSS IB IB VSS sky130_fd_pr__nfet_01v8_lvt_AWHWK2
+.subckt class_AB_v4_symlvs VDD VOP VON VIN VIP IB CLK VSS
 XXM14 VON VDD w_1880_n1260# CLK sky130_fd_pr__pfet_01v8_lvt_4QFHB3
 XXM13 m1_820_n2620# IB IB m1_820_n2620# VSS VSS VSS sky130_fd_pr__nfet_01v8_lvt_WJMR3R
 XXM15 w_1258_n651# m1_820_n2620# VIN VSS sky130_fd_pr__nfet_01v8_lvt_AWHWK2
