@@ -249,3 +249,11 @@ C {sky130_stdcells/inv_16.sym} 1077.5 367.5 0 0 {name=x19 VGND=GND VNB=GND VPB=V
 C {sky130_stdcells/inv_16.sym} 1077.5 412.5 0 0 {name=x23 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/inv_16.sym} 1077.5 457.5 0 0 {name=x24 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/inv_16.sym} 1077.5 502.5 0 0 {name=x25 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {devices/ipin.sym} -90 90 2 0 {name=p6 lab=VDD}
+C {devices/ipin.sym} -90 250 2 0 {name=p12 lab=GND}
+C {devices/vdd.sym} -90 90 0 0 {name=l9 lab=VDD}
+C {devices/gnd.sym} -90 250 0 1 {name=l13 lab=GND}
+C {devices/vdd.sym} 357.5 -165 0 0 {name=l3 lab=VDD}
+C {devices/vdd.sym} 357.5 97.5 0 0 {name=l4 lab=VDD}
+C {devices/gnd.sym} 357.5 317.5 0 1 {name=l5 lab=GND}
+C {devices/gnd.sym} 357.5 55 0 1 {name=l6 lab=GND}
