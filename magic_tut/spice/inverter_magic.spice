@@ -1,0 +1,15 @@
+* NGSPICE file created from inverter_magic.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_M9466H a_100_n200# a_n158_n200# a_n100_n288# a_n260_n374#
+X0 a_100_n200# a_n100_n288# a_n158_n200# a_n260_n374# sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_LXK9WL w_n296_n419# a_n100_n297# a_100_n200# a_n158_n200#
+X0 a_100_n200# a_n100_n297# a_n158_n200# w_n296_n419# sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=1
+.ends
+
+.subckt inverter_magic VDD GND Y A
+Xsky130_fd_pr__nfet_01v8_M9466H_0 Y GND A GND sky130_fd_pr__nfet_01v8_M9466H
+Xsky130_fd_pr__pfet_01v8_LXK9WL_1 VDD A VDD Y sky130_fd_pr__pfet_01v8_LXK9WL
+.ends
+

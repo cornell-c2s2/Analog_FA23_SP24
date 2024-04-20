@@ -1,0 +1,7 @@
+** sch_path: /home/c2/Analog_FA23_SP24/magic_tut/xschem/inverter.sch
+.subckt inverter VDD GND Y A
+*.PININFO VDD:B GND:B Y:B A:B
+XM1 Y A GND GND sky130_fd_pr__nfet_01v8 L=1 W=2 nf=1 m=1
+XM2 Y A VDD VDD sky130_fd_pr__pfet_01v8 L=1 W=2 nf=1 m=1
+.ends
+.end

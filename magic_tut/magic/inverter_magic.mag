@@ -1,0 +1,36 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1711321355
+<< viali >>
+rect -48 246 40 506
+rect 1214 246 1302 506
+<< metal1 >>
+rect 150 610 1130 680
+rect -440 506 120 560
+rect -440 246 -48 506
+rect 40 246 120 506
+rect -440 190 120 246
+rect 360 170 900 520
+rect 1130 506 1690 540
+rect 1130 246 1214 506
+rect 1302 246 1690 506
+rect 1130 170 1690 246
+use sky130_fd_pr__nfet_01v8_M9466H  sky130_fd_pr__nfet_01v8_M9466H_0
+timestamp 1711319376
+transform 1 0 243 0 1 357
+box -296 -410 296 410
+use sky130_fd_pr__pfet_01v8_LXK9WL  sky130_fd_pr__pfet_01v8_LXK9WL_1
+timestamp 1711319376
+transform 1 0 1013 0 1 356
+box -296 -419 296 419
+<< labels >>
+rlabel metal1 1390 200 1660 480 1 VDD
+port 1 n
+rlabel metal1 -400 230 -140 490 1 GND
+port 2 n
+rlabel metal1 520 290 690 410 1 Y
+port 3 n
+rlabel metal1 550 620 660 660 1 A
+port 4 n
+<< end >>
