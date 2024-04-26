@@ -1,0 +1,75 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__nfet_01v8_lvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8_lvt     |Circuit 2: sky130_fd_pr__nfet_01v8_lvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_5p73 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_5p73 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_5p73 |Circuit 2: sky130_fd_pr__res_xhigh_po_5p73 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_5p73 and sky130_fd_pr__res_xhigh_po_5p73 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_lvt     |Circuit 2: sky130_fd_pr__pfet_01v8_lvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_BKH6ZK in circuit PTAT_v0p0p0_mag (0)(20 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_GWLG8Y in circuit PTAT_v0p0p0_mag (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_GUHUBJ in circuit PTAT_v0p0p0_mag (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_AWHWK2 in circuit PTAT_v0p0p0_mag (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_B7MEP5 in circuit PTAT_v0p0p0_mag (0)(1 instance)
+
+Class PTAT_v0p0p0_mag (0):  Merged 20 parallel devices.
+Class PTAT_v0p0p0 (1):  Merged 1 parallel devices.
+Subcircuit summary:
+Circuit 1: PTAT_v0p0p0_mag                 |Circuit 2: PTAT_v0p0p0                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8_lvt (23->4)        |sky130_fd_pr__nfet_01v8_lvt (23->4)        
+sky130_fd_pr__res_xhigh_po_5p73 (2->1)     |sky130_fd_pr__res_xhigh_po_5p73 (2->1)     
+sky130_fd_pr__pfet_01v8_lvt (3)            |sky130_fd_pr__pfet_01v8_lvt (3)            
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: PTAT_v0p0p0_mag                 |Circuit 2: PTAT_v0p0p0                     
+-------------------------------------------|-------------------------------------------
+VOUT                                       |VOUT                                       
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes PTAT_v0p0p0_mag and PTAT_v0p0p0 are equivalent.
+
+Final result: Circuits match uniquely.
+.
