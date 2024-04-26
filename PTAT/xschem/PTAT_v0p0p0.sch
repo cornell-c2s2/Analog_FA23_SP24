@@ -44,23 +44,23 @@ lab=#net2}
 N -150 110 140 110 {
 lab=#net1}
 N -190 140 -190 180 {
-lab=#net3}
+lab=VSS}
 N 150 200 210 200 {
-lab=#net4}
+lab=#net3}
 N 180 140 180 200 {
-lab=#net4}
+lab=#net3}
 N 150 260 210 260 {
 lab=VSS}
 N 180 260 180 280 {
 lab=VSS}
 N -150 -40 140 -40 {
-lab=#net5}
+lab=#net4}
 N -30 10 -30 40 {
-lab=#net5}
+lab=#net4}
 N -30 10 10 10 {
-lab=#net5}
+lab=#net4}
 N 10 -40 10 10 {
-lab=#net5}
+lab=#net4}
 N 10 70 10 110 {
 lab=#net1}
 N 10 40 50 40 {
@@ -72,11 +72,11 @@ lab=#net1}
 N -150 80 -150 110 {
 lab=#net1}
 N -210 110 -190 110 {
-lab=#net3}
+lab=VSS}
 N -210 110 -210 140 {
-lab=#net3}
+lab=VSS}
 N -210 140 -190 140 {
-lab=#net3}
+lab=VSS}
 N 180 110 260 110 {
 lab=VSS}
 N 180 20 440 20 {
@@ -99,6 +99,12 @@ N 620 110 670 110 {
 lab=VOUT}
 N -260 250 -260 270 {
 lab=VSS}
+N 170 230 190 230 {
+lab=VSS}
+N 180 230 180 260 {
+lab=VSS}
+N 140 -40 140 20 {}
+N 140 20 180 20 {}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} -170 -40 0 1 {name=M1
 L=1
 W=19
@@ -159,7 +165,7 @@ C {sky130_fd_pr/nfet_01v8_lvt.sym} 160 110 0 0 {name=M5
 L=0.6
 W=4
 nf=1
-mult=1
+mult=20
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -169,19 +175,9 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X
 }
-C {devices/res.sym} 150 230 0 0 {name=R1
-value=30k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} 210 230 0 0 {name=R2
-value=30k
-footprint=1206
-device=resistor
-m=1}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} -10 40 0 0 {name=M6
-L=0.6
-W=4
+L=0.15
+W=0.42
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -224,3 +220,13 @@ C {devices/lab_pin.sym} -260 270 3 0 {name=p7 sig_type=std_logic lab=VSS
 }
 C {devices/lab_pin.sym} -190 180 3 0 {name=p10 sig_type=std_logic lab=VSS
 }
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 150 230 0 1 {name=R1
+L=85.94
+model=res_xhigh_po_5p73
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 210 230 0 0 {name=R2
+L=85.94
+model=res_xhigh_po_5p73
+spiceprefix=X
+mult=1}
