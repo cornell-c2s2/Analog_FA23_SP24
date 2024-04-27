@@ -1,7 +1,6 @@
 * NGSPICE file created from 16to4_PriorityEncoder_v0p0p1_flat.ext - technology: sky130A
 
-.subckt 16to4_PriorityEncoder_v0p0p1_flat I15 I14 I11 I10 I4 I0 A3 I8 I6 I3 I1 A2
-+ I9 I2 I12 I5 A1 A0 I13 I7 EI GND VDD
+.subckt 16to4_PriorityEncoder_v0p0p1_flat I15 I14 I13 I12 I11 I10 I9 I8 I7 I6 I5 I4 I3 I2 I1 I0 EI VDD GND A3 A2 A1 A0
 X0 x36.Y x36.A VDD.t427 VDD.t426 sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.135 ps=1.27 w=1 l=0.15
 X1 A2.t120 x36.Y VDD.t387 VDD.t386 sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.135 ps=1.27 w=1 l=0.15
 X2 VDD.t250 x22.A x22.Y VDD.t249 sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.135 ps=1.27 w=1 l=0.15
