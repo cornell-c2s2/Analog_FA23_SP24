@@ -89,15 +89,15 @@ lab=#net1}
 N 660 -780 660 -740 {
 lab=#net2}
 N 270 -710 310 -710 {
-lab=!Q}
+lab=Q}
 N 270 -910 270 -710 {
-lab=!Q}
+lab=Q}
 N 270 -910 310 -910 {
-lab=!Q}
+lab=Q}
 N 350 -880 350 -840 {
 lab=Q}
 N 660 -880 660 -840 {
-lab=!Q}
+lab=Q}
 N 350 -810 370 -810 {
 lab=GND}
 N 630 -810 660 -810 {
@@ -135,7 +135,7 @@ lab=VDD}
 N 350 -850 700 -850 {
 lab=Q}
 N 270 -860 660 -860 {
-lab=!Q}
+lab=Q}
 N 700 -710 740 -710 {
 lab=Q}
 N 740 -910 740 -710 {
@@ -167,7 +167,7 @@ lab=VDD}
 N 660 -970 840 -970 {
 lab=VDD}
 N 660 -880 840 -880 {
-lab=!Q}
+lab=Q}
 N 140 -810 310 -810 {
 lab=!S}
 N 140 -910 140 -810 {
@@ -185,7 +185,7 @@ lab=GND}
 N 210 -710 230 -710 {
 lab=GND}
 N 800 -760 800 -740 {
-lab=!Q}
+lab=Q}
 N 650 -680 800 -680 {
 lab=GND}
 N 140 -810 140 -520 {
@@ -211,9 +211,9 @@ lab=#net4}
 N 780 -710 800 -710 {
 lab=GND}
 N 660 -860 800 -860 {
-lab=!Q}
+lab=Q}
 N 800 -860 800 -760 {
-lab=!Q}
+lab=Q}
 N 210 -850 350 -850 {
 lab=Q}
 N 210 -850 210 -740 {
@@ -253,8 +253,8 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
-C {devices/lab_pin.sym} 740 -850 0 1 {name=p4 sig_type=std_logic lab=Q}
-C {devices/lab_pin.sym} 270 -860 0 0 {name=p5 sig_type=std_logic lab=!Q}
+C {devices/lab_pin.sym} 740 -850 0 1 {name=p4 sig_type=std_logic lab=QN}
+C {devices/lab_pin.sym} 270 -860 0 0 {name=p5 sig_type=std_logic lab=Q}
 C {sky130_fd_pr/nfet_01v8.sym} 330 -810 0 0 {name=M1
 L=0.15
 W=1

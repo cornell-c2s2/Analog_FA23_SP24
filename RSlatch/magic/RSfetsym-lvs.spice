@@ -55,18 +55,18 @@ X0 a_25_n200# a_n33_n288# a_n83_n200# a_n185_n374# sky130_fd_pr__nfet_01v8 ad=0.
 X0 a_25_n200# a_n33_n288# a_n83_n200# a_n185_n374# sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.25
 .ends
 
-.subckt RSfetsym-lvs VDD S R QN Q GND
+.subckt RSfetsym-lvs VDD S R Q QN GND
 Xx1 R GND GND VDD VDD x1/Y sky130_fd_sc_hd__inv_4
 Xx2 S GND GND VDD VDD x2/Y sky130_fd_sc_hd__inv_4
-XXM1 Q S m1_1070_n1180# GND sky130_fd_pr__nfet_01v8_8X7CJE
-XXM2 m1_1070_n1180# QN GND GND sky130_fd_pr__nfet_01v8_ENQT6S
-XXM3 QN R m1_1580_n1170# GND sky130_fd_pr__nfet_01v8_CBNSG2
-XXM4 m1_1580_n1170# Q GND GND sky130_fd_pr__nfet_01v8_GNLSML
-XXM5 VDD Q QN VDD sky130_fd_pr__pfet_01v8_K7FRP5
-XXM6 VDD QN Q VDD sky130_fd_pr__pfet_01v8_GHY9W9
-XXM7 S VDD VDD S VDD Q sky130_fd_pr__pfet_01v8_E3L9V7
-XXM8 R VDD VDD R VDD QN sky130_fd_pr__pfet_01v8_EDASV7
-XXM9 GND Q GND x1/Y sky130_fd_pr__nfet_01v8_4WSMTB
-XXM10 GND QN GND x2/Y sky130_fd_pr__nfet_01v8_XJSMYS
+XXM1 QN S m1_1070_n1180# GND sky130_fd_pr__nfet_01v8_8X7CJE
+XXM2 m1_1070_n1180# Q GND GND sky130_fd_pr__nfet_01v8_ENQT6S
+XXM3 Q R m1_1580_n1170# GND sky130_fd_pr__nfet_01v8_CBNSG2
+XXM4 m1_1580_n1170# QN GND GND sky130_fd_pr__nfet_01v8_GNLSML
+XXM5 VDD QN Q VDD sky130_fd_pr__pfet_01v8_K7FRP5
+XXM6 VDD Q QN VDD sky130_fd_pr__pfet_01v8_GHY9W9
+XXM7 S VDD VDD S VDD QN sky130_fd_pr__pfet_01v8_E3L9V7
+XXM8 R VDD VDD R VDD Q sky130_fd_pr__pfet_01v8_EDASV7
+XXM9 GND QN GND x1/Y sky130_fd_pr__nfet_01v8_4WSMTB
+XXM10 GND Q GND x2/Y sky130_fd_pr__nfet_01v8_XJSMYS
 .ends
 

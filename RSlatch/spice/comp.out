@@ -39,8 +39,8 @@ Netlists match uniquely.
 Subcircuit pins:
 Circuit 1: RSfetsym-lvs                    |Circuit 2: RSfetsym                        
 -------------------------------------------|-------------------------------------------
-QN                                         |QN                                         
 Q                                          |Q                                          
+QN                                         |QN                                         
 VDD                                        |VDD                                        
 GND                                        |GND                                        
 S                                          |S                                          
