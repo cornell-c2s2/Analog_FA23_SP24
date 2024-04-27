@@ -1764,10 +1764,10 @@ C {devices/noconn.sym} 1603.75 -1941.25 2 0 {name=l69}
 C {devices/noconn.sym} 1603.75 -2041.25 2 0 {name=l70}
 C {devices/noconn.sym} 1603.75 -2141.25 2 0 {name=l71}
 C {devices/noconn.sym} 1603.75 -2241.25 2 0 {name=l72}
-C {devices/lab_pin.sym} 2442.5 -1832.5 2 0 {name=p158 sig_type=std_logic lab=OUT2}
-C {devices/lab_pin.sym} 2442.5 -1812.5 2 0 {name=p159 sig_type=std_logic lab=OUT1}
-C {devices/lab_pin.sym} 2442.5 -1792.5 2 0 {name=p160 sig_type=std_logic lab=OUT0}
-C {devices/lab_pin.sym} 2442.5 -1852.5 2 0 {name=p162 sig_type=std_logic lab=OUT3}
+C {devices/lab_pin.sym} 2442.5 -1872.5 2 0 {name=p158 sig_type=std_logic lab=OUT2}
+C {devices/lab_pin.sym} 2442.5 -1852.5 2 0 {name=p159 sig_type=std_logic lab=OUT1}
+C {devices/lab_pin.sym} 2442.5 -1832.5 2 0 {name=p160 sig_type=std_logic lab=OUT0}
+C {devices/lab_pin.sym} 2442.5 -1892.5 2 0 {name=p162 sig_type=std_logic lab=OUT3}
 C {devices/vdd.sym} 593.75 -121.25 0 0 {name=l80 lab=VDD}
 C {devices/lab_pin.sym} 463.75 -42.5 1 0 {name=p164 sig_type=std_logic lab=GND}
 C {devices/gnd.sym} 463.75 -12.5 0 0 {name=l81 lab=GND}
@@ -1852,4 +1852,6 @@ C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -1051.25 
 C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -951.25 0 0 {name=x32}
 C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -851.25 0 0 {name=x33}
 C {/foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym} 1453.75 -751.25 0 0 {name=x66}
-C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sym} 2292.5 -1692.5 0 0 {name=x67}
+C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sym} 2292.5 -1712.5 0 0 {name=x1}
+C {devices/lab_pin.sym} 2142.5 -1892.5 0 0 {name=p161 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 2142.5 -1872.5 1 0 {name=l40 lab=GND}
