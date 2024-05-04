@@ -4,11 +4,11 @@
 
 .subckt frontAnalog_v0p0p1 VDD GND VN VIN IB CLK Q
 *.PININFO VDD:I GND:I VN:I VIN:I IB:I CLK:I Q:O
-x63 net1 GND GND VDD VDD net4 sky130_fd_sc_hd__buf_1
-x65 net2 GND GND VDD VDD net5 sky130_fd_sc_hd__buf_1
-* noconn #net6
-x1 VDD net4 net5 Q net6 GND RSfetsym
-x2 net3 net1 net2 VN VIN CLK IB GND class_AB_v4_sym
+x63 net1 GND GND VDD VDD net3 sky130_fd_sc_hd__buf_1
+x65 net2 GND GND VDD VDD net4 sky130_fd_sc_hd__buf_1
+* noconn #net5
+x1 VDD net3 net4 Q net5 GND RSfetsym
+x2 VDD net1 net2 VN VIN CLK IB GND class_AB_v4_sym
 .ends
 
 * expanding   symbol:  /foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym # of pins=6

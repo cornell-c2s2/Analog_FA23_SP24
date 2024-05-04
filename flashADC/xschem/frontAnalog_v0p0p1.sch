@@ -11,8 +11,6 @@ N -156.25 -21.25 -46.25 -21.25 {
 lab=#net2}
 N -156.25 -1.25 -116.25 -1.25 {
 lab=GND}
-N -156.25 -61.25 -116.25 -61.25 {
-lab=#net3}
 N -496.25 -21.25 -456.25 -21.25 {
 lab=CLK}
 N -496.25 -41.25 -456.25 -41.25 {
@@ -45,7 +43,7 @@ C {devices/ipin.sym} -496.25 -1.25 0 0 {name=p3 lab=IB
 C {devices/ipin.sym} -496.25 -21.25 0 0 {name=p4 lab=CLK
 
 }
-C {devices/vdd.sym} -115 -61.25 0 0 {name=l2 lab=VDD}
+C {devices/vdd.sym} -156.25 -61.25 0 0 {name=l2 lab=VDD}
 C {devices/gnd.sym} 333.75 18.75 0 0 {name=l39 lab=GND}
 C {devices/noconn.sym} 333.75 -1.25 2 0 {name=l72}
 C {devices/vdd.sym} 333.75 -41.25 1 0 {name=l3 lab=VDD}
