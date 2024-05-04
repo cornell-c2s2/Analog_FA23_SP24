@@ -14,11 +14,11 @@ lab=GND}
 N -156.25 -61.25 -116.25 -61.25 {
 lab=#net3}
 N -496.25 -21.25 -456.25 -21.25 {
-lab=IB}
+lab=CLK}
 N -496.25 -41.25 -456.25 -41.25 {
 lab=VIN}
 N -496.25 -1.25 -456.25 -1.25 {
-lab=CLK}
+lab=IB}
 N -496.25 -61.25 -456.25 -61.25 {
 lab=VN}
 C {devices/gnd.sym} -116.25 -1.25 0 0 {name=l1 lab=GND}
@@ -39,10 +39,10 @@ C {devices/gnd.sym} -185 -266.25 0 1 {name=l13 lab=GND}
 C {devices/ipin.sym} -496.25 -61.25 0 0 {name=p1 lab=VN}
 C {devices/ipin.sym} -496.25 -41.25 0 0 {name=p2 lab=VIN
 }
-C {devices/ipin.sym} -496.25 -21.25 0 0 {name=p3 lab=IB
+C {devices/ipin.sym} -496.25 -1.25 0 0 {name=p3 lab=IB
 
 }
-C {devices/ipin.sym} -496.25 -1.25 0 0 {name=p4 lab=CLK
+C {devices/ipin.sym} -496.25 -21.25 0 0 {name=p4 lab=CLK
 
 }
 C {devices/vdd.sym} -115 -61.25 0 0 {name=l2 lab=VDD}
