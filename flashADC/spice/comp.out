@@ -1,0 +1,184 @@
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_5p73 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_5p73 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_5p73 |Circuit 2: sky130_fd_pr__res_xhigh_po_5p73 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_5p73 and sky130_fd_pr__res_xhigh_po_5p73 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_2GP8TG in circuit resistorDivider_v0p0p1 (1)(1 instance)
+
+Class resistorDivider_v0p0p1 (1):  Merged 126 parallel devices.
+Class resistorDivider_v0p0p1 (1):  Merged 17 series devices.
+Subcircuit summary:
+Circuit 1: resistorDivider_v0p0p1          |Circuit 2: resistorDivider_v0p0p1          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_5p73 (136->17)  |sky130_fd_pr__res_xhigh_po_5p73 (144->1) * 
+Number of devices: 17 **Mismatch**         |Number of devices: 1 **Mismatch**          
+Number of nets: 18 **Mismatch**            |Number of nets: 3 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: resistorDivider_v0p0p1          |Circuit 2: resistorDivider_v0p0p1          
+
+---------------------------------------------------------------------------------------
+Net: VL                                    |Net: m1_n4410_n4170#                       
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  
+  sky130_fd_pr__res_xhigh_po_5p73/3 = 17   |                                           
+                                           |                                           
+Net: V1                                    |Net: m1_n4400_32090#                       
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  
+                                           |                                           
+Net: V2                                    |Net: (no pins)                             
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  sky130_fd_pr__res_xhigh_po_5p73/3 = 1    
+                                           |                                           
+Net: V3                                    |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V4                                    |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V5                                    |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V6                                    |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V7                                    |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V8                                    |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V9                                    |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V10                                   |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V11                                   |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V12                                   |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V13                                   |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V14                                   |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V15                                   |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: V16                                   |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+                                           |                                           
+Net: VFS                                   |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |                                           
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: resistorDivider_v0p0p1          |Circuit 2: resistorDivider_v0p0p1          
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |Instance: sky130_fd_pr__res_xhigh_po_5p73_ 
+  (1,2) = (18,2)                           |  (1,2) = (1,1)                            
+  3 = 18                                   |  3 = 1                                    
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,2)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+                                           |                                           
+Instance: sky130_fd_pr__res_xhigh_po_5p73: |(no matching instance)                     
+  (1,2) = (2,1)                            |                                           
+  3 = 18                                   |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+
+Subcircuit pins:
+Circuit 1: resistorDivider_v0p0p1          |Circuit 2: resistorDivider_v0p0p1          
+-------------------------------------------|-------------------------------------------
+VL                                         |(no matching pin)                          
+V1                                         |(no matching pin)                          
+V2                                         |(no pins) **Mismatch**                     
+Cell pin lists are equivalent.
+Device classes resistorDivider_v0p0p1 and resistorDivider_v0p0p1 are equivalent.
+
+Final result: Netlists do not match.

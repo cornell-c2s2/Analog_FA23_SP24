@@ -1,0 +1,25 @@
+** sch_path: /foss/designs/Analog_FA23_SP24/flashADC/xschem/resistorDivider_v0p0p1.sch
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.subckt resistorDivider_v0p0p1 VFS VL V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16
+*.PININFO VFS:I VL:I V1:O V2:O V3:O V4:O V5:O V6:O V7:O V8:O V9:O V10:O V11:O V12:O V13:O V14:O V15:O V16:O
+XR1 VL V1 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR2 V1 V2 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR3 V2 V3 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR4 V3 V4 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR5 V4 V5 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR6 V5 V6 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR7 V6 V7 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR8 V7 V8 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR9 V8 V9 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR10 V9 V10 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR11 V10 V11 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR12 V11 V12 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR13 V12 V13 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR14 V13 V14 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR15 V14 V15 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR16 V15 V16 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR18 V16 VFS VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+.ends
+.end
