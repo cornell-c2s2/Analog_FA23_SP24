@@ -20,6 +20,6 @@ XR13 V12 V13 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
 XR14 V13 V14 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
 XR15 V14 V15 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
 XR16 V15 V16 VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
-XR18 V16 VFS VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR17 V16 VFS VL sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
 .ends
 .end

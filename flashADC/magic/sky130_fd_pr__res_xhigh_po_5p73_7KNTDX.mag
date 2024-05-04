@@ -1,23 +1,19 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1714795312
+timestamp 1714797101
 << pwell >>
 rect -5086 -850 5086 850
 << psubdiff >>
-rect -5050 780 -4954 814
-rect 4954 780 5050 814
+rect -5050 780 5050 814
 rect -5050 718 -5016 780
 rect 5016 718 5050 780
 rect -5050 -780 -5016 -718
 rect 5016 -780 5050 -718
-rect -5050 -814 -4954 -780
-rect 4954 -814 5050 -780
+rect -5050 -814 5050 -780
 << psubdiffcont >>
-rect -4954 780 4954 814
 rect -5050 -718 -5016 718
 rect 5016 -718 5050 718
-rect -4954 -814 4954 -780
 << xpolycontact >>
 rect -4920 252 -3774 684
 rect -4920 -684 -3774 -252
@@ -45,14 +41,12 @@ rect 1290 -252 2436 252
 rect 2532 -252 3678 252
 rect 3774 -252 4920 252
 << locali >>
-rect -5050 780 -4954 814
-rect 4954 780 5050 814
+rect -5050 780 5050 814
 rect -5050 718 -5016 780
 rect 5016 718 5050 780
 rect -5050 -780 -5016 -718
 rect 5016 -780 5050 -718
-rect -5050 -814 -4954 -780
-rect 4954 -814 5050 -780
+rect -5050 -814 5050 -780
 << viali >>
 rect -4904 269 -3790 666
 rect -3662 269 -2548 666
@@ -139,5 +133,5 @@ rect 3778 -672 4916 -666
 string FIXED_BBOX -5033 -797 5033 797
 string gencell sky130_fd_pr__res_xhigh_po_5p73
 string library sky130
-string parameters w 5.73 l 2.677 m 1 nx 8 wmin 5.730 lmin 0.50 rho 2000 val 1.0k dummy 0 dw 0.0 term 188.2 sterm 0.0 caplen 0 wmax 5.730 guard 1 glc 1 grc 1 gtc 1 gbc 1 compatible {sky130_fd_pr__res_xhigh_po_0p35  sky130_fd_pr__res_xhigh_po_0p69 sky130_fd_pr__res_xhigh_po_1p41  sky130_fd_pr__res_xhigh_po_2p85 sky130_fd_pr__res_xhigh_po_5p73} snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+string parameters w 5.73 l 2.677 m 1 nx 8 wmin 5.730 lmin 0.50 rho 2000 val 1.0k dummy 0 dw 0.0 term 188.2 sterm 0.0 caplen 0 wmax 5.730 guard 1 glc 1 grc 1 gtc 0 gbc 0 compatible {sky130_fd_pr__res_xhigh_po_0p35  sky130_fd_pr__res_xhigh_po_0p69 sky130_fd_pr__res_xhigh_po_1p41  sky130_fd_pr__res_xhigh_po_2p85 sky130_fd_pr__res_xhigh_po_5p73} snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
 << end >>
