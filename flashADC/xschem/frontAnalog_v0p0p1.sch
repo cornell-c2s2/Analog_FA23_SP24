@@ -18,7 +18,7 @@ lab=VIN}
 N -496.25 -1.25 -456.25 -1.25 {
 lab=IB}
 N -496.25 -61.25 -456.25 -61.25 {
-lab=VN}
+lab=#net3}
 C {devices/gnd.sym} -116.25 -1.25 0 0 {name=l1 lab=GND}
 C {sky130_stdcells/buf_1.sym} -6.25 -41.25 0 0 {name=x63 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/buf_1.sym} -6.25 -21.25 0 0 {name=x65 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
