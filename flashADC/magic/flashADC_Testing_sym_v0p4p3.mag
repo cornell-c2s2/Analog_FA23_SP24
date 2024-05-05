@@ -1,0 +1,113 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1714837760
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+rect 0 -2400 200 -2200
+rect 0 -2800 200 -2600
+rect 0 -3200 200 -3000
+rect 0 -3600 200 -3400
+use 16to4_PriorityEncoder_v0p0p1  16to4_PriorityEncoder_v0p0p1_0 /foss/designs/Analog_FA23_SP24/PriorityEncoder/magic
+timestamp 1714836882
+transform 1 0 77610 0 1 -9020
+box 470 -15870 20230 350
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_0
+timestamp 1714836882
+transform 1 0 50466 0 1 -21680
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_1
+timestamp 1714836882
+transform 1 0 50466 0 1 -12420
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_2
+timestamp 1714836882
+transform 1 0 50466 0 1 -7790
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_3
+timestamp 1714836882
+transform 1 0 50466 0 1 -17050
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_4
+timestamp 1714836882
+transform 1 0 50466 0 1 1470
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_5
+timestamp 1714836882
+transform 1 0 50466 0 1 -3160
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_6
+timestamp 1714836882
+transform 1 0 50466 0 1 6100
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_7
+timestamp 1714836882
+transform 1 0 50466 0 1 10730
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_8
+timestamp 1714836882
+transform 1 0 50466 0 1 -58720
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_9
+timestamp 1714836882
+transform 1 0 50466 0 1 -54090
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_10
+timestamp 1714836882
+transform 1 0 50466 0 1 -49460
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_11
+timestamp 1714836882
+transform 1 0 50466 0 1 -44830
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_12
+timestamp 1714836882
+transform 1 0 50466 0 1 -40200
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_13
+timestamp 1714836882
+transform 1 0 50466 0 1 -35570
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_14
+timestamp 1714836882
+transform 1 0 50466 0 1 -30940
+box 1064 1130 9790 5492
+use frontAnalog_v0p0p1  frontAnalog_v0p0p1_15
+timestamp 1714836882
+transform 1 0 50466 0 1 -26310
+box 1064 1130 9790 5492
+use PTAT_v0p0p0_mag  PTAT_v0p0p0_mag_0 /foss/designs/Analog_FA23_SP24/PTAT/magic
+timestamp 1714104588
+transform 1 0 31920 0 1 23458
+box -2530 -4098 15822 4693
+use resistorDivider_v0p0p1  resistorDivider_v0p0p1_0
+timestamp 1714801044
+transform 1 0 39740 0 1 -19280
+box -16440 -14720 -4458 14560
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 VFS
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 OUT3
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 OUT2
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 OUT1
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 OUT0
+port 4 nsew
+flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 VDD
+port 5 nsew
+flabel metal1 0 -2400 200 -2200 0 FreeSans 256 0 0 0 VIN
+port 6 nsew
+flabel metal1 0 -2800 200 -2600 0 FreeSans 256 0 0 0 CLK
+port 7 nsew
+flabel metal1 0 -3200 200 -3000 0 FreeSans 256 0 0 0 GND
+port 8 nsew
+flabel metal1 0 -3600 200 -3400 0 FreeSans 256 0 0 0 VL
+port 9 nsew
+<< end >>
