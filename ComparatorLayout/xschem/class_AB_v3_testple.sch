@@ -6,15 +6,15 @@ V {}
 S {}
 E {}
 B 2 480 -1700 1280 -1300 {flags=graph
-y1=-0.0013
+y1=-0.0086
 y2=1.9
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-6e-09
-x2=1.14e-07
+x1=0
+x2=1.2e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -36,8 +36,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-6e-09
-x2=1.14e-07
+x1=0
+x2=1.2e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -58,8 +58,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-6e-09
-x2=1.14e-07
+x1=0
+x2=1.2e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -80,8 +80,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-6e-09
-x2=1.14e-07
+x1=0
+x2=1.2e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -96,6 +96,7 @@ logy=0
 color="5 4"
 node="vip
 vin"}
+T {Note, this is an extraction of an older version of the comparator where there is an extra MOSFET and a PTAT is not used. } 1270 -270 0 0 0.4 0.4 {}
 N 60 -880 60 -840 {
 lab=VDD}
 N 60 -780 60 -740 {

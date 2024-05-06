@@ -118,11 +118,11 @@ logx=0
 logy=0
 color="8 4"
 node="
-net1"}
+PTAT"}
 N 220 -200 220 -160 {
 lab=GND}
 N 540 -210 580 -210 {
-lab=#net1}
+lab=PTAT}
 N 480 -300 620 -300 {
 lab=VIR}
 N 480 -340 480 -300 {
@@ -134,17 +134,17 @@ lab=VIR}
 N 620 -180 620 -140 {
 lab=GND}
 N 1060 -360 1180 -360 {
-lab=#net2}
+lab=#net1}
 N 1180 -360 1180 -320 {
-lab=#net2}
+lab=#net1}
 N 1180 -360 1180 -320 {
-lab=#net2}
+lab=#net1}
 N 1180 -360 1300 -360 {
-lab=#net2}
+lab=#net1}
 N 1060 -400 1060 -360 {
-lab=#net2}
+lab=#net1}
 N 1300 -400 1300 -360 {
-lab=#net2}
+lab=#net1}
 N 1180 -260 1180 -220 {
 lab=GND}
 N 1060 -560 1060 -480 {
@@ -222,7 +222,7 @@ lab=VIP}
 N 800 -370 840 -370 {
 lab=VIN}
 N 760 -560 760 -400 {
-lab=#net3}
+lab=#net2}
 N 1060 -580 1150 -580 {
 lab=VOP}
 N 1210 -580 1300 -580 {
@@ -232,7 +232,7 @@ lab=VON}
 N 1300 -570 1300 -560 {
 lab=VON}
 N 480 -640 480 -400 {
-lab=#net4}
+lab=#net3}
 N 720 -370 760 -370 {
 lab=GND}
 N 60 -880 60 -840 {
@@ -244,7 +244,7 @@ lab=VIP}
 N 60 -580 60 -540 {
 lab=GND}
 N 220 -880 220 -840 {
-lab=#net5}
+lab=#net4}
 N 220 -780 220 -740 {
 lab=GND}
 N 220 -680 220 -640 {
@@ -256,15 +256,15 @@ lab=VIN}
 N 1180 -540 1180 -520 {
 lab=CLK}
 N 760 -580 760 -560 {
-lab=#net3}
+lab=#net2}
 N 1180 -620 1180 -580 {
 lab=VDD}
 N 480 -660 480 -640 {
-lab=#net4}
+lab=#net3}
 N 1060 -720 1060 -560 {
 lab=VOP}
 N 760 -660 760 -580 {
-lab=#net3}
+lab=#net2}
 N 620 -210 640 -210 {
 lab=GND}
 N 640 -210 640 -160 {
@@ -288,9 +288,9 @@ lab=VDD}
 N 480 -820 760 -820 {
 lab=VDD}
 N 480 -720 480 -660 {
-lab=#net4}
-N 760 -720 760 -660 {
 lab=#net3}
+N 760 -720 760 -660 {
+lab=#net2}
 N 520 -750 720 -750 {
 lab=CLK}
 N 910 -760 910 -720 {
@@ -298,21 +298,21 @@ lab=CLK}
 N 940 -500 1060 -500 {
 lab=VOP}
 N 480 -680 880 -680 {
-lab=#net4}
-N 760 -500 880 -500 {
 lab=#net3}
+N 760 -500 880 -500 {
+lab=#net2}
 N 910 -460 910 -420 {
 lab=CLK}
 N 910 -680 910 -500 {
 lab=VDD}
 N 560 -520 680 -600 {
-lab=#net3}
+lab=#net2}
 N 680 -600 760 -600 {
-lab=#net3}
+lab=#net2}
 N 560 -600 680 -520 {
-lab=#net4}
+lab=#net3}
 N 480 -600 560 -600 {
-lab=#net4}
+lab=#net3}
 N 760 -750 800 -750 {
 lab=GND}
 N 440 -750 480 -750 {
@@ -330,9 +330,9 @@ lab=GND}
 N 220 -260 220 -220 {
 lab=VDD}
 N 520 -220 540 -220 {
-lab=#net1}
+lab=PTAT}
 N 540 -220 540 -210 {
-lab=#net1}
+lab=PTAT}
 N 620 -300 620 -240 {
 lab=VIR}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 460 -370 0 0 {name=M17
@@ -587,3 +587,5 @@ write class_AB_PTAT_ext.raw
 
 .endc
 "}
+C {devices/lab_pin.sym} 540 -210 3 0 {name=p19 sig_type=std_logic lab=PTAT
+}
