@@ -217,22 +217,22 @@ C {devices/vsource.sym} -950 -50 0 0 {name=V13 value="pulse(0.0 1.8 200n 1n 1n 5
 C {devices/vsource.sym} -710 -50 0 0 {name=V14 value="pulse(0.0 1.8 250n 1n 1n 50n 800n)" savecurrent=false}
 C {devices/vsource.sym} -470 -50 0 0 {name=V15 value="pulse(0.0 1.8 300n 1n 1n 50n 800n)" savecurrent=false}
 C {devices/vsource.sym} -220 -50 0 0 {name=V16 value="pulse(0.0 1.8 350n 1n 1n 50n 800n)" savecurrent=false}
-C {devices/lab_pin.sym} -440 275 0 0 {name=p47 sig_type=std_logic lab=IN15}
-C {devices/lab_pin.sym} -440 375 0 0 {name=p48 sig_type=std_logic lab=IN10}
-C {devices/lab_pin.sym} -440 395 0 0 {name=p49 sig_type=std_logic lab=IN9}
-C {devices/lab_pin.sym} -440 515 0 0 {name=p50 sig_type=std_logic lab=IN4}
-C {devices/lab_pin.sym} -440 535 0 0 {name=p51 sig_type=std_logic lab=IN3}
-C {devices/lab_pin.sym} -440 575 0 0 {name=p52 sig_type=std_logic lab=IN2}
-C {devices/lab_pin.sym} -440 595 0 0 {name=p53 sig_type=std_logic lab=IN1}
-C {devices/lab_pin.sym} -440 615 0 0 {name=p54 sig_type=std_logic lab=IN0}
-C {devices/lab_pin.sym} -440 455 0 0 {name=p28 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} -440 475 0 0 {name=p29 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} -440 495 0 0 {name=p30 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} -440 555 0 0 {name=p3 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} -440 435 0 0 {name=p1 sig_type=std_logic lab=VDD}
-C {devices/lab_pin.sym} -440 415 0 0 {name=p2 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} -440 355 0 0 {name=p4 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} -440 335 0 0 {name=p5 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} -440 315 0 0 {name=p6 sig_type=std_logic lab=GND}
-C {devices/lab_pin.sym} -440 295 0 0 {name=p7 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -440 270 0 0 {name=p47 sig_type=std_logic lab=IN15}
+C {devices/lab_pin.sym} -440 365 0 0 {name=p48 sig_type=std_logic lab=IN10}
+C {devices/lab_pin.sym} -440 385 0 0 {name=p49 sig_type=std_logic lab=IN9}
+C {devices/lab_pin.sym} -440 505 0 0 {name=p50 sig_type=std_logic lab=IN4}
+C {devices/lab_pin.sym} -440 525 0 0 {name=p51 sig_type=std_logic lab=IN3}
+C {devices/lab_pin.sym} -440 565 0 0 {name=p52 sig_type=std_logic lab=IN2}
+C {devices/lab_pin.sym} -440 585 0 0 {name=p53 sig_type=std_logic lab=IN1}
+C {devices/lab_pin.sym} -440 605 0 0 {name=p54 sig_type=std_logic lab=IN0}
+C {devices/lab_pin.sym} -440 445 0 0 {name=p28 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -440 465 0 0 {name=p29 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -440 485 0 0 {name=p30 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -440 545 0 0 {name=p3 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -440 425 0 0 {name=p1 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} -440 405 0 0 {name=p2 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -440 345 0 0 {name=p4 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -440 325 0 0 {name=p5 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -440 305 0 0 {name=p6 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -440 285 0 0 {name=p7 sig_type=std_logic lab=GND}
 C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/spiceFlat/16to4_PriorityEncoder_v0p0p1_flat.sym} -290 435 0 0 {name=x1}

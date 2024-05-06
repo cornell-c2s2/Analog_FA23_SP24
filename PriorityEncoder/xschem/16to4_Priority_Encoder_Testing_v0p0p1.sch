@@ -232,6 +232,6 @@ C {devices/lab_pin.sym} -440 455 0 0 {name=p28 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} -440 475 0 0 {name=p29 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} -440 495 0 0 {name=p30 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} -440 515 0 0 {name=p56 sig_type=std_logic lab=GND}
-C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/16to4_PriorityEncoder_v0p0p1.sym} -290 435 0 0 {name=x1}
 C {devices/lab_pin.sym} -440 295 0 0 {name=p1 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} -440 255 0 0 {name=p2 sig_type=std_logic lab=GND}
+C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sym} -290 435 0 0 {name=x1}

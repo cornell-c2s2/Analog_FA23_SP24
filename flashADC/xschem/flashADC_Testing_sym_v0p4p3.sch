@@ -463,7 +463,7 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 spice_ignore=false
 place=header}
 C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sym} 1800 -1547.5 0 0 {name=x1}
-C {devices/gnd.sym} 1650 -1707.5 2 0 {name=l40 lab=GND}
+C {devices/gnd.sym} 1650 -1707.5 1 0 {name=l40 lab=GND}
 C {devices/opin.sym} 1950 -1727.5 0 0 {name=p173 lab=OUT3}
 C {devices/opin.sym} 1950 -1707.5 0 0 {name=p158 lab=OUT2}
 C {devices/opin.sym} 1950 -1687.5 0 0 {name=p159 lab=OUT1}
@@ -473,15 +473,10 @@ C {devices/ipin.sym} 50 -1285 2 0 {name=p174 lab=GND}
 C {devices/vdd.sym} 50 -1445 0 0 {name=l41 lab=VDD}
 C {devices/gnd.sym} 50 -1285 0 1 {name=l42 lab=GND}
 C {devices/ipin.sym} 200 -1440 2 0 {name=p116 lab=VIN}
-C {devices/vdd.sym} 200 -1440 0 0 {name=l18 lab=VIN}
 C {devices/ipin.sym} 207.5 -1285 2 0 {name=p118 lab=CLK}
-C {devices/vdd.sym} 207.5 -1285 0 0 {name=l44 lab=CLK}
 C {devices/ipin.sym} 593.75 -2420 1 0 {name=p1 lab=VFS}
 C {devices/ipin.sym} 593.75 -681.25 3 0 {name=p98 lab=VL}
 C {/foss/designs/Analog_FA23_SP24/PTAT/xschem/PTAT_v0p0p0.sym} 633.75 -2542.5 0 0 {name=x18}
-C {devices/vdd.sym} 1650 -1727.5 3 0 {name=l135 lab=VDD}
-C {devices/vdd.sym} 1650 -1687.5 3 0 {name=l136 lab=VDD}
-C {devices/vdd.sym} 783.75 -2552.5 1 0 {name=l137 lab=IB}
 C {devices/vdd.sym} 483.75 -2552.5 3 0 {name=l43 lab=VDD}
 C {devices/gnd.sym} 483.75 -2532.5 1 0 {name=l138 lab=GND}
 C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/frontAnalog_v0p0p1.sym} 1097.5 -2495 0 0 {name=x67}
@@ -500,83 +495,105 @@ C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/frontAnalog_v0p0p1.sym} 1097.5
 C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/frontAnalog_v0p0p1.sym} 1097.5 -805 0 0 {name=x14}
 C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/frontAnalog_v0p0p1.sym} 1097.5 -675 0 0 {name=x15}
 C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/frontAnalog_v0p0p1.sym} 1097.5 -545 0 0 {name=x16}
-C {devices/vdd.sym} 947.5 -2445 3 0 {name=l1 lab=IB}
-C {devices/vdd.sym} 947.5 -2545 3 0 {name=l2 lab=VDD}
-C {devices/gnd.sym} 947.5 -2525 2 0 {name=l3 lab=GND}
-C {devices/vdd.sym} 947.5 -2485 3 0 {name=l4 lab=VIN}
-C {devices/vdd.sym} 947.5 -2465 3 0 {name=l5 lab=CLK}
-C {devices/vdd.sym} 947.5 -2315 3 0 {name=l6 lab=IB}
-C {devices/vdd.sym} 947.5 -2415 3 0 {name=l7 lab=VDD}
-C {devices/gnd.sym} 947.5 -2395 2 0 {name=l8 lab=GND}
-C {devices/vdd.sym} 947.5 -2355 3 0 {name=l9 lab=VIN}
-C {devices/vdd.sym} 947.5 -2335 3 0 {name=l10 lab=CLK}
-C {devices/vdd.sym} 947.5 -2185 3 0 {name=l11 lab=IB}
-C {devices/vdd.sym} 947.5 -2285 3 0 {name=l12 lab=VDD}
-C {devices/gnd.sym} 947.5 -2265 2 0 {name=l13 lab=GND}
-C {devices/vdd.sym} 947.5 -2225 3 0 {name=l14 lab=VIN}
-C {devices/vdd.sym} 947.5 -2205 3 0 {name=l15 lab=CLK}
-C {devices/vdd.sym} 947.5 -2055 3 0 {name=l22 lab=IB}
-C {devices/vdd.sym} 947.5 -2155 3 0 {name=l23 lab=VDD}
-C {devices/gnd.sym} 947.5 -2135 2 0 {name=l24 lab=GND}
-C {devices/vdd.sym} 947.5 -2095 3 0 {name=l25 lab=VIN}
-C {devices/vdd.sym} 947.5 -2075 3 0 {name=l26 lab=CLK}
-C {devices/vdd.sym} 947.5 -1925 3 0 {name=l27 lab=IB}
-C {devices/vdd.sym} 947.5 -2025 3 0 {name=l28 lab=VDD}
-C {devices/gnd.sym} 947.5 -2005 2 0 {name=l29 lab=GND}
-C {devices/vdd.sym} 947.5 -1965 3 0 {name=l30 lab=VIN}
-C {devices/vdd.sym} 947.5 -1945 3 0 {name=l31 lab=CLK}
-C {devices/vdd.sym} 947.5 -1795 3 0 {name=l32 lab=IB}
-C {devices/vdd.sym} 947.5 -1895 3 0 {name=l33 lab=VDD}
-C {devices/gnd.sym} 947.5 -1875 2 0 {name=l34 lab=GND}
-C {devices/vdd.sym} 947.5 -1835 3 0 {name=l35 lab=VIN}
-C {devices/vdd.sym} 947.5 -1815 3 0 {name=l36 lab=CLK}
-C {devices/vdd.sym} 947.5 -1665 3 0 {name=l37 lab=IB}
-C {devices/vdd.sym} 947.5 -1765 3 0 {name=l38 lab=VDD}
-C {devices/gnd.sym} 947.5 -1745 2 0 {name=l39 lab=GND}
-C {devices/vdd.sym} 947.5 -1705 3 0 {name=l45 lab=VIN}
-C {devices/vdd.sym} 947.5 -1685 3 0 {name=l46 lab=CLK}
-C {devices/vdd.sym} 947.5 -1535 3 0 {name=l47 lab=IB}
-C {devices/vdd.sym} 947.5 -1635 3 0 {name=l48 lab=VDD}
-C {devices/gnd.sym} 947.5 -1615 2 0 {name=l49 lab=GND}
-C {devices/vdd.sym} 947.5 -1575 3 0 {name=l50 lab=VIN}
-C {devices/vdd.sym} 947.5 -1555 3 0 {name=l51 lab=CLK}
-C {devices/vdd.sym} 947.5 -1405 3 0 {name=l52 lab=IB}
-C {devices/vdd.sym} 947.5 -1505 3 0 {name=l53 lab=VDD}
-C {devices/gnd.sym} 947.5 -1485 2 0 {name=l54 lab=GND}
-C {devices/vdd.sym} 947.5 -1445 3 0 {name=l55 lab=VIN}
-C {devices/vdd.sym} 947.5 -1425 3 0 {name=l56 lab=CLK}
-C {devices/vdd.sym} 947.5 -1275 3 0 {name=l57 lab=IB}
-C {devices/vdd.sym} 947.5 -1375 3 0 {name=l58 lab=VDD}
-C {devices/gnd.sym} 947.5 -1355 2 0 {name=l59 lab=GND}
-C {devices/vdd.sym} 947.5 -1315 3 0 {name=l60 lab=VIN}
-C {devices/vdd.sym} 947.5 -1295 3 0 {name=l61 lab=CLK}
-C {devices/vdd.sym} 947.5 -1145 3 0 {name=l67 lab=IB}
-C {devices/vdd.sym} 947.5 -1245 3 0 {name=l68 lab=VDD}
-C {devices/gnd.sym} 947.5 -1225 2 0 {name=l69 lab=GND}
-C {devices/vdd.sym} 947.5 -1185 3 0 {name=l70 lab=VIN}
-C {devices/vdd.sym} 947.5 -1165 3 0 {name=l71 lab=CLK}
-C {devices/vdd.sym} 947.5 -1015 3 0 {name=l72 lab=IB}
-C {devices/vdd.sym} 947.5 -1115 3 0 {name=l73 lab=VDD}
-C {devices/gnd.sym} 947.5 -1095 2 0 {name=l74 lab=GND}
-C {devices/vdd.sym} 947.5 -1055 3 0 {name=l75 lab=VIN}
-C {devices/vdd.sym} 947.5 -1035 3 0 {name=l76 lab=CLK}
-C {devices/vdd.sym} 947.5 -885 3 0 {name=l77 lab=IB}
-C {devices/vdd.sym} 947.5 -985 3 0 {name=l78 lab=VDD}
-C {devices/gnd.sym} 947.5 -965 2 0 {name=l79 lab=GND}
-C {devices/vdd.sym} 947.5 -925 3 0 {name=l80 lab=VIN}
-C {devices/vdd.sym} 947.5 -905 3 0 {name=l81 lab=CLK}
-C {devices/vdd.sym} 947.5 -755 3 0 {name=l82 lab=IB}
-C {devices/vdd.sym} 947.5 -855 3 0 {name=l83 lab=VDD}
-C {devices/gnd.sym} 947.5 -835 2 0 {name=l84 lab=GND}
-C {devices/vdd.sym} 947.5 -795 3 0 {name=l85 lab=VIN}
-C {devices/vdd.sym} 947.5 -775 3 0 {name=l86 lab=CLK}
-C {devices/vdd.sym} 947.5 -625 3 0 {name=l87 lab=IB}
-C {devices/vdd.sym} 947.5 -725 3 0 {name=l88 lab=VDD}
-C {devices/gnd.sym} 947.5 -705 2 0 {name=l89 lab=GND}
-C {devices/vdd.sym} 947.5 -665 3 0 {name=l90 lab=VIN}
-C {devices/vdd.sym} 947.5 -645 3 0 {name=l91 lab=CLK}
-C {devices/vdd.sym} 947.5 -495 3 0 {name=l92 lab=IB}
-C {devices/vdd.sym} 947.5 -595 3 0 {name=l93 lab=VDD}
-C {devices/gnd.sym} 947.5 -575 2 0 {name=l94 lab=GND}
-C {devices/vdd.sym} 947.5 -535 3 0 {name=l95 lab=VIN}
-C {devices/vdd.sym} 947.5 -515 3 0 {name=l96 lab=CLK}
+C {devices/gnd.sym} 947.5 -2525 1 0 {name=l3 lab=GND}
+C {devices/lab_pin.sym} 200 -1440 0 0 {name=p2 sig_type=std_logic lab=VIN}
+C {devices/lab_pin.sym} 50 -1445 0 0 {name=p3 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 207.5 -1285 0 0 {name=p4 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 783.75 -2552.5 2 0 {name=p7 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -2445 0 0 {name=p8 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -2465 0 0 {name=p9 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -2485 0 0 {name=p10 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -2545 0 0 {name=p5 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -2395 1 0 {name=l1 lab=GND}
+C {devices/lab_pin.sym} 947.5 -2315 0 0 {name=p6 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -2335 0 0 {name=p11 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -2355 0 0 {name=p12 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -2415 0 0 {name=p13 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -2265 1 0 {name=l2 lab=GND}
+C {devices/lab_pin.sym} 947.5 -2185 0 0 {name=p14 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -2205 0 0 {name=p15 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -2225 0 0 {name=p16 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -2285 0 0 {name=p17 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -2135 1 0 {name=l4 lab=GND}
+C {devices/lab_pin.sym} 947.5 -2055 0 0 {name=p18 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -2075 0 0 {name=p19 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -2095 0 0 {name=p20 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -2155 0 0 {name=p21 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -2005 1 0 {name=l5 lab=GND}
+C {devices/lab_pin.sym} 947.5 -1925 0 0 {name=p22 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -1945 0 0 {name=p23 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -1965 0 0 {name=p24 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -2025 0 0 {name=p25 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -1875 1 0 {name=l6 lab=GND}
+C {devices/lab_pin.sym} 947.5 -1795 0 0 {name=p26 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -1815 0 0 {name=p27 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -1835 0 0 {name=p28 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -1895 0 0 {name=p29 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -1745 1 0 {name=l7 lab=GND}
+C {devices/lab_pin.sym} 947.5 -1665 0 0 {name=p30 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -1685 0 0 {name=p31 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -1705 0 0 {name=p32 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -1765 0 0 {name=p33 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -1615 1 0 {name=l8 lab=GND}
+C {devices/lab_pin.sym} 947.5 -1535 0 0 {name=p34 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -1555 0 0 {name=p35 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -1575 0 0 {name=p36 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -1635 0 0 {name=p37 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -1485 1 0 {name=l9 lab=GND}
+C {devices/lab_pin.sym} 947.5 -1405 0 0 {name=p38 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -1425 0 0 {name=p39 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -1445 0 0 {name=p40 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -1505 0 0 {name=p41 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -1355 1 0 {name=l10 lab=GND}
+C {devices/lab_pin.sym} 947.5 -1275 0 0 {name=p42 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -1295 0 0 {name=p43 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -1315 0 0 {name=p44 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -1375 0 0 {name=p45 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -1225 1 0 {name=l11 lab=GND}
+C {devices/lab_pin.sym} 947.5 -1145 0 0 {name=p46 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -1165 0 0 {name=p47 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -1185 0 0 {name=p48 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -1245 0 0 {name=p49 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -1095 1 0 {name=l12 lab=GND}
+C {devices/lab_pin.sym} 947.5 -1015 0 0 {name=p50 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -1035 0 0 {name=p51 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -1055 0 0 {name=p52 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -1115 0 0 {name=p53 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -965 1 0 {name=l13 lab=GND}
+C {devices/lab_pin.sym} 947.5 -885 0 0 {name=p54 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -905 0 0 {name=p55 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -925 0 0 {name=p56 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -985 0 0 {name=p57 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -835 1 0 {name=l14 lab=GND}
+C {devices/lab_pin.sym} 947.5 -755 0 0 {name=p58 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -775 0 0 {name=p59 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -795 0 0 {name=p60 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -855 0 0 {name=p61 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -705 1 0 {name=l15 lab=GND}
+C {devices/lab_pin.sym} 947.5 -625 0 0 {name=p62 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -645 0 0 {name=p63 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -665 0 0 {name=p64 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -725 0 0 {name=p65 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 947.5 -575 1 0 {name=l16 lab=GND}
+C {devices/lab_pin.sym} 947.5 -495 0 0 {name=p66 sig_type=std_logic lab=IB}
+C {devices/lab_pin.sym} 947.5 -515 0 0 {name=p67 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 947.5 -535 0 0 {name=p68 sig_type=std_logic lab=VIN
+}
+C {devices/lab_pin.sym} 947.5 -595 0 0 {name=p69 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 1650 -1727.5 0 0 {name=p70 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 1650 -1687.5 0 0 {name=p71 sig_type=std_logic lab=VDD}
