@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713499047
+timestamp 1715020974
 << nwell >>
 rect 12570 -540 13530 350
 rect 8560 -1270 16750 -540
@@ -2299,7 +2299,7 @@ rect 7160 -12970 10690 -12400
 rect 19280 -12970 19310 -12400
 rect 7160 -13000 19310 -12970
 rect 7160 -15300 8400 -13000
-use sky130_fd_sc_hd__or2_1  x1 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+use sky130_fd_sc_hd__or2_1  x1 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1701704242
 transform 1 0 10708 0 1 -10162
 box -38 -48 498 592
@@ -2308,22 +2308,22 @@ timestamp 1701704242
 transform 1 0 10708 0 1 -13812
 box -38 -48 498 592
 use 8to3_Priority_Encoder_v0p2p0  x3
-timestamp 1713495814
+timestamp 1713499196
 transform 1 0 4960 0 1 -8740
 box -3910 -7130 3570 700
-use sky130_fd_sc_hd__inv_16  x4 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+use sky130_fd_sc_hd__inv_16  x4 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1701704242
 transform 1 0 12288 0 1 -1522
 box -38 -48 1510 592
 use 8to3_Priority_Encoder_v0p2p0  x5
-timestamp 1713495814
+timestamp 1713499196
 transform 1 0 4960 0 1 -700
 box -3910 -7130 3570 700
 use sky130_fd_sc_hd__inv_16  x6
 timestamp 1701704242
 transform 1 0 10816 0 1 -1522
 box -38 -48 1510 592
-use sky130_fd_sc_hd__inv_1  x7 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+use sky130_fd_sc_hd__inv_1  x7 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1701704242
 transform 1 0 8658 0 -1 -1598
 box -38 -48 314 592
@@ -2379,7 +2379,7 @@ use sky130_fd_sc_hd__inv_1  x20
 timestamp 1701704242
 transform 1 0 11168 0 1 -13812
 box -38 -48 314 592
-use sky130_fd_sc_hd__inv_4  x21 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+use sky130_fd_sc_hd__inv_4  x21 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1701704242
 transform 1 0 11444 0 1 -13812
 box -38 -48 498 592

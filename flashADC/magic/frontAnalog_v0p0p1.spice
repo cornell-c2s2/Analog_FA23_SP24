@@ -118,7 +118,7 @@ XXM11 m1_880_n1030# VSS VOP VON sky130_fd_pr__nfet_01v8_lvt_64Z3AY
 .ends
 
 .subckt frontAnalog_v0p0p1 VDD GND VN VIN IB CLK Q
-XRSfetsym_0 VDD x63/X x65/X Q RSfetsym_0/QN GND RSfetsym
+XRSfetsym_0 VDD x65/X x63/X Q RSfetsym_0/QN GND RSfetsym
 Xx63 x63/A GND GND VDD VDD x63/X sky130_fd_sc_hd__buf_1
 Xx65 x65/A GND GND VDD VDD x65/X sky130_fd_sc_hd__buf_1
 Xclass_AB_v3_sym_0 VDD x65/A x63/A VN VIN IB CLK GND class_AB_v3_sym
