@@ -1,0 +1,143 @@
+magic
+tech sky130A
+timestamp 1714801044
+<< pwell >>
+rect -7570 6750 -7530 6830
+<< viali >>
+rect -7570 -6745 -7530 6830
+rect -2525 -6745 -2495 -6500
+rect -7570 -6770 -2495 -6745
+rect -2525 -6775 -2495 -6770
+<< metal1 >>
+rect -8220 6830 -7520 6850
+rect -8220 6770 -7570 6830
+rect -8215 -6770 -7570 6770
+rect -7530 -6485 -7520 6830
+rect -7490 6560 -2475 7280
+rect -7489 5759 -2229 6309
+rect -7490 4960 -2230 5510
+rect -7490 4161 -2230 4711
+rect -7489 3360 -2229 3910
+rect -7490 2560 -2230 3110
+rect -7489 1759 -2229 2309
+rect -7490 960 -2230 1510
+rect -7490 161 -2230 711
+rect -7489 -640 -2229 -90
+rect -7490 -1439 -2230 -889
+rect -7490 -2236 -2230 -1686
+rect -7489 -3037 -2229 -2487
+rect -7490 -3836 -2230 -3286
+rect -7490 -4635 -2230 -4085
+rect -7489 -5436 -2229 -4886
+rect -7490 -6235 -2230 -5685
+rect -7530 -6500 -2470 -6485
+rect -7530 -6745 -2525 -6500
+rect -8215 -6775 -2525 -6770
+rect -2495 -6775 -2470 -6500
+rect -8215 -7360 -2470 -6775
+use sky130_fd_pr__res_xhigh_po_5p73_QJNTVE  XR1
+timestamp 1714796795
+transform 1 0 -5027 0 -1 -6360
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR2
+timestamp 1714797101
+transform 1 0 -5027 0 -1 -5560
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR3
+timestamp 1714797101
+transform 1 0 -5026 0 -1 -4761
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR4
+timestamp 1714797101
+transform 1 0 -5027 0 -1 -3960
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR5
+timestamp 1714797101
+transform 1 0 -5027 0 -1 -3161
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR6
+timestamp 1714797101
+transform 1 0 -5026 0 -1 -2362
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR7
+timestamp 1714797101
+transform 1 0 -5027 0 -1 -1561
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR8
+timestamp 1714797101
+transform 1 0 -5027 0 -1 -764
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR9
+timestamp 1714797101
+transform 1 0 -5027 0 -1 35
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR10
+timestamp 1714797101
+transform 1 0 -5027 0 -1 836
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR11
+timestamp 1714797101
+transform 1 0 -5027 0 -1 1635
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR12
+timestamp 1714797101
+transform 1 0 -5026 0 -1 2434
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR13
+timestamp 1714797101
+transform 1 0 -5027 0 -1 3235
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR14
+timestamp 1714797101
+transform 1 0 -5027 0 -1 4035
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR15
+timestamp 1714797101
+transform 1 0 -5027 0 -1 4836
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR16
+timestamp 1714797101
+transform 1 0 -5027 0 -1 5635
+box -2543 -425 2543 425
+use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR17
+timestamp 1714797101
+transform 1 0 -5026 0 -1 6434
+box -2543 -425 2543 425
+<< labels >>
+flabel metal1 -2420 -6020 -2320 -5920 0 FreeSans 128 0 0 0 V1
+port 2 nsew
+flabel metal1 -2425 -5215 -2325 -5115 0 FreeSans 128 0 0 0 V2
+port 3 nsew
+flabel metal1 -2405 -4405 -2305 -4305 0 FreeSans 128 0 0 0 V3
+port 4 nsew
+flabel metal1 -2395 -3620 -2295 -3520 0 FreeSans 128 0 0 0 V4
+port 5 nsew
+flabel metal1 -2395 -2820 -2295 -2720 0 FreeSans 128 0 0 0 V5
+port 6 nsew
+flabel metal1 -2415 -2030 -2315 -1930 0 FreeSans 128 0 0 0 V6
+port 7 nsew
+flabel metal1 -2405 -1220 -2305 -1120 0 FreeSans 128 0 0 0 V7
+port 8 nsew
+flabel metal1 -2410 -430 -2310 -330 0 FreeSans 128 0 0 0 V8
+port 9 nsew
+flabel metal1 -2400 375 -2300 475 0 FreeSans 128 0 0 0 V9
+port 10 nsew
+flabel metal1 -2390 1175 -2290 1275 0 FreeSans 128 0 0 0 V10
+port 11 nsew
+flabel metal1 -2390 1990 -2290 2090 0 FreeSans 128 0 0 0 V11
+port 12 nsew
+flabel metal1 -2405 2775 -2305 2875 0 FreeSans 128 0 0 0 V12
+port 13 nsew
+flabel metal1 -2415 3565 -2315 3665 0 FreeSans 128 0 0 0 V13
+port 14 nsew
+flabel metal1 -2400 4380 -2300 4480 0 FreeSans 128 0 0 0 V14
+port 15 nsew
+flabel metal1 -2410 5135 -2310 5235 0 FreeSans 128 0 0 0 V15
+port 16 nsew
+flabel metal1 -2390 5970 -2290 6070 0 FreeSans 128 0 0 0 V16
+port 17 nsew
+flabel metal1 -5050 -7035 -4950 -6935 0 FreeSans 128 0 0 0 VL
+port 0 nsew
+flabel metal1 -5010 6905 -4910 7005 0 FreeSans 128 0 0 0 VFS
+port 1 nsew
+<< end >>
