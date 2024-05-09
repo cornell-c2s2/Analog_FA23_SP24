@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1715020756
+timestamp 1715225666
 << locali >>
 rect 6430 -1047 6432 -174
 rect 6430 -1117 6431 -1047
@@ -577,6 +577,14 @@ use sky130_fd_pr__nfet_01v8_lvt_BKH6ZK  sky130_fd_pr__nfet_01v8_lvt_BKH6ZK_18
 timestamp 1714104588
 transform 1 0 5849 0 1 -615
 box -256 -610 256 610
+use sky130_fd_pr__nfet_01v8_lvt_BKH6ZK  sky130_fd_pr__nfet_01v8_lvt_BKH6ZK_19
+timestamp 1714104588
+transform 1 0 1789 0 1 -615
+box -256 -610 256 610
+use sky130_fd_pr__nfet_01v8_lvt_BKH6ZK  sky130_fd_pr__nfet_01v8_lvt_BKH6ZK_20
+timestamp 1714104588
+transform 1 0 6255 0 1 -615
+box -256 -610 256 610
 use sky130_fd_pr__pfet_01v8_lvt_GUHUBJ  XM1
 timestamp 1713931681
 transform 1 0 2062 0 1 2346
@@ -589,18 +597,10 @@ use sky130_fd_pr__pfet_01v8_lvt_GUHUBJ  XM3
 timestamp 1713931681
 transform 1 0 3034 0 1 2346
 box -296 -2119 296 2119
-use sky130_fd_pr__nfet_01v8_lvt_AWHWK2#0  XM4
-timestamp 1714104588
-transform 1 0 1789 0 1 -615
-box -256 -610 256 610
 use sky130_fd_pr__nfet_01v8_lvt_B7MEP5  XM6
 timestamp 1714102074
 transform 0 1 1411 -1 0 111
 box -211 -221 211 221
-use sky130_fd_pr__nfet_01v8_lvt_AWHWK2#0  XM7
-timestamp 1714104588
-transform 1 0 6255 0 1 -615
-box -256 -610 256 610
 use sky130_fd_pr__res_xhigh_po_5p73_GWLG8Y  XR1
 timestamp 1713929811
 transform 0 1 6646 -1 0 -3359
