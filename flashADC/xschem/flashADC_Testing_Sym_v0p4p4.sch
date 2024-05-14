@@ -44,53 +44,51 @@ lab=#net15}
 N 1383.75 -4221.25 1383.75 -4201.25 {
 lab=#net16}
 N 1323.75 -4171.25 1363.75 -4171.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -4171.25 1323.75 -4071.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -4071.25 1363.75 -4071.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3971.25 1363.75 -3971.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3871.25 1363.75 -3871.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3771.25 1363.75 -3771.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3671.25 1363.75 -3671.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3571.25 1363.75 -3571.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3471.25 1363.75 -3471.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3371.25 1363.75 -3371.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3271.25 1363.75 -3271.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3171.25 1363.75 -3171.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3071.25 1363.75 -3071.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -2971.25 1363.75 -2971.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -2871.25 1363.75 -2871.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -2771.25 1363.75 -2771.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -2671.25 1363.75 -2671.25 {
-lab=VL}
-N 1323.75 -2621.25 1383.75 -2621.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -2671.25 1323.75 -2621.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -2871.25 1323.75 -2771.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -2971.25 1323.75 -2871.25 {
-lab=VL}
+lab=GND}
 N 1383.75 -2721.25 1603.75 -2721.25 {
 lab=#net2}
 N 1323.75 -4271.25 1363.75 -4271.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -4271.25 1323.75 -4171.25 {
-lab=VL}
+lab=GND}
 N 1383.75 -2821.25 1620 -2821.25 {
 lab=#net1}
 N 1383.75 -2921.25 1631.25 -2921.25 {
@@ -122,29 +120,29 @@ lab=#net15}
 N 1383.75 -4221.25 1603.75 -4221.25 {
 lab=#net16}
 N 1323.75 -4071.25 1323.75 -3971.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3971.25 1323.75 -3871.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3871.25 1323.75 -3771.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3771.25 1323.75 -3671.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3671.25 1323.75 -3571.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3571.25 1323.75 -3471.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3471.25 1323.75 -3371.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3371.25 1323.75 -3271.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3271.25 1323.75 -3171.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3171.25 1323.75 -3071.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -3071.25 1323.75 -2971.25 {
-lab=VL}
+lab=GND}
 N 1323.75 -2771.25 1323.75 -2671.25 {
-lab=VL}
+lab=GND}
 N 1383.75 -2641.25 1383.75 -2621.25 {
 lab=VL}
 N 1383.75 -2741.25 1383.75 -2721.25 {
@@ -344,18 +342,6 @@ lab=CLK}
 N 1040 -1985 1040 -1942.5 {
 lab=GND}
 C {devices/lab_pin.sym} 1143.75 -1960 1 0 {name=p198 sig_type=std_logic lab=VDD}
-C {devices/code_shown.sym} 906.25 -2306.25 0 0 {name=COMMANDS only_toplevel=false value=
-"
-.options savecurrents
-.control
-
-save all
-
-tran 0.005n 240n
-write flashADC_Testing_v0p4p4.raw
-
-.endc
-"}
 C {devices/lab_pin.sym} 940 -1983.75 1 0 {name=p133 sig_type=std_logic lab=VIN}
 C {devices/code.sym} 956.25 -2526.25 0 0 {name=TT_MODELS
 only_toplevel=true
@@ -368,87 +354,87 @@ place=header}
 C {devices/vdd.sym} 1113.75 -1960 0 0 {name=l80 lab=VDD}
 C {devices/lab_pin.sym} 1040 -1985 1 0 {name=p164 sig_type=std_logic lab=GND}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -2671.25 0 0 {name=R1
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -2771.25 0 0 {name=R2
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -2871.25 0 0 {name=R3
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -2971.25 0 0 {name=R4
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3071.25 0 0 {name=R5
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3171.25 0 0 {name=R6
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3271.25 0 0 {name=R7
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3371.25 0 0 {name=R8
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3471.25 0 0 {name=R9
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3571.25 0 0 {name=R10
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3671.25 0 0 {name=R11
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3771.25 0 0 {name=R12
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3871.25 0 0 {name=R13
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -3971.25 0 0 {name=R14
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -4071.25 0 0 {name=R15
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -4171.25 0 0 {name=R16
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -4271.25 0 0 {name=R18
-L=2.865
+L=2.667
 model=res_xhigh_po_5p73
 spiceprefix=X
 mult=8}
@@ -567,3 +553,5 @@ C {devices/ipin.sym} 1040 -1942.5 3 0 {name=p73 lab=GND}
 C {devices/lab_pin.sym} 1215 -1952.5 2 0 {name=p2 sig_type=std_logic lab=CLK}
 C {devices/ipin.sym} 1185 -1952.5 3 0 {name=p74 lab=CLK}
 C {devices/ipin.sym} 940 -1945 3 0 {name=p75 lab=VIN}
+C {devices/lab_pin.sym} 1323.75 -2621.25 3 0 {name=p76 sig_type=std_logic lab=GND}
+C {devices/gnd.sym} 1040 -1962.5 1 0 {name=l2 lab=GND}

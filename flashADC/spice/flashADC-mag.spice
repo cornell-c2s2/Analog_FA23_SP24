@@ -77,14 +77,14 @@ X2 X a_27_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.205 pd=2.1 as=0.115 ps=1
 X3 VGND A a_27_47# VNB sky130_fd_pr__nfet_01v8 ad=0.0754 pd=0.81 as=0.135 ps=1.56 w=0.52 l=0.15
 .ends
 
-.subckt sky130_fd_pr__pfet_01v8_lvt_4QFHB3 a_35_n400# w_n231_n619# a_n93_n400# a_n35_n497#
-X0 a_35_n400# a_n35_n497# a_n93_n400# w_n231_n619# sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.35
-.ends
-
 .subckt sky130_fd_pr__nfet_01v8_lvt_WJMR3R a_n118_n909# a_n60_n997# a_n60_21# a_n118_109#
 + a_n220_n1083# a_60_n909# a_60_109#
 X0 a_60_n909# a_n60_n997# a_n118_n909# a_n220_n1083# sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.6
 X1 a_60_109# a_n60_21# a_n118_109# a_n220_n1083# sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.6
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_4QFHB3 a_35_n400# w_n231_n619# a_n93_n400# a_n35_n497#
+X0 a_35_n400# a_n35_n497# a_n93_n400# w_n231_n619# sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.35
 .ends
 
 .subckt sky130_fd_pr__nfet_01v8_lvt_AWHWK2 a_60_n400# a_n118_n400# a_n60_n488# a_n220_n574#
@@ -100,8 +100,8 @@ X0 a_n33_n288# w_n151_n291# VSUBS sky130_fd_pr__cap_var_lvt w=2 l=0.18
 .ends
 
 .subckt class_AB_v3_sym VDD VOP VON VIN VIP IB CLK VSS
-XXM14 VON VDD w_1880_n1260# CLK sky130_fd_pr__pfet_01v8_lvt_4QFHB3
 XXM13 m1_820_n2620# IB IB m1_820_n2620# VSS VSS VSS sky130_fd_pr__nfet_01v8_lvt_WJMR3R
+XXM14 VON VDD w_1880_n1260# CLK sky130_fd_pr__pfet_01v8_lvt_4QFHB3
 XXM15 w_1258_n651# m1_820_n2620# VIN VSS sky130_fd_pr__nfet_01v8_lvt_AWHWK2
 XXM17 m1_820_n2620# w_1880_n1260# VIP VSS sky130_fd_pr__nfet_01v8_lvt_AWHWK2
 XXM1 VSS VSS CLK m1_880_n1030# sky130_fd_pr__nfet_01v8_lvt_64Z3AY
@@ -150,25 +150,25 @@ X6 a_2532_252# a_2532_n684# a_n5050_n814# sky130_fd_pr__res_xhigh_po_5p73 l=2.52
 X7 a_n3678_252# a_n3678_n684# a_n5050_n814# sky130_fd_pr__res_xhigh_po_5p73 l=2.52
 .ends
 
-.subckt resistorDivider_v0p0p1 VFS V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14
-+ V15 V16 VL
-XXR1 VL V1 VL VL V1 VL V1 VL V1 V1 VL V1 V1 VL VL V1 VL sky130_fd_pr__res_xhigh_po_5p73_QJNTVE
-XXR10 V9 V10 V9 VL V10 V9 V10 V9 V10 V10 V9 V10 V10 V9 V9 V10 V9 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR2 V1 V2 V1 VL V2 V1 V2 V1 V2 V2 V1 V2 V2 V1 V1 V2 V1 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR11 V10 V11 V10 VL V11 V10 V11 V10 V11 V11 V10 V11 V11 V10 V10 V11 V10 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR3 V2 V3 V2 VL V3 V2 V3 V2 V3 V3 V2 V3 V3 V2 V2 V3 V2 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR12 V11 V12 V11 VL V12 V11 V12 V11 V12 V12 V11 V12 V12 V11 V11 V12 V11 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR5 V4 V5 V4 VL V5 V4 V5 V4 V5 V5 V4 V5 V5 V4 V4 V5 V4 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR4 V3 V4 V3 VL V4 V3 V4 V3 V4 V4 V3 V4 V4 V3 V3 V4 V3 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR14 V13 V14 V13 VL V14 V13 V14 V13 V14 V14 V13 V14 V14 V13 V13 V14 V13 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR13 V12 V13 V12 VL V13 V12 V13 V12 V13 V13 V12 V13 V13 V12 V12 V13 V12 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR6 V5 V6 V5 VL V6 V5 V6 V5 V6 V6 V5 V6 V6 V5 V5 V6 V5 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR15 V14 V15 V14 VL V15 V14 V15 V14 V15 V15 V14 V15 V15 V14 V14 V15 V14 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR7 V6 V7 V6 VL V7 V6 V7 V6 V7 V7 V6 V7 V7 V6 V6 V7 V6 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR16 V15 V16 V15 VL V16 V15 V16 V15 V16 V16 V15 V16 V16 V15 V15 V16 V15 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR8 V7 V8 V7 VL V8 V7 V8 V7 V8 V8 V7 V8 V8 V7 V7 V8 V7 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR17 V16 VFS V16 VL VFS V16 VFS V16 VFS VFS V16 VFS VFS V16 V16 VFS V16 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
-XXR9 V8 V9 V8 VL V9 V8 V9 V8 V9 V9 V8 V9 V9 V8 V8 V9 V8 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+.subckt resistorDivider_v0p0p1 VL VFS V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14
++ V15 V16 GND
+XXR1 VL V1 VL GND V1 VL V1 VL V1 V1 VL V1 V1 VL VL V1 VL sky130_fd_pr__res_xhigh_po_5p73_QJNTVE
+XXR2 V1 V2 V1 GND V2 V1 V2 V1 V2 V2 V1 V2 V2 V1 V1 V2 V1 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR10 V9 V10 V9 GND V10 V9 V10 V9 V10 V10 V9 V10 V10 V9 V9 V10 V9 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR3 V2 V3 V2 GND V3 V2 V3 V2 V3 V3 V2 V3 V3 V2 V2 V3 V2 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR11 V10 V11 V10 GND V11 V10 V11 V10 V11 V11 V10 V11 V11 V10 V10 V11 V10 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR4 V3 V4 V3 GND V4 V3 V4 V3 V4 V4 V3 V4 V4 V3 V3 V4 V3 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR5 V4 V5 V4 GND V5 V4 V5 V4 V5 V5 V4 V5 V5 V4 V4 V5 V4 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR12 V11 V12 V11 GND V12 V11 V12 V11 V12 V12 V11 V12 V12 V11 V11 V12 V11 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR6 V5 V6 V5 GND V6 V5 V6 V5 V6 V6 V5 V6 V6 V5 V5 V6 V5 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR13 V12 V13 V12 GND V13 V12 V13 V12 V13 V13 V12 V13 V13 V12 V12 V13 V12 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR14 V13 V14 V13 GND V14 V13 V14 V13 V14 V14 V13 V14 V14 V13 V13 V14 V13 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR7 V6 V7 V6 GND V7 V6 V7 V6 V7 V7 V6 V7 V7 V6 V6 V7 V6 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR15 V14 V15 V14 GND V15 V14 V15 V14 V15 V15 V14 V15 V15 V14 V14 V15 V14 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR8 V7 V8 V7 GND V8 V7 V8 V7 V8 V8 V7 V8 V8 V7 V7 V8 V7 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR16 V15 V16 V15 GND V16 V15 V16 V15 V16 V16 V15 V16 V16 V15 V15 V16 V15 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR9 V8 V9 V8 GND V9 V8 V9 V8 V9 V9 V8 V9 V9 V8 V8 V9 V8 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
+XXR17 V16 VFS V16 GND VFS V16 VFS V16 VFS VFS V16 VFS VFS V16 V16 VFS V16 sky130_fd_pr__res_xhigh_po_5p73_7KNTDX
 .ends
 
 .subckt sky130_fd_sc_hd__or2_1 A B VGND VNB VPB VPWR X
@@ -245,8 +245,8 @@ X9 a_109_47# A a_27_47# VNB sky130_fd_pr__nfet_01v8 ad=0.0609 pd=0.71 as=0.109 p
 .subckt x8to3_Priority_Encoder_v0p2p0 I1 I0 I7 EO GS A2 EI A0 I5 I2 I3 I4 I6 VDD A1
 + GND
 Xx1 I0 I1 I2 I3 GND GND VDD VDD x4/B sky130_fd_sc_hd__or4_1
-Xx3 I6 GND GND VDD VDD x3/Y sky130_fd_sc_hd__inv_1
 Xx2 I4 I5 I6 I7 GND GND VDD VDD x4/C sky130_fd_sc_hd__or4_1
+Xx3 I6 GND GND VDD VDD x3/Y sky130_fd_sc_hd__inv_1
 Xx4 x9/Y x4/B x4/C GND GND VDD VDD EO sky130_fd_sc_hd__or3_1
 Xx5 I5 GND GND VDD VDD x5/Y sky130_fd_sc_hd__inv_1
 Xx6 I4 GND GND VDD VDD x6/Y sky130_fd_sc_hd__inv_1
@@ -408,18 +408,18 @@ Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_17 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_
 + VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
 .ends
 
-.subckt flashADC VFS OUT3 OUT2 OUT1 OUT0 VDD VIN CLK GND
+.subckt flashADC VFS OUT3 OUT2 OUT1 OUT0 VDD VIN CLK GND VL
 XfrontAnalog_v0p0p1_0 VDD VIN CLK frontAnalog_v0p0p1_0/Q frontAnalog_v0p0p1_0/VN PTAT_v0p0p0_mag_0/VOUT
 + GND frontAnalog_v0p0p1
 XfrontAnalog_v0p0p1_1 VDD VIN CLK frontAnalog_v0p0p1_1/Q frontAnalog_v0p0p1_1/VN PTAT_v0p0p0_mag_0/VOUT
 + GND frontAnalog_v0p0p1
 XfrontAnalog_v0p0p1_2 VDD VIN CLK frontAnalog_v0p0p1_2/Q frontAnalog_v0p0p1_2/VN PTAT_v0p0p0_mag_0/VOUT
 + GND frontAnalog_v0p0p1
-XresistorDivider_v0p0p1_0 VFS frontAnalog_v0p0p1_15/VN frontAnalog_v0p0p1_14/VN frontAnalog_v0p0p1_12/VN
-+ frontAnalog_v0p0p1_13/VN frontAnalog_v0p0p1_11/VN frontAnalog_v0p0p1_10/VN frontAnalog_v0p0p1_9/VN
-+ frontAnalog_v0p0p1_8/VN frontAnalog_v0p0p1_1/VN frontAnalog_v0p0p1_7/VN frontAnalog_v0p0p1_6/VN
-+ frontAnalog_v0p0p1_5/VN frontAnalog_v0p0p1_4/VN frontAnalog_v0p0p1_3/VN frontAnalog_v0p0p1_0/VN
-+ frontAnalog_v0p0p1_2/VN GND resistorDivider_v0p0p1
+XresistorDivider_v0p0p1_0 VL VFS frontAnalog_v0p0p1_15/VN frontAnalog_v0p0p1_14/VN
++ frontAnalog_v0p0p1_12/VN frontAnalog_v0p0p1_13/VN frontAnalog_v0p0p1_11/VN frontAnalog_v0p0p1_10/VN
++ frontAnalog_v0p0p1_9/VN frontAnalog_v0p0p1_8/VN frontAnalog_v0p0p1_1/VN frontAnalog_v0p0p1_7/VN
++ frontAnalog_v0p0p1_6/VN frontAnalog_v0p0p1_5/VN frontAnalog_v0p0p1_4/VN frontAnalog_v0p0p1_3/VN
++ frontAnalog_v0p0p1_0/VN frontAnalog_v0p0p1_2/VN GND resistorDivider_v0p0p1
 XfrontAnalog_v0p0p1_3 VDD VIN CLK frontAnalog_v0p0p1_3/Q frontAnalog_v0p0p1_3/VN PTAT_v0p0p0_mag_0/VOUT
 + GND frontAnalog_v0p0p1
 XfrontAnalog_v0p0p1_4 VDD VIN CLK frontAnalog_v0p0p1_4/Q frontAnalog_v0p0p1_4/VN PTAT_v0p0p0_mag_0/VOUT
