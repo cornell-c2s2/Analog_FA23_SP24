@@ -6,15 +6,15 @@ V {}
 S {}
 E {}
 B 2 3095 -3711.25 3895 -3311.25 {flags=graph
-y1=-0.004
+y1=-1.9e-05
 y2=1.9
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9e-07
+x1=1.3119607e-08
+x2=2.1311961e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -29,15 +29,15 @@ logy=0
 color=7
 node=out3}
 B 2 3095 -3311.25 3895 -2911.25 {flags=graph
-y1=-0.056
+y1=-7e-06
 y2=1.9
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9e-07
+x1=1.3119607e-08
+x2=2.1311961e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -59,8 +59,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9e-07
+x1=1.3119607e-08
+x2=2.1311961e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -82,8 +82,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9e-07
+x1=1.3119607e-08
+x2=2.1311961e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -105,8 +105,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9e-07
+x1=1.3123225e-08
+x2=2.1312323e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -128,8 +128,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9e-07
+x1=1.3123225e-08
+x2=2.1312323e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -153,8 +153,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9e-07
+x1=1.3119607e-08
+x2=2.1311961e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -167,19 +167,19 @@ logx=0
 logy=0
 
 color="4 5 6"
-node="y5
-q5
-out0"}
+node="vv5
+vin
+vv4"}
 B 2 2765 -4440 3565 -4040 {flags=graph
-y1=-0.019
-y2=1.9
+y1=0.46
+y2=1
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9e-07
+x1=1.3119607e-08
+x2=2.1311961e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -190,20 +190,19 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="5 4 8"
+color="5 4"
 node="vv2
-i1
 vin"}
 B 2 3595 -4430 4395 -4030 {flags=graph
-y1=-0.03
-y2=1.9
+y1=0.36
+y2=2.16
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=9e-07
+x1=1.3119607e-08
+x2=2.1311961e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -214,10 +213,187 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="5 4 8"
+color=5
+node=clk}
+B 2 3595 -4830 4395 -4430 {flags=graph
+y1=-0.012
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.3119607e-08
+x2=2.1311961e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color=6
+node=r1}
+B 2 3595 -5230 4395 -4830 {flags=graph
+y1=-0.0044
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.3119607e-08
+x2=2.1311961e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color=4
+node=s1}
+B 2 2765 -4840 3565 -4440 {flags=graph
+y1=0.46
+y2=1
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.3119607e-08
+x2=2.1311961e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color="5 4"
 node="vv1
-i0
 vin"}
+B 2 1965 -4440 2765 -4040 {flags=graph
+y1=0
+y2=1.8
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.3119607e-08
+x2=2.1311961e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color=5
+node=clk}
+B 2 1965 -4840 2765 -4440 {flags=graph
+y1=-0.0069
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.3119607e-08
+x2=2.1311961e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color=6
+node=r0}
+B 2 1965 -5240 2765 -4840 {flags=graph
+y1=-0.00013
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.3119607e-08
+x2=2.1311961e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+color=4
+node=s0}
+B 2 4505 -5120 5305 -4720 {flags=graph
+y1=-0.0044
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.3119607e-08
+x2=2.1311961e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+
+color=5
+node=i1}
+B 2 1165 -4850 1965 -4450 {flags=graph
+y1=-0.00013
+y2=1.9
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.3119607e-08
+x2=2.1311961e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+
+color=5
+node=i0}
 N 2150 -3341.25 2150 -3301.25 {
 lab=CLK}
 N 2150 -3241.25 2150 -3201.25 {
@@ -233,16 +409,16 @@ lab=GND}
 N 2322.5 -2970 2322.5 -2950 {
 lab=GND}
 N 1770 -3341.25 1770 -3301.25 {
-lab=#net1}
+lab=VIN}
 N 1770 -3241.25 1770 -3201.25 {
 lab=GND}
-N 1770 -3441.25 1770 -3401.25 {
+N 1770 -3381.25 1770 -3341.25 {
 lab=VIN}
 N 1860 -2962.5 1860 -2932.5 {
 lab=GND}
 N 2322.5 -3057.5 2322.5 -3030 {
 lab=VL}
-C {devices/vsource.sym} 2150 -3271.25 0 0 {name=V4 value="pulse(0 1.8 8ns 1ns 1ns 5ns 10ns)" savecurrent=false}
+C {devices/vsource.sym} 2150 -3271.25 0 0 {name=V4 value="pulse(0 1.8 8ns 1ns 1ns 20ns 40ns)" savecurrent=false}
 C {devices/gnd.sym} 2150 -3201.25 0 0 {name=l35 lab=GND}
 C {devices/lab_pin.sym} 2150 -3341.25 2 0 {name=p197 sig_type=std_logic lab=CLK}
 C {devices/vsource.sym} 1990 -3011.25 0 0 {name=V1 value=1.8 savecurrent=false}
@@ -251,13 +427,13 @@ C {devices/lab_pin.sym} 2020 -3041.25 2 0 {name=p198 sig_type=std_logic lab=VDD}
 C {devices/vsource.sym} 2150 -3011.25 0 0 {name=V2 value=1.6 savecurrent=false}
 C {devices/gnd.sym} 2150 -2941.25 0 0 {name=l37 lab=GND}
 C {devices/lab_pin.sym} 2150 -3081.25 2 0 {name=p199 sig_type=std_logic lab=VFS}
-C {devices/code_shown.sym} 1030 -3961.25 0 0 {name=COMMANDS only_toplevel=false value=".include /foss/designs/Analog_FA23_SP24/flashADC/spice/flashADC_flat.spice
+C {devices/code_shown.sym} 1030 -3963.75 0 0 {name=COMMANDS only_toplevel=false value=".include /foss/designs/Analog_FA23_SP24/flashADC/spice/flashADC_flat.spice
 .options savecurrents
 .control
 
-save VFS OUT3 OUT2 OUT1 OUT0 VL VDD CLK VIN GND VV15 VV14 VV13 VV12 VV11 VV10 VV9 VV8 VV7 VV6 VV5 VV4 VV3 VV2 VV1 VV16 I14 I13 I12 I11 I10 I9 I8 I7 I6 I5 I4 I3 I2 I1 I0 I15
+save S1 S0 R1 R0 VFS OUT3 OUT2 OUT1 OUT0 VL VDD CLK VIN GND VV15 VV14 VV13 VV12 VV11 VV10 VV9 VV8 VV7 VV6 VV5 VV4 VV3 VV2 VV1 VV16 I14 I13 I12 I11 I10 I9 I8 I7 I6 I5 I4 I3 I2 I1 I0 I15
 
-tran 0.10n 200n
+tran 0.1n 200n
 remzerovec
 write flashADC_Testing_ext_test.raw
 
@@ -265,14 +441,9 @@ write flashADC_Testing_ext_test.raw
 "}
 C {devices/vsource.sym} 2322.5 -3000 0 0 {name=V5 value=0.6 savecurrent=false}
 C {devices/gnd.sym} 2322.5 -2950 0 0 {name=l2 lab=GND}
-C {devices/vsource.sym} 1770 -3271.25 0 0 {name=V7 value="PWL(0ns 0.5 400ns 1.7)" savecurrent=false}
+C {devices/vsource.sym} 1770 -3271.25 0 0 {name=V7 value="PWL(0ns 0.5 200ns 0.9)" savecurrent=false}
 C {devices/gnd.sym} 1770 -3201.25 0 0 {name=l19 lab=GND}
-C {devices/lab_pin.sym} 1770 -3441.25 2 0 {name=p133 sig_type=std_logic lab=VIN}
-C {devices/res.sym} 1770 -3371.25 0 0 {name=R36
-value=1k
-footprint=1206
-device=resistor
-m=1}
+C {devices/lab_pin.sym} 1770 -3381.25 2 0 {name=p133 sig_type=std_logic lab=VIN}
 C {devices/code.sym} 1550 -3301.25 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
@@ -328,3 +499,8 @@ C {devices/opin.sym} 2725 -3000 0 0 {name=p36 lab=I3}
 C {devices/opin.sym} 2725 -2980 0 0 {name=p37 lab=I2}
 C {devices/opin.sym} 2725 -2960 0 0 {name=p38 lab=I1}
 C {devices/opin.sym} 2725 -2940 0 0 {name=p39 lab=I0}
+C {devices/opin.sym} 2725 -2910 0 0 {name=p40 lab=S1
+}
+C {devices/opin.sym} 2725 -2890 0 0 {name=p41 lab=R1}
+C {devices/opin.sym} 2725 -2870 0 0 {name=p42 lab=S0}
+C {devices/opin.sym} 2725 -2850 0 0 {name=p43 lab=R0}
