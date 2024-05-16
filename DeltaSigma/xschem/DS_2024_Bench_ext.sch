@@ -1,4 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -20,14 +20,11 @@ C {devices/vdd.sym} -160 -140 0 0 {name=l9 lab=VMID}
 C {devices/sqwsource.sym} -320 -110 0 0 {name=V3 vhi=1.8 freq=1.2e6}
 C {devices/lab_pin.sym} -320 -140 1 0 {name=p1 sig_type=std_logic lab=CLK}
 C {devices/gnd.sym} -320 -80 0 1 {name=l13 lab=GND}
-C {devices/vsource.sym} -80 -110 0 0 {name=V4 value="sin(0.9 0.3 5e3)" savecurrent=false}
-C {devices/gnd.sym} -80 -80 0 1 {name=l18 lab=GND}
-C {devices/lab_pin.sym} -80 -140 1 0 {name=p3 sig_type=std_logic lab=SIG}
 C {devices/code_shown.sym} 140 70 0 0 {name=s1 only_toplevel=false value=
 "
 .include /foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/DS_flat.spice
 .control
-save all
+save sig clk out
 
 tran 0.1u 500u
 *ac dec 10 100 100k
@@ -63,3 +60,7 @@ C {devices/gnd.sym} 100 -60 0 1 {name=l5 lab=GND}
 C {devices/lab_pin.sym} 400 -120 2 0 {name=p5 sig_type=std_logic lab=OUT
 }
 C {/foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/DS_flat.sym} 250 -120 0 0 {name=x1}
+C {devices/vsource.sym} -80 -170 0 0 {name=V4 value="SIN(0.9 0.2 2k)" savecurrent=false}
+C {devices/gnd.sym} -80 -80 0 1 {name=l18 lab=GND}
+C {devices/lab_pin.sym} -80 -200 1 0 {name=p3 sig_type=std_logic lab=SIG}
+C {devices/vsource.sym} -80 -110 0 0 {name=V7 value="SIN(0 0.2 10k)" savecurrent=false}
