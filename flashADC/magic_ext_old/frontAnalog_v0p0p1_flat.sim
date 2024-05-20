@@ -1,0 +1,131 @@
+| units: 500000 tech: sky130A format: MIT
+x a_5187_3971# GND RSfetsym_0.S GND s=3016,162 d=5408,312 l=30 w=104 x=5327 y=3971 sky130_fd_pr__nfet_01v8
+x CLK class_AB_v3_sym_0.VON class_AB_v3_sym_0.VOP VDD s=46400,1716 d=46400,1716 l=70 w=800 x=4540 y=3043 sky130_fd_pr__pfet_01v8_lvt
+x class_AB_v3_sym_0.VON a_3332_2594# class_AB_v3_sym_0.VOP GND s=11600,516 d=11600,516 l=30 w=200 x=3400 y=4090 sky130_fd_pr__nfet_01v8_lvt
+x a_5187_2451# VDD RSfetsym_0.R VDD s=4582,216 d=8216,420 l=30 w=158 x=5327 y=2451 sky130_fd_pr__pfet_01v8_hvt
+x a_5187_2451# GND RSfetsym_0.R GND s=3016,162 d=5408,312 l=30 w=104 x=5327 y=2797 sky130_fd_pr__nfet_01v8
+x RSfetsym_0.QN a_7641_3047# GND GND s=11600,516 d=11600,516 l=30 w=200 x=7927 y=3047 sky130_fd_pr__nfet_01v8
+x VIN a_1694_2534# w_3064_2980# GND s=46400,1716 d=46400,1716 l=120 w=800 x=1994 y=3586 sky130_fd_pr__nfet_01v8_lvt
+x VIN w_3064_3602# GND s=38800,994 l=36 w=400 x=3182 y=3735 sky130_fd_pr__cap_var_lvt
+x CLK class_AB_v3_sym_0.VOP w_3064_3602# VDD s=46400,1716 d=46400,1716 l=70 w=800 x=2133 y=2426 sky130_fd_pr__pfet_01v8_lvt
+x RSfetsym_0.R RSfetsym_0.x1.Y VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=8505 y=3483 sky130_fd_pr__pfet_01v8_hvt
+x RSfetsym_0.S RSfetsym_0.QN VDD VDD s=11600,458 d=23200,916 l=50 w=400 x=7177 y=4387 sky130_fd_pr__pfet_01v8
+x RSfetsym_0.R VDD RSfetsym_0.x1.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=8505 y=3399 sky130_fd_pr__pfet_01v8_hvt
+x CLK w_3064_2980# class_AB_v3_sym_0.VON VDD s=46400,1716 d=46400,1716 l=70 w=800 x=2143 y=4386 sky130_fd_pr__pfet_01v8_lvt
+x Q VDD RSfetsym_0.QN VDD s=23200,916 d=23200,916 l=60 w=400 x=7154 y=3571 sky130_fd_pr__pfet_01v8
+x IB GND a_1694_2534# GND s=46400,1716 d=46400,1716 l=120 w=800 x=1574 y=3552 sky130_fd_pr__nfet_01v8_lvt
+x RSfetsym_0.x1.Y GND RSfetsym_0.QN GND s=23200,916 d=23200,916 l=50 w=400 x=8010 y=4060 sky130_fd_pr__nfet_01v8
+x RSfetsym_0.QN VDD Q VDD s=23200,916 d=23200,916 l=60 w=400 x=7154 y=2841 sky130_fd_pr__pfet_01v8
+x RSfetsym_0.R RSfetsym_0.x1.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=8505 y=3315 sky130_fd_pr__pfet_01v8_hvt
+x VN w_3064_3602# a_1694_2534# GND s=46400,1716 d=46400,1716 l=120 w=800 x=1994 y=3180 sky130_fd_pr__nfet_01v8_lvt
+x Q a_7642_3560# GND GND s=11600,516 d=11600,516 l=30 w=200 x=7928 y=3560 sky130_fd_pr__nfet_01v8
+x RSfetsym_0.S RSfetsym_0.x2.Y VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=8875 y=3483 sky130_fd_pr__pfet_01v8_hvt
+x RSfetsym_0.S VDD RSfetsym_0.x2.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=8875 y=3399 sky130_fd_pr__pfet_01v8_hvt
+x class_AB_v3_sym_0.VOP a_5187_3971# VDD VDD s=8216,420 d=4582,216 l=30 w=158 x=5239 y=4263 sky130_fd_pr__pfet_01v8_hvt
+x class_AB_v3_sym_0.VOP a_5187_3971# GND GND s=5408,312 d=3016,162 l=30 w=104 x=5239 y=3971 sky130_fd_pr__nfet_01v8
+x RSfetsym_0.S RSfetsym_0.x2.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=8875 y=3315 sky130_fd_pr__pfet_01v8_hvt
+x RSfetsym_0.S VDD RSfetsym_0.QN VDD s=23200,916 d=11600,458 l=50 w=400 x=7177 y=4279 sky130_fd_pr__pfet_01v8
+x class_AB_v3_sym_0.VOP a_3332_2594# class_AB_v3_sym_0.VON GND s=11600,516 d=11600,516 l=30 w=200 x=3390 y=2594 sky130_fd_pr__nfet_01v8_lvt
+x RSfetsym_0.S RSfetsym_0.x2.Y GND GND s=3510,184 d=6760,364 l=30 w=130 x=9195 y=3483 sky130_fd_pr__nfet_01v8
+x RSfetsym_0.R RSfetsym_0.x1.Y GND GND s=3510,184 d=6760,364 l=30 w=130 x=8255 y=3483 sky130_fd_pr__nfet_01v8
+x class_AB_v3_sym_0.VON a_5187_2451# GND GND s=5408,312 d=3016,162 l=30 w=104 x=5239 y=2797 sky130_fd_pr__nfet_01v8
+x RSfetsym_0.S GND RSfetsym_0.x2.Y GND s=3510,184 d=3510,184 l=30 w=130 x=9195 y=3399 sky130_fd_pr__nfet_01v8
+x class_AB_v3_sym_0.VON a_5187_2451# VDD VDD s=8216,420 d=4582,216 l=30 w=158 x=5239 y=2451 sky130_fd_pr__pfet_01v8_hvt
+x RSfetsym_0.R GND RSfetsym_0.x1.Y GND s=3510,184 d=3510,184 l=30 w=130 x=8255 y=3399 sky130_fd_pr__nfet_01v8
+x CLK w_3064_3602# VDD GND s=46400,1716 d=46400,1716 l=120 w=800 x=3930 y=3602 sky130_fd_pr__nfet_01v8_lvt
+x RSfetsym_0.R Q VDD VDD s=11600,458 d=23200,916 l=50 w=400 x=7177 y=2480 sky130_fd_pr__pfet_01v8
+x IB GND a_1694_2534# GND s=46400,1716 d=46400,1716 l=120 w=800 x=1574 y=2534 sky130_fd_pr__nfet_01v8_lvt
+x RSfetsym_0.S RSfetsym_0.x2.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=9195 y=3315 sky130_fd_pr__nfet_01v8
+x RSfetsym_0.R VDD RSfetsym_0.x1.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=8505 y=3231 sky130_fd_pr__pfet_01v8_hvt
+x RSfetsym_0.R RSfetsym_0.x1.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=8255 y=3315 sky130_fd_pr__nfet_01v8
+x RSfetsym_0.R Q a_7641_3047# GND s=11600,516 d=11600,516 l=30 w=200 x=7611 y=3047 sky130_fd_pr__nfet_01v8
+x CLK w_3064_2980# VDD GND s=46400,1716 d=46400,1716 l=120 w=800 x=3930 y=2488 sky130_fd_pr__nfet_01v8_lvt
+x RSfetsym_0.S VDD RSfetsym_0.x2.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=8875 y=3231 sky130_fd_pr__pfet_01v8_hvt
+x class_AB_v3_sym_0.VOP VDD class_AB_v3_sym_0.VON VDD s=46400,1716 d=46400,1716 l=70 w=800 x=2133 y=2070 sky130_fd_pr__pfet_01v8_lvt
+x RSfetsym_0.R VDD Q VDD s=23200,916 d=11600,458 l=50 w=400 x=7177 y=2372 sky130_fd_pr__pfet_01v8
+x class_AB_v3_sym_0.VON class_AB_v3_sym_0.VOP VDD VDD s=46400,1716 d=46400,1716 l=70 w=800 x=2143 y=4742 sky130_fd_pr__pfet_01v8_lvt
+x RSfetsym_0.S RSfetsym_0.QN a_7642_3560# GND s=12580,544 d=11600,516 l=30 w=200 x=7612 y=3560 sky130_fd_pr__nfet_01v8
+x VN w_3064_2980# GND s=38800,994 l=36 w=400 x=3182 y=3113 sky130_fd_pr__cap_var_lvt
+x RSfetsym_0.x2.Y GND Q GND s=23200,916 d=23200,916 l=50 w=400 x=8010 y=2694 sky130_fd_pr__nfet_01v8
+x RSfetsym_0.S GND RSfetsym_0.x2.Y GND s=6760,364 d=3510,184 l=30 w=130 x=9195 y=3231 sky130_fd_pr__nfet_01v8
+x CLK GND a_3332_2594# GND s=11600,516 d=11600,516 l=30 w=200 x=3352 y=1896 sky130_fd_pr__nfet_01v8_lvt
+x a_5187_3971# VDD RSfetsym_0.S VDD s=4582,216 d=8216,420 l=30 w=158 x=5327 y=4263 sky130_fd_pr__pfet_01v8_hvt
+x RSfetsym_0.R GND RSfetsym_0.x1.Y GND s=6760,364 d=3510,184 l=30 w=130 x=8255 y=3231 sky130_fd_pr__nfet_01v8
+C VDD RSfetsym_0.R 3.1
+C VDD class_AB_v3_sym_0.VOP 2.9
+C RSfetsym_0.S VDD 3.5
+C Q VDD 2.6
+C RSfetsym_0.QN VDD 2.5
+C RSfetsym_0.QN RSfetsym_0.S 2.3
+C class_AB_v3_sym_0.VOP class_AB_v3_sym_0.VON 3.2
+C VDD class_AB_v3_sym_0.VON 3.2
+C RSfetsym_0.QN Q 2.0
+C CLK class_AB_v3_sym_0.VOP 2.6
+C VDD CLK 2.5
+C Q0 3.6
+R Q 6625
+= Q RSfetsym_0.Q
+C VN0 2.3
+R VN 1205
+= VN class_AB_v3_sym_0.VIN
+C VIN0 2.0
+R VIN 1204
+= VIN class_AB_v3_sym_0.VIP
+C CLK0 4.2
+R CLK 4113
+= CLK class_AB_v3_sym_0.CLK
+C IB0 3.1
+R IB 1164
+= IB class_AB_v3_sym_0.IB
+C VDD0 39.4
+R VDD 138506
+= VDD x63.VPWR
+= VDD x63.VPB
+= VDD x65.VPWR
+= VDD x65.VPB
+= VDD class_AB_v3_sym_0.VDD
+= VDD RSfetsym_0.x2.VPWR
+= VDD RSfetsym_0.x2.VPB
+= VDD RSfetsym_0.x1.VPWR
+= VDD RSfetsym_0.x1.VPB
+= VDD RSfetsym_0.VDD
+R a_7641_3047# 1311
+R a_5187_2451# 1873
+R RSfetsym_0.x2.Y 3813
+C RSfetsym_0.R0 5.4
+R RSfetsym_0.R 6015
+= RSfetsym_0.R x63.X
+= RSfetsym_0.R RSfetsym_0.x1.A
+R a_7642_3560# 1311
+R RSfetsym_0.x1.Y 3817
+C RSfetsym_0.QN0 3.5
+R RSfetsym_0.QN 6643
+C RSfetsym_0.S0 5.1
+R RSfetsym_0.S 6003
+= RSfetsym_0.S x65.X
+= RSfetsym_0.S RSfetsym_0.x2.A
+R a_5187_3971# 1873
+R a_3332_2594# 2114
+C a_1694_2534#0 2.6
+R a_1694_2534# 8672
+C class_AB_v3_sym_0.VOP0 2.3
+R class_AB_v3_sym_0.VOP 12586
+= class_AB_v3_sym_0.VOP x65.A
+C class_AB_v3_sym_0.VON0 2.1
+R class_AB_v3_sym_0.VON 12586
+= class_AB_v3_sym_0.VON x63.A
+C w_3064_2980#0 2.7
+R w_3064_2980# 10976
+C w_3064_3602#0 2.7
+R w_3064_3602# 10977
+R GND 184867
+= GND x63.VGND
+= GND x65.VNB
+= GND x65.VGND
+= GND RSfetsym_0.x2.VNB
+= GND class_AB_v3_sym_0.VSS
+= GND RSfetsym_0.x2.VGND
+= GND RSfetsym_0.x1.VNB
+= GND x63.VNB
+= GND RSfetsym_0.x1.VGND
+= GND RSfetsym_0.GND
