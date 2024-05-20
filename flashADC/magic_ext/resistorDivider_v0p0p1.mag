@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1715652275
+timestamp 1715804543
 << pwell >>
 rect -7570 6750 -7530 6830
 rect -8150 -6600 -7500 6700
@@ -29,72 +29,72 @@ rect -7489 -5436 -2229 -4886
 rect -7490 -6235 -2230 -5685
 rect -8230 -6670 -7520 -6650
 rect -7470 -7360 -2550 -6450
+use sky130_fd_pr__res_xhigh_po_5p73_BKNTN6  sky130_fd_pr__res_xhigh_po_5p73_BKNTN6_0
+timestamp 1715804543
+transform 1 0 -5027 0 1 -2360
+box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_QJNTVE  XR1
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 -6360
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR2
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 -5560
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR3
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5026 0 -1 -4761
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR4
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 -3960
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR5
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 -3161
 box -2543 -425 2543 425
-use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR6
-timestamp 1715652275
-transform 1 0 -5026 0 -1 -2362
-box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR7
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 -1561
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR8
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 -764
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR9
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 35
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR10
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 836
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR11
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 1635
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR12
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5026 0 -1 2434
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR13
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 3235
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR14
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 4035
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR15
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 4836
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR16
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5027 0 -1 5635
 box -2543 -425 2543 425
 use sky130_fd_pr__res_xhigh_po_5p73_7KNTDX  XR17
-timestamp 1715652275
+timestamp 1715735650
 transform 1 0 -5026 0 -1 6434
 box -2543 -425 2543 425
 << labels >>

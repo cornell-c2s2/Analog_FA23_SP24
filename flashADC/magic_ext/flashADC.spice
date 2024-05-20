@@ -303,8 +303,8 @@ X30 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.135 ps=1.27 w
 X31 Y A VGND VNB sky130_fd_pr__nfet_01v8 ad=0.0878 pd=0.92 as=0.0878 ps=0.92 w=0.65 l=0.15
 .ends
 
-.subckt x16to4_PriorityEncoder_v0p0p1 A3 EI I15 I13 I12 I11 I10 A2 I9 I8 I7 I6 I5
-+ I4 A1 I3 I2 I1 I0 A0 I14 GND VDD
+.subckt x16to4_PriorityEncoder_v0p0p1 A3 EI I15 I14 I13 I12 I11 I10 A2 I9 I8 I7 I5
++ I4 A1 I3 I2 I1 I0 A0 I6 GND VDD
 Xx1 x1/A x1/B GND GND VDD VDD x1/X sky130_fd_sc_hd__or2_1
 Xx2 x2/A x2/B GND GND VDD VDD x2/X sky130_fd_sc_hd__or2_1
 Xx3 I1 I0 I7 x3/EO x3/GS x3/A2 x7/Y x2/B I5 I2 I3 I4 I6 VDD x1/B GND x8to3_Priority_Encoder_v0p2p0
@@ -434,11 +434,11 @@ XfrontAnalog_v0p0p1_8 VDD VIN CLK frontAnalog_v0p0p1_8/Q frontAnalog_v0p0p1_8/VN
 + GND frontAnalog_v0p0p1
 XfrontAnalog_v0p0p1_9 VDD VIN CLK frontAnalog_v0p0p1_9/Q frontAnalog_v0p0p1_9/VN PTAT_v0p0p0_mag_0/VOUT
 + GND frontAnalog_v0p0p1
-X16to4_PriorityEncoder_v0p0p1_0 OUT3 VDD frontAnalog_v0p0p1_2/Q frontAnalog_v0p0p1_3/Q
-+ frontAnalog_v0p0p1_4/Q frontAnalog_v0p0p1_5/Q frontAnalog_v0p0p1_6/Q OUT2 frontAnalog_v0p0p1_7/Q
-+ frontAnalog_v0p0p1_1/Q frontAnalog_v0p0p1_8/Q frontAnalog_v0p0p1_9/Q frontAnalog_v0p0p1_10/Q
+X16to4_PriorityEncoder_v0p0p1_0 OUT3 VDD frontAnalog_v0p0p1_2/Q frontAnalog_v0p0p1_0/Q
++ frontAnalog_v0p0p1_3/Q frontAnalog_v0p0p1_4/Q frontAnalog_v0p0p1_5/Q frontAnalog_v0p0p1_6/Q
++ OUT2 frontAnalog_v0p0p1_7/Q frontAnalog_v0p0p1_1/Q frontAnalog_v0p0p1_8/Q frontAnalog_v0p0p1_10/Q
 + frontAnalog_v0p0p1_11/Q OUT1 frontAnalog_v0p0p1_13/Q frontAnalog_v0p0p1_12/Q frontAnalog_v0p0p1_14/Q
-+ frontAnalog_v0p0p1_15/Q OUT0 frontAnalog_v0p0p1_0/Q GND VDD x16to4_PriorityEncoder_v0p0p1
++ frontAnalog_v0p0p1_15/Q OUT0 frontAnalog_v0p0p1_9/Q GND VDD x16to4_PriorityEncoder_v0p0p1
 XPTAT_v0p0p0_mag_0 VDD PTAT_v0p0p0_mag_0/VOUT GND PTAT_v0p0p0_mag
 XfrontAnalog_v0p0p1_11 VDD VIN CLK frontAnalog_v0p0p1_11/Q frontAnalog_v0p0p1_11/VN
 + PTAT_v0p0p0_mag_0/VOUT GND frontAnalog_v0p0p1
