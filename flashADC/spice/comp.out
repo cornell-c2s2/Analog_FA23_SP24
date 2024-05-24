@@ -1,4 +1,267 @@
 
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_hvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_hvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_hvt     |Circuit 2: sky130_fd_pr__pfet_01v8_hvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_hvt and sky130_fd_pr__pfet_01v8_hvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_lvt     |Circuit 2: sky130_fd_pr__pfet_01v8_lvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__nfet_01v8_lvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8_lvt     |Circuit 2: sky130_fd_pr__nfet_01v8_lvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_var_lvt and Circuit 2 cell sky130_fd_pr__cap_var_lvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_var_lvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_var_lvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_var_lvt       |Circuit 2: sky130_fd_pr__cap_var_lvt       
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_var_lvt and sky130_fd_pr__cap_var_lvt are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__inv_1          |Circuit 2: sky130_fd_sc_hd__inv_1          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8_hvt (1)            |sky130_fd_pr__pfet_01v8_hvt (1)            
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__inv_1          |Circuit 2: sky130_fd_sc_hd__inv_1          
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__inv_1 and sky130_fd_sc_hd__inv_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__or4_1          |Circuit 2: sky130_fd_sc_hd__or4_1          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (5)                |sky130_fd_pr__nfet_01v8 (5)                
+sky130_fd_pr__pfet_01v8_hvt (5)            |sky130_fd_pr__pfet_01v8_hvt (5)            
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__or4_1          |Circuit 2: sky130_fd_sc_hd__or4_1          
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+D                                          |D                                          
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+C                                          |C                                          
+B                                          |B                                          
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__or4_1 and sky130_fd_sc_hd__or4_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__or3_1          |Circuit 2: sky130_fd_sc_hd__or3_1          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (4)            |sky130_fd_pr__pfet_01v8_hvt (4)            
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__or3_1          |Circuit 2: sky130_fd_sc_hd__or3_1          
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+X                                          |X                                          
+VPWR                                       |VPWR                                       
+C                                          |C                                          
+A                                          |A                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__or3_1 and sky130_fd_sc_hd__or3_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__and2_1         |Circuit 2: sky130_fd_sc_hd__and2_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+sky130_fd_pr__pfet_01v8_hvt (3)            |sky130_fd_pr__pfet_01v8_hvt (3)            
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and2_1         |Circuit 2: sky130_fd_sc_hd__and2_1         
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+B                                          |B                                          
+X                                          |X                                          
+VGND                                       |VGND                                       
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and2_1 and sky130_fd_sc_hd__and2_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__and4_1         |Circuit 2: sky130_fd_sc_hd__and4_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (5)                |sky130_fd_pr__nfet_01v8 (5)                
+sky130_fd_pr__pfet_01v8_hvt (5)            |sky130_fd_pr__pfet_01v8_hvt (5)            
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and4_1         |Circuit 2: sky130_fd_sc_hd__and4_1         
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+X                                          |X                                          
+A                                          |A                                          
+B                                          |B                                          
+D                                          |D                                          
+C                                          |C                                          
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and4_1 and sky130_fd_sc_hd__and4_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__and3_1         |Circuit 2: sky130_fd_sc_hd__and3_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+sky130_fd_pr__pfet_01v8_hvt (4)            |sky130_fd_pr__pfet_01v8_hvt (4)            
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and3_1         |Circuit 2: sky130_fd_sc_hd__and3_1         
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+VGND                                       |VGND                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and3_1 and sky130_fd_sc_hd__and3_1 are equivalent.
+
+Class sky130_fd_sc_hd__inv_4 (0):  Merged 6 parallel devices.
+Class sky130_fd_sc_hd__inv_4 (1):  Merged 6 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__inv_4          |Circuit 2: sky130_fd_sc_hd__inv_4          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (4->1)             |sky130_fd_pr__nfet_01v8 (4->1)             
+sky130_fd_pr__pfet_01v8_hvt (4->1)         |sky130_fd_pr__pfet_01v8_hvt (4->1)         
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__inv_4          |Circuit 2: sky130_fd_sc_hd__inv_4          
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+A                                          |A                                          
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__inv_4 and sky130_fd_sc_hd__inv_4 are equivalent.
+
 Circuit 1 cell sky130_fd_pr__res_xhigh_po_5p73 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_5p73 are black boxes.
 Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
 Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
@@ -12,83 +275,547 @@ Circuit 1: sky130_fd_pr__res_xhigh_po_5p73 |Circuit 2: sky130_fd_pr__res_xhigh_p
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__res_xhigh_po_5p73 and sky130_fd_pr__res_xhigh_po_5p73 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_QJNTVE in circuit resistorDivider_v0p0p1 (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_7KNTDX in circuit resistorDivider_v0p0p1 (1)(16 instances)
 
-Class resistorDivider_v0p0p1 (1):  Merged 119 parallel devices.
 Subcircuit summary:
-Circuit 1: resistorDivider_v0p0p1          |Circuit 2: resistorDivider_v0p0p1          
+Circuit 1: sky130_fd_sc_hd__or2_1          |Circuit 2: sky130_fd_sc_hd__or2_1          
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__res_xhigh_po_5p73 (136->17)  |sky130_fd_pr__res_xhigh_po_5p73 (136->17)  
-Number of devices: 17                      |Number of devices: 17                      
-Number of nets: 19                         |Number of nets: 19                         
+sky130_fd_pr__pfet_01v8_hvt (3)            |sky130_fd_pr__pfet_01v8_hvt (3)            
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__or2_1          |Circuit 2: sky130_fd_sc_hd__or2_1          
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+A                                          |A                                          
+B                                          |B                                          
+X                                          |X                                          
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__or2_1 and sky130_fd_sc_hd__or2_1 are equivalent.
+
+Class sky130_fd_sc_hd__inv_16 (0):  Merged 30 parallel devices.
+Class sky130_fd_sc_hd__inv_16 (1):  Merged 30 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__inv_16         |Circuit 2: sky130_fd_sc_hd__inv_16         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (16->1)            |sky130_fd_pr__nfet_01v8 (16->1)            
+sky130_fd_pr__pfet_01v8_hvt (16->1)        |sky130_fd_pr__pfet_01v8_hvt (16->1)        
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__inv_16         |Circuit 2: sky130_fd_sc_hd__inv_16         
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__inv_16 and sky130_fd_sc_hd__inv_16 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__buf_1          |Circuit 2: sky130_fd_sc_hd__buf_1          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8_hvt (2)            |sky130_fd_pr__pfet_01v8_hvt (2)            
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_1          |Circuit 2: sky130_fd_sc_hd__buf_1          
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+A                                          |A                                          
+VPB                                        |VPB                                        
+X                                          |X                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_1 and sky130_fd_sc_hd__buf_1 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_8X7CJE in circuit RSfetsym (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_ENQT6S in circuit RSfetsym (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_CBNSG2 in circuit RSfetsym (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_GNLSML in circuit RSfetsym (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_K7FRP5 in circuit RSfetsym (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_GHY9W9 in circuit RSfetsym (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_E3L9V7 in circuit RSfetsym (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_EDASV7 in circuit RSfetsym (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_4WSMTB in circuit RSfetsym (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_XJSMYS in circuit RSfetsym (1)(1 instance)
+
+Class RSfetsym (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: RSfetsym                        |Circuit 2: RSfetsym                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (6)                |sky130_fd_pr__nfet_01v8 (6)                
+sky130_fd_pr__pfet_01v8 (4)                |sky130_fd_pr__pfet_01v8 (6->4)             
+sky130_fd_sc_hd__inv_4 (2)                 |sky130_fd_sc_hd__inv_4 (2)                 
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 10                         |Number of nets: 10                         
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
 Resolving symmetries by pin name.
-Netlists match uniquely with property errors.
-sky130_fd_pr__res_xhigh_po_5p73:R17 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR17/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R1 vs. sky130_fd_pr__res_xhigh_po_5p73_QJNTVE:XR1/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R15 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR15/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R3 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR3/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R13 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR13/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R5 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR5/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R11 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR11/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R7 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR7/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R9 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR9/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R10 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR10/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R8 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR8/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R12 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR12/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R6 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR6/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R14 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR14/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R4 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR4/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R16 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR16/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
-sky130_fd_pr__res_xhigh_po_5p73:R2 vs. sky130_fd_pr__res_xhigh_po_5p73_7KNTDX:XR2/sky130_fd_pr__res_xhigh_po_5p73:0:
- L circuit1: 2.677   circuit2: 2.52   (delta=6.04%, cutoff=1%)
+Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: resistorDivider_v0p0p1          |Circuit 2: resistorDivider_v0p0p1          
+Circuit 1: RSfetsym                        |Circuit 2: RSfetsym                        
 -------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
 GND                                        |GND                                        
-V1                                         |V1                                         
-V16                                        |V16                                        
-V3                                         |V3                                         
-V14                                        |V14                                        
-V12                                        |V12                                        
-V5                                         |V5                                         
-V10                                        |V10                                        
-V7                                         |V7                                         
-V9                                         |V9                                         
-V8                                         |V8                                         
-V11                                        |V11                                        
-V6                                         |V6                                         
-V4                                         |V4                                         
-V13                                        |V13                                        
-V2                                         |V2                                         
-V15                                        |V15                                        
-VL                                         |VL                                         
-VFS                                        |VFS                                        
+R                                          |R                                          
+S                                          |S                                          
+Q                                          |Q                                          
+QN                                         |QN                                         
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes resistorDivider_v0p0p1 and resistorDivider_v0p0p1 are equivalent.
+Device classes RSfetsym and RSfetsym are equivalent.
+Flattening unmatched subcell class_AB_v4_sym in circuit frontAnalog_v0p0p1 (0)(1 instance)
+Flattening unmatched subcell class_AB_v3_sym in circuit frontAnalog_v0p0p1 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_4QFHB3 in circuit frontAnalog_v0p0p1 (1)(5 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_WJMR3R in circuit frontAnalog_v0p0p1 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_AWHWK2 in circuit frontAnalog_v0p0p1 (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_64Z3AY in circuit frontAnalog_v0p0p1 (1)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_var_lvt_CYVAFU in circuit frontAnalog_v0p0p1 (1)(2 instances)
 
-Final result: Circuits match uniquely.
-Property errors were found.
+Class frontAnalog_v0p0p1 (1):  Merged 1 parallel devices.
+Subcircuit summary:
+Circuit 1: frontAnalog_v0p0p1              |Circuit 2: frontAnalog_v0p0p1              
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__buf_1 (2)                 |sky130_fd_sc_hd__buf_1 (2)                 
+RSfetsym (1)                               |RSfetsym (1)                               
+sky130_fd_pr__nfet_01v8_lvt (9->8)         |sky130_fd_pr__nfet_01v8_lvt (9->8)         
+sky130_fd_pr__pfet_01v8_lvt (5)            |sky130_fd_pr__pfet_01v8_lvt (5)            
+sky130_fd_pr__cap_var_lvt (2)              |sky130_fd_pr__cap_var_lvt (2)              
+Number of devices: 18                      |Number of devices: 18                      
+Number of nets: 16                         |Number of nets: 16                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
 
-The following cells had property errors:
- resistorDivider_v0p0p1
+Subcircuit pins:
+Circuit 1: frontAnalog_v0p0p1              |Circuit 2: frontAnalog_v0p0p1              
+-------------------------------------------|-------------------------------------------
+CLK                                        |CLK                                        
+Q                                          |Q                                          
+IB                                         |IB                                         
+VIN                                        |VIN                                        
+VN                                         |VN                                         
+VDD                                        |VDD                                        
+GND                                        |GND                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes frontAnalog_v0p0p1 and frontAnalog_v0p0p1 are equivalent.
+Flattening unmatched subcell 16to4_PriorityEncoder_v0p0p1 in circuit flashADC_Testing_v0p4p4 (0)(1 instance)
+Flattening unmatched subcell 8to3_Priority_Encoder_v0p2p0 in circuit flashADC_Testing_v0p4p4 (0)(2 instances)
+Flattening unmatched subcell PTAT_v0p0p0 in circuit flashADC_Testing_v0p4p4 (0)(1 instance)
+Flattening unmatched subcell resistorDivider_v0p0p1 in circuit flashADC (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_QJNTVE in circuit flashADC (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_7KNTDX in circuit flashADC (1)(15 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_BKNTN6 in circuit flashADC (1)(1 instance)
+Flattening unmatched subcell x16to4_PriorityEncoder_v0p0p1 in circuit flashADC (1)(1 instance)
+Flattening unmatched subcell x8to3_Priority_Encoder_v0p2p0 in circuit flashADC (1)(2 instances)
+Flattening unmatched subcell PTAT_v0p0p0_mag in circuit flashADC (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_BKH6ZK in circuit flashADC (1)(22 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_GWLG8Y in circuit flashADC (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_GUHUBJ in circuit flashADC (1)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_B7MEP5 in circuit flashADC (1)(1 instance)
+
+Class flashADC_Testing_v0p4p4 (0):  Merged 1 parallel devices.
+Class flashADC (1):  Merged 139 parallel devices.
+Subcircuit summary:
+Circuit 1: flashADC_Testing_v0p4p4         |Circuit 2: flashADC                        
+-------------------------------------------|-------------------------------------------
+vsrc (5)                                   |(no matching element)                      
+r (1)                                      |(no matching element)                      
+sky130_fd_pr__res_xhigh_po_5p73 (138->18)  |sky130_fd_pr__res_xhigh_po_5p73 (138->18)  
+sky130_fd_sc_hd__or2_1 (3)                 |sky130_fd_sc_hd__or2_1 (3)                 
+sky130_fd_sc_hd__inv_1 (15)                |sky130_fd_sc_hd__inv_1 (15)                
+sky130_fd_sc_hd__inv_4 (4)                 |sky130_fd_sc_hd__inv_4 (4)                 
+sky130_fd_sc_hd__inv_16 (20)               |sky130_fd_sc_hd__inv_16 (20)               
+sky130_fd_sc_hd__or4_1 (10)                |sky130_fd_sc_hd__or4_1 (10)                
+sky130_fd_sc_hd__or3_1 (2)                 |sky130_fd_sc_hd__or3_1 (2)                 
+sky130_fd_sc_hd__and2_1 (12)               |sky130_fd_sc_hd__and2_1 (12)               
+sky130_fd_sc_hd__and4_1 (8)                |sky130_fd_sc_hd__and4_1 (8)                
+sky130_fd_sc_hd__and3_1 (2)                |sky130_fd_sc_hd__and3_1 (2)                
+sky130_fd_pr__pfet_01v8_lvt (3)            |sky130_fd_pr__pfet_01v8_lvt (3)            
+sky130_fd_pr__nfet_01v8_lvt (23->4)        |sky130_fd_pr__nfet_01v8_lvt (23->4)        
+frontAnalog_v0p0p1 (16)                    |frontAnalog_v0p0p1 (16)                    
+Number of devices: 123 **Mismatch**        |Number of devices: 117 **Mismatch**        
+Number of nets: 107 **Mismatch**           |Number of nets: 106 **Mismatch**           
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: flashADC_Testing_v0p4p4         |Circuit 2: flashADC                        
+
+---------------------------------------------------------------------------------------
+Net: VDD                                   |Net: VDD                                   
+  frontAnalog_v0p0p1/VDD = 16              |  frontAnalog_v0p0p1/VDD = 16              
+  sky130_fd_sc_hd__or2_1/VPB = 3           |  sky130_fd_sc_hd__or2_1/VPB = 3           
+  sky130_fd_sc_hd__or2_1/VPWR = 3          |  sky130_fd_sc_hd__or2_1/VPWR = 3          
+  sky130_fd_sc_hd__or4_1/VPB = 10          |  sky130_fd_sc_hd__or4_1/VPB = 10          
+  sky130_fd_sc_hd__or4_1/VPWR = 10         |  sky130_fd_sc_hd__or4_1/VPWR = 10         
+  sky130_fd_sc_hd__inv_1/VPB = 15          |  sky130_fd_sc_hd__inv_1/VPB = 15          
+  sky130_fd_sc_hd__inv_1/VPWR = 15         |  sky130_fd_sc_hd__inv_1/VPWR = 15         
+  sky130_fd_sc_hd__or3_1/VPB = 2           |  sky130_fd_sc_hd__or3_1/VPB = 2           
+  sky130_fd_sc_hd__or3_1/VPWR = 2          |  sky130_fd_sc_hd__or3_1/VPWR = 2          
+  sky130_fd_sc_hd__and2_1/VPB = 12         |  sky130_fd_sc_hd__and2_1/VPB = 12         
+  sky130_fd_sc_hd__and2_1/VPWR = 12        |  sky130_fd_sc_hd__and2_1/VPWR = 12        
+  sky130_fd_sc_hd__and3_1/VPB = 2          |  sky130_fd_sc_hd__and3_1/VPB = 2          
+  sky130_fd_sc_hd__and3_1/VPWR = 2         |  sky130_fd_sc_hd__and3_1/VPWR = 2         
+  sky130_fd_sc_hd__and4_1/VPB = 8          |  sky130_fd_sc_hd__and4_1/VPB = 8          
+  sky130_fd_sc_hd__and4_1/VPWR = 8         |  sky130_fd_sc_hd__and4_1/VPWR = 8         
+  sky130_fd_sc_hd__inv_16/VPB = 20         |  sky130_fd_sc_hd__inv_16/VPB = 20         
+  sky130_fd_sc_hd__inv_16/VPWR = 20        |  sky130_fd_sc_hd__inv_16/VPWR = 20        
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__and2_1/B = 1            
+  sky130_fd_sc_hd__inv_1/A = 1             |  sky130_fd_sc_hd__inv_1/A = 1             
+  sky130_fd_sc_hd__and3_1/C = 1            |  sky130_fd_sc_hd__and3_1/C = 1            
+  sky130_fd_sc_hd__and2_1/A = 5            |  sky130_fd_sc_hd__and2_1/A = 5            
+  sky130_fd_sc_hd__and4_1/D = 2            |  sky130_fd_sc_hd__and4_1/D = 2            
+  sky130_fd_sc_hd__and4_1/A = 1            |  sky130_fd_sc_hd__and4_1/A = 1            
+  sky130_fd_sc_hd__inv_4/VPB = 4           |  sky130_fd_sc_hd__inv_4/VPB = 4           
+  sky130_fd_sc_hd__inv_4/VPWR = 4          |  sky130_fd_sc_hd__inv_4/VPWR = 4          
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 3    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 3    
+  sky130_fd_pr__pfet_01v8_lvt/4 = 3        |  sky130_fd_pr__pfet_01v8_lvt/4 = 3        
+  vsrc/pos = 1                             |                                           
+                                           |                                           
+Net: GND                                   |Net: GND                                   
+  frontAnalog_v0p0p1/GND = 16              |  frontAnalog_v0p0p1/GND = 16              
+  sky130_fd_pr__res_xhigh_po_5p73/3 = 18   |  sky130_fd_pr__res_xhigh_po_5p73/3 = 18   
+  sky130_fd_sc_hd__or2_1/VGND = 3          |  sky130_fd_sc_hd__or2_1/VGND = 3          
+  sky130_fd_sc_hd__or2_1/VNB = 3           |  sky130_fd_sc_hd__or2_1/VNB = 3           
+  sky130_fd_sc_hd__or4_1/VGND = 10         |  sky130_fd_sc_hd__or4_1/VGND = 10         
+  sky130_fd_sc_hd__or4_1/VNB = 10          |  sky130_fd_sc_hd__or4_1/VNB = 10          
+  sky130_fd_sc_hd__inv_1/VGND = 15         |  sky130_fd_sc_hd__inv_1/VGND = 15         
+  sky130_fd_sc_hd__inv_1/VNB = 15          |  sky130_fd_sc_hd__inv_1/VNB = 15          
+  sky130_fd_sc_hd__or3_1/VGND = 2          |  sky130_fd_sc_hd__or3_1/VGND = 2          
+  sky130_fd_sc_hd__or3_1/VNB = 2           |  sky130_fd_sc_hd__or3_1/VNB = 2           
+  sky130_fd_sc_hd__and2_1/VGND = 12        |  sky130_fd_sc_hd__and2_1/VGND = 12        
+  sky130_fd_sc_hd__and2_1/VNB = 12         |  sky130_fd_sc_hd__and2_1/VNB = 12         
+  sky130_fd_sc_hd__and3_1/VGND = 2         |  sky130_fd_sc_hd__and3_1/VGND = 2         
+  sky130_fd_sc_hd__and3_1/VNB = 2          |  sky130_fd_sc_hd__and3_1/VNB = 2          
+  sky130_fd_sc_hd__and4_1/VGND = 8         |  sky130_fd_sc_hd__and4_1/VGND = 8         
+  sky130_fd_sc_hd__and4_1/VNB = 8          |  sky130_fd_sc_hd__and4_1/VNB = 8          
+  sky130_fd_sc_hd__inv_16/VGND = 20        |  sky130_fd_sc_hd__inv_16/VGND = 20        
+  sky130_fd_sc_hd__inv_16/VNB = 20         |  sky130_fd_sc_hd__inv_16/VNB = 20         
+  sky130_fd_sc_hd__inv_4/VGND = 4          |  sky130_fd_sc_hd__inv_4/VGND = 4          
+  sky130_fd_sc_hd__inv_4/VNB = 4           |  sky130_fd_sc_hd__inv_4/VNB = 4           
+  sky130_fd_pr__nfet_01v8_lvt/4 = 4        |  sky130_fd_pr__nfet_01v8_lvt/4 = 4        
+  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 2    |  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 2    
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  
+  vsrc/neg = 5                             |                                           
+                                           |                                           
+Net: net1                                  |(no matching net)                          
+  vsrc/pos = 1                             |                                           
+  r/(end_a|end_b) = 1                      |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: frontAnalog_v0p0p1_15/Q               
+                                           |  sky130_fd_sc_hd__or4_1/A = 1             
+                                           |  frontAnalog_v0p0p1/Q = 1                 
+                                           |                                           
+(no matching net)                          |Net: frontAnalog_v0p0p1_1/Q                
+                                           |  frontAnalog_v0p0p1/Q = 1                 
+                                           |  sky130_fd_sc_hd__or4_1/A = 1             
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__and4_1/X = 1            |  sky130_fd_sc_hd__and4_1/X = 1            
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__and2_1/B = 1            
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__or4_1/X = 1             |  sky130_fd_sc_hd__or4_1/X = 1             
+  sky130_fd_sc_hd__or3_1/B = 1             |  sky130_fd_sc_hd__or3_1/B = 1             
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__and4_1/X = 1            |  sky130_fd_sc_hd__and4_1/X = 1            
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__and2_1/B = 1            
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__and4_1/C = 1            |  sky130_fd_sc_hd__inv_1/Y = 1             
+  sky130_fd_sc_hd__inv_1/Y = 1             |  sky130_fd_sc_hd__and4_1/C = 1            
+                                           |                                           
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__and4_1/C = 1            |  sky130_fd_sc_hd__inv_1/Y = 1             
+  sky130_fd_sc_hd__inv_1/Y = 1             |  sky130_fd_sc_hd__and4_1/C = 1            
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__or4_1/X = 1             |  sky130_fd_sc_hd__or4_1/X = 1             
+  sky130_fd_sc_hd__or3_1/B = 1             |  sky130_fd_sc_hd__or3_1/B = 1             
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: net33                                 |(no matching net)                          
+  sky130_fd_sc_hd__or4_1/A = 1             |                                           
+  frontAnalog_v0p0p1/Q = 1                 |                                           
+                                           |                                           
+Net: net25                                 |(no matching net)                          
+  sky130_fd_sc_hd__or4_1/A = 1             |                                           
+  frontAnalog_v0p0p1/Q = 1                 |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: CLK                                   
+                                           |  frontAnalog_v0p0p1/CLK = 16              
+                                           |                                           
+(no matching net)                          |Net: VIN                                   
+                                           |  frontAnalog_v0p0p1/VIN = 16              
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: IB                                    |Net: PTAT_v0p0p0_mag_0/VOUT                
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1    
+  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 1    |  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 1    
+  sky130_fd_pr__nfet_01v8_lvt/2 = 1        |  sky130_fd_pr__nfet_01v8_lvt/2 = 1        
+  frontAnalog_v0p0p1/IB = 16               |  frontAnalog_v0p0p1/IB = 16               
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: net28                                 |Net: frontAnalog_v0p0p1_10/Q               
+  sky130_fd_sc_hd__or4_1/B = 1             |  sky130_fd_sc_hd__or4_1/B = 1             
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__inv_1/A = 1             
+  sky130_fd_sc_hd__and3_1/A = 1            |  sky130_fd_sc_hd__and3_1/A = 1            
+  sky130_fd_sc_hd__inv_1/A = 1             |  sky130_fd_sc_hd__and2_1/B = 1            
+  frontAnalog_v0p0p1/Q = 1                 |  frontAnalog_v0p0p1/Q = 1                 
+                                           |                                           
+Net: net20                                 |Net: frontAnalog_v0p0p1_3/Q                
+  sky130_fd_sc_hd__or4_1/B = 1             |  frontAnalog_v0p0p1/Q = 1                 
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__or4_1/B = 1             
+  sky130_fd_sc_hd__and3_1/A = 1            |  sky130_fd_sc_hd__inv_1/A = 1             
+  sky130_fd_sc_hd__inv_1/A = 1             |  sky130_fd_sc_hd__and3_1/A = 1            
+  frontAnalog_v0p0p1/Q = 1                 |  sky130_fd_sc_hd__and2_1/B = 1            
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__and4_1/B = 2            |  sky130_fd_sc_hd__and4_1/B = 2            
+  sky130_fd_sc_hd__and4_1/A = 1            |  sky130_fd_sc_hd__and4_1/A = 1            
+  sky130_fd_sc_hd__and4_1/C = 1            |  sky130_fd_sc_hd__and4_1/C = 1            
+  sky130_fd_sc_hd__inv_1/Y = 1             |  sky130_fd_sc_hd__inv_1/Y = 1             
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__and4_1/B = 2            |  sky130_fd_sc_hd__and4_1/B = 2            
+  sky130_fd_sc_hd__and4_1/A = 1            |  sky130_fd_sc_hd__and4_1/A = 1            
+  sky130_fd_sc_hd__and4_1/C = 1            |  sky130_fd_sc_hd__and4_1/C = 1            
+  sky130_fd_sc_hd__inv_1/Y = 1             |  sky130_fd_sc_hd__inv_1/Y = 1             
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: net31                                 |Net: frontAnalog_v0p0p1_12/Q               
+  sky130_fd_sc_hd__or4_1/C = 1             |  sky130_fd_sc_hd__or4_1/C = 1             
+  sky130_fd_sc_hd__and4_1/A = 1            |  sky130_fd_sc_hd__inv_1/A = 1             
+  sky130_fd_sc_hd__inv_1/A = 1             |  sky130_fd_sc_hd__and4_1/A = 1            
+  frontAnalog_v0p0p1/Q = 1                 |  frontAnalog_v0p0p1/Q = 1                 
+                                           |                                           
+Net: net30                                 |Net: frontAnalog_v0p0p1_13/Q               
+  sky130_fd_sc_hd__or4_1/D = 1             |  sky130_fd_sc_hd__or4_1/D = 1             
+  sky130_fd_sc_hd__and4_1/A = 1            |  sky130_fd_sc_hd__and4_1/A = 1            
+  sky130_fd_sc_hd__and4_1/B = 1            |  sky130_fd_sc_hd__and4_1/B = 1            
+  frontAnalog_v0p0p1/Q = 1                 |  frontAnalog_v0p0p1/Q = 1                 
+                                           |                                           
+Net: net29                                 |Net: frontAnalog_v0p0p1_11/Q               
+  sky130_fd_sc_hd__or4_1/A = 1             |  sky130_fd_sc_hd__or4_1/A = 1             
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__inv_1/A = 1             
+  sky130_fd_sc_hd__inv_1/A = 1             |  sky130_fd_sc_hd__and2_1/B = 1            
+  frontAnalog_v0p0p1/Q = 1                 |  frontAnalog_v0p0p1/Q = 1                 
+                                           |                                           
+Net: net27                                 |Net: frontAnalog_v0p0p1_9/Q                
+  sky130_fd_sc_hd__or4_1/C = 1             |  frontAnalog_v0p0p1/Q = 1                 
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__or4_1/C = 1             
+  sky130_fd_sc_hd__inv_1/A = 1             |  sky130_fd_sc_hd__inv_1/A = 1             
+  frontAnalog_v0p0p1/Q = 1                 |  sky130_fd_sc_hd__and2_1/B = 1            
+                                           |                                           
+Net: net23                                 |Net: frontAnalog_v0p0p1_6/Q                
+  sky130_fd_sc_hd__or4_1/C = 1             |  frontAnalog_v0p0p1/Q = 1                 
+  sky130_fd_sc_hd__and4_1/A = 1            |  sky130_fd_sc_hd__or4_1/C = 1             
+  sky130_fd_sc_hd__inv_1/A = 1             |  sky130_fd_sc_hd__inv_1/A = 1             
+  frontAnalog_v0p0p1/Q = 1                 |  sky130_fd_sc_hd__and4_1/A = 1            
+                                           |                                           
+Net: net22                                 |Net: frontAnalog_v0p0p1_5/Q                
+  sky130_fd_sc_hd__or4_1/D = 1             |  frontAnalog_v0p0p1/Q = 1                 
+  sky130_fd_sc_hd__and4_1/A = 1            |  sky130_fd_sc_hd__or4_1/D = 1             
+  sky130_fd_sc_hd__and4_1/B = 1            |  sky130_fd_sc_hd__and4_1/A = 1            
+  frontAnalog_v0p0p1/Q = 1                 |  sky130_fd_sc_hd__and4_1/B = 1            
+                                           |                                           
+Net: net21                                 |Net: frontAnalog_v0p0p1_4/Q                
+  sky130_fd_sc_hd__or4_1/A = 1             |  frontAnalog_v0p0p1/Q = 1                 
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__or4_1/A = 1             
+  sky130_fd_sc_hd__inv_1/A = 1             |  sky130_fd_sc_hd__inv_1/A = 1             
+  frontAnalog_v0p0p1/Q = 1                 |  sky130_fd_sc_hd__and2_1/B = 1            
+                                           |                                           
+Net: net19                                 |Net: frontAnalog_v0p0p1_0/Q                
+  sky130_fd_sc_hd__or4_1/C = 1             |  frontAnalog_v0p0p1/Q = 1                 
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__or4_1/C = 1             
+  sky130_fd_sc_hd__inv_1/A = 1             |  sky130_fd_sc_hd__inv_1/A = 1             
+  frontAnalog_v0p0p1/Q = 1                 |  sky130_fd_sc_hd__and2_1/B = 1            
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__and4_1/D = 2            |  sky130_fd_sc_hd__and4_1/D = 2            
+  sky130_fd_sc_hd__and3_1/B = 1            |  sky130_fd_sc_hd__and3_1/B = 1            
+  sky130_fd_sc_hd__inv_1/Y = 1             |  sky130_fd_sc_hd__inv_1/Y = 1             
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 16to4_PriorityEncoder_v0p0p1:1/8to3_P |Net: x16to4_PriorityEncoder_v0p0p1:16to4_P 
+  sky130_fd_sc_hd__and4_1/D = 2            |  sky130_fd_sc_hd__and4_1/D = 2            
+  sky130_fd_sc_hd__and3_1/B = 1            |  sky130_fd_sc_hd__and3_1/B = 1            
+  sky130_fd_sc_hd__inv_1/Y = 1             |  sky130_fd_sc_hd__inv_1/Y = 1             
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: net26                                 |Net: frontAnalog_v0p0p1_8/Q                
+  sky130_fd_sc_hd__or4_1/D = 1             |  frontAnalog_v0p0p1/Q = 1                 
+  sky130_fd_sc_hd__and2_1/B = 1            |  sky130_fd_sc_hd__or4_1/D = 1             
+  frontAnalog_v0p0p1/Q = 1                 |  sky130_fd_sc_hd__and2_1/B = 1            
+                                           |                                           
+Net: net18                                 |Net: frontAnalog_v0p0p1_8/VN               
+  sky130_fd_sc_hd__or4_1/D = 1             |  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  
+  sky130_fd_sc_hd__and2_1/B = 1            |  frontAnalog_v0p0p1/VN = 1                
+  frontAnalog_v0p0p1/Q = 1                 |                                           
+                                           |                                           
+Net: net17                                 |Net: frontAnalog_v0p0p1_15/VN              
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  
+  frontAnalog_v0p0p1/VN = 1                |  frontAnalog_v0p0p1/VN = 1                
+                                           |                                           
+Net: net9                                  |Net: frontAnalog_v0p0p1_2/VN               
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  frontAnalog_v0p0p1/VN = 1                
+  frontAnalog_v0p0p1/VN = 1                |  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  
+                                           |                                           
+Net: net10                                 |Net: frontAnalog_v0p0p1_2/Q                
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  frontAnalog_v0p0p1/Q = 1                 
+  frontAnalog_v0p0p1/VN = 1                |  sky130_fd_sc_hd__or4_1/D = 1             
+                                           |  sky130_fd_sc_hd__and2_1/B = 1            
+                                           |                                           
+Net: net3                                  |Net: frontAnalog_v0p0p1_1/VN               
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  frontAnalog_v0p0p1/VN = 1                
+  frontAnalog_v0p0p1/VN = 1                |  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: net24                                 |(no matching net)                          
+  sky130_fd_sc_hd__or4_1/B = 1             |                                           
+  sky130_fd_sc_hd__and4_1/B = 1            |                                           
+  frontAnalog_v0p0p1/Q = 1                 |                                           
+                                           |                                           
+Net: net32                                 |(no matching net)                          
+  sky130_fd_sc_hd__or4_1/B = 1             |                                           
+  sky130_fd_sc_hd__and4_1/B = 1            |                                           
+  frontAnalog_v0p0p1/Q = 1                 |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: frontAnalog_v0p0p1_7/Q                
+                                           |  frontAnalog_v0p0p1/Q = 1                 
+                                           |  sky130_fd_sc_hd__or4_1/B = 1             
+                                           |  sky130_fd_sc_hd__and4_1/B = 1            
+                                           |                                           
+(no matching net)                          |Net: frontAnalog_v0p0p1_14/Q               
+                                           |  sky130_fd_sc_hd__or4_1/B = 1             
+                                           |  sky130_fd_sc_hd__and4_1/B = 1            
+                                           |  frontAnalog_v0p0p1/Q = 1                 
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: VIN                                   |(no matching net)                          
+  r/(end_a|end_b) = 1                      |                                           
+  frontAnalog_v0p0p1/VIN = 16              |                                           
+                                           |                                           
+Net: CLK                                   |(no matching net)                          
+  vsrc/pos = 1                             |                                           
+  frontAnalog_v0p0p1/CLK = 16              |                                           
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: flashADC_Testing_v0p4p4         |Circuit 2: flashADC                        
+
+---------------------------------------------------------------------------------------
+Instance: €ής}W                           |(no matching instance)                     
+  pos = 17                                 |                                           
+  neg = 198                                |                                           
+                                           |                                           
+Instance: r:36                             |(no matching instance)                     
+  (end_a,end_b) = (17,2)                   |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: 16to4_PriorityEncoder_v0p0p1:1/8 |Instance: x16to4_PriorityEncoder_v0p0p1:16 
+  A = 5                                    |  A = 5                                    
+  B = 3                                    |  B = 3                                    
+  C = 2                                    |  C = 2                                    
+  D = 4                                    |  D = 4                                    
+  VGND = 198                               |  VGND = 193                               
+  VNB = 198                                |  VNB = 193                                
+  VPB = 186                                |  VPB = 185                                
+  VPWR = 186                               |  VPWR = 185                               
+  X = 2                                    |  X = 2                                    
+                                           |                                           
+Instance: 16to4_PriorityEncoder_v0p0p1:1/8 |Instance: x16to4_PriorityEncoder_v0p0p1:16 
+  A = 5                                    |  A = 5                                    
+  B = 3                                    |  B = 3                                    
+  C = 2                                    |  C = 2                                    
+  D = 4                                    |  D = 4                                    
+  VGND = 198                               |  VGND = 193                               
+  VNB = 198                                |  VNB = 193                                
+  VPB = 186                                |  VPB = 185                                
+  VPWR = 186                               |  VPWR = 185                               
+  X = 2                                    |  X = 2                                    
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: 16to4_PriorityEncoder_v0p0p1:1/8 |Instance: x16to4_PriorityEncoder_v0p0p1:16 
+  A = 2                                    |  A = 2                                    
+  B = 3                                    |  B = 3                                    
+  C = 4                                    |  C = 4                                    
+  D = 4                                    |  D = 4                                    
+  VGND = 198                               |  VGND = 193                               
+  VNB = 198                                |  VNB = 193                                
+  VPB = 186                                |  VPB = 185                                
+  VPWR = 186                               |  VPWR = 185                               
+  X = 2                                    |  X = 2                                    
+                                           |                                           
+Instance: 16to4_PriorityEncoder_v0p0p1:1/8 |Instance: x16to4_PriorityEncoder_v0p0p1:16 
+  A = 2                                    |  A = 2                                    
+  B = 3                                    |  B = 3                                    
+  C = 4                                    |  C = 4                                    
+  D = 4                                    |  D = 4                                    
+  VGND = 198                               |  VGND = 193                               
+  VNB = 198                                |  VNB = 193                                
+  VPB = 186                                |  VPB = 185                                
+  VPWR = 186                               |  VPWR = 185                               
+  X = 2                                    |  X = 2                                    
+---------------------------------------------------------------------------------------
+Netlists do not match.
+
+Subcircuit pins:
+Circuit 1: flashADC_Testing_v0p4p4         |Circuit 2: flashADC                        
+-------------------------------------------|-------------------------------------------
+Cell pin lists are equivalent.
+Device classes flashADC_Testing_v0p4p4 and flashADC are equivalent.
+
+Final result: Netlists do not match.

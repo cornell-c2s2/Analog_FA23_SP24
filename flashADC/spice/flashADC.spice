@@ -1,45 +1,51 @@
-** sch_path: /foss/designs/Analog_FA23_SP24/flashADC/xschem/flashADC_Testing_Sym_v0p4p4.sch
+** sch_path: /foss/designs/Analog_FA23_SP24/flashADC/xschem/flashADC_Testing_v0p4p4.sch
 .lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 .include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
 
-.subckt flashADC_Testing_Sym_v0p4p4 VFS OUT3 OUT2 OUT1 OUT0 VL VDD CLK VIN GND
-*.PININFO OUT3:O OUT2:O OUT1:O OUT0:O VFS:I VL:I VDD:I GND:I CLK:I VIN:I
-XR1 VL net2 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR2 net2 net1 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR3 net1 net3 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR4 net3 net4 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR5 net4 net5 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR6 net5 net6 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR7 net6 net7 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR8 net7 net8 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR9 net8 net9 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR10 net9 net10 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR11 net10 net11 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR12 net11 net12 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR13 net12 net13 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR14 net13 net14 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR15 net14 net15 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR16 net15 net16 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-XR18 net16 VFS GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
-x1 OUT3 VDD net17 net18 net19 net20 net21 net22 OUT2 net23 net24 VDD net25 net26 net27 net28 OUT1 net29 net30 GND net31 net32 OUT0
+.subckt flashADC_Testing_v0p4p4 VFS OUT3 OUT2 OUT1 OUT0
+*.PININFO OUT3:O OUT2:O OUT1:O OUT0:O VFS:I
+V4 CLK GND pulse(0 1.8 8ns 1ns 1ns 20ns 40ns)
+V1 VDD GND 1.8
+V2 VFS GND 1.6
+V5 VL GND 0.6
+V7 net1 GND PWL(0ns 0.5 230ns 1.7)
+R36 VIN net1 1k m=1
+XR1 VL net3 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR2 net3 net2 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR3 net2 net4 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR4 net4 net5 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR5 net5 net6 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR6 net6 net7 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR7 net7 net8 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR8 net8 net9 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR9 net9 net10 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR10 net10 net11 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR11 net11 net12 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR12 net12 net13 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR13 net13 net14 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR14 net14 net15 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR15 net15 net16 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR16 net16 net17 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+XR18 net17 VFS GND sky130_fd_pr__res_xhigh_po_5p73 L=2.865 mult=8 m=8
+x1 OUT3 VDD net18 net19 net20 net21 net22 net23 OUT2 net24 net25 VDD net26 net27 net28 net29 OUT1 net30 net31 GND net32 net33 OUT0
 + 16to4_PriorityEncoder_v0p0p1
 x18 VDD IB GND PTAT_v0p0p0
-x2 VDD GND net15 VIN CLK net18 IB frontAnalog_v0p0p1
-x3 VDD GND net14 VIN CLK net19 IB frontAnalog_v0p0p1
-x4 VDD GND net13 VIN CLK net20 IB frontAnalog_v0p0p1
-x5 VDD GND net12 VIN CLK net21 IB frontAnalog_v0p0p1
-x6 VDD GND net11 VIN CLK net22 IB frontAnalog_v0p0p1
-x7 VDD GND net10 VIN CLK net23 IB frontAnalog_v0p0p1
-x8 VDD GND net9 VIN CLK net24 IB frontAnalog_v0p0p1
-x9 VDD GND net8 VIN CLK net25 IB frontAnalog_v0p0p1
-x10 VDD GND net7 VIN CLK net26 IB frontAnalog_v0p0p1
-x11 VDD GND net6 VIN CLK net27 IB frontAnalog_v0p0p1
-x12 VDD GND net5 VIN CLK net28 IB frontAnalog_v0p0p1
-x13 VDD GND net4 VIN CLK net29 IB frontAnalog_v0p0p1
-x14 VDD GND net3 VIN CLK net30 IB frontAnalog_v0p0p1
-x15 VDD GND net1 VIN CLK net31 IB frontAnalog_v0p0p1
-x16 VDD GND net2 VIN CLK net32 IB frontAnalog_v0p0p1
-x17 VDD GND net16 VIN CLK net17 IB frontAnalog_v0p0p1
+x2 VDD GND net16 VIN CLK net19 IB frontAnalog_v0p0p1
+x3 VDD GND net15 VIN CLK net20 IB frontAnalog_v0p0p1
+x4 VDD GND net14 VIN CLK net21 IB frontAnalog_v0p0p1
+x5 VDD GND net13 VIN CLK net22 IB frontAnalog_v0p0p1
+x6 VDD GND net12 VIN CLK net23 IB frontAnalog_v0p0p1
+x7 VDD GND net11 VIN CLK net24 IB frontAnalog_v0p0p1
+x8 VDD GND net10 VIN CLK net25 IB frontAnalog_v0p0p1
+x9 VDD GND net9 VIN CLK net26 IB frontAnalog_v0p0p1
+x10 VDD GND net8 VIN CLK net27 IB frontAnalog_v0p0p1
+x11 VDD GND net7 VIN CLK net28 IB frontAnalog_v0p0p1
+x12 VDD GND net6 VIN CLK net29 IB frontAnalog_v0p0p1
+x13 VDD GND net5 VIN CLK net30 IB frontAnalog_v0p0p1
+x14 VDD GND net4 VIN CLK net31 IB frontAnalog_v0p0p1
+x15 VDD GND net2 VIN CLK net32 IB frontAnalog_v0p0p1
+x16 VDD GND net3 VIN CLK net33 IB frontAnalog_v0p0p1
+x17 VDD GND net17 VIN CLK net18 IB frontAnalog_v0p0p1
 **** begin user architecture code
 
 
@@ -204,6 +210,6 @@ XC1 VIP net2 VSS sky130_fd_pr__cap_var_lvt W=2 L=0.18 m=1
 XC2 VIN net3 VSS sky130_fd_pr__cap_var_lvt W=2 L=0.18 m=1
 .ends
 
-.GLOBAL VDD
 .GLOBAL GND
+.GLOBAL VDD
 .end

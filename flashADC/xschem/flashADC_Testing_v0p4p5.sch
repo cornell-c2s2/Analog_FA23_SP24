@@ -721,7 +721,7 @@ lab=GND}
 N 2322.5 -2970 2322.5 -2950 {
 lab=GND}
 N 1770 -3341.25 1770 -3301.25 {
-lab=#net1}
+lab=VIN}
 N 1770 -3241.25 1770 -3201.25 {
 lab=GND}
 N 1770 -3441.25 1770 -3401.25 {
@@ -730,6 +730,8 @@ N 1860 -2962.5 1860 -2932.5 {
 lab=GND}
 N 2322.5 -3057.5 2322.5 -3030 {
 lab=VL}
+N 1770 -3402.5 1770 -3340 {
+lab=VIN}
 C {devices/vsource.sym} 2150 -3271.25 0 0 {name=V4 value="pulse(0 1.8 8ns 1ns 1ns 20ns 40ns)" savecurrent=false}
 C {devices/gnd.sym} 2150 -3201.25 0 0 {name=l35 lab=GND}
 C {devices/lab_pin.sym} 2150 -3341.25 2 0 {name=p197 sig_type=std_logic lab=CLK}
@@ -756,11 +758,6 @@ C {devices/gnd.sym} 2322.5 -2950 0 0 {name=l2 lab=GND}
 C {devices/vsource.sym} 1770 -3271.25 0 0 {name=V7 value="PWL(0ns 0.5 800ns 1.7)" savecurrent=false}
 C {devices/gnd.sym} 1770 -3201.25 0 0 {name=l19 lab=GND}
 C {devices/lab_pin.sym} 1770 -3441.25 2 0 {name=p133 sig_type=std_logic lab=VIN}
-C {devices/res.sym} 1770 -3371.25 0 0 {name=R36
-value=1k
-footprint=1206
-device=resistor
-m=1}
 C {devices/code.sym} 2650 -3361.25 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"

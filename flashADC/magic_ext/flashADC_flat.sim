@@ -63,7 +63,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x5.x18.C a_77775_n44527# a_77881_n44527# GND s=
 x I13 a_59578_n13770# GND GND s=11600,516 d=11600,516 l=30 w=200 x=59864 y=-13769 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y GND OUT3 GND s=3510,184 d=3510,184 l=30 w=130 x=83542 y=-39604 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x36.A GND 16to4_PriorityEncoder_v0p0p1_0.x36.Y GND s=3510,184 d=3510,184 l=30 w=130 x=85134 y=-44104 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n9396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-9395 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n9396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-9395 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y OUT3 VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=85602 y=-39354 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_2.x63.A a_57123_n4079# VDD VDD s=8216,420 d=4582,216 l=30 w=158 x=57175 y=-4078 sky130_fd_pr__pfet_01v8_hvt
 x a_57123_n63479# VDD frontAnalog_v0p0p1_11.x63.X VDD s=4582,216 d=8216,420 l=30 w=158 x=57263 y=-63478 sky130_fd_pr__pfet_01v8_hvt
@@ -153,7 +153,7 @@ x frontAnalog_v0p0p1_5.x65.X frontAnalog_v0p0p1_5.RSfetsym_0.QN a_59578_n24570# 
 x 16to4_PriorityEncoder_v0p0p1_0.x29.A GND 16to4_PriorityEncoder_v0p0p1_0.x29.Y GND s=3510,184 d=3510,184 l=30 w=130 x=85302 y=-48244 sky130_fd_pr__nfet_01v8
 x a_29592_n48054# VV7 VV6 GND s=495072,3156 d=495072,3156 l=504 w=0 x=29592 y=-48053 sky130_fd_pr__res_xhigh_po_5p73
 x frontAnalog_v0p0p1_9.x63.X VDD I6 VDD s=23200,916 d=11600,458 l=50 w=400 x=59113 y=-52757 sky130_fd_pr__pfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n63396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-63395 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n63396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-63395 sky130_fd_pr__nfet_01v8_lvt
 x a_77639_n42341# VDD 16to4_PriorityEncoder_v0p0p1_0.x5.x22.A VDD s=6662,278 d=19000,590 l=30 w=200 x=77887 y=-42678 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_0.x63.X GND frontAnalog_v0p0p1_0.RSfetsym_0.x1.Y GND s=3510,184 d=3510,184 l=30 w=130 x=60191 y=-8530 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x43.A GND 16to4_PriorityEncoder_v0p0p1_0.x43.Y GND s=3510,184 d=3510,184 l=30 w=130 x=82574 y=-39604 sky130_fd_pr__nfet_01v8
@@ -170,7 +170,7 @@ x frontAnalog_v0p0p1_4.x65.X GND frontAnalog_v0p0p1_4.RSfetsym_0.x2.Y GND s=3510
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y OUT3 GND GND s=3510,184 d=3510,184 l=30 w=130 x=88546 y=-39604 sky130_fd_pr__nfet_01v8
 x frontAnalog_v0p0p1_5.x63.A a_57123_n25679# VDD VDD s=8216,420 d=4582,216 l=30 w=158 x=57175 y=-25678 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y OUT0 GND GND s=3510,184 d=3510,184 l=30 w=130 x=87994 y=-51894 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n20196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-20195 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n20196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-20195 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x3.EI VDD a_77639_n50381# VDD s=4704,280 d=2268,138 l=30 w=84 x=77695 y=-50676 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x36.A 16to4_PriorityEncoder_v0p0p1_0.x36.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=84714 y=-43854 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.A 16to4_PriorityEncoder_v0p0p1_0.x22.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=84882 y=-51644 sky130_fd_pr__pfet_01v8_hvt
@@ -314,7 +314,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x29.Y GND OUT1 GND s=3510,184 d=3510,184 l=30 w
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y OUT2 VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=85682 y=-43854 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y OUT3 VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=84130 y=-39354 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x3.x21.B a_78183_n53777# GND GND s=2268,138 d=4472,208 l=30 w=84 x=78237 y=-53776 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n74196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-73177 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n74196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-73177 sky130_fd_pr__nfet_01v8_lvt
 x VIN a_53630_n84996# w_55000_n84550# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53930 y=-83943 sky130_fd_pr__nfet_01v8_lvt
 x S1 a_57123_n78159# GND GND s=5408,312 d=3016,162 l=30 w=104 x=57175 y=-78158 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y GND OUT2 GND s=3510,184 d=3510,184 l=30 w=130 x=87406 y=-44104 sky130_fd_pr__nfet_01v8
@@ -371,7 +371,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x43.A GND 16to4_PriorityEncoder_v0p0p1_0.x43.Y 
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y GND OUT0 GND s=3510,184 d=3510,184 l=30 w=130 x=86270 y=-51894 sky130_fd_pr__nfet_01v8
 x CLK w_55000_n56928# VDD GND s=46400,1716 d=46400,1716 l=120 w=800 x=55866 y=-56927 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y OUT1 GND GND s=3510,184 d=3510,184 l=30 w=130 x=90266 y=-48244 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n47196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-47195 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n47196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-47195 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_7.x63.X VDD I9 VDD s=23200,916 d=11600,458 l=50 w=400 x=59113 y=-36557 sky130_fd_pr__pfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y VDD OUT1 VDD s=5400,254 d=5400,254 l=30 w=200 x=88710 y=-47994 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_15.x63.X VDD frontAnalog_v0p0p1_15.RSfetsym_0.x1.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=60441 y=-84298 sky130_fd_pr__pfet_01v8_hvt
@@ -456,7 +456,7 @@ x frontAnalog_v0p0p1_0.x65.X frontAnalog_v0p0p1_0.RSfetsym_0.QN VDD VDD s=11600,
 x a_77605_n51585# VDD 16to4_PriorityEncoder_v0p0p1_0.x3.x16.X VDD s=12498,336 d=10400,504 l=30 w=200 x=78113 y=-51950 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y OUT2 VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=89466 y=-43854 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x43.A 16to4_PriorityEncoder_v0p0p1_0.x43.Y VDD VDD s=5400,254 d=10400,504 l=30 w=200 x=82826 y=-39354 sky130_fd_pr__pfet_01v8_hvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n57996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-56977 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n57996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-56977 sky130_fd_pr__nfet_01v8_lvt
 x CLK w_55000_n79150# R1 VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-77743 sky130_fd_pr__pfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y VDD OUT1 VDD s=5400,254 d=5400,254 l=30 w=200 x=87742 y=-47994 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y VDD OUT0 VDD s=10400,504 d=5400,254 l=30 w=200 x=90014 y=-51644 sky130_fd_pr__pfet_01v8_hvt
@@ -477,7 +477,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x22.Y OUT0 VDD VDD s=5400,254 d=5400,254 l=30 w
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y GND OUT1 GND s=3510,184 d=3510,184 l=30 w=130 x=86606 y=-48244 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y GND OUT3 GND s=3510,184 d=3510,184 l=30 w=130 x=83878 y=-39604 sky130_fd_pr__nfet_01v8
 x a_57123_n45759# VDD frontAnalog_v0p0p1_8.x65.X VDD s=4582,216 d=8216,420 l=30 w=158 x=57263 y=-45466 sky130_fd_pr__pfet_01v8_hvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n14796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-13777 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n14796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-13777 sky130_fd_pr__nfet_01v8_lvt
 x CLK w_55000_n35950# frontAnalog_v0p0p1_7.x63.A VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-34543 sky130_fd_pr__pfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x36.A VDD 16to4_PriorityEncoder_v0p0p1_0.x36.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=85134 y=-43854 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_4.x65.A a_57123_n18759# GND GND s=5408,312 d=3016,162 l=30 w=104 x=57175 y=-18758 sky130_fd_pr__nfet_01v8
@@ -636,7 +636,7 @@ x frontAnalog_v0p0p1_3.x63.X GND frontAnalog_v0p0p1_3.RSfetsym_0.x1.Y GND s=6760
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y GND OUT1 GND s=3510,184 d=3510,184 l=30 w=130 x=87574 y=-48244 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x43.A 16to4_PriorityEncoder_v0p0p1_0.x43.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=82322 y=-39354 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_3.x65.X frontAnalog_v0p0p1_3.RSfetsym_0.QN a_59578_n13770# GND s=12580,544 d=11600,516 l=30 w=200 x=59548 y=-13769 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n52596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-52595 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n52596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-52595 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_1.x63.X VDD I8 VDD s=23200,916 d=11600,458 l=50 w=400 x=59113 y=-41957 sky130_fd_pr__pfet_01v8
 x a_82906_n47995# GND 16to4_PriorityEncoder_v0p0p1_0.x1.X GND s=4010,197 d=6760,364 l=30 w=130 x=83127 y=-48244 sky130_fd_pr__nfet_01v8
 x a_77637_n42017# VDD 16to4_PriorityEncoder_v0p0p1_0.x5.x17.A VDD s=6662,278 d=19000,590 l=30 w=200 x=77885 y=-41794 sky130_fd_pr__pfet_01v8_hvt
@@ -743,7 +743,7 @@ x I0 a_77855_n47345# VDD VDD s=2772,150 d=5930,268 l=30 w=84 x=77921 y=-47344 sk
 x a_28352_n54454# VV3 VV2 GND s=495072,3156 d=495072,3156 l=504 w=0 x=28352 y=-54453 sky130_fd_pr__res_xhigh_po_5p73
 x I11 a_77605_n43545# a_77687_n43545# GND s=4368,272 d=2436,142 l=30 w=84 x=77657 y=-43544 sky130_fd_pr__nfet_01v8
 x a_28350_n38462# VV13 VV12 GND s=495072,3156 d=495072,3156 l=504 w=0 x=28350 y=-38461 sky130_fd_pr__res_xhigh_po_5p73
-x frontAnalog_v0p0p1_10.IB GND a_53630_n9396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-8377 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n9396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-8377 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_12.x65.X GND frontAnalog_v0p0p1_12.RSfetsym_0.x2.Y GND s=3510,184 d=3510,184 l=30 w=130 x=61131 y=-73330 sky130_fd_pr__nfet_01v8
 x I11 a_77605_n44779# VDD VDD s=2940,154 d=3108,158 l=30 w=84 x=77757 y=-45144 sky130_fd_pr__pfet_01v8_hvt
 x a_25866_n46460# VV8 VV7 GND s=495072,3156 d=495072,3156 l=504 w=0 x=25866 y=-46459 sky130_fd_pr__res_xhigh_po_5p73
@@ -820,9 +820,9 @@ x a_57123_n36479# VDD frontAnalog_v0p0p1_7.x63.X VDD s=4582,216 d=8216,420 l=30 
 x frontAnalog_v0p0p1_10.x63.X frontAnalog_v0p0p1_10.RSfetsym_0.x1.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=60191 y=-57214 sky130_fd_pr__nfet_01v8
 x VIN w_55000_n24528# GND s=38800,994 l=36 w=400 x=55118 y=-24394 sky130_fd_pr__cap_var_lvt
 x a_33318_n38462# VV13 VV12 GND s=495072,3156 d=495072,3156 l=504 w=0 x=33318 y=-38461 sky130_fd_pr__res_xhigh_po_5p73
-x frontAnalog_v0p0p1_10.IB GND a_53630_n3996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-3995 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n3996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-3995 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.A GND 16to4_PriorityEncoder_v0p0p1_0.x22.Y GND s=3510,184 d=3510,184 l=30 w=130 x=85134 y=-51894 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n63396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-62377 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n63396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-62377 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y OUT0 VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=89466 y=-51644 sky130_fd_pr__pfet_01v8_hvt
 x CLK w_55000_n84550# R0 VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-83143 sky130_fd_pr__pfet_01v8_lvt
 x frontAnalog_v0p0p1_13.x65.A a_57123_n67359# GND GND s=5408,312 d=3016,162 l=30 w=104 x=57175 y=-67358 sky130_fd_pr__nfet_01v8
@@ -863,7 +863,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x43.Y OUT3 VDD VDD s=5400,254 d=5400,254 l=30 w
 x 16to4_PriorityEncoder_v0p0p1_0.x29.A VDD 16to4_PriorityEncoder_v0p0p1_0.x29.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=84966 y=-47994 sky130_fd_pr__pfet_01v8_hvt
 x a_77605_n43295# VDD 16to4_PriorityEncoder_v0p0p1_0.x5.x15.X VDD s=12498,336 d=10400,504 l=30 w=200 x=78113 y=-43044 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_13.x63.X VDD I3 VDD s=23200,916 d=11600,458 l=50 w=400 x=59113 y=-68957 sky130_fd_pr__pfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n79596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-79595 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n79596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-79595 sky130_fd_pr__nfet_01v8_lvt
 x a_29592_n35260# VV15 VV14 GND s=495072,3156 d=495072,3156 l=504 w=0 x=29592 y=-35259 sky130_fd_pr__res_xhigh_po_5p73
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y VDD OUT3 VDD s=5400,254 d=5400,254 l=30 w=200 x=85182 y=-39354 sky130_fd_pr__pfet_01v8_hvt
 x VV12 w_55000_n25150# GND s=38800,994 l=36 w=400 x=55118 y=-25016 sky130_fd_pr__cap_var_lvt
@@ -878,7 +878,7 @@ x a_77637_n48817# GND 16to4_PriorityEncoder_v0p0p1_0.x3.x14.A GND s=4472,208 d=7
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y GND OUT2 GND s=6760,364 d=3510,184 l=30 w=130 x=85598 y=-44104 sky130_fd_pr__nfet_01v8
 x I9 a_77605_n44527# VDD VDD s=2940,154 d=3108,158 l=30 w=84 x=77757 y=-44160 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_5.x63.X VDD I11 VDD s=23200,916 d=11600,458 l=50 w=400 x=59113 y=-25757 sky130_fd_pr__pfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n36396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-36395 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n36396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-36395 sky130_fd_pr__nfet_01v8_lvt
 x a_77605_n48109# GND 16to4_PriorityEncoder_v0p0p1_0.x3.x2.X GND s=4075,198 d=7020,368 l=30 w=130 x=78019 y=-47904 sky130_fd_pr__nfet_01v8
 x frontAnalog_v0p0p1_12.x63.X VDD frontAnalog_v0p0p1_12.RSfetsym_0.x1.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=60441 y=-73498 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_6.x63.A frontAnalog_v0p0p1_6.x65.A VDD VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-28787 sky130_fd_pr__pfet_01v8_lvt
@@ -1055,7 +1055,7 @@ x CLK frontAnalog_v0p0p1_12.x63.A frontAnalog_v0p0p1_12.x65.A VDD s=46400,1716 d
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y OUT0 GND GND s=3510,184 d=3510,184 l=30 w=130 x=90098 y=-51894 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y GND OUT0 GND s=3510,184 d=3510,184 l=30 w=130 x=88878 y=-51894 sky130_fd_pr__nfet_01v8
 x a_57123_n41879# VDD frontAnalog_v0p0p1_1.x63.X VDD s=4582,216 d=8216,420 l=30 w=158 x=57263 y=-41878 sky130_fd_pr__pfet_01v8_hvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n47196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-46177 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n47196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-46177 sky130_fd_pr__nfet_01v8_lvt
 x VIN a_53630_n57996# w_55000_n57550# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53930 y=-56943 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_11.x63.X frontAnalog_v0p0p1_11.RSfetsym_0.x1.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=60191 y=-62614 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y VDD OUT0 VDD s=5400,254 d=5400,254 l=30 w=200 x=85766 y=-51644 sky130_fd_pr__pfet_01v8_hvt
@@ -1102,7 +1102,7 @@ x frontAnalog_v0p0p1_8.x63.X GND frontAnalog_v0p0p1_8.RSfetsym_0.x1.Y GND s=6760
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y OUT0 GND GND s=3510,184 d=3510,184 l=30 w=130 x=87658 y=-51894 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x3.x11.X GND a_78065_n49349# GND s=2268,138 d=2268,138 l=30 w=84 x=78297 y=-49104 sky130_fd_pr__nfet_01v8
 x frontAnalog_v0p0p1_7.x63.X I9 a_59577_n35883# GND s=11600,516 d=11600,516 l=30 w=200 x=59547 y=-35882 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n84996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-84995 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n84996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-84995 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.A 16to4_PriorityEncoder_v0p0p1_0.x22.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=84546 y=-51644 sky130_fd_pr__pfet_01v8_hvt
 x VDD VDD a_77637_n42017# VDD s=4704,280 d=2268,138 l=30 w=84 x=77693 y=-41720 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_3.RSfetsym_0.x2.Y GND I13 GND s=23200,916 d=23200,916 l=50 w=400 x=59946 y=-14635 sky130_fd_pr__nfet_01v8
@@ -1125,7 +1125,7 @@ x a_27108_n49652# VV6 VV5 GND s=495072,3156 d=495072,3156 l=504 w=0 x=27108 y=-4
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y GND OUT2 GND s=3510,184 d=3510,184 l=30 w=130 x=89550 y=-44104 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y OUT3 VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=84594 y=-39354 sky130_fd_pr__pfet_01v8_hvt
 x a_30834_n44862# VV9 VV8 GND s=495072,3156 d=495072,3156 l=504 w=0 x=30834 y=-44861 sky130_fd_pr__res_xhigh_po_5p73
-x frontAnalog_v0p0p1_10.IB GND a_53630_n41796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-41795 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n41796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-41795 sky130_fd_pr__nfet_01v8_lvt
 x a_77637_n49127# GND 16to4_PriorityEncoder_v0p0p1_0.x3.x11.X GND s=4472,208 d=7280,372 l=30 w=130 x=77885 y=-49144 sky130_fd_pr__nfet_01v8
 x frontAnalog_v0p0p1_0.RSfetsym_0.QN VDD I14 VDD s=23200,916 d=23200,916 l=60 w=400 x=59090 y=-9088 sky130_fd_pr__pfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x3.x19.C a_77605_n51585# VDD VDD s=2940,154 d=3108,158 l=30 w=84 x=77757 y=-51950 sky130_fd_pr__pfet_01v8_hvt
@@ -1185,7 +1185,7 @@ x frontAnalog_v0p0p1_2.x65.X frontAnalog_v0p0p1_2.RSfetsym_0.x2.Y GND GND s=3510
 x CLK GND a_55268_n3936# GND s=11600,516 d=11600,516 l=30 w=200 x=55288 y=-4633 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_1.x63.X VDD frontAnalog_v0p0p1_1.RSfetsym_0.x1.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=60441 y=-40930 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y VDD OUT3 VDD s=5400,254 d=5400,254 l=30 w=200 x=86486 y=-39354 sky130_fd_pr__pfet_01v8_hvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n30996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-29977 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n30996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-29977 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x29.A GND 16to4_PriorityEncoder_v0p0p1_0.x29.Y GND s=3510,184 d=3510,184 l=30 w=130 x=84294 y=-48244 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x22.A 16to4_PriorityEncoder_v0p0p1_0.x22.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=85218 y=-51894 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y GND OUT3 GND s=3510,184 d=3510,184 l=30 w=130 x=86990 y=-39604 sky130_fd_pr__nfet_01v8
@@ -1286,7 +1286,7 @@ x frontAnalog_v0p0p1_0.x63.X GND frontAnalog_v0p0p1_0.RSfetsym_0.x1.Y GND s=6760
 x a_57123_n83559# VDD frontAnalog_v0p0p1_15.x65.X VDD s=4582,216 d=8216,420 l=30 w=158 x=57263 y=-83266 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y OUT2 GND GND s=3510,184 d=3510,184 l=30 w=130 x=91106 y=-44104 sky130_fd_pr__nfet_01v8
 x a_57123_n79679# GND frontAnalog_v0p0p1_14.x63.X GND s=3016,162 d=5408,312 l=30 w=104 x=57263 y=-79332 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n52596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-51577 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n52596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-51577 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x36.A VDD 16to4_PriorityEncoder_v0p0p1_0.x36.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=84126 y=-43854 sky130_fd_pr__pfet_01v8_hvt
 x CLK w_55000_n73750# frontAnalog_v0p0p1_12.x63.A VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-72343 sky130_fd_pr__pfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.A VDD 16to4_PriorityEncoder_v0p0p1_0.x22.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=84294 y=-51644 sky130_fd_pr__pfet_01v8_hvt
@@ -1334,7 +1334,7 @@ x frontAnalog_v0p0p1_3.x63.X frontAnalog_v0p0p1_3.RSfetsym_0.x1.Y VDD VDD s=5400
 x frontAnalog_v0p0p1_4.x63.X I12 a_59577_n19683# GND s=11600,516 d=11600,516 l=30 w=200 x=59547 y=-19682 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y GND OUT0 GND s=3510,184 d=3510,184 l=30 w=130 x=89046 y=-51894 sky130_fd_pr__nfet_01v8
 x frontAnalog_v0p0p1_6.x65.X frontAnalog_v0p0p1_6.RSfetsym_0.QN a_59578_n29970# GND s=12580,544 d=11600,516 l=30 w=200 x=59548 y=-29969 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n68796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-68795 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n68796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-68795 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y OUT0 GND GND s=3510,184 d=3510,184 l=30 w=130 x=90602 y=-51894 sky130_fd_pr__nfet_01v8
 x I15 GND a_77605_n40069# GND s=4368,272 d=2772,150 l=30 w=84 x=77657 y=-39824 sky130_fd_pr__nfet_01v8
 x VV14 w_55000_n14350# GND s=38800,994 l=36 w=400 x=55118 y=-14216 sky130_fd_pr__cap_var_lvt
@@ -1360,7 +1360,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x5.x1.X a_78241_n39305# a_78313_n39305# VDD s=1
 x a_33318_n46460# VV8 VV7 GND s=495072,3156 d=495072,3156 l=504 w=0 x=33318 y=-46459 sky130_fd_pr__res_xhigh_po_5p73
 x a_29592_n43260# VV10 VV9 GND s=495072,3156 d=495072,3156 l=504 w=0 x=29592 y=-43259 sky130_fd_pr__res_xhigh_po_5p73
 x frontAnalog_v0p0p1_3.x63.X VDD I13 VDD s=23200,916 d=11600,458 l=50 w=400 x=59113 y=-14957 sky130_fd_pr__pfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n25596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-25595 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n25596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-25595 sky130_fd_pr__nfet_01v8_lvt
 x a_16599_n13205# a_16541_n13117# a_16719_n13117# GND s=46400,1716 d=46400,1716 l=120 w=800 x=24719 y=-13116 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_4.x63.A frontAnalog_v0p0p1_4.x65.A VDD VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-17987 sky130_fd_pr__pfet_01v8_lvt
 x frontAnalog_v0p0p1_11.x63.X VDD frontAnalog_v0p0p1_11.RSfetsym_0.x1.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=60441 y=-62698 sky130_fd_pr__pfet_01v8_hvt
@@ -1382,7 +1382,7 @@ x frontAnalog_v0p0p1_6.RSfetsym_0.QN a_59577_n30483# GND GND s=11600,516 d=11600
 x I5 VDD frontAnalog_v0p0p1_10.RSfetsym_0.QN VDD s=23200,916 d=23200,916 l=60 w=400 x=59090 y=-56958 sky130_fd_pr__pfet_01v8
 x a_57123_n34959# GND frontAnalog_v0p0p1_7.x65.X GND s=3016,162 d=5408,312 l=30 w=104 x=57263 y=-34958 sky130_fd_pr__nfet_01v8
 x I8 a_59578_n40770# GND GND s=11600,516 d=11600,516 l=30 w=200 x=59864 y=-40769 sky130_fd_pr__nfet_01v8
-x a_16719_n13117# VDD frontAnalog_v0p0p1_10.IB VDD s=220400,7716 d=220400,7716 l=200 w=3800 x=21864 y=-11655 sky130_fd_pr__pfet_01v8_lvt
+x a_16719_n13117# VDD IB VDD s=220400,7716 d=220400,7716 l=200 w=3800 x=21864 y=-11655 sky130_fd_pr__pfet_01v8_lvt
 x I11 a_77605_n39305# a_77687_n39305# VDD s=4368,272 d=2772,150 l=30 w=84 x=77657 y=-39304 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y OUT1 VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=90098 y=-47994 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y VDD OUT1 VDD s=5400,254 d=5400,254 l=30 w=200 x=88878 y=-47994 sky130_fd_pr__pfet_01v8_hvt
@@ -1467,7 +1467,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x28.A VDD 16to4_PriorityEncoder_v0p0p1_0.x29.A 
 x CLK frontAnalog_v0p0p1_5.x65.A w_55000_n24528# VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54069 y=-25703 sky130_fd_pr__pfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y OUT3 GND GND s=3510,184 d=3510,184 l=30 w=130 x=84930 y=-39604 sky130_fd_pr__nfet_01v8
 x a_16719_n13117# VDD a_16719_n13117# VDD s=220400,7716 d=220400,7716 l=200 w=3800 x=21378 y=-11655 sky130_fd_pr__pfet_01v8_lvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n3996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-2977 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n3996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-2977 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y OUT2 GND GND s=3510,184 d=3510,184 l=30 w=130 x=86522 y=-44104 sky130_fd_pr__nfet_01v8
 x CLK GND a_55268_n74136# GND s=11600,516 d=11600,516 l=30 w=200 x=55288 y=-74833 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x43.A VDD 16to4_PriorityEncoder_v0p0p1_0.x43.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=81566 y=-39354 sky130_fd_pr__pfet_01v8_hvt
@@ -1501,7 +1501,7 @@ x a_78159_n39549# VDD 16to4_PriorityEncoder_v0p0p1_0.x5.EO VDD s=5930,268 d=1120
 x frontAnalog_v0p0p1_4.x65.X frontAnalog_v0p0p1_4.RSfetsym_0.x2.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=61131 y=-19414 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x5.x1.X GND a_78159_n39549# GND s=2268,138 d=2268,138 l=30 w=84 x=78295 y=-39548 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y VDD OUT3 VDD s=5400,254 d=5400,254 l=30 w=200 x=83206 y=-39354 sky130_fd_pr__pfet_01v8_hvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n79596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-78577 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n79596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-78577 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_1.x65.X VDD frontAnalog_v0p0p1_1.RSfetsym_0.QN VDD s=23200,916 d=11600,458 l=50 w=400 x=59113 y=-40050 sky130_fd_pr__pfet_01v8
 x frontAnalog_v0p0p1_6.x65.X frontAnalog_v0p0p1_6.RSfetsym_0.QN VDD VDD s=11600,458 d=23200,916 l=50 w=400 x=59113 y=-29142 sky130_fd_pr__pfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x29.A 16to4_PriorityEncoder_v0p0p1_0.x29.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=85218 y=-47994 sky130_fd_pr__pfet_01v8_hvt
@@ -1518,7 +1518,7 @@ x I10 a_77605_n43295# a_77687_n43295# GND s=4368,272 d=2436,142 l=30 w=84 x=7765
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y OUT2 VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=86690 y=-43854 sky130_fd_pr__pfet_01v8_hvt
 x CLK frontAnalog_v0p0p1_11.x63.A frontAnalog_v0p0p1_11.x65.A VDD s=46400,1716 d=46400,1716 l=70 w=800 x=56476 y=-62886 sky130_fd_pr__pfet_01v8_lvt
 x a_57123_n67359# VDD frontAnalog_v0p0p1_13.x65.X VDD s=4582,216 d=8216,420 l=30 w=158 x=57263 y=-67066 sky130_fd_pr__pfet_01v8_hvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n36396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-35377 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n36396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-35377 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y GND OUT0 GND s=3510,184 d=3510,184 l=30 w=130 x=90350 y=-51894 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y VDD OUT3 VDD s=5400,254 d=5400,254 l=30 w=200 x=86318 y=-39354 sky130_fd_pr__pfet_01v8_hvt
 x CLK w_55000_n57550# frontAnalog_v0p0p1_10.x63.A VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-56143 sky130_fd_pr__pfet_01v8_lvt
@@ -1580,7 +1580,7 @@ x frontAnalog_v0p0p1_15.x65.X frontAnalog_v0p0p1_15.RSfetsym_0.x2.Y GND GND s=35
 x 16to4_PriorityEncoder_v0p0p1_0.x29.A VDD 16to4_PriorityEncoder_v0p0p1_0.x29.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=84294 y=-47994 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_8.x63.X VDD frontAnalog_v0p0p1_8.RSfetsym_0.x1.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=60441 y=-46498 sky130_fd_pr__pfet_01v8_hvt
 x a_34560_n35260# VV15 VV14 GND s=495072,3156 d=495072,3156 l=504 w=0 x=34560 y=-35259 sky130_fd_pr__res_xhigh_po_5p73
-x frontAnalog_v0p0p1_10.IB GND a_53630_n30996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-30995 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n30996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-30995 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x5.x2.X a_78159_n39549# a_78241_n39305# VDD s=4368,272 d=1764,126 l=30 w=84 x=78211 y=-39304 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x22.Y GND OUT0 GND s=6760,364 d=3510,184 l=30 w=130 x=85598 y=-51894 sky130_fd_pr__nfet_01v8
 x frontAnalog_v0p0p1_2.RSfetsym_0.QN a_59577_n3483# GND GND s=11600,516 d=11600,516 l=30 w=200 x=59863 y=-3482 sky130_fd_pr__nfet_01v8
@@ -1667,7 +1667,7 @@ x frontAnalog_v0p0p1_5.x63.X I11 a_59577_n25083# GND s=11600,516 d=11600,516 l=3
 x frontAnalog_v0p0p1_7.x65.X frontAnalog_v0p0p1_7.RSfetsym_0.QN a_59578_n35370# GND s=12580,544 d=11600,516 l=30 w=200 x=59548 y=-35369 sky130_fd_pr__nfet_01v8
 x CLK w_55000_n83928# VDD GND s=46400,1716 d=46400,1716 l=120 w=800 x=55866 y=-83927 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_11.x63.X VDD I4 VDD s=23200,916 d=11600,458 l=50 w=400 x=59113 y=-63557 sky130_fd_pr__pfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n74196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-74195 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n74196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-74195 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x5.x21.X a_78703_n45515# a_78775_n45515# VDD s=1764,126 d=2772,150 l=30 w=84 x=78745 y=-45514 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_13.x63.A frontAnalog_v0p0p1_13.x65.A VDD VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-66587 sky130_fd_pr__pfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y OUT1 VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=89298 y=-47994 sky130_fd_pr__pfet_01v8_hvt
@@ -1739,7 +1739,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x36.Y OUT2 GND GND s=3510,184 d=3510,184 l=30 w
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y VDD OUT2 VDD s=5400,254 d=5400,254 l=30 w=200 x=88710 y=-43854 sky130_fd_pr__pfet_01v8_hvt
 x a_57123_n2559# VDD frontAnalog_v0p0p1_2.x65.X VDD s=4582,216 d=8216,420 l=30 w=158 x=57263 y=-2266 sky130_fd_pr__pfet_01v8_hvt
 x a_16599_n13205# a_16541_n13117# a_16719_n13117# GND s=46400,1716 d=46400,1716 l=120 w=800 x=23095 y=-13116 sky130_fd_pr__nfet_01v8_lvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n84996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-83977 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n84996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-83977 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_7.x65.X frontAnalog_v0p0p1_7.RSfetsym_0.QN VDD VDD s=11600,458 d=23200,916 l=50 w=400 x=59113 y=-34542 sky130_fd_pr__pfet_01v8
 x a_16599_n13205# a_16541_n13117# a_16719_n13117# GND s=46400,1716 d=46400,1716 l=120 w=800 x=17005 y=-13116 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y GND OUT1 GND s=3510,184 d=3510,184 l=30 w=130 x=89550 y=-48244 sky130_fd_pr__nfet_01v8
@@ -1753,7 +1753,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x5.x16.C VDD a_77605_n43545# VDD s=3108,158 d=2
 x a_57123_n14879# VDD frontAnalog_v0p0p1_3.x63.X VDD s=4582,216 d=8216,420 l=30 w=158 x=57263 y=-14878 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_13.x65.X VDD frontAnalog_v0p0p1_13.RSfetsym_0.x2.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=60811 y=-67930 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_0.x63.X VDD frontAnalog_v0p0p1_0.RSfetsym_0.x1.Y VDD s=5400,254 d=5400,254 l=30 w=200 x=60441 y=-8530 sky130_fd_pr__pfet_01v8_hvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n20196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-19177 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n20196# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-19177 sky130_fd_pr__nfet_01v8_lvt
 x VIN a_53630_n30996# w_55000_n30550# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53930 y=-29943 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_7.x63.X frontAnalog_v0p0p1_7.RSfetsym_0.x1.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=60191 y=-35614 sky130_fd_pr__nfet_01v8
 x a_34560_n49652# VV6 VV5 GND s=495072,3156 d=495072,3156 l=504 w=0 x=34560 y=-49651 sky130_fd_pr__res_xhigh_po_5p73
@@ -1764,7 +1764,7 @@ x a_57123_n72759# VDD frontAnalog_v0p0p1_12.x65.X VDD s=4582,216 d=8216,420 l=30
 x a_57123_n68879# GND frontAnalog_v0p0p1_13.x63.X GND s=3016,162 d=5408,312 l=30 w=104 x=57263 y=-68532 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x36.A 16to4_PriorityEncoder_v0p0p1_0.x36.Y GND GND s=3510,184 d=3510,184 l=30 w=130 x=84714 y=-44104 sky130_fd_pr__nfet_01v8
 x VV15 w_55000_n8328# a_53630_n9396# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53930 y=-8749 sky130_fd_pr__nfet_01v8_lvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n41796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-40777 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n41796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-40777 sky130_fd_pr__nfet_01v8_lvt
 x CLK w_55000_n62950# frontAnalog_v0p0p1_11.x63.A VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-61543 sky130_fd_pr__pfet_01v8_lvt
 x a_77605_n39305# GND 16to4_PriorityEncoder_v0p0p1_0.x5.x1.X GND s=4075,198 d=7020,368 l=30 w=130 x=78019 y=-39554 sky130_fd_pr__nfet_01v8
 x a_34560_n36862# VV14 VV13 GND s=495072,3156 d=495072,3156 l=504 w=0 x=34560 y=-36861 sky130_fd_pr__res_xhigh_po_5p73
@@ -1783,7 +1783,7 @@ x frontAnalog_v0p0p1_8.x63.X frontAnalog_v0p0p1_8.RSfetsym_0.x1.Y VDD VDD s=5400
 x frontAnalog_v0p0p1_12.x63.X I2 VDD VDD s=11600,458 d=23200,916 l=50 w=400 x=59113 y=-74249 sky130_fd_pr__pfet_01v8
 x CLK frontAnalog_v0p0p1_12.x65.A w_55000_n73128# VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54069 y=-74303 sky130_fd_pr__pfet_01v8_lvt
 x a_57123_n25679# GND frontAnalog_v0p0p1_5.x63.X GND s=3016,162 d=5408,312 l=30 w=104 x=57263 y=-25332 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_10.IB GND GND s=46400,1716 d=46400,1716 l=120 w=800 x=25125 y=-13116 sky130_fd_pr__nfet_01v8_lvt
+x IB IB GND GND s=46400,1716 d=46400,1716 l=120 w=800 x=25125 y=-13116 sky130_fd_pr__nfet_01v8_lvt
 x VV8 w_55000_n46750# GND s=38800,994 l=36 w=400 x=55118 y=-46616 sky130_fd_pr__cap_var_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y OUT2 GND GND s=3510,184 d=3510,184 l=30 w=130 x=87826 y=-44104 sky130_fd_pr__nfet_01v8
 x frontAnalog_v0p0p1_1.RSfetsym_0.x1.Y GND frontAnalog_v0p0p1_1.RSfetsym_0.QN GND s=23200,916 d=23200,916 l=50 w=400 x=59946 y=-40269 sky130_fd_pr__nfet_01v8
@@ -1799,7 +1799,7 @@ x frontAnalog_v0p0p1_6.x63.X I10 VDD VDD s=11600,458 d=23200,916 l=50 w=400 x=59
 x 16to4_PriorityEncoder_v0p0p1_0.x3.x16.C VDD a_77605_n51585# VDD s=3108,158 d=2352,140 l=30 w=84 x=77861 y=-51950 sky130_fd_pr__pfet_01v8_hvt
 x CLK frontAnalog_v0p0p1_6.x65.A w_55000_n29928# VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54069 y=-31103 sky130_fd_pr__pfet_01v8_lvt
 x frontAnalog_v0p0p1_4.x63.X GND frontAnalog_v0p0p1_4.RSfetsym_0.x1.Y GND s=6760,364 d=3510,184 l=30 w=130 x=60191 y=-19498 sky130_fd_pr__nfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n57996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-57995 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n57996# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-57995 sky130_fd_pr__nfet_01v8_lvt
 x CLK GND a_55268_n79536# GND s=11600,516 d=11600,516 l=30 w=200 x=55288 y=-80233 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_9.x63.A a_55268_n52536# frontAnalog_v0p0p1_9.x65.A GND s=11600,516 d=11600,516 l=30 w=200 x=55336 y=-51039 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x43.A GND 16to4_PriorityEncoder_v0p0p1_0.x43.Y GND s=3510,184 d=3510,184 l=30 w=130 x=81902 y=-39604 sky130_fd_pr__nfet_01v8
@@ -1820,7 +1820,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x5.x21.X GND a_78525_n45515# GND s=2268,138 d=2
 x frontAnalog_v0p0p1_0.x63.A frontAnalog_v0p0p1_0.x65.A VDD VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-7187 sky130_fd_pr__pfet_01v8_lvt
 x a_78097_n45737# GND 16to4_PriorityEncoder_v0p0p1_0.x5.x21.X GND s=4472,208 d=7280,372 l=30 w=130 x=78345 y=-45764 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x36.A 16to4_PriorityEncoder_v0p0p1_0.x36.Y VDD VDD s=5400,254 d=5400,254 l=30 w=200 x=84882 y=-43854 sky130_fd_pr__pfet_01v8_hvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n14796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-14795 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n14796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-14795 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x3.EI VDD a_77637_n48817# VDD s=4704,280 d=2268,138 l=30 w=84 x=77693 y=-48520 sky130_fd_pr__pfet_01v8_hvt
 x I12 VDD 16to4_PriorityEncoder_v0p0p1_0.x5.x19.C VDD s=10400,504 d=10400,504 l=30 w=200 x=75902 y=-38884 sky130_fd_pr__pfet_01v8_hvt
 x frontAnalog_v0p0p1_9.x63.X VDD frontAnalog_v0p0p1_9.RSfetsym_0.x1.Y VDD s=10400,504 d=5400,254 l=30 w=200 x=60441 y=-51898 sky130_fd_pr__pfet_01v8_hvt
@@ -1967,7 +1967,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x2.A a_82906_n51645# GND GND s=2268,138 d=4010,
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y GND OUT1 GND s=3510,184 d=3510,184 l=30 w=130 x=88710 y=-48244 sky130_fd_pr__nfet_01v8
 x CLK w_55000_n3550# VDD GND s=46400,1716 d=46400,1716 l=120 w=800 x=55866 y=-4041 sky130_fd_pr__nfet_01v8_lvt
 x frontAnalog_v0p0p1_4.x65.X frontAnalog_v0p0p1_4.RSfetsym_0.QN VDD VDD s=11600,458 d=23200,916 l=50 w=400 x=59113 y=-18342 sky130_fd_pr__pfet_01v8
-x frontAnalog_v0p0p1_10.IB GND a_53630_n68796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-67777 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n68796# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-67777 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y GND OUT3 GND s=6760,364 d=3510,184 l=30 w=130 x=85982 y=-39604 sky130_fd_pr__nfet_01v8
 x a_27108_n46460# VV8 VV7 GND s=495072,3156 d=495072,3156 l=504 w=0 x=27108 y=-46459 sky130_fd_pr__res_xhigh_po_5p73
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y GND OUT2 GND s=3510,184 d=3510,184 l=30 w=130 x=87574 y=-44104 sky130_fd_pr__nfet_01v8
@@ -1987,7 +1987,7 @@ x 16to4_PriorityEncoder_v0p0p1_0.x29.Y OUT1 VDD VDD s=5400,254 d=5400,254 l=30 w
 x a_57123_n56559# VDD frontAnalog_v0p0p1_10.x65.X VDD s=4582,216 d=8216,420 l=30 w=158 x=57263 y=-56266 sky130_fd_pr__pfet_01v8_hvt
 x 16to4_PriorityEncoder_v0p0p1_0.x43.Y GND OUT3 GND s=6760,364 d=3510,184 l=30 w=130 x=84510 y=-39604 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x3.x19.C a_77605_n51335# VDD VDD s=2940,154 d=3108,158 l=30 w=84 x=77757 y=-50968 sky130_fd_pr__pfet_01v8_hvt
-x frontAnalog_v0p0p1_10.IB GND a_53630_n25596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-24577 sky130_fd_pr__nfet_01v8_lvt
+x IB GND a_53630_n25596# GND s=46400,1716 d=46400,1716 l=120 w=800 x=53510 y=-24577 sky130_fd_pr__nfet_01v8_lvt
 x 16to4_PriorityEncoder_v0p0p1_0.x36.Y GND OUT2 GND s=3510,184 d=3510,184 l=30 w=130 x=86102 y=-44104 sky130_fd_pr__nfet_01v8
 x I10 VDD a_77605_n43295# VDD s=4368,272 d=2940,154 l=30 w=84 x=77657 y=-42928 sky130_fd_pr__pfet_01v8_hvt
 x CLK w_55000_n46750# frontAnalog_v0p0p1_8.x63.A VDD s=46400,1716 d=46400,1716 l=70 w=800 x=54079 y=-45343 sky130_fd_pr__pfet_01v8_lvt
@@ -1999,294 +1999,294 @@ x 16to4_PriorityEncoder_v0p0p1_0.x43.A 16to4_PriorityEncoder_v0p0p1_0.x43.Y GND 
 x a_57123_n74279# GND frontAnalog_v0p0p1_12.x63.X GND s=3016,162 d=5408,312 l=30 w=104 x=57263 y=-73932 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y GND OUT1 GND s=3510,184 d=3510,184 l=30 w=130 x=90182 y=-48244 sky130_fd_pr__nfet_01v8
 x 16to4_PriorityEncoder_v0p0p1_0.x29.Y OUT1 GND GND s=3510,184 d=3510,184 l=30 w=130 x=88962 y=-48244 sky130_fd_pr__nfet_01v8
-C VV13 VV14 4.1
-C frontAnalog_v0p0p1_2.x65.A CLK 2.6
-C VV13 frontAnalog_v0p0p1_10.IB 3.9
-C VDD I9 5.3
-C frontAnalog_v0p0p1_8.RSfetsym_0.QN frontAnalog_v0p0p1_8.x65.X 2.3
-C I7 I6 5.9
-C frontAnalog_v0p0p1_12.x65.A frontAnalog_v0p0p1_12.x63.A 3.2
-C OUT1 VDD 6.7
-C VIN VV5 3.4
-C frontAnalog_v0p0p1_8.x65.A frontAnalog_v0p0p1_8.x63.A 3.2
-C 16to4_PriorityEncoder_v0p0p1_0.x43.Y OUT3 7.9
-C VDD frontAnalog_v0p0p1_1.x63.X 3.1
-C VDD frontAnalog_v0p0p1_5.x65.A 3.4
-C VV9 frontAnalog_v0p0p1_10.IB 3.9
-C frontAnalog_v0p0p1_9.x65.A CLK 2.6
-C VDD frontAnalog_v0p0p1_13.x63.A 3.7
-C 16to4_PriorityEncoder_v0p0p1_0.x29.Y VDD 16.6
-C VV11 VV12 3.4
-C VDD frontAnalog_v0p0p1_13.x63.X 3.1
-C VIN VV2 3.4
-C VV11 VIN 3.4
-C VDD CLK 91.3
-C frontAnalog_v0p0p1_1.x65.A CLK 2.6
-C I0 I2 2.5
-C frontAnalog_v0p0p1_4.x63.A VDD 3.7
-C frontAnalog_v0p0p1_1.x65.X frontAnalog_v0p0p1_1.RSfetsym_0.QN 2.3
-C I3 I2 7.2
-C VV16 VV15 4.7
-C VDD frontAnalog_v0p0p1_5.RSfetsym_0.QN 2.5
-C VDD frontAnalog_v0p0p1_7.x63.A 3.7
-C VDD frontAnalog_v0p0p1_8.x65.A 3.4
-C a_16541_n13117# a_16719_n13117# 19.0
-C I3 I4 5.5
-C frontAnalog_v0p0p1_12.RSfetsym_0.QN frontAnalog_v0p0p1_12.x65.X 2.3
-C frontAnalog_v0p0p1_9.x63.A frontAnalog_v0p0p1_9.x65.A 3.2
-C VDD frontAnalog_v0p0p1_0.x63.X 3.1
-C VDD I10 5.3
-C frontAnalog_v0p0p1_12.RSfetsym_0.QN I2 2.0
-C VV10 VV9 2.8
-C VIN CLK 5.8
-C frontAnalog_v0p0p1_1.x65.X VDD 3.5
-C frontAnalog_v0p0p1_13.x65.A frontAnalog_v0p0p1_13.x63.A 3.2
-C a_16599_n13205# VDD 3.4
-C VDD frontAnalog_v0p0p1_14.RSfetsym_0.QN 2.5
-C 16to4_PriorityEncoder_v0p0p1_0.x5.x19.D VDD 3.3
-C VV6 frontAnalog_v0p0p1_10.IB 3.9
-C frontAnalog_v0p0p1_9.x63.A VDD 3.7
-C frontAnalog_v0p0p1_13.x65.A CLK 2.6
-C VDD frontAnalog_v0p0p1_6.x65.A 3.4
-C frontAnalog_v0p0p1_4.x65.A VDD 3.4
-C VDD frontAnalog_v0p0p1_15.x63.X 3.2
-C I3 frontAnalog_v0p0p1_13.RSfetsym_0.QN 2.0
-C frontAnalog_v0p0p1_6.x65.A frontAnalog_v0p0p1_6.x63.A 3.2
-C VDD frontAnalog_v0p0p1_9.RSfetsym_0.QN 2.5
-C I1 VDD 4.6
-C frontAnalog_v0p0p1_10.IB VV3 3.9
-C S0 R0 3.2
-C frontAnalog_v0p0p1_15.x65.X VDD 3.5
-C frontAnalog_v0p0p1_10.x65.X frontAnalog_v0p0p1_10.RSfetsym_0.QN 2.3
-C VDD frontAnalog_v0p0p1_13.x65.X 3.5
-C VDD frontAnalog_v0p0p1_2.RSfetsym_0.QN 2.5
-C VV5 frontAnalog_v0p0p1_10.IB 3.9
-C frontAnalog_v0p0p1_0.x65.A VDD 3.4
-C frontAnalog_v0p0p1_9.RSfetsym_0.QN frontAnalog_v0p0p1_9.x65.X 2.3
-C frontAnalog_v0p0p1_7.x63.X VDD 3.1
-C frontAnalog_v0p0p1_3.x65.A CLK 2.6
-C VDD 16to4_PriorityEncoder_v0p0p1_0.x5.A2 3.1
-C I7 16to4_PriorityEncoder_v0p0p1_0.x3.EI 4.8
-C VIN VV15 3.4
-C 16to4_PriorityEncoder_v0p0p1_0.x5.x19.C VDD 2.9
-C VV2 frontAnalog_v0p0p1_10.IB 3.9
-C VV2 VV1 4.5
-C VDD frontAnalog_v0p0p1_3.x63.A 3.7
-C VDD frontAnalog_v0p0p1_2.x63.X 3.1
-C VV11 frontAnalog_v0p0p1_10.IB 3.9
-C S1 CLK 2.6
-C I11 frontAnalog_v0p0p1_5.RSfetsym_0.QN 2.0
-C VDD 16to4_PriorityEncoder_v0p0p1_0.x3.x22.A 3.2
-C VDD frontAnalog_v0p0p1_8.x63.A 3.7
-C VV16 VDD 2.4
-C frontAnalog_v0p0p1_2.x65.A VDD 3.4
-C frontAnalog_v0p0p1_8.x63.X VDD 3.1
+C frontAnalog_v0p0p1_1.RSfetsym_0.QN frontAnalog_v0p0p1_1.x65.X 2.3
 C I10 I11 7.5
-C VDD frontAnalog_v0p0p1_11.x65.X 3.5
-C I6 frontAnalog_v0p0p1_9.RSfetsym_0.QN 2.0
-C frontAnalog_v0p0p1_10.x63.A VDD 3.7
-C frontAnalog_v0p0p1_10.x65.A CLK 2.6
-C OUT0 VDD 6.7
-C VIN VV7 3.4
-C frontAnalog_v0p0p1_0.x65.A frontAnalog_v0p0p1_0.x63.A 3.2
-C frontAnalog_v0p0p1_11.RSfetsym_0.QN frontAnalog_v0p0p1_11.x65.X 2.3
-C frontAnalog_v0p0p1_4.x65.X VDD 3.5
-C VDD frontAnalog_v0p0p1_6.x65.X 3.5
-C VIN VV16 3.0
-C VIN VV4 3.4
-C VDD frontAnalog_v0p0p1_1.RSfetsym_0.QN 2.5
-C frontAnalog_v0p0p1_11.x63.A frontAnalog_v0p0p1_11.x65.A 3.2
-C VV11 VV10 3.4
-C VV8 VV7 3.5
-C VDD frontAnalog_v0p0p1_9.x65.A 3.4
-C I12 VDD 5.3
-C VDD 16to4_PriorityEncoder_v0p0p1_0.x5.x22.A 3.3
-C frontAnalog_v0p0p1_1.x65.A VDD 3.4
-C VDD frontAnalog_v0p0p1_6.x63.A 3.7
-C VDD I5 4.3
-C frontAnalog_v0p0p1_0.x65.X VDD 3.5
-C I7 frontAnalog_v0p0p1_8.RSfetsym_0.QN 2.0
-C frontAnalog_v0p0p1_5.x63.A frontAnalog_v0p0p1_5.x65.A 3.2
-C a_16719_n13117# a_16599_n13205# 7.9
-C VDD frontAnalog_v0p0p1_11.RSfetsym_0.QN 2.5
-C frontAnalog_v0p0p1_15.x65.X frontAnalog_v0p0p1_15.RSfetsym_0.QN 2.3
-C frontAnalog_v0p0p1_3.x65.A frontAnalog_v0p0p1_3.x63.A 3.2
-C VV15 VV14 5.5
-C VIN VDD 28.5
-C VDD R1 4.0
-C VDD frontAnalog_v0p0p1_9.x65.X 3.5
-C VV15 frontAnalog_v0p0p1_10.IB 4.5
-C frontAnalog_v0p0p1_3.RSfetsym_0.QN VDD 2.5
-C frontAnalog_v0p0p1_3.x65.X VDD 3.5
-C VDD frontAnalog_v0p0p1_13.x65.A 3.4
-C I0 I1 6.2
-C frontAnalog_v0p0p1_7.RSfetsym_0.QN frontAnalog_v0p0p1_7.x65.X 2.3
-C VIN VV12 3.4
-C I12 I14 2.4
-C VDD frontAnalog_v0p0p1_8.x65.X 3.5
-C frontAnalog_v0p0p1_14.x65.X frontAnalog_v0p0p1_14.RSfetsym_0.QN 2.3
-C VDD I14 5.9
-C frontAnalog_v0p0p1_12.x63.X VDD 3.1
-C 16to4_PriorityEncoder_v0p0p1_0.x3.x16.C 16to4_PriorityEncoder_v0p0p1_0.x3.EI 2.1
-C VDD frontAnalog_v0p0p1_12.x63.A 3.7
-C VDD 16to4_PriorityEncoder_v0p0p1_0.x36.Y 16.6
-C frontAnalog_v0p0p1_7.x65.A CLK 2.6
-C frontAnalog_v0p0p1_3.RSfetsym_0.QN frontAnalog_v0p0p1_3.x65.X 2.3
-C VV6 VV5 4.5
-C VIN VV8 3.4
-C VDD frontAnalog_v0p0p1_0.x63.A 3.7
-C I8 I9 3.1
-C I15 frontAnalog_v0p0p1_2.RSfetsym_0.QN 2.0
-C 16to4_PriorityEncoder_v0p0p1_0.x43.Y VDD 11.4
-C frontAnalog_v0p0p1_7.x65.A frontAnalog_v0p0p1_7.x63.A 3.2
-C S0 CLK 2.6
-C VV7 frontAnalog_v0p0p1_10.IB 3.9
-C frontAnalog_v0p0p1_3.x65.A VDD 3.4
-C VV16 frontAnalog_v0p0p1_10.IB 6.2
-C VDD I6 4.1
-C VV4 frontAnalog_v0p0p1_10.IB 3.9
-C frontAnalog_v0p0p1_6.x63.X VDD 3.1
-C I12 I11 5.0
-C I5 I6 8.4
-C VDD I11 5.5
-C VDD S1 3.9
-C VV2 VV3 4.9
-C frontAnalog_v0p0p1_10.x63.A frontAnalog_v0p0p1_10.x65.A 3.2
-C frontAnalog_v0p0p1_5.x65.X frontAnalog_v0p0p1_5.RSfetsym_0.QN 2.3
-C 16to4_PriorityEncoder_v0p0p1_0.x5.x19.C 16to4_PriorityEncoder_v0p0p1_0.x5.x18.C 2.6
-C VDD OUT2 6.7
-C I1 I2 8.0
-C a_16541_n13117# a_16599_n13205# 6.8
-C frontAnalog_v0p0p1_11.x65.A CLK 2.6
-C frontAnalog_v0p0p1_15.RSfetsym_0.QN VDD 2.6
-C frontAnalog_v0p0p1_7.RSfetsym_0.QN I9 2.0
-C VDD frontAnalog_v0p0p1_10.x63.X 3.1
-C frontAnalog_v0p0p1_12.x65.A CLK 2.6
-C VDD frontAnalog_v0p0p1_10.IB 19.5
-C R1 S1 3.2
-C I8 I10 2.5
-C VDD frontAnalog_v0p0p1_10.x65.A 3.4
-C 16to4_PriorityEncoder_v0p0p1_0.x22.Y OUT0 8.7
-C VV12 frontAnalog_v0p0p1_10.IB 3.9
-C a_16719_n13117# VDD 8.5
+C IB VV11 3.9
 C VIN VV14 3.4
-C frontAnalog_v0p0p1_2.RSfetsym_0.QN frontAnalog_v0p0p1_2.x65.X 2.3
-C I0 VDD 3.9
-C VIN frontAnalog_v0p0p1_10.IB 32.9
-C VIN VV1 2.0
 C frontAnalog_v0p0p1_13.x65.X frontAnalog_v0p0p1_13.RSfetsym_0.QN 2.3
-C I3 VDD 3.7
-C I15 VDD 8.2
-C VV8 frontAnalog_v0p0p1_10.IB 3.9
-C I10 frontAnalog_v0p0p1_6.RSfetsym_0.QN 2.0
-C OUT1 16to4_PriorityEncoder_v0p0p1_0.x29.Y 8.7
-C VDD frontAnalog_v0p0p1_9.x63.X 3.1
-C OUT2 16to4_PriorityEncoder_v0p0p1_0.x36.Y 8.7
-C 16to4_PriorityEncoder_v0p0p1_0.x22.Y VDD 17.0
-C frontAnalog_v0p0p1_12.RSfetsym_0.QN VDD 2.5
-C frontAnalog_v0p0p1_3.x63.X VDD 3.1
-C VDD frontAnalog_v0p0p1_14.x65.X 3.5
-C frontAnalog_v0p0p1_2.x65.A frontAnalog_v0p0p1_2.x63.A 3.2
-C VDD frontAnalog_v0p0p1_11.x63.X 3.1
-C 16to4_PriorityEncoder_v0p0p1_0.x5.x18.C VDD 2.2
-C VDD R0 3.9
-C VDD frontAnalog_v0p0p1_0.RSfetsym_0.QN 2.5
-C frontAnalog_v0p0p1_5.x65.A CLK 2.6
-C VFS VV16 4.2
-C VDD frontAnalog_v0p0p1_5.x63.A 3.7
-C I10 I9 7.7
-C frontAnalog_v0p0p1_0.x65.X frontAnalog_v0p0p1_0.RSfetsym_0.QN 2.3
-C VV10 VIN 3.4
-C VDD frontAnalog_v0p0p1_14.x63.X 3.1
-C VDD frontAnalog_v0p0p1_10.RSfetsym_0.QN 2.5
-C VDD 16to4_PriorityEncoder_v0p0p1_0.x3.EI 7.9
-C I15 I14 5.7
-C I5 frontAnalog_v0p0p1_10.RSfetsym_0.QN 2.0
-C frontAnalog_v0p0p1_1.x63.A VDD 3.7
-C VDD frontAnalog_v0p0p1_5.x63.X 3.1
-C I5 16to4_PriorityEncoder_v0p0p1_0.x3.EI 3.7
-C frontAnalog_v0p0p1_1.x63.A frontAnalog_v0p0p1_1.x65.A 3.2
-C frontAnalog_v0p0p1_4.x65.X frontAnalog_v0p0p1_4.RSfetsym_0.QN 2.3
-C VV13 VV12 4.4
-C frontAnalog_v0p0p1_7.x65.A VDD 3.4
-C VDD frontAnalog_v0p0p1_2.x63.A 3.7
-C VDD frontAnalog_v0p0p1_12.x65.X 3.5
-C VV13 VIN 3.4
-C VDD I2 4.0
-C VDD frontAnalog_v0p0p1_10.x65.X 3.5
-C VV6 VV7 4.0
-C frontAnalog_v0p0p1_8.x65.A CLK 2.6
-C I14 frontAnalog_v0p0p1_0.RSfetsym_0.QN 2.0
-C frontAnalog_v0p0p1_4.RSfetsym_0.QN I12 2.0
-C I4 VDD 3.6
-C S0 VDD 3.8
-C VDD frontAnalog_v0p0p1_11.x63.A 3.7
-C I12 I13 7.1
-C frontAnalog_v0p0p1_4.RSfetsym_0.QN VDD 2.5
-C VDD frontAnalog_v0p0p1_2.x65.X 3.5
-C I4 I5 6.9
-C VDD I13 8.0
-C VDD frontAnalog_v0p0p1_5.x65.X 3.5
-C VV4 VV3 5.6
-C I8 frontAnalog_v0p0p1_1.RSfetsym_0.QN 2.0
-C VIN VV9 3.4
-C frontAnalog_v0p0p1_6.x65.A CLK 2.6
-C VV14 frontAnalog_v0p0p1_10.IB 3.9
-C frontAnalog_v0p0p1_4.x65.A CLK 2.6
+C VV4 IB 3.9
 C frontAnalog_v0p0p1_7.x65.X VDD 3.5
-C I4 frontAnalog_v0p0p1_11.RSfetsym_0.QN 2.0
-C I7 VDD 4.4
-C frontAnalog_v0p0p1_4.x65.A frontAnalog_v0p0p1_4.x63.A 3.2
-C VDD frontAnalog_v0p0p1_13.RSfetsym_0.QN 2.5
-C VV9 VV8 3.0
-C I8 VDD 5.2
-C 16to4_PriorityEncoder_v0p0p1_0.x3.x18.C 16to4_PriorityEncoder_v0p0p1_0.x3.x19.C 2.6
-C I0 frontAnalog_v0p0p1_15.RSfetsym_0.QN 2.0
-C VV4 VV5 5.1
-C frontAnalog_v0p0p1_3.RSfetsym_0.QN I13 2.0
-C OUT3 VDD 7.1
-C VDD frontAnalog_v0p0p1_11.x65.A 3.4
-C frontAnalog_v0p0p1_6.RSfetsym_0.QN frontAnalog_v0p0p1_6.x65.X 2.3
-C VDD 16to4_PriorityEncoder_v0p0p1_0.x1.A 2.2
-C VDD frontAnalog_v0p0p1_12.x65.A 3.4
-C frontAnalog_v0p0p1_0.x65.A CLK 2.6
-C I6 16to4_PriorityEncoder_v0p0p1_0.x3.EI 2.1
-C I1 frontAnalog_v0p0p1_14.RSfetsym_0.QN 2.0
-C frontAnalog_v0p0p1_8.RSfetsym_0.QN VDD 2.5
-C I14 I13 10.5
-C VV10 frontAnalog_v0p0p1_10.IB 3.9
-C VDD frontAnalog_v0p0p1_6.RSfetsym_0.QN 2.5
-C VV6 VIN 3.4
-C frontAnalog_v0p0p1_4.x63.X VDD 3.1
-C VIN VV3 3.4
-C I4 I6 2.4
-C frontAnalog_v0p0p1_7.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_5.x63.A VDD 3.3
+C VV7 VV6 4.0
+C VIN VDD 18.4
+C frontAnalog_v0p0p1_3.x63.X VDD 3.1
+C OUT1 16to4_PriorityEncoder_v0p0p1_0.x29.Y 8.7
+C OUT0 16to4_PriorityEncoder_v0p0p1_0.x22.Y 8.7
+C frontAnalog_v0p0p1_5.x65.A VDD 3.0
+C I6 VDD 4.1
+C I7 16to4_PriorityEncoder_v0p0p1_0.x3.EI 4.8
+C frontAnalog_v0p0p1_13.x63.X VDD 3.1
+C I2 frontAnalog_v0p0p1_12.RSfetsym_0.QN 2.0
+C I5 I4 6.9
+C a_16719_n13117# a_16599_n13205# 7.9
+C frontAnalog_v0p0p1_12.x63.X VDD 3.1
+C R0 S0 3.2
+C VIN VV11 3.4
+C VV15 VV14 5.5
+C frontAnalog_v0p0p1_8.x63.A VDD 3.3
+C a_16599_n13205# VDD 3.4
+C CLK VDD 82.9
+C frontAnalog_v0p0p1_1.x63.A frontAnalog_v0p0p1_1.x65.A 3.2
+C frontAnalog_v0p0p1_12.x65.A CLK 2.6
+C VV4 VIN 3.4
+C frontAnalog_v0p0p1_1.x65.X VDD 3.5
+C frontAnalog_v0p0p1_6.x65.A VDD 3.0
+C frontAnalog_v0p0p1_11.x65.A CLK 2.6
+C frontAnalog_v0p0p1_8.x63.X VDD 3.1
+C I7 I6 5.9
+C frontAnalog_v0p0p1_8.x65.A VDD 3.0
+C I15 VDD 8.2
+C IB VV2 3.9
+C 16to4_PriorityEncoder_v0p0p1_0.x5.x22.A VDD 3.3
+C frontAnalog_v0p0p1_3.x65.X VDD 3.5
 C 16to4_PriorityEncoder_v0p0p1_0.x5.x16.C VDD 2.8
-C S00 2.4
+C frontAnalog_v0p0p1_12.x65.X frontAnalog_v0p0p1_12.RSfetsym_0.QN 2.3
+C 16to4_PriorityEncoder_v0p0p1_0.x3.x19.C 16to4_PriorityEncoder_v0p0p1_0.x3.x18.C 2.6
+C OUT2 16to4_PriorityEncoder_v0p0p1_0.x36.Y 8.7
+C frontAnalog_v0p0p1_14.x65.X VDD 3.5
+C frontAnalog_v0p0p1_3.x65.A CLK 2.6
+C frontAnalog_v0p0p1_0.x65.X VDD 3.5
+C frontAnalog_v0p0p1_5.x65.X VDD 3.5
+C frontAnalog_v0p0p1_7.RSfetsym_0.QN frontAnalog_v0p0p1_7.x65.X 2.3
+C frontAnalog_v0p0p1_6.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_9.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_14.x65.X frontAnalog_v0p0p1_14.RSfetsym_0.QN 2.3
+C VV16 VFS 4.2
+C VV5 VV6 4.5
+C I5 VDD 4.3
+C frontAnalog_v0p0p1_7.x65.A VDD 3.0
+C VV10 VV11 3.4
+C frontAnalog_v0p0p1_10.RSfetsym_0.QN frontAnalog_v0p0p1_10.x65.X 2.3
+C 16to4_PriorityEncoder_v0p0p1_0.x22.Y VDD 17.0
+C I12 I14 2.4
+C frontAnalog_v0p0p1_1.RSfetsym_0.QN I8 2.0
+C a_16599_n13205# a_16541_n13117# 6.8
+C frontAnalog_v0p0p1_9.x63.X VDD 3.1
+C frontAnalog_v0p0p1_9.x65.A CLK 2.6
+C frontAnalog_v0p0p1_5.RSfetsym_0.QN frontAnalog_v0p0p1_5.x65.X 2.3
+C I1 I0 6.2
+C I9 I10 7.7
+C S0 CLK 2.6
+C frontAnalog_v0p0p1_0.x65.A CLK 2.6
+C frontAnalog_v0p0p1_2.x65.X VDD 3.5
+C IB VV16 6.4
+C R1 VDD 3.6
+C I13 frontAnalog_v0p0p1_3.RSfetsym_0.QN 2.0
+C frontAnalog_v0p0p1_0.RSfetsym_0.QN frontAnalog_v0p0p1_0.x65.X 2.3
+C CLK frontAnalog_v0p0p1_10.x65.A 2.6
+C VV2 VIN 3.4
+C I4 I3 5.5
+C I14 VDD 5.9
+C frontAnalog_v0p0p1_14.x63.X VDD 3.1
+C frontAnalog_v0p0p1_8.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_6.RSfetsym_0.QN frontAnalog_v0p0p1_6.x65.X 2.3
+C frontAnalog_v0p0p1_11.x65.X VDD 3.5
+C OUT0 VDD 6.7
+C frontAnalog_v0p0p1_3.x63.A VDD 3.3
+C VV4 VV3 5.6
+C 16to4_PriorityEncoder_v0p0p1_0.x5.x18.C 16to4_PriorityEncoder_v0p0p1_0.x5.x19.C 2.6
+C I1 VDD 4.6
+C frontAnalog_v0p0p1_7.x65.A frontAnalog_v0p0p1_7.x63.A 3.2
+C VV12 VV13 4.4
+C frontAnalog_v0p0p1_1.RSfetsym_0.QN VDD 2.5
+C I4 VDD 3.6
+C CLK frontAnalog_v0p0p1_4.x65.A 2.6
+C I1 frontAnalog_v0p0p1_14.RSfetsym_0.QN 2.0
+C frontAnalog_v0p0p1_0.RSfetsym_0.QN I14 2.0
+C 16to4_PriorityEncoder_v0p0p1_0.x5.x19.C VDD 2.9
+C VV16 VIN 3.0
+C I8 VDD 5.2
+C VV13 VV14 4.1
+C frontAnalog_v0p0p1_0.x63.X VDD 3.1
+C CLK frontAnalog_v0p0p1_1.x65.A 2.6
+C frontAnalog_v0p0p1_2.x65.A CLK 2.6
+C I7 frontAnalog_v0p0p1_8.RSfetsym_0.QN 2.0
+C S1 CLK 2.6
+C frontAnalog_v0p0p1_3.x63.A frontAnalog_v0p0p1_3.x65.A 3.2
+C I0 VDD 3.9
+C frontAnalog_v0p0p1_11.x65.X frontAnalog_v0p0p1_11.RSfetsym_0.QN 2.3
+C frontAnalog_v0p0p1_8.x65.X frontAnalog_v0p0p1_8.RSfetsym_0.QN 2.3
+C I3 VDD 3.7
+C frontAnalog_v0p0p1_15.x65.X VDD 3.5
+C VV5 VV4 5.1
+C CLK frontAnalog_v0p0p1_13.x65.A 2.6
+C I12 VDD 5.3
+C frontAnalog_v0p0p1_13.x63.A VDD 3.3
+C I4 frontAnalog_v0p0p1_11.RSfetsym_0.QN 2.0
+C I12 I11 5.0
+C frontAnalog_v0p0p1_6.x63.X VDD 3.1
+C 16to4_PriorityEncoder_v0p0p1_0.x5.x18.C VDD 2.2
+C frontAnalog_v0p0p1_10.x63.X VDD 3.1
+C 16to4_PriorityEncoder_v0p0p1_0.x3.EI 16to4_PriorityEncoder_v0p0p1_0.x3.x16.C 2.1
+C VV12 VV11 3.4
+C a_16719_n13117# VDD 8.5
+C VV15 VV16 4.7
+C VDD frontAnalog_v0p0p1_15.x63.X 3.2
+C VV2 VV3 4.9
+C frontAnalog_v0p0p1_3.x65.X frontAnalog_v0p0p1_3.RSfetsym_0.QN 2.3
+C OUT3 VDD 7.1
+C frontAnalog_v0p0p1_12.x65.A VDD 3.0
+C IB VIN 32.9
+C I11 VDD 5.5
+C I12 frontAnalog_v0p0p1_4.RSfetsym_0.QN 2.0
+C frontAnalog_v0p0p1_11.x65.A VDD 3.0
+C frontAnalog_v0p0p1_14.RSfetsym_0.QN VDD 2.5
+C I5 frontAnalog_v0p0p1_10.RSfetsym_0.QN 2.0
+C 16to4_PriorityEncoder_v0p0p1_0.x5.x19.D VDD 3.3
+C frontAnalog_v0p0p1_5.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_2.x63.A VDD 3.4
+C frontAnalog_v0p0p1_6.x65.A frontAnalog_v0p0p1_6.x63.A 3.2
+C S1 R1 3.2
+C I11 frontAnalog_v0p0p1_5.RSfetsym_0.QN 2.0
+C IB VV8 3.9
+C frontAnalog_v0p0p1_9.x63.A VDD 3.3
+C 16to4_PriorityEncoder_v0p0p1_0.x3.EI I6 2.1
+C frontAnalog_v0p0p1_3.x65.A VDD 3.0
+C frontAnalog_v0p0p1_0.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_4.RSfetsym_0.QN VDD 2.5
+C I15 frontAnalog_v0p0p1_2.RSfetsym_0.QN 2.0
+C VDD frontAnalog_v0p0p1_11.RSfetsym_0.QN 2.5
+C 16to4_PriorityEncoder_v0p0p1_0.x3.x22.A VDD 3.2
+C I7 VDD 4.4
+C frontAnalog_v0p0p1_6.x65.X VDD 3.5
+C frontAnalog_v0p0p1_8.x65.X VDD 3.5
+C a_16719_n13117# a_16541_n13117# 19.0
+C VV15 IB 4.5
+C frontAnalog_v0p0p1_13.RSfetsym_0.QN I3 2.0
+C IB m1_87000_24000# 9053.0
+C frontAnalog_v0p0p1_5.x63.X VDD 3.1
+C frontAnalog_v0p0p1_7.x63.A VDD 3.3
+C frontAnalog_v0p0p1_9.x65.A VDD 3.0
+C IB VV7 3.9
+C frontAnalog_v0p0p1_5.x63.A frontAnalog_v0p0p1_5.x65.A 3.2
+C frontAnalog_v0p0p1_9.x65.X frontAnalog_v0p0p1_9.RSfetsym_0.QN 2.3
+C IB VV10 3.9
+C S0 VDD 3.4
+C frontAnalog_v0p0p1_0.x65.A VDD 3.0
+C frontAnalog_v0p0p1_10.x65.A VDD 3.0
+C VV2 VV1 4.5
+C I9 I8 3.1
+C frontAnalog_v0p0p1_12.x63.A VDD 3.3
+C VV8 VIN 3.4
+C frontAnalog_v0p0p1_0.x63.A VDD 3.3
+C frontAnalog_v0p0p1_12.x63.A frontAnalog_v0p0p1_12.x65.A 3.2
+C frontAnalog_v0p0p1_4.x63.A VDD 3.3
+C frontAnalog_v0p0p1_7.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_2.x65.X frontAnalog_v0p0p1_2.RSfetsym_0.QN 2.3
+C frontAnalog_v0p0p1_13.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_9.x65.A frontAnalog_v0p0p1_9.x63.A 3.2
+C I2 I1 8.0
+C VIN CLK 5.8
+C OUT3 16to4_PriorityEncoder_v0p0p1_0.x43.Y 7.9
+C 16to4_PriorityEncoder_v0p0p1_0.x43.Y VDD 11.4
+C IB VV3 3.9
+C frontAnalog_v0p0p1_5.x65.A CLK 2.6
+C VV15 VIN 3.4
+C I10 frontAnalog_v0p0p1_6.RSfetsym_0.QN 2.0
+C frontAnalog_v0p0p1_1.x63.X VDD 3.1
+C VIN VV7 3.4
+C frontAnalog_v0p0p1_15.RSfetsym_0.QN I0 2.0
+C 16to4_PriorityEncoder_v0p0p1_0.x36.Y VDD 16.6
+C I5 16to4_PriorityEncoder_v0p0p1_0.x3.EI 3.7
+C IB VV9 3.9
+C VDD frontAnalog_v0p0p1_4.x65.A 3.0
+C VV10 VIN 3.4
+C frontAnalog_v0p0p1_13.x63.A frontAnalog_v0p0p1_13.x65.A 3.2
+C frontAnalog_v0p0p1_15.x65.X frontAnalog_v0p0p1_15.RSfetsym_0.QN 2.3
+C I2 I0 2.5
+C frontAnalog_v0p0p1_4.x65.X VDD 3.5
+C frontAnalog_v0p0p1_12.RSfetsym_0.QN VDD 2.5
+C OUT1 VDD 6.7
+C frontAnalog_v0p0p1_1.x65.A VDD 3.0
+C frontAnalog_v0p0p1_2.x65.A VDD 3.1
+C S1 VDD 3.5
+C I2 I3 7.2
+C I9 VDD 5.3
+C VV8 VV7 3.5
+C I13 I14 10.5
+C CLK frontAnalog_v0p0p1_6.x65.A 2.6
+C VDD frontAnalog_v0p0p1_3.RSfetsym_0.QN 2.5
+C frontAnalog_v0p0p1_10.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_8.x65.A frontAnalog_v0p0p1_8.x63.A 3.2
+C frontAnalog_v0p0p1_10.x63.A VDD 3.3
+C frontAnalog_v0p0p1_0.x63.A frontAnalog_v0p0p1_0.x65.A 3.2
+C I6 frontAnalog_v0p0p1_9.RSfetsym_0.QN 2.0
+C VDD frontAnalog_v0p0p1_13.x65.A 3.0
+C VV5 IB 3.9
+C 16to4_PriorityEncoder_v0p0p1_0.x29.Y VDD 16.6
+C frontAnalog_v0p0p1_8.x65.A CLK 2.6
+C I5 I6 8.4
+C VIN VV3 3.4
+C frontAnalog_v0p0p1_2.x65.A frontAnalog_v0p0p1_2.x63.A 3.2
+C frontAnalog_v0p0p1_15.RSfetsym_0.QN VDD 2.6
+C 16to4_PriorityEncoder_v0p0p1_0.x5.A2 VDD 3.1
+C frontAnalog_v0p0p1_4.RSfetsym_0.QN frontAnalog_v0p0p1_4.x65.X 2.3
+C VV9 VIN 3.4
+C I2 VDD 4.0
+C IB VV6 3.9
+C frontAnalog_v0p0p1_13.x65.X VDD 3.5
+C frontAnalog_v0p0p1_1.x63.A VDD 3.3
+C VV12 IB 3.9
+C CLK frontAnalog_v0p0p1_7.x65.A 2.6
+C I10 I8 2.5
+C VV9 VV8 3.0
+C frontAnalog_v0p0p1_6.x63.A VDD 3.3
+C IB VV13 3.9
+C frontAnalog_v0p0p1_2.RSfetsym_0.QN VDD 2.5
+C frontAnalog_v0p0p1_9.x65.X VDD 3.5
+C 16to4_PriorityEncoder_v0p0p1_0.x1.A VDD 2.2
+C frontAnalog_v0p0p1_4.x63.A frontAnalog_v0p0p1_4.x65.A 3.2
+C VV5 VIN 3.4
+C frontAnalog_v0p0p1_7.x63.X VDD 3.1
+C IB VV14 3.9
+C frontAnalog_v0p0p1_2.x63.X VDD 3.1
+C frontAnalog_v0p0p1_4.x63.X VDD 3.1
+C I13 I12 7.1
+C I4 I6 2.4
+C I9 frontAnalog_v0p0p1_7.RSfetsym_0.QN 2.0
+C frontAnalog_v0p0p1_10.x65.X VDD 3.5
+C frontAnalog_v0p0p1_10.x63.A frontAnalog_v0p0p1_10.x65.A 3.2
+C frontAnalog_v0p0p1_11.x63.A VDD 3.3
+C frontAnalog_v0p0p1_12.x65.X VDD 3.5
+C VIN VV6 3.4
+C VDD frontAnalog_v0p0p1_11.x63.X 3.1
+C IB VDD 20.3
+C VV9 VV10 2.8
+C frontAnalog_v0p0p1_11.x65.A frontAnalog_v0p0p1_11.x63.A 3.2
+C OUT2 VDD 6.7
+C VV12 VIN 3.4
+C I15 I14 5.7
+C VIN VV1 2.0
+C R0 VDD 3.5
+C I13 VDD 8.0
+C 16to4_PriorityEncoder_v0p0p1_0.x3.EI VDD 7.9
+C I10 VDD 5.3
+C VIN VV13 3.4
+C S00 3.5
 R S0 12585
 = S0 frontAnalog_v0p0p1_15.class_AB_v3_sym_0.VOP
 = S0 frontAnalog_v0p0p1_15.x65.A
-C R00 2.1
+C R00 3.2
 R R0 12585
 = R0 frontAnalog_v0p0p1_15.class_AB_v3_sym_0.VON
 = R0 frontAnalog_v0p0p1_15.x63.A
-C S10 2.4
+C S10 3.5
 R S1 12585
 = S1 frontAnalog_v0p0p1_14.class_AB_v3_sym_0.VOP
 = S1 frontAnalog_v0p0p1_14.x65.A
-C R10 2.2
+C R10 3.2
 R R1 12585
 = R1 frontAnalog_v0p0p1_14.class_AB_v3_sym_0.VON
 = R1 frontAnalog_v0p0p1_14.x63.A
 C VL0 131.2
 R VL 1006
 = VL resistorDivider_v0p0p1_0.VL
-C VV10 79.7
+C VV10 83.5
 R VV1 3049
 = VV1 frontAnalog_v0p0p1_15.class_AB_v3_sym_0.VIN
 = VV1 frontAnalog_v0p0p1_15.VN
 = VV1 resistorDivider_v0p0p1_0.V1
-C VV20 86.5
+C VV20 91.3
 R VV2 3048
 = VV2 frontAnalog_v0p0p1_14.class_AB_v3_sym_0.VIN
 = VV2 frontAnalog_v0p0p1_14.VN
@@ -2298,17 +2298,17 @@ R OUT0 60277
 = OUT0 16to4_PriorityEncoder_v0p0p1_0.x19.Y
 = OUT0 16to4_PriorityEncoder_v0p0p1_0.x23.Y
 = OUT0 16to4_PriorityEncoder_v0p0p1_0.A0
-C VV30 81.7
+C VV30 86.4
 R VV3 3048
 = VV3 frontAnalog_v0p0p1_12.class_AB_v3_sym_0.VIN
 = VV3 frontAnalog_v0p0p1_12.VN
 = VV3 resistorDivider_v0p0p1_0.V3
-C VV40 77.7
+C VV40 82.4
 R VV4 3047
 = VV4 frontAnalog_v0p0p1_13.class_AB_v3_sym_0.VIN
 = VV4 frontAnalog_v0p0p1_13.VN
 = VV4 resistorDivider_v0p0p1_0.V4
-C VV50 77.1
+C VV50 81.8
 R VV5 3046
 = VV5 frontAnalog_v0p0p1_11.class_AB_v3_sym_0.VIN
 = VV5 frontAnalog_v0p0p1_11.VN
@@ -2389,12 +2389,12 @@ R I7 7930
 = I7 16to4_PriorityEncoder_v0p0p1_0.I7
 = I7 frontAnalog_v0p0p1_8.RSfetsym_0.Q
 = I7 frontAnalog_v0p0p1_8.Q
-C VV60 76.2
+C VV60 80.9
 R VV6 3046
 = VV6 frontAnalog_v0p0p1_10.class_AB_v3_sym_0.VIN
 = VV6 frontAnalog_v0p0p1_10.VN
 = VV6 resistorDivider_v0p0p1_0.V6
-C VV70 73.6
+C VV70 78.3
 R VV7 3045
 = VV7 frontAnalog_v0p0p1_9.class_AB_v3_sym_0.VIN
 = VV7 frontAnalog_v0p0p1_9.VN
@@ -2406,12 +2406,12 @@ R OUT2 60277
 = OUT2 16to4_PriorityEncoder_v0p0p1_0.x12.Y
 = OUT2 16to4_PriorityEncoder_v0p0p1_0.x10.Y
 = OUT2 16to4_PriorityEncoder_v0p0p1_0.A2
-C VV80 70.1
+C VV80 74.8
 R VV8 3044
 = VV8 frontAnalog_v0p0p1_8.class_AB_v3_sym_0.VIN
 = VV8 frontAnalog_v0p0p1_8.VN
 = VV8 resistorDivider_v0p0p1_0.V8
-C VV90 68.9
+C VV90 73.6
 R VV9 3044
 = VV9 frontAnalog_v0p0p1_1.class_AB_v3_sym_0.VIN
 = VV9 frontAnalog_v0p0p1_1.VN
@@ -2438,7 +2438,7 @@ R I9 8410
 = I9 16to4_PriorityEncoder_v0p0p1_0.I9
 = I9 frontAnalog_v0p0p1_7.RSfetsym_0.Q
 = I9 frontAnalog_v0p0p1_7.Q
-C VV100 72.2
+C VV100 76.9
 R VV10 3044
 = VV10 frontAnalog_v0p0p1_7.class_AB_v3_sym_0.VIN
 = VV10 frontAnalog_v0p0p1_7.VN
@@ -2452,7 +2452,7 @@ R I10 9075
 = I10 16to4_PriorityEncoder_v0p0p1_0.I10
 = I10 frontAnalog_v0p0p1_6.RSfetsym_0.Q
 = I10 frontAnalog_v0p0p1_6.Q
-C VV110 76.2
+C VV110 80.9
 R VV11 3045
 = VV11 frontAnalog_v0p0p1_6.class_AB_v3_sym_0.VIN
 = VV11 frontAnalog_v0p0p1_6.VN
@@ -2469,7 +2469,7 @@ R I11 9098
 = I11 16to4_PriorityEncoder_v0p0p1_0.x5.x19.B
 = I11 16to4_PriorityEncoder_v0p0p1_0.x5.I3
 = I11 16to4_PriorityEncoder_v0p0p1_0.I11
-C VV120 80.1
+C VV120 84.8
 R VV12 3045
 = VV12 frontAnalog_v0p0p1_5.class_AB_v3_sym_0.VIN
 = VV12 frontAnalog_v0p0p1_5.VN
@@ -2483,7 +2483,7 @@ R I12 9026
 = I12 16to4_PriorityEncoder_v0p0p1_0.x5.x10.B
 = I12 16to4_PriorityEncoder_v0p0p1_0.x5.I4
 = I12 16to4_PriorityEncoder_v0p0p1_0.I12
-C VV130 81.5
+C VV130 86.2
 R VV13 3046
 = VV13 frontAnalog_v0p0p1_4.class_AB_v3_sym_0.VIN
 = VV13 frontAnalog_v0p0p1_4.VN
@@ -2498,7 +2498,7 @@ R I13 9913
 = I13 16to4_PriorityEncoder_v0p0p1_0.x5.x20.A
 = I13 16to4_PriorityEncoder_v0p0p1_0.x5.I5
 = I13 16to4_PriorityEncoder_v0p0p1_0.I13
-C VV140 80.1
+C VV140 84.7
 R VV14 3047
 = VV14 frontAnalog_v0p0p1_3.class_AB_v3_sym_0.VIN
 = VV14 frontAnalog_v0p0p1_3.VN
@@ -2512,7 +2512,7 @@ R I14 8961
 = I14 16to4_PriorityEncoder_v0p0p1_0.x5.x12.B
 = I14 16to4_PriorityEncoder_v0p0p1_0.x5.I6
 = I14 16to4_PriorityEncoder_v0p0p1_0.I14
-C VV150 79.4
+C VV150 84.0
 R VV15 3048
 = VV15 frontAnalog_v0p0p1_0.class_AB_v3_sym_0.VIN
 = VV15 frontAnalog_v0p0p1_0.VN
@@ -2525,12 +2525,12 @@ R I15 7932
 = I15 16to4_PriorityEncoder_v0p0p1_0.x5.x13.B
 = I15 16to4_PriorityEncoder_v0p0p1_0.x5.I7
 = I15 16to4_PriorityEncoder_v0p0p1_0.I15
-C VV160 79.6
+C VV160 83.4
 R VV16 3047
 = VV16 frontAnalog_v0p0p1_2.class_AB_v3_sym_0.VIN
 = VV16 frontAnalog_v0p0p1_2.VN
 = VV16 resistorDivider_v0p0p1_0.V16
-C VIN0 229.0
+C VIN0 281.5
 R VIN 21118
 = VIN frontAnalog_v0p0p1_5.class_AB_v3_sym_0.VIP
 = VIN frontAnalog_v0p0p1_5.VIN
@@ -2564,7 +2564,7 @@ R VIN 21118
 = VIN frontAnalog_v0p0p1_11.VIN
 = VIN frontAnalog_v0p0p1_10.class_AB_v3_sym_0.VIP
 = VIN frontAnalog_v0p0p1_10.VIN
-C CLK0 126.3
+C CLK0 145.2
 R CLK 67601
 = CLK frontAnalog_v0p0p1_5.class_AB_v3_sym_0.CLK
 = CLK frontAnalog_v0p0p1_5.CLK
@@ -2598,7 +2598,42 @@ R CLK 67601
 = CLK frontAnalog_v0p0p1_11.CLK
 = CLK frontAnalog_v0p0p1_10.class_AB_v3_sym_0.CLK
 = CLK frontAnalog_v0p0p1_10.CLK
-C VDD0 3016.6
+C IB0 9305.2
+R IB 37414
+= IB frontAnalog_v0p0p1_5.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_5.IB
+= IB frontAnalog_v0p0p1_4.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_4.IB
+= IB frontAnalog_v0p0p1_3.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_3.IB
+= IB frontAnalog_v0p0p1_2.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_2.IB
+= IB frontAnalog_v0p0p1_0.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_0.IB
+= IB PTAT_v0p0p0_mag_0.VOUT
+= IB frontAnalog_v0p0p1_9.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_9.IB
+= IB frontAnalog_v0p0p1_8.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_8.IB
+= IB frontAnalog_v0p0p1_7.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_7.IB
+= IB frontAnalog_v0p0p1_6.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_6.IB
+= IB frontAnalog_v0p0p1_1.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_1.IB
+= IB frontAnalog_v0p0p1_15.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_15.IB
+= IB frontAnalog_v0p0p1_14.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_14.IB
+= IB frontAnalog_v0p0p1_13.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_13.IB
+= IB frontAnalog_v0p0p1_12.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_12.IB
+= IB frontAnalog_v0p0p1_11.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_11.IB
+= IB frontAnalog_v0p0p1_10.class_AB_v3_sym_0.IB
+= IB frontAnalog_v0p0p1_10.IB
+C VDD0 3231.3
 = VDD frontAnalog_v0p0p1_5.class_AB_v3_sym_0.VDD
 = VDD frontAnalog_v0p0p1_5.RSfetsym_0.x2.VPWR
 = VDD frontAnalog_v0p0p1_5.RSfetsym_0.x2.VPB
@@ -2944,6 +2979,7 @@ C VDD0 3016.6
 = VDD frontAnalog_v0p0p1_10.x65.VPWR
 = VDD frontAnalog_v0p0p1_10.x65.VPB
 = VDD frontAnalog_v0p0p1_10.VDD
+C m1_87000_24000#0 2848.0
 R a_59577_n84483# 1311
 R a_57123_n85079# 1873
 R frontAnalog_v0p0p1_15.RSfetsym_0.x2.Y 3813
@@ -2960,8 +2996,9 @@ R frontAnalog_v0p0p1_15.x65.X 6003
 = frontAnalog_v0p0p1_15.x65.X frontAnalog_v0p0p1_15.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_15.x65.X frontAnalog_v0p0p1_15.RSfetsym_0.S
 R a_57123_n83559# 1873
+C a_55268_n84936#0 2.3
 R a_55268_n84936# 2114
-C a_53630_n84996#0 2.6
+C a_53630_n84996#0 2.7
 R a_53630_n84996# 8672
 R a_59577_n79083# 1311
 R a_57123_n79679# 1873
@@ -2979,8 +3016,9 @@ R frontAnalog_v0p0p1_14.x65.X 6003
 = frontAnalog_v0p0p1_14.x65.X frontAnalog_v0p0p1_14.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_14.x65.X frontAnalog_v0p0p1_14.RSfetsym_0.S
 R a_57123_n78159# 1873
+C a_55268_n79536#0 2.3
 R a_55268_n79536# 2114
-C a_53630_n79596#0 2.6
+C a_53630_n79596#0 2.7
 R a_53630_n79596# 8672
 R a_59577_n73683# 1311
 R a_57123_n74279# 1873
@@ -2998,13 +3036,14 @@ R frontAnalog_v0p0p1_12.x65.X 6003
 = frontAnalog_v0p0p1_12.x65.X frontAnalog_v0p0p1_12.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_12.x65.X frontAnalog_v0p0p1_12.RSfetsym_0.S
 R a_57123_n72759# 1873
+C a_55268_n74136#0 2.3
 R a_55268_n74136# 2114
-C a_53630_n74196#0 2.6
+C a_53630_n74196#0 2.7
 R a_53630_n74196# 8672
-C frontAnalog_v0p0p1_12.x65.A0 2.3
+C frontAnalog_v0p0p1_12.x65.A0 3.4
 R frontAnalog_v0p0p1_12.x65.A 12586
 = frontAnalog_v0p0p1_12.x65.A frontAnalog_v0p0p1_12.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_12.x63.A0 2.1
+C frontAnalog_v0p0p1_12.x63.A0 3.1
 R frontAnalog_v0p0p1_12.x63.A 12586
 = frontAnalog_v0p0p1_12.x63.A frontAnalog_v0p0p1_12.class_AB_v3_sym_0.VON
 R a_59577_n68283# 1311
@@ -3023,13 +3062,14 @@ R frontAnalog_v0p0p1_13.x65.X 6003
 = frontAnalog_v0p0p1_13.x65.X frontAnalog_v0p0p1_13.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_13.x65.X frontAnalog_v0p0p1_13.RSfetsym_0.S
 R a_57123_n67359# 1873
+C a_55268_n68736#0 2.3
 R a_55268_n68736# 2114
-C a_53630_n68796#0 2.6
+C a_53630_n68796#0 2.7
 R a_53630_n68796# 8672
-C frontAnalog_v0p0p1_13.x65.A0 2.3
+C frontAnalog_v0p0p1_13.x65.A0 3.4
 R frontAnalog_v0p0p1_13.x65.A 12586
 = frontAnalog_v0p0p1_13.x65.A frontAnalog_v0p0p1_13.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_13.x63.A0 2.1
+C frontAnalog_v0p0p1_13.x63.A0 3.1
 R frontAnalog_v0p0p1_13.x63.A 12586
 = frontAnalog_v0p0p1_13.x63.A frontAnalog_v0p0p1_13.class_AB_v3_sym_0.VON
 R a_59577_n62883# 1311
@@ -3048,13 +3088,14 @@ R frontAnalog_v0p0p1_11.x65.X 6003
 = frontAnalog_v0p0p1_11.x65.X frontAnalog_v0p0p1_11.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_11.x65.X frontAnalog_v0p0p1_11.RSfetsym_0.S
 R a_57123_n61959# 1873
+C a_55268_n63336#0 2.3
 R a_55268_n63336# 2114
-C a_53630_n63396#0 2.6
+C a_53630_n63396#0 2.7
 R a_53630_n63396# 8672
-C frontAnalog_v0p0p1_11.x65.A0 2.3
+C frontAnalog_v0p0p1_11.x65.A0 3.4
 R frontAnalog_v0p0p1_11.x65.A 12586
 = frontAnalog_v0p0p1_11.x65.A frontAnalog_v0p0p1_11.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_11.x63.A0 2.1
+C frontAnalog_v0p0p1_11.x63.A0 3.1
 R frontAnalog_v0p0p1_11.x63.A 12586
 = frontAnalog_v0p0p1_11.x63.A frontAnalog_v0p0p1_11.class_AB_v3_sym_0.VON
 R a_59577_n57483# 1311
@@ -3073,8 +3114,9 @@ R frontAnalog_v0p0p1_10.x65.X 6003
 = frontAnalog_v0p0p1_10.x65.X frontAnalog_v0p0p1_10.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_10.x65.X frontAnalog_v0p0p1_10.RSfetsym_0.S
 R a_57123_n56559# 1873
+C a_55268_n57936#0 2.3
 R a_55268_n57936# 2114
-C a_53630_n57996#0 2.6
+C a_53630_n57996#0 2.7
 R a_53630_n57996# 8672
 R a_34560_n57652# 4548
 R a_33318_n57652# 4548
@@ -3084,10 +3126,10 @@ R a_29592_n57652# 4548
 R a_28350_n57652# 4548
 R a_27108_n57652# 4548
 R a_25866_n57652# 4548
-C frontAnalog_v0p0p1_10.x65.A0 2.3
+C frontAnalog_v0p0p1_10.x65.A0 3.4
 R frontAnalog_v0p0p1_10.x65.A 12586
 = frontAnalog_v0p0p1_10.x65.A frontAnalog_v0p0p1_10.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_10.x63.A0 2.1
+C frontAnalog_v0p0p1_10.x63.A0 3.1
 R frontAnalog_v0p0p1_10.x63.A 12586
 = frontAnalog_v0p0p1_10.x63.A frontAnalog_v0p0p1_10.class_AB_v3_sym_0.VON
 R a_34560_n56052# 4548
@@ -3182,8 +3224,9 @@ R frontAnalog_v0p0p1_9.x65.X 6003
 = frontAnalog_v0p0p1_9.x65.X frontAnalog_v0p0p1_9.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_9.x65.X frontAnalog_v0p0p1_9.RSfetsym_0.S
 R a_57123_n51159# 1873
+C a_55268_n52536#0 2.3
 R a_55268_n52536# 2114
-C a_53630_n52596#0 2.6
+C a_53630_n52596#0 2.7
 R a_53630_n52596# 8672
 R a_34560_n52852# 4548
 R a_33318_n52852# 4548
@@ -3195,10 +3238,10 @@ R a_27108_n52852# 4548
 R a_25866_n52852# 4548
 R a_77725_n50381# 187
 R a_77639_n50381# 1517
-C frontAnalog_v0p0p1_9.x65.A0 2.3
+C frontAnalog_v0p0p1_9.x65.A0 3.4
 R frontAnalog_v0p0p1_9.x65.A 12586
 = frontAnalog_v0p0p1_9.x65.A frontAnalog_v0p0p1_9.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_9.x63.A0 2.1
+C frontAnalog_v0p0p1_9.x63.A0 3.1
 R frontAnalog_v0p0p1_9.x63.A 12586
 = frontAnalog_v0p0p1_9.x63.A frontAnalog_v0p0p1_9.class_AB_v3_sym_0.VON
 R a_34560_n51254# 4548
@@ -3333,8 +3376,9 @@ R frontAnalog_v0p0p1_8.x65.X 6003
 = frontAnalog_v0p0p1_8.x65.X frontAnalog_v0p0p1_8.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_8.x65.X frontAnalog_v0p0p1_8.RSfetsym_0.S
 R a_57123_n45759# 1873
+C a_55268_n47136#0 2.3
 R a_55268_n47136# 2114
-C a_53630_n47196#0 2.6
+C a_53630_n47196#0 2.7
 R a_53630_n47196# 8672
 R a_34560_n48054# 4548
 R a_33318_n48054# 4548
@@ -3354,10 +3398,10 @@ R a_27108_n46460# 4548
 R a_25866_n46460# 4548
 R 16to4_PriorityEncoder_v0p0p1_0.x5.x19.X 1798
 = 16to4_PriorityEncoder_v0p0p1_0.x5.x19.X 16to4_PriorityEncoder_v0p0p1_0.x5.x22.C
-C frontAnalog_v0p0p1_8.x65.A0 2.3
+C frontAnalog_v0p0p1_8.x65.A0 3.4
 R frontAnalog_v0p0p1_8.x65.A 12586
 = frontAnalog_v0p0p1_8.x65.A frontAnalog_v0p0p1_8.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_8.x63.A0 2.1
+C frontAnalog_v0p0p1_8.x63.A0 3.1
 R frontAnalog_v0p0p1_8.x63.A 12586
 = frontAnalog_v0p0p1_8.x63.A frontAnalog_v0p0p1_8.class_AB_v3_sym_0.VON
 R a_77881_n44779# 153
@@ -3486,8 +3530,9 @@ R frontAnalog_v0p0p1_1.x65.X 6003
 = frontAnalog_v0p0p1_1.x65.X frontAnalog_v0p0p1_1.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_1.x65.X frontAnalog_v0p0p1_1.RSfetsym_0.S
 R a_57123_n40359# 1873
+C a_55268_n41736#0 2.3
 R a_55268_n41736# 2114
-C a_53630_n41796#0 2.6
+C a_53630_n41796#0 2.7
 R a_53630_n41796# 8672
 R a_34560_n41662# 4548
 R a_33318_n41662# 4548
@@ -3513,10 +3558,10 @@ C 16to4_PriorityEncoder_v0p0p1_0.x5.GS0 2.5
 R 16to4_PriorityEncoder_v0p0p1_0.x5.GS 1609
 = 16to4_PriorityEncoder_v0p0p1_0.x5.GS 16to4_PriorityEncoder_v0p0p1_0.x41.A
 = 16to4_PriorityEncoder_v0p0p1_0.x5.GS 16to4_PriorityEncoder_v0p0p1_0.x5.x8.X
-C frontAnalog_v0p0p1_1.x65.A0 2.3
+C frontAnalog_v0p0p1_1.x65.A0 3.4
 R frontAnalog_v0p0p1_1.x65.A 12586
 = frontAnalog_v0p0p1_1.x65.A frontAnalog_v0p0p1_1.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_1.x63.A0 2.1
+C frontAnalog_v0p0p1_1.x63.A0 3.1
 R frontAnalog_v0p0p1_1.x63.A 12586
 = frontAnalog_v0p0p1_1.x63.A frontAnalog_v0p0p1_1.class_AB_v3_sym_0.VON
 C 16to4_PriorityEncoder_v0p0p1_0.x5.EO0 2.6
@@ -3586,8 +3631,9 @@ R frontAnalog_v0p0p1_7.x65.X 6003
 = frontAnalog_v0p0p1_7.x65.X frontAnalog_v0p0p1_7.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_7.x65.X frontAnalog_v0p0p1_7.RSfetsym_0.S
 R a_57123_n34959# 1873
+C a_55268_n36336#0 2.3
 R a_55268_n36336# 2114
-C a_53630_n36396#0 2.6
+C a_53630_n36396#0 2.7
 R a_53630_n36396# 8672
 R a_34560_n36862# 4548
 R a_33318_n36862# 4548
@@ -3597,10 +3643,10 @@ R a_29592_n36862# 4548
 R a_28350_n36862# 4548
 R a_27108_n36862# 4548
 R a_25866_n36862# 4548
-C frontAnalog_v0p0p1_7.x65.A0 2.3
+C frontAnalog_v0p0p1_7.x65.A0 3.4
 R frontAnalog_v0p0p1_7.x65.A 12586
 = frontAnalog_v0p0p1_7.x65.A frontAnalog_v0p0p1_7.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_7.x63.A0 2.1
+C frontAnalog_v0p0p1_7.x63.A0 3.1
 R frontAnalog_v0p0p1_7.x63.A 12586
 = frontAnalog_v0p0p1_7.x63.A frontAnalog_v0p0p1_7.class_AB_v3_sym_0.VON
 R a_34560_n35260# 4548
@@ -3635,8 +3681,9 @@ R frontAnalog_v0p0p1_6.x65.X 6003
 = frontAnalog_v0p0p1_6.x65.X frontAnalog_v0p0p1_6.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_6.x65.X frontAnalog_v0p0p1_6.RSfetsym_0.S
 R a_57123_n29559# 1873
+C a_55268_n30936#0 2.3
 R a_55268_n30936# 2114
-C a_53630_n30996#0 2.6
+C a_53630_n30996#0 2.7
 R a_53630_n30996# 8672
 R a_34562_n32064# 4548
 R a_33320_n32064# 4548
@@ -3646,10 +3693,10 @@ R a_29594_n32064# 4548
 R a_28352_n32064# 4548
 R a_27110_n32064# 4548
 R a_25868_n32064# 4548
-C frontAnalog_v0p0p1_6.x65.A0 2.3
+C frontAnalog_v0p0p1_6.x65.A0 3.4
 R frontAnalog_v0p0p1_6.x65.A 12586
 = frontAnalog_v0p0p1_6.x65.A frontAnalog_v0p0p1_6.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_6.x63.A0 2.1
+C frontAnalog_v0p0p1_6.x63.A0 3.1
 R frontAnalog_v0p0p1_6.x63.A 12586
 = frontAnalog_v0p0p1_6.x63.A frontAnalog_v0p0p1_6.class_AB_v3_sym_0.VON
 R a_59577_n25083# 1311
@@ -3668,13 +3715,14 @@ R frontAnalog_v0p0p1_5.x65.X 6003
 = frontAnalog_v0p0p1_5.x65.X frontAnalog_v0p0p1_5.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_5.x65.X frontAnalog_v0p0p1_5.RSfetsym_0.S
 R a_57123_n24159# 1873
+C a_55268_n25536#0 2.3
 R a_55268_n25536# 2114
-C a_53630_n25596#0 2.6
+C a_53630_n25596#0 2.7
 R a_53630_n25596# 8672
-C frontAnalog_v0p0p1_5.x65.A0 2.3
+C frontAnalog_v0p0p1_5.x65.A0 3.4
 R frontAnalog_v0p0p1_5.x65.A 12586
 = frontAnalog_v0p0p1_5.x65.A frontAnalog_v0p0p1_5.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_5.x63.A0 2.1
+C frontAnalog_v0p0p1_5.x63.A0 3.1
 R frontAnalog_v0p0p1_5.x63.A 12586
 = frontAnalog_v0p0p1_5.x63.A frontAnalog_v0p0p1_5.class_AB_v3_sym_0.VON
 R a_59577_n19683# 1311
@@ -3693,13 +3741,14 @@ R frontAnalog_v0p0p1_4.x65.X 6003
 = frontAnalog_v0p0p1_4.x65.X frontAnalog_v0p0p1_4.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_4.x65.X frontAnalog_v0p0p1_4.RSfetsym_0.S
 R a_57123_n18759# 1873
+C a_55268_n20136#0 2.3
 R a_55268_n20136# 2114
-C a_53630_n20196#0 2.6
+C a_53630_n20196#0 2.7
 R a_53630_n20196# 8672
-C frontAnalog_v0p0p1_4.x65.A0 2.3
+C frontAnalog_v0p0p1_4.x65.A0 3.4
 R frontAnalog_v0p0p1_4.x65.A 12586
 = frontAnalog_v0p0p1_4.x65.A frontAnalog_v0p0p1_4.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_4.x63.A0 2.1
+C frontAnalog_v0p0p1_4.x63.A0 3.1
 R frontAnalog_v0p0p1_4.x63.A 12586
 = frontAnalog_v0p0p1_4.x63.A frontAnalog_v0p0p1_4.class_AB_v3_sym_0.VON
 R a_59577_n14283# 1311
@@ -3718,15 +3767,16 @@ R frontAnalog_v0p0p1_3.x65.X 6003
 = frontAnalog_v0p0p1_3.x65.X frontAnalog_v0p0p1_3.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_3.x65.X frontAnalog_v0p0p1_3.RSfetsym_0.S
 R a_57123_n13359# 1873
+C a_55268_n14736#0 2.3
 R a_55268_n14736# 2114
-C a_53630_n14796#0 2.6
+C a_53630_n14796#0 2.7
 R a_53630_n14796# 8672
 R a_16998_n16034# 29941
 R a_16998_n14662# 29941
-C frontAnalog_v0p0p1_3.x65.A0 2.3
+C frontAnalog_v0p0p1_3.x65.A0 3.4
 R frontAnalog_v0p0p1_3.x65.A 12586
 = frontAnalog_v0p0p1_3.x65.A frontAnalog_v0p0p1_3.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_3.x63.A0 2.1
+C frontAnalog_v0p0p1_3.x63.A0 3.1
 R frontAnalog_v0p0p1_3.x63.A 12586
 = frontAnalog_v0p0p1_3.x63.A frontAnalog_v0p0p1_3.class_AB_v3_sym_0.VON
 C a_16541_n13117#0 18.4
@@ -3747,17 +3797,18 @@ R frontAnalog_v0p0p1_0.x65.X 6003
 = frontAnalog_v0p0p1_0.x65.X frontAnalog_v0p0p1_0.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_0.x65.X frontAnalog_v0p0p1_0.RSfetsym_0.S
 R a_57123_n7959# 1873
+C a_55268_n9336#0 2.3
 R a_55268_n9336# 2114
-C a_53630_n9396#0 2.6
+C a_53630_n9396#0 2.7
 R a_53630_n9396# 8672
 C a_16599_n13205#0 25.1
 R a_16599_n13205# 30228
 C a_16719_n13117#0 14.3
 R a_16719_n13117# 63229
-C frontAnalog_v0p0p1_0.x65.A0 2.3
+C frontAnalog_v0p0p1_0.x65.A0 3.4
 R frontAnalog_v0p0p1_0.x65.A 12586
 = frontAnalog_v0p0p1_0.x65.A frontAnalog_v0p0p1_0.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_0.x63.A0 2.1
+C frontAnalog_v0p0p1_0.x63.A0 3.1
 R frontAnalog_v0p0p1_0.x63.A 12586
 = frontAnalog_v0p0p1_0.x63.A frontAnalog_v0p0p1_0.class_AB_v3_sym_0.VON
 R a_59577_n3483# 1311
@@ -3776,112 +3827,79 @@ R frontAnalog_v0p0p1_2.x65.X 6003
 = frontAnalog_v0p0p1_2.x65.X frontAnalog_v0p0p1_2.RSfetsym_0.x2.A
 = frontAnalog_v0p0p1_2.x65.X frontAnalog_v0p0p1_2.RSfetsym_0.S
 R a_57123_n2559# 1873
+C a_55268_n3936#0 2.3
 R a_55268_n3936# 2114
-C a_53630_n3996#0 2.6
+C a_53630_n3996#0 2.7
 R a_53630_n3996# 8672
-C frontAnalog_v0p0p1_10.IB0 374.1
-R frontAnalog_v0p0p1_10.IB 37440
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_5.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_5.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_4.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_4.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_3.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_3.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_2.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_2.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_0.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_0.IB
-= frontAnalog_v0p0p1_10.IB PTAT_v0p0p0_mag_0.VOUT
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_9.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_9.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_8.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_8.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_7.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_7.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_6.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_6.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_1.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_1.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_15.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_15.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_14.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_14.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_13.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_13.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_12.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_12.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_11.class_AB_v3_sym_0.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_11.IB
-= frontAnalog_v0p0p1_10.IB frontAnalog_v0p0p1_10.class_AB_v3_sym_0.IB
-C frontAnalog_v0p0p1_2.x65.A0 2.3
+C frontAnalog_v0p0p1_2.x65.A0 3.4
 R frontAnalog_v0p0p1_2.x65.A 12586
 = frontAnalog_v0p0p1_2.x65.A frontAnalog_v0p0p1_2.class_AB_v3_sym_0.VOP
-C frontAnalog_v0p0p1_2.x63.A0 2.1
+C frontAnalog_v0p0p1_2.x63.A0 3.0
 R frontAnalog_v0p0p1_2.x63.A 12586
 = frontAnalog_v0p0p1_2.x63.A frontAnalog_v0p0p1_2.class_AB_v3_sym_0.VON
-C w_55000_n84550#0 2.7
+C w_55000_n84550#0 2.8
 R w_55000_n84550# 10976
-C w_55000_n83928#0 2.7
+C w_55000_n83928#0 2.9
 R w_55000_n83928# 10977
-C w_55000_n79150#0 2.7
+C w_55000_n79150#0 2.8
 R w_55000_n79150# 10976
-C w_55000_n78528#0 2.7
+C w_55000_n78528#0 2.9
 R w_55000_n78528# 10977
-C w_55000_n73750#0 2.7
+C w_55000_n73750#0 2.8
 R w_55000_n73750# 10976
-C w_55000_n73128#0 2.7
+C w_55000_n73128#0 2.9
 R w_55000_n73128# 10977
-C w_55000_n68350#0 2.7
+C w_55000_n68350#0 2.8
 R w_55000_n68350# 10976
-C w_55000_n67728#0 2.7
+C w_55000_n67728#0 2.9
 R w_55000_n67728# 10977
-C w_55000_n62950#0 2.7
+C w_55000_n62950#0 2.8
 R w_55000_n62950# 10976
-C w_55000_n62328#0 2.7
+C w_55000_n62328#0 2.9
 R w_55000_n62328# 10977
-C w_55000_n57550#0 2.7
+C w_55000_n57550#0 2.8
 R w_55000_n57550# 10976
-C w_55000_n56928#0 2.7
+C w_55000_n56928#0 2.9
 R w_55000_n56928# 10977
-C w_55000_n52150#0 2.7
+C w_55000_n52150#0 2.8
 R w_55000_n52150# 10976
-C w_55000_n51528#0 2.7
+C w_55000_n51528#0 2.9
 R w_55000_n51528# 10977
-C w_55000_n46750#0 2.7
+C w_55000_n46750#0 2.8
 R w_55000_n46750# 10976
-C w_55000_n46128#0 2.7
+C w_55000_n46128#0 2.9
 R w_55000_n46128# 10977
-C w_55000_n41350#0 2.7
+C w_55000_n41350#0 2.8
 R w_55000_n41350# 10976
-C w_55000_n40728#0 2.7
+C w_55000_n40728#0 2.9
 R w_55000_n40728# 10977
-C w_55000_n35950#0 2.7
+C w_55000_n35950#0 2.8
 R w_55000_n35950# 10976
-C w_55000_n35328#0 2.7
+C w_55000_n35328#0 2.9
 R w_55000_n35328# 10977
-C w_55000_n30550#0 2.7
+C w_55000_n30550#0 2.8
 R w_55000_n30550# 10976
-C w_55000_n29928#0 2.7
+C w_55000_n29928#0 2.9
 R w_55000_n29928# 10977
-C w_55000_n25150#0 2.7
+C w_55000_n25150#0 2.8
 R w_55000_n25150# 10976
-C w_55000_n24528#0 2.7
+C w_55000_n24528#0 2.9
 R w_55000_n24528# 10977
-C w_55000_n19750#0 2.7
+C w_55000_n19750#0 2.8
 R w_55000_n19750# 10976
-C w_55000_n19128#0 2.7
+C w_55000_n19128#0 2.9
 R w_55000_n19128# 10977
-C w_55000_n14350#0 2.7
+C w_55000_n14350#0 2.8
 R w_55000_n14350# 10976
-C w_55000_n13728#0 2.7
+C w_55000_n13728#0 2.9
 R w_55000_n13728# 10977
-C w_55000_n8950#0 2.7
+C w_55000_n8950#0 2.8
 R w_55000_n8950# 10976
-C w_55000_n8328#0 2.7
+C w_55000_n8328#0 2.9
 R w_55000_n8328# 10977
-C w_55000_n3550#0 2.7
+C w_55000_n3550#0 2.8
 R w_55000_n3550# 10976
-C w_55000_n2928#0 2.7
+C w_55000_n2928#0 2.9
 R w_55000_n2928# 10977
 = GND frontAnalog_v0p0p1_5.class_AB_v3_sym_0.VSS
 = GND frontAnalog_v0p0p1_5.RSfetsym_0.x2.VGND

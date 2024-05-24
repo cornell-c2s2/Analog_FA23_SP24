@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1715736501
+timestamp 1716326236
 << metal1 >>
 rect 37800 2800 41600 3000
 rect 37800 1400 38000 2800
@@ -1986,22 +1986,22 @@ rect 41500 -2000 41600 -400
 rect 42800 -1400 43000 0
 rect 46400 -1400 46600 0
 rect 42800 -1600 46600 -1400
-rect 41500 -3600 53300 -2000
+rect 41500 -3600 56100 -2000
 rect 20800 -6600 22200 -6400
 rect 20800 -7400 21000 -6600
 rect 22000 -7400 22200 -6600
 rect 20800 -7600 22200 -7400
-rect 37800 -10400 53300 -3600
-rect 27000 -10600 53300 -10400
+rect 37800 -10400 56100 -3600
+rect 27000 -10600 56100 -10400
 rect 27000 -13000 27200 -10600
-rect 34400 -13000 53300 -10600
-rect 27000 -13200 53300 -13000
-rect 37800 -37000 53300 -13200
-rect 14000 -38000 53300 -37000
+rect 34400 -13000 56100 -10600
+rect 27000 -13200 56100 -13000
+rect 37800 -37000 56100 -13200
+rect 14000 -38000 56100 -37000
 rect 14000 -49000 15000 -38000
-rect 24000 -49000 53300 -38000
-rect 14000 -50000 53300 -49000
-rect 37800 -86700 53300 -50000
+rect 24000 -49000 56100 -38000
+rect 14000 -50000 56100 -49000
+rect 37800 -86700 56100 -50000
 rect 61820 -36800 69400 3000
 rect 71900 -34100 74100 -34000
 rect 71900 -35500 72000 -34100
@@ -2079,67 +2079,67 @@ timestamp 1715736501
 transform 1 0 72130 0 1 -38130
 box 470 -15870 20230 350
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_0
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -11930
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_1
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -44330
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_2
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -6530
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_3
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -17330
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_4
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -22730
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_5
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -28130
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_6
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -33530
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_7
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -38930
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_8
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -49730
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_9
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -55130
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_10
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -60530
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_11
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -65930
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_12
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -76730
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_13
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -71330
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_14
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -82130
 box 1064 1130 10170 5492
 use frontAnalog_v0p0p1  frontAnalog_v0p0p1_15
-timestamp 1715736501
+timestamp 1716326236
 transform 1 0 51936 0 1 -87530
 box 1064 1130 10170 5492
 use PTAT_v0p0p0_mag  PTAT_v0p0p0_mag_0 /foss/designs/Analog_FA23_SP24/PTAT/magic
@@ -2147,7 +2147,7 @@ timestamp 1715735650
 transform 1 0 18930 0 1 -12102
 box -2530 -4098 15822 4693
 use resistorDivider_v0p0p1  resistorDivider_v0p0p1_0
-timestamp 1715735650
+timestamp 1715804543
 transform 1 0 40840 0 1 -44680
 box -16460 -14720 -4458 14560
 << labels >>
