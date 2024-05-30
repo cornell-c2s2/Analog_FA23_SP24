@@ -16,7 +16,7 @@ lab=vccd1}
 N 3720 120 3730 120 {
 lab=io_analog[5]}
 N 3720 140 3730 140 {
-lab=io_analog[9]}
+lab=io_analog[4]}
 N 3720 160 3730 160 {
 lab=io_analog[1]}
 N 3720 180 3730 180 {
@@ -25,6 +25,26 @@ N 3720 200 3730 200 {
 lab=io_analog[0]}
 N 4030 160 4040 160 {
 lab=io_analog[3]}
+N 3690 280 3730 280 {
+lab=vccd1}
+N 3690 300 3730 300 {
+lab=vssa1}
+N 3720 380 3730 380 {
+lab=io_analog[9]}
+N 3720 360 3730 360 {
+lab=io_analog[10]}
+N 4030 340 4040 340 {
+lab=gpio_analog[10]}
+N 4030 320 4040 320 {
+lab=gpio_analog[9]}
+N 4030 300 4040 300 {
+lab=gpio_analog[8]}
+N 4030 280 4040 280 {
+lab=gpio_analog[7]}
+N 3720 320 3730 320 {
+lab=io_analog[8]}
+N 3720 340 3730 340 {
+lab=io_analog[7]}
 C {devices/iopin.sym} 3240 -470 0 0 {name=p1 lab=vdda1}
 C {devices/iopin.sym} 3240 -440 0 0 {name=p2 lab=vdda2}
 C {devices/iopin.sym} 3240 -410 0 0 {name=p3 lab=vssa1}
@@ -67,3 +87,15 @@ C {devices/lab_pin.sym} 3720 120 0 0 {name=l4 sig_type=std_logic lab=io_analog[5
 C {devices/lab_pin.sym} 3720 180 2 1 {name=l7 sig_type=std_logic lab=io_analog[2]}
 C {devices/lab_pin.sym} 3720 200 2 1 {name=l8 sig_type=std_logic lab=io_analog[0]}
 C {devices/lab_pin.sym} 4040 160 0 1 {name=l9 sig_type=std_logic lab=io_analog[3]}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/flashADC.sym} 3880 330 0 0 {name=x2}
+C {devices/lab_pin.sym} 3690 280 0 0 {name=l6 sig_type=std_logic lab=vccd1
+}
+C {devices/lab_pin.sym} 3690 300 0 0 {name=l10 sig_type=std_logic lab=vssa1}
+C {devices/lab_pin.sym} 3720 380 2 1 {name=l11 sig_type=std_logic lab=io_analog[9]}
+C {devices/lab_pin.sym} 3720 360 2 1 {name=l12 sig_type=std_logic lab=io_analog[10]}
+C {devices/lab_pin.sym} 3720 340 2 1 {name=l13 sig_type=std_logic lab=io_analog[7]}
+C {devices/lab_pin.sym} 3720 320 2 1 {name=l14 sig_type=std_logic lab=io_analog[8]}
+C {devices/lab_pin.sym} 4040 340 0 1 {name=l15 sig_type=std_logic lab=gpio_analog[10]}
+C {devices/lab_pin.sym} 4040 320 0 1 {name=l16 sig_type=std_logic lab=gpio_analog[9]}
+C {devices/lab_pin.sym} 4040 300 0 1 {name=l17 sig_type=std_logic lab=gpio_analog[8]}
+C {devices/lab_pin.sym} 4040 280 0 1 {name=l18 sig_type=std_logic lab=gpio_analog[7]}
