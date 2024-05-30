@@ -6,8 +6,8 @@ V {}
 S {}
 E {}
 B 2 3025 -2178.75 3825 -1778.75 {flags=graph
-y1=-0.36
-y2=1.44
+y1=0
+y2=1.8
 ypos1=0
 ypos2=2
 divy=5
@@ -366,11 +366,9 @@ unitx=1
 logx=0
 logy=0
 
-color="4 5 6 8 21"
-node="y13
-v13
+color="4 5 21"
+node="v13
 vin
-a13
 q13"}
 B 2 5425 -2978.75 6225 -2578.75 {flags=graph
 y1=-0.056
@@ -631,7 +629,7 @@ color=4
 node=clk
 hilight_wave=0}
 B 2 3041.25 -886.25 3840 -443.75 {flags=graph
-y1=0.49
+y1=0.5
 y2=1.9
 ypos1=0
 ypos2=2
@@ -656,8 +654,8 @@ hilight_wave=0
 color=10
 node=vin}
 B 2 5111.25 -1463.75 5911.25 -1063.75 {flags=graph
-y1=-0.056
-y2=1.9
+y1=0.3352
+y2=2.2912
 ypos1=0
 ypos2=2
 divy=5
@@ -680,6 +678,29 @@ color="4 5 6"
 node="y5
 q5
 out0"}
+B 2 5131.25 -923.75 5931.25 -523.75 {flags=graph
+y1=0.58
+y2=0.61
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=2.4e-07
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+
+color=4
+node=ib}
 N 593.75 -901.25 593.75 -881.25 {
 lab=V2}
 N 593.75 -801.25 593.75 -781.25 {

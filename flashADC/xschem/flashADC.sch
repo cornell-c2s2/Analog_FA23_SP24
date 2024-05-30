@@ -5,10 +5,8 @@ K {}
 V {}
 S {}
 E {}
-N 1113.75 -1960 1143.75 -1960 {
+N 1043.75 -3440 1073.75 -3440 {
 lab=VDD}
-N 940 -1983.75 940 -1943.75 {
-lab=VIN}
 N 1383.75 -2821.25 1383.75 -2801.25 {
 lab=#net1}
 N 1383.75 -2721.25 1383.75 -2701.25 {
@@ -337,15 +335,44 @@ N 2262.5 -3287.5 2262.5 -2515 {
 lab=#net32}
 N 2262.5 -3287.5 2440 -3287.5 {
 lab=#net32}
-N 1185 -1952.5 1215 -1952.5 {
-lab=CLK}
-N 1040 -1985 1040 -1942.5 {
+N 970 -3465 970 -3422.5 {
 lab=GND}
 N 1555 -4518.75 1596.25 -4518.75 {
 lab=IB}
-C {devices/lab_pin.sym} 1143.75 -1960 1 0 {name=p198 sig_type=std_logic lab=VDD}
-C {devices/lab_pin.sym} 940 -1983.75 1 0 {name=p133 sig_type=std_logic lab=VIN}
-C {devices/code.sym} 956.25 -2526.25 0 0 {name=TT_MODELS
+N 1167.5 -3280 1177.5 -3280 {
+lab=VIN}
+N 1177.5 -3280 1187.5 -3280 {
+lab=VIN}
+N 1171.25 -3186.25 1181.25 -3186.25 {
+lab=CLK}
+N 1181.25 -3186.25 1191.25 -3186.25 {
+lab=CLK}
+N 1173.75 -3090 1183.75 -3090 {
+lab=VFS}
+N 1183.75 -3090 1193.75 -3090 {
+lab=VFS}
+N 1173.75 -2991.25 1183.75 -2991.25 {
+lab=VL}
+N 1183.75 -2991.25 1193.75 -2991.25 {
+lab=VL}
+N 2757.5 -3135 2767.5 -3135 {
+lab=OUT3}
+N 2767.5 -3135 2777.5 -3135 {
+lab=OUT3}
+N 2756.25 -3036.25 2766.25 -3036.25 {
+lab=OUT2}
+N 2766.25 -3036.25 2776.25 -3036.25 {
+lab=OUT2}
+N 2756.25 -2956.25 2766.25 -2956.25 {
+lab=OUT1}
+N 2766.25 -2956.25 2776.25 -2956.25 {
+lab=OUT1}
+N 2756.25 -2866.25 2766.25 -2866.25 {
+lab=OUT0}
+N 2766.25 -2866.25 2776.25 -2866.25 {
+lab=OUT0}
+C {devices/lab_pin.sym} 1073.75 -3440 1 0 {name=p198 sig_type=std_logic lab=VDD}
+C {devices/code.sym} 886.25 -4006.25 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval(@value )"
 value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
@@ -353,8 +380,8 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false
 place=header}
-C {devices/vdd.sym} 1113.75 -1960 0 0 {name=l80 lab=VDD}
-C {devices/lab_pin.sym} 1040 -1985 1 0 {name=p164 sig_type=std_logic lab=GND}
+C {devices/vdd.sym} 1043.75 -3440 0 0 {name=l80 lab=VDD}
+C {devices/lab_pin.sym} 970 -3465 1 0 {name=p164 sig_type=std_logic lab=GND}
 C {sky130_fd_pr/res_xhigh_po_5p73.sym} 1383.75 -2671.25 0 0 {name=R1
 L=2.667
 model=res_xhigh_po_5p73
@@ -442,11 +469,6 @@ spiceprefix=X
 mult=8}
 C {/foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sym} 2590 -3467.5 0 0 {name=x1}
 C {devices/gnd.sym} 2440 -3627.5 1 0 {name=l40 lab=GND}
-C {devices/opin.sym} 2740 -3647.5 0 0 {name=p173 lab=OUT3}
-C {devices/opin.sym} 2740 -3627.5 0 0 {name=p158 lab=OUT2}
-C {devices/opin.sym} 2740 -3607.5 0 0 {name=p159 lab=OUT1}
-C {devices/opin.sym} 2740 -3587.5 0 0 {name=p160 lab=OUT0}
-C {devices/ipin.sym} 1383.75 -4301.25 1 0 {name=p1 lab=VFS}
 C {/foss/designs/Analog_FA23_SP24/PTAT/xschem/PTAT_v0p0p0.sym} 1405 -4508.75 0 0 {name=x18}
 C {devices/gnd.sym} 1255 -4498.75 1 0 {name=l138 lab=GND}
 C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/frontAnalog_v0p0p1.sym} 1887.5 -4285 0 0 {name=x2}
@@ -549,13 +571,55 @@ C {devices/lab_pin.sym} 1737.5 -2455 0 0 {name=p68 sig_type=std_logic lab=VIN}
 C {devices/lab_pin.sym} 1737.5 -2515 0 0 {name=p69 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 2440 -3647.5 0 0 {name=p70 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 2440 -3607.5 0 0 {name=p71 sig_type=std_logic lab=VDD}
-C {devices/ipin.sym} 1383.75 -2601.25 3 0 {name=p3 lab=VL}
-C {devices/ipin.sym} 1113.75 -1960 3 0 {name=p72 lab=VDD}
-C {devices/ipin.sym} 1040 -1942.5 3 0 {name=p73 lab=GND}
-C {devices/lab_pin.sym} 1215 -1952.5 2 0 {name=p2 sig_type=std_logic lab=CLK}
-C {devices/ipin.sym} 1185 -1952.5 3 0 {name=p74 lab=CLK}
-C {devices/ipin.sym} 940 -1945 3 0 {name=p75 lab=VIN}
+C {devices/ipin.sym} 1043.75 -3440 3 0 {name=p72 lab=VDD}
+C {devices/ipin.sym} 970 -3422.5 3 0 {name=p73 lab=GND}
 C {devices/lab_pin.sym} 1323.75 -2621.25 3 0 {name=p76 sig_type=std_logic lab=GND}
-C {devices/gnd.sym} 1040 -1962.5 1 0 {name=l2 lab=GND}
+C {devices/gnd.sym} 970 -3442.5 1 0 {name=l2 lab=GND}
 C {sky130_fd_pr/cap_mim_m3_2.sym} 1555 -4488.75 0 0 {name=C1 model=cap_mim_m3_2 W=30 L=30 MF=70 spiceprefix=X}
 C {devices/gnd.sym} 1555 -4458.75 0 0 {name=l18 lab=GND}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 1017.5 -3270 0 0 {name=x19}
+C {devices/ipin.sym} 1187.5 -3280 2 0 {name=p78 lab=VIN}
+C {devices/lab_pin.sym} 1187.5 -3280 3 0 {name=p79 sig_type=std_logic lab=VIN}
+C {devices/lab_pin.sym} 867.5 -3280 0 0 {name=p75 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 867.5 -3260 1 0 {name=l19 lab=GND}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 1021.25 -3176.25 0 0 {name=x20}
+C {devices/ipin.sym} 1191.25 -3186.25 2 0 {name=p77 lab=CLK}
+C {devices/lab_pin.sym} 1191.25 -3186.25 3 0 {name=p80 sig_type=std_logic lab=CLK}
+C {devices/lab_pin.sym} 871.25 -3186.25 0 0 {name=p81 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 871.25 -3166.25 1 0 {name=l20 lab=GND}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 1023.75 -3080 0 0 {name=x21}
+C {devices/ipin.sym} 1193.75 -3090 2 0 {name=p82 lab=VFS}
+C {devices/lab_pin.sym} 1193.75 -3090 3 0 {name=p83 sig_type=std_logic lab=VFS}
+C {devices/lab_pin.sym} 873.75 -3090 0 0 {name=p84 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 873.75 -3070 1 0 {name=l21 lab=GND}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 1023.75 -2981.25 0 0 {name=x22}
+C {devices/ipin.sym} 1193.75 -2991.25 2 0 {name=p85 lab=VL}
+C {devices/lab_pin.sym} 873.75 -2991.25 0 0 {name=p87 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 873.75 -2971.25 1 0 {name=l22 lab=GND}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 2607.5 -3125 0 0 {name=x23}
+C {devices/lab_pin.sym} 2777.5 -3135 3 0 {name=p89 sig_type=std_logic lab=OUT3}
+C {devices/lab_pin.sym} 2457.5 -3135 0 0 {name=p90 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 2457.5 -3115 1 0 {name=l23 lab=GND}
+C {devices/opin.sym} 2777.5 -3135 0 0 {name=p2 lab=OUT3}
+C {devices/lab_pin.sym} 1193.75 -2991.25 3 0 {name=p3 sig_type=std_logic lab=VL}
+C {devices/lab_pin.sym} 1383.75 -2601.25 3 0 {name=p74 sig_type=std_logic lab=VL}
+C {devices/lab_pin.sym} 1383.75 -4301.25 1 0 {name=p1 sig_type=std_logic lab=VFS}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 2606.25 -3026.25 0 0 {name=x24}
+C {devices/lab_pin.sym} 2776.25 -3036.25 3 0 {name=p88 sig_type=std_logic lab=OUT2}
+C {devices/lab_pin.sym} 2456.25 -3036.25 0 0 {name=p91 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 2456.25 -3016.25 1 0 {name=l24 lab=GND}
+C {devices/opin.sym} 2776.25 -3036.25 0 0 {name=p92 lab=OUT2}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 2606.25 -2946.25 0 0 {name=x25}
+C {devices/lab_pin.sym} 2776.25 -2956.25 3 0 {name=p93 sig_type=std_logic lab=OUT1}
+C {devices/lab_pin.sym} 2456.25 -2956.25 0 0 {name=p94 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 2456.25 -2936.25 1 0 {name=l25 lab=GND}
+C {devices/opin.sym} 2776.25 -2956.25 0 0 {name=p95 lab=OUT1}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 2606.25 -2856.25 0 0 {name=x26}
+C {devices/lab_pin.sym} 2776.25 -2866.25 3 0 {name=p96 sig_type=std_logic lab=OUT0}
+C {devices/lab_pin.sym} 2456.25 -2866.25 0 0 {name=p97 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 2456.25 -2846.25 1 0 {name=l26 lab=GND}
+C {devices/opin.sym} 2776.25 -2866.25 0 0 {name=p98 lab=OUT0}
+C {devices/lab_pin.sym} 2740 -3647.5 2 0 {name=p99 sig_type=std_logic lab=OUT3}
+C {devices/lab_pin.sym} 2740 -3627.5 2 0 {name=p100 sig_type=std_logic lab=OUT2}
+C {devices/lab_pin.sym} 2740 -3607.5 2 0 {name=p101 sig_type=std_logic lab=OUT1}
+C {devices/lab_pin.sym} 2740 -3587.5 2 0 {name=p102 sig_type=std_logic lab=OUT0}
