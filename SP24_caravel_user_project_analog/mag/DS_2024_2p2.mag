@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1715484571
+timestamp 1717026683
 << pwell >>
 rect 165900 -47800 178524 -41354
 rect 196300 -42700 196900 -41400
@@ -1688,55 +1688,55 @@ rect 181296 -51298 214896 -50898
 rect 215296 -51298 220896 -50898
 rect 179496 -52298 220896 -51298
 use 1Bit_Clk_ADC  1Bit_Clk_ADC_0
-timestamp 1715484571
+timestamp 1717026683
 transform 1 0 228796 0 1 -26798
 box -22500 -15300 5388 23160
 use 1Bit_DAC  1Bit_DAC_0
-timestamp 1713148681
+timestamp 1716868724
 transform -1 0 222101 0 1 -45318
 box 1490 -2780 7005 210
 use 1Bit_DAC_Inv  1Bit_DAC_Inv_0
-timestamp 1713148681
+timestamp 1716868724
 transform -1 0 188101 0 1 -45318
 box 1490 -2780 7005 210
 use C2S2_Amp_F_I  C2S2_Amp_F_I_0
-timestamp 1713626893
+timestamp 1716868724
 transform 1 0 145104 0 1 -704888
 box 29796 662788 57684 701260
 use C2S2_Amp_F_I  C2S2_Amp_F_I_1
-timestamp 1713626893
+timestamp 1716868724
 transform 1 0 113304 0 1 -704888
 box 29796 662788 57684 701260
 use sky130_fd_pr__cap_mim_m3_1_Z67P85  sky130_fd_pr__cap_mim_m3_1_Z67P85_0
-timestamp 1713142167
+timestamp 1716868724
 transform 1 0 172804 0 1 -33178
 box -5508 -6920 5508 6920
 use sky130_fd_pr__cap_mim_m3_1_Z67P85  sky130_fd_pr__cap_mim_m3_1_Z67P85_1
-timestamp 1713142167
+timestamp 1716868724
 transform 1 0 203004 0 1 -33178
 box -5508 -6920 5508 6920
 use sky130_fd_pr__res_xhigh_po_5p73_UF8E3R  sky130_fd_pr__res_xhigh_po_5p73_UF8E3R_0
-timestamp 1713197847
+timestamp 1716868724
 transform 1 0 175223 0 1 -18188
 box -3223 -6312 3223 6312
 use sky130_fd_pr__res_xhigh_po_5p73_UF8E3R  sky130_fd_pr__res_xhigh_po_5p73_UF8E3R_1
-timestamp 1713197847
+timestamp 1716868724
 transform 1 0 143723 0 1 -18188
 box -3223 -6312 3223 6312
 use sky130_fd_pr__res_xhigh_po_5p73_UF8E3R  sky130_fd_pr__res_xhigh_po_5p73_UF8E3R_2
-timestamp 1713197847
+timestamp 1716868724
 transform 0 -1 172212 1 0 -44577
 box -3223 -6312 3223 6312
 use sky130_fd_pr__res_xhigh_po_5p73_UF8E3R  sky130_fd_pr__res_xhigh_po_5p73_UF8E3R_3
-timestamp 1713197847
+timestamp 1716868724
 transform 0 -1 202612 1 0 -44577
 box -3223 -6312 3223 6312
 use sky130_fd_pr__cap_mim_m3_1_QPPWMY  XC1
-timestamp 1713142167
+timestamp 1716868724
 transform 1 0 139404 0 1 -55212
 box 0 0 1 1
 use sky130_fd_pr__cap_mim_m3_1_QPPWMY  XC3
-timestamp 1713142167
+timestamp 1716868724
 transform 1 0 135892 0 1 -17032
 box 0 0 1 1
 << labels >>

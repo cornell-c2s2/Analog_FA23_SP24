@@ -26,7 +26,7 @@ C {devices/code_shown.sym} 140 70 0 0 {name=s1 only_toplevel=false value=
 .control
 save sig clk out
 
-tran 0.1u 500u
+tran 0.1u 50u
 *ac dec 10 100 100k
 
 write DS_2024_rev2.raw
@@ -60,7 +60,7 @@ C {devices/gnd.sym} 100 -60 0 1 {name=l5 lab=GND}
 C {devices/lab_pin.sym} 400 -120 2 0 {name=p5 sig_type=std_logic lab=OUT
 }
 C {/foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/DS_flat.sym} 250 -120 0 0 {name=x1}
-C {devices/vsource.sym} -80 -170 0 0 {name=V4 value="SIN(0.9 0.2 2k)" savecurrent=false}
+C {devices/vsource.sym} -80 -170 0 0 {name=V4 value="PWL(0 0.4 50US 1.5)" savecurrent=false}
 C {devices/gnd.sym} -80 -80 0 1 {name=l18 lab=GND}
 C {devices/lab_pin.sym} -80 -200 1 0 {name=p3 sig_type=std_logic lab=SIG}
-C {devices/vsource.sym} -80 -110 0 0 {name=V7 value="SIN(0 0.2 10k)" savecurrent=false}
+C {devices/vsource.sym} -80 -110 0 0 {name=V7 value="0" savecurrent=false}

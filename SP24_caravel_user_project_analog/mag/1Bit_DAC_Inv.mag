@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713148681
+timestamp 1716868724
 << viali >>
 rect 1620 100 1660 140
 rect 2060 100 2100 140
@@ -944,35 +944,35 @@ rect 5350 -2305 5430 -2300
 rect 5550 -2305 5630 -2300
 rect 6895 -2305 7005 -2300
 use sky130_fd_pr__nfet_01v8_6H2JYD  sky130_fd_pr__nfet_01v8_6H2JYD_0
-timestamp 1710000826
+timestamp 1716868724
 transform 1 0 1813 0 1 -2040
 box -263 -710 263 710
 use sky130_fd_pr__pfet_01v8_BDZ9JN  sky130_fd_pr__pfet_01v8_BDZ9JN_1
-timestamp 1709390584
+timestamp 1716868724
 transform 1 0 3579 0 1 -581
 box -1079 -719 1079 719
 use sky130_fd_pr__pfet_01v8_UJHYGH  sky130_fd_pr__pfet_01v8_UJHYGH_0
-timestamp 1709401415
+timestamp 1716868724
 transform 1 0 1859 0 1 -581
 box -359 -719 359 719
 use sky130_fd_pr__nfet_01v8_KBNS5F  XM2
-timestamp 1709392794
+timestamp 1716868724
 transform 1 0 4049 0 1 -2040
 box -599 -710 599 710
 use sky130_fd_pr__pfet_01v8_BDZ9JN  XM3
-timestamp 1709390584
+timestamp 1716868724
 transform 1 0 5729 0 1 -581
 box -1079 -719 1079 719
 use sky130_fd_pr__nfet_01v8_KBNS5F  XM4
-timestamp 1709392794
+timestamp 1716868724
 transform 1 0 5249 0 1 -2040
 box -599 -710 599 710
 use sky130_fd_pr__nfet_01v8_J4PS55  XM5
-timestamp 1713148681
+timestamp 1716868724
 transform 1 0 6723 0 1 -2146
 box 0 0 1 1
 use sky130_fd_pr__pfet_01v8_UGNTUG  XM8
-timestamp 1713148681
+timestamp 1716868724
 transform 1 0 6154 0 1 -2084
 box 0 0 1 1
 << labels >>
