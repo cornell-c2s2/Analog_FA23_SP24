@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1717121788
+timestamp 1717123183
 << pwell >>
 rect 165900 -47800 178524 -41354
 rect 196300 -42700 196900 -41400
@@ -1688,7 +1688,7 @@ rect 181296 -51298 214896 -50898
 rect 215296 -51298 220896 -50898
 rect 179496 -52298 220896 -51298
 use 1Bit_Clk_ADC  1Bit_Clk_ADC_0
-timestamp 1717121788
+timestamp 1717123183
 transform 1 0 228796 0 1 -26798
 box -22500 -15300 5388 23160
 use 1Bit_DAC  1Bit_DAC_0
