@@ -1,0 +1,30 @@
+* NGSPICE file created from ESD.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_UXPKRJ a_n621_n5174# a_114_n5088# a_n29_n5000# a_n474_n5088#
++ a_n323_n5000# a_461_n5000# a_167_n5000# a_69_n5000# a_16_5022# a_310_n5088# a_n519_n5000#
++ a_n82_n5088# a_n225_n5000# a_363_n5000# a_408_5022# a_212_5022# a_n376_5022# a_n421_n5000#
++ a_n278_n5088# a_n127_n5000# a_265_n5000# a_n180_5022#
+X0 a_n421_n5000# a_n474_n5088# a_n519_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=7.25 pd=50.3 as=14.5 ps=101 w=50 l=0.2
+X1 a_n225_n5000# a_n278_n5088# a_n323_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=7.25 pd=50.3 as=7.25 ps=50.3 w=50 l=0.2
+X2 a_69_n5000# a_16_5022# a_n29_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=7.25 pd=50.3 as=7.25 ps=50.3 w=50 l=0.2
+X3 a_167_n5000# a_114_n5088# a_69_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=7.25 pd=50.3 as=7.25 ps=50.3 w=50 l=0.2
+X4 a_363_n5000# a_310_n5088# a_265_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=7.25 pd=50.3 as=7.25 ps=50.3 w=50 l=0.2
+X5 a_n29_n5000# a_n82_n5088# a_n127_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=7.25 pd=50.3 as=7.25 ps=50.3 w=50 l=0.2
+X6 a_n323_n5000# a_n376_5022# a_n421_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=7.25 pd=50.3 as=7.25 ps=50.3 w=50 l=0.2
+X7 a_n127_n5000# a_n180_5022# a_n225_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=7.25 pd=50.3 as=7.25 ps=50.3 w=50 l=0.2
+X8 a_265_n5000# a_212_5022# a_167_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=7.25 pd=50.3 as=7.25 ps=50.3 w=50 l=0.2
+X9 a_461_n5000# a_408_5022# a_363_n5000# a_n621_n5174# sky130_fd_pr__nfet_01v8 ad=14.5 pd=101 as=7.25 ps=50.3 w=50 l=0.2
+.ends
+
+.subckt diode_connected_nmos m1_60_4610# m1_120_80# VSUBS
+Xsky130_fd_pr__nfet_01v8_UXPKRJ_0 VSUBS m1_120_80# m1_120_80# m1_120_80# m1_60_4610#
++ m1_60_4610# m1_120_80# m1_60_4610# m1_120_80# m1_120_80# m1_60_4610# m1_120_80#
++ m1_120_80# m1_120_80# m1_120_80# m1_120_80# m1_120_80# m1_120_80# m1_120_80# m1_60_4610#
++ m1_60_4610# m1_120_80# sky130_fd_pr__nfet_01v8_UXPKRJ
+.ends
+
+.subckt ESD VSS VIO VDD
+Xdiode_connected_nmos_0 VIO VSS VSS diode_connected_nmos
+Xdiode_connected_nmos_1 VDD VIO VSS diode_connected_nmos
+.ends
+
