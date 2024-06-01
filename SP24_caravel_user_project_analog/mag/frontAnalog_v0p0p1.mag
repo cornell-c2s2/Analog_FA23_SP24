@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1717123183
+timestamp 1717179484
 << nwell >>
 rect 5120 4210 5470 4700
 rect 5120 2070 5480 2690
@@ -208,15 +208,15 @@ timestamp 1716869746
 transform 0 1 4324 -1 0 5162
 box -330 -3260 4030 800
 use RSfetsym  RSfetsym_0 /foss/designs/Analog_FA23_SP24/RSlatch/magic
-timestamp 1717123183
+timestamp 1717179484
 transform 0 -1 6750 -1 0 4830
 box -350 -3040 3210 290
 use sky130_fd_sc_hd__buf_1  x63 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 5160 0 -1 2948
 box -38 -48 314 592
 use sky130_fd_sc_hd__buf_1  x65
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 5160 0 1 3924
 box -38 -48 314 592
 << labels >>

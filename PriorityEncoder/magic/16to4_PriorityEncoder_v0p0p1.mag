@@ -1,19 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1717026683
-<< error_p >>
-rect 8350 -1226 8510 -1220
-rect 8350 -1374 8356 -1226
-rect 8504 -1374 8510 -1226
-rect 8680 -1270 8730 -1266
-rect 10650 -1310 10690 -1270
-rect 8350 -1380 8510 -1374
-rect 10650 -1400 10690 -1360
-rect 8350 -1676 8510 -1670
-rect 8350 -1824 8356 -1676
-rect 8504 -1824 8510 -1676
-rect 8350 -1830 8510 -1824
+timestamp 1717179484
 << nwell >>
 rect 12570 -540 13530 350
 rect 8560 -1270 16750 -540
@@ -2312,139 +2300,139 @@ rect 19280 -12970 19310 -12400
 rect 7160 -13000 19310 -12970
 rect 7160 -15300 8400 -13000
 use sky130_fd_sc_hd__or2_1  x1 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 10708 0 1 -10162
 box -38 -48 498 592
 use sky130_fd_sc_hd__or2_1  x2
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 10708 0 1 -13812
 box -38 -48 498 592
 use 8to3_Priority_Encoder_v0p2p0  x3
-timestamp 1716869746
+timestamp 1717179484
 transform 1 0 4960 0 1 -8740
 box -3910 -7130 3570 700
 use sky130_fd_sc_hd__inv_16  x4 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 12288 0 1 -1522
 box -38 -48 1510 592
 use 8to3_Priority_Encoder_v0p2p0  x5
-timestamp 1716869746
+timestamp 1717179484
 transform 1 0 4960 0 1 -700
 box -3910 -7130 3570 700
 use sky130_fd_sc_hd__inv_16  x6
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 10816 0 1 -1522
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_1  x7 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 8658 0 -1 -1598
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_16  x8
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 13760 0 1 -1522
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x9
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 15232 0 1 -1522
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x10
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 13376 0 1 -6022
 box -38 -48 1510 592
 use sky130_fd_sc_hd__or2_1  x11
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 10708 0 1 -6022
 box -38 -48 498 592
 use sky130_fd_sc_hd__inv_16  x12
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 14848 0 1 -6022
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x13
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 16320 0 1 -6022
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x14
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 17792 0 1 -6022
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x15
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 13376 0 1 -10162
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x16
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 14848 0 1 -10162
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x17
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 16320 0 1 -10162
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x18
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 17792 0 1 -10162
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x19
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 13376 0 1 -13812
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_1  x20
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 11168 0 1 -13812
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_4  x21 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 11444 0 1 -13812
 box -38 -48 498 592
 use sky130_fd_sc_hd__inv_16  x22
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 11904 0 1 -13812
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x23
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 14848 0 1 -13812
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x24
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 16320 0 1 -13812
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_16  x25
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 17792 0 1 -13812
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_1  x27
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 11168 0 1 -10162
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_4  x28
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 11444 0 1 -10162
 box -38 -48 498 592
 use sky130_fd_sc_hd__inv_16  x29
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 11904 0 1 -10162
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_1  x34
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 11168 0 1 -6022
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_4  x35
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 11444 0 1 -6022
 box -38 -48 498 592
 use sky130_fd_sc_hd__inv_16  x36
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 11904 0 1 -6022
 box -38 -48 1510 592
 use sky130_fd_sc_hd__inv_1  x41
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 8608 0 1 -1522
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_4  x42
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 8884 0 1 -1522
 box -38 -48 498 592
 use sky130_fd_sc_hd__inv_16  x43
-timestamp 1716869746
+timestamp 1701704242
 transform 1 0 9344 0 1 -1522
 box -38 -48 1510 592
 << labels >>
