@@ -26,9 +26,9 @@ lab=io_analog[0]}
 N 4030 160 4040 160 {
 lab=io_analog[3]}
 N 3690 280 3730 280 {
-lab=vccd1}
+lab=vccd2}
 N 3690 300 3730 300 {
-lab=vssa1}
+lab=vssa2}
 N 3720 380 3730 380 {
 lab=io_analog[9]}
 N 3720 360 3730 360 {
@@ -88,9 +88,9 @@ C {devices/lab_pin.sym} 3720 180 2 1 {name=l7 sig_type=std_logic lab=io_analog[2
 C {devices/lab_pin.sym} 3720 200 2 1 {name=l8 sig_type=std_logic lab=io_analog[0]}
 C {devices/lab_pin.sym} 4040 160 0 1 {name=l9 sig_type=std_logic lab=io_analog[3]}
 C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/flashADC.sym} 3880 330 0 0 {name=x2}
-C {devices/lab_pin.sym} 3690 280 0 0 {name=l6 sig_type=std_logic lab=vccd1
+C {devices/lab_pin.sym} 3690 280 0 0 {name=l6 sig_type=std_logic lab=vccd2
 }
-C {devices/lab_pin.sym} 3690 300 0 0 {name=l10 sig_type=std_logic lab=vssa1}
+C {devices/lab_pin.sym} 3690 300 0 0 {name=l10 sig_type=std_logic lab=vssa2}
 C {devices/lab_pin.sym} 3720 380 2 1 {name=l11 sig_type=std_logic lab=io_analog[9]}
 C {devices/lab_pin.sym} 3720 360 2 1 {name=l12 sig_type=std_logic lab=io_analog[10]}
 C {devices/lab_pin.sym} 3720 340 2 1 {name=l13 sig_type=std_logic lab=io_analog[7]}
@@ -99,3 +99,29 @@ C {devices/lab_pin.sym} 4040 340 0 1 {name=l15 sig_type=std_logic lab=gpio_analo
 C {devices/lab_pin.sym} 4040 320 0 1 {name=l16 sig_type=std_logic lab=gpio_analog[9]}
 C {devices/lab_pin.sym} 4040 300 0 1 {name=l17 sig_type=std_logic lab=gpio_analog[8]}
 C {devices/lab_pin.sym} 4040 280 0 1 {name=l18 sig_type=std_logic lab=gpio_analog[7]}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 2607.5 -3125 0 0 {name=x3}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 3877.5 -75 0 0 {name=x4}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 3877.5 -125 0 0 {name=x5}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 3877.5 -175 0 0 {name=x6}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 3877.5 -225 0 0 {name=x7}
+C {/foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sym} 3877.5 -275 0 0 {name=x8}
+C {devices/lab_pin.sym} 4027.5 -285 2 0 {name=l19 sig_type=std_logic lab=io_analog[5]}
+C {devices/lab_pin.sym} 4027.5 -235 2 0 {name=l20 sig_type=std_logic lab=io_analog[4]}
+C {devices/lab_pin.sym} 4027.5 -185 2 0 {name=l21 sig_type=std_logic lab=io_analog[1]}
+C {devices/lab_pin.sym} 4027.5 -135 0 1 {name=l22 sig_type=std_logic lab=io_analog[2]}
+C {devices/lab_pin.sym} 4027.5 -85 0 1 {name=l23 sig_type=std_logic lab=io_analog[0]}
+C {devices/lab_pin.sym} 3727.5 -285 0 0 {name=l24 sig_type=std_logic lab=vccd1
+}
+C {devices/lab_pin.sym} 3727.5 -265 0 0 {name=l25 sig_type=std_logic lab=vssa1}
+C {devices/lab_pin.sym} 3727.5 -235 0 0 {name=l26 sig_type=std_logic lab=vccd1
+}
+C {devices/lab_pin.sym} 3727.5 -215 0 0 {name=l27 sig_type=std_logic lab=vssa1}
+C {devices/lab_pin.sym} 3727.5 -185 0 0 {name=l28 sig_type=std_logic lab=vccd1
+}
+C {devices/lab_pin.sym} 3727.5 -165 0 0 {name=l29 sig_type=std_logic lab=vssa1}
+C {devices/lab_pin.sym} 3727.5 -135 0 0 {name=l30 sig_type=std_logic lab=vccd1
+}
+C {devices/lab_pin.sym} 3727.5 -115 0 0 {name=l31 sig_type=std_logic lab=vssa1}
+C {devices/lab_pin.sym} 3727.5 -85 0 0 {name=l32 sig_type=std_logic lab=vccd1
+}
+C {devices/lab_pin.sym} 3727.5 -65 0 0 {name=l33 sig_type=std_logic lab=vssa1}
