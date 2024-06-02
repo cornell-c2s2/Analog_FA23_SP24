@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1717179484
+timestamp 1717282423
 << nwell >>
 rect 747 -340 4700 68
 rect 1250 -1394 5200 -952
@@ -566,47 +566,47 @@ timestamp 1716868724
 transform 1 0 -52296 0 1 -678100
 box 29796 662800 57684 701260
 use sky130_fd_sc_hd__nand2_4  sky130_fd_sc_hd__nand2_4_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1701704242
+timestamp 1716868724
 transform 1 0 3430 0 -1 -683
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x3
-timestamp 1701704242
+timestamp 1716868724
 transform -1 0 2974 0 1 -592
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x4
-timestamp 1701704242
+timestamp 1716868724
 transform 1 0 2142 0 -1 -683
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x5
-timestamp 1701704242
+timestamp 1716868724
 transform -1 0 2146 0 1 -592
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x6
-timestamp 1701704242
+timestamp 1716868724
 transform 1 0 1314 0 -1 -683
 box -38 -48 866 592
 use sky130_fd_sc_hd__inv_4  x8 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1701704242
+timestamp 1716869746
 transform 1 0 858 0 1 -592
 box -38 -48 498 592
 use sky130_fd_sc_hd__nand2_4  x9
-timestamp 1701704242
+timestamp 1716868724
 transform 1 0 3802 0 1 -592
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x10
-timestamp 1701704242
+timestamp 1716868724
 transform 1 0 4258 0 -1 -683
 box -38 -48 866 592
 use sky130_fd_sc_hd__nand2_4  x11
-timestamp 1701704242
+timestamp 1716868724
 transform 1 0 2974 0 1 -592
 box -38 -48 866 592
 use sky130_fd_sc_hd__inv_4  x13
-timestamp 1701704242
+timestamp 1716869746
 transform 1 0 2970 0 -1 -683
 box -38 -48 498 592
 use sky130_fd_sc_hd__clkinv_1  x14 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1701704242
+timestamp 1716868724
 transform 1 0 1038 0 -1 -683
 box -38 -48 314 592
 << labels >>
