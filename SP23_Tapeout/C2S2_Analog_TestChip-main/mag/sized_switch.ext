@@ -1,0 +1,156 @@
+timestamp 1683929354
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__nfet_01v8_KBNS5F sky130_fd_pr__nfet_01v8_KBNS5F_0 1 0 3809 0 1 -270
+use sky130_fd_pr__pfet_01v8_BDZ9JN XM1 1 0 2049 0 1 -271
+node "m1_3210_n860#" 9 -2578.35 3210 -860 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 268800 8960 0 0 0 0 0 0 0 0 0 0
+node "m1_1190_n720#" 11 -2145.72 1190 -720 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 252000 8700 894972 7592 0 0 0 0 0 0 0 0
+node "m1_1100_n50#" 11 1800.77 1100 -50 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 252000 8700 893572 7544 0 0 0 0 0 0 0 0
+node "m1_970_n860#" 13 -13845.7 970 -860 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 382320 12744 0 0 0 0 0 0 0 0 0 0
+node "li_1200_n1070#" 312 1594.08 1200 -1070 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 67200 2640 57408 2352 48000 2160 230400 4080 0 0 0 0 0 0
+node "w_2760_n990#" 5700 7.2 2760 -990 nw 0 0 0 0 2400 280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_2440_n990#" 5700 7.2 2440 -990 nw 0 0 0 0 2400 280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_2120_n990#" 5700 7.2 2120 -990 nw 0 0 0 0 2400 280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_1820_n990#" 5700 7.2 1820 -990 nw 0 0 0 0 2400 280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_1500_n990#" 5700 7.2 1500 -990 nw 0 0 0 0 2400 280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_970_n860#" "li_1200_n1070#" 736.129
+cap "m1_1190_n720#" "m1_970_n860#" 9843.76
+cap "m1_970_n860#" "w_1820_n990#" 2.97162
+cap "w_2440_n990#" "li_1200_n1070#" 2.6489
+cap "m1_3210_n860#" "m1_1100_n50#" 1767.31
+cap "m1_1190_n720#" "w_2440_n990#" 1.61441
+cap "m1_970_n860#" "m1_1100_n50#" 5878.96
+cap "m1_3210_n860#" "m1_970_n860#" 316.585
+cap "m1_970_n860#" "w_2120_n990#" 3.31336
+cap "w_2760_n990#" "li_1200_n1070#" 2.50221
+cap "m1_1190_n720#" "w_2760_n990#" 1.54227
+cap "w_1500_n990#" "li_1200_n1070#" 2.6489
+cap "m1_1190_n720#" "w_1500_n990#" 1.18158
+cap "m1_970_n860#" "w_2440_n990#" 3.6551
+cap "m1_1190_n720#" "li_1200_n1070#" 469.091
+cap "w_1820_n990#" "li_1200_n1070#" 2.65833
+cap "m1_1190_n720#" "w_1820_n990#" 1.32585
+cap "m1_970_n860#" "w_2760_n990#" 3.48423
+cap "li_1200_n1070#" "m1_1100_n50#" 13.8204
+cap "m1_970_n860#" "w_1500_n990#" 2.62988
+cap "w_2120_n990#" "li_1200_n1070#" 2.65833
+cap "m1_1190_n720#" "m1_1100_n50#" 373.532
+cap "m1_1190_n720#" "m1_3210_n860#" 2227.31
+cap "m1_1190_n720#" "w_2120_n990#" 1.47013
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "XM1/w_n1079_n719#" 529.094
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "XM1/a_n801_531#" 710.288
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" 1804.42
+cap "XM1/w_n1079_n719#" "XM1/a_n801_531#" 3163.61
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" "XM1/w_n1079_n719#" 13.5709
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" "XM1/a_n801_531#" 1347.11
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" 489.644
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "XM1/a_n801_531#" 800.235
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" 161.612
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" "XM1/w_n1079_n719#" 33.5373
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" "XM1/a_n801_531#" 386.145
+cap "XM1/a_n801_531#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" 1.81074
+cap "XM1/a_n801_531#" "XM1/w_n1079_n719#" 1370.56
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" 1572.17
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" 37.8615
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "XM1/w_n1079_n719#" 130.41
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" -15.5689
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" "XM1/w_n1079_n719#" 37.4765
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" "XM1/a_n801_531#" 3.70133
+cap "XM1/w_n1079_n719#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" 185.495
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" 186.058
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" 290.424
+cap "w_2120_n990#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" 0.0284123
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" 735.235
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" 611.629
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" 3.87168
+cap "XM1/a_159_531#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" 0.779076
+cap "XM1/a_159_531#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" 0.0631785
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" 139.125
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" -29.6725
+cap "w_2120_n990#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" 2.40297
+cap "XM1/w_n1079_n719#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" 0.278367
+cap "XM1/w_n1079_n719#" "XM1/a_n801_531#" 82.5703
+cap "XM1/w_n1079_n719#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" 1.73144
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" "XM1/a_n801_531#" 0.37239
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "XM1/a_n801_531#" 0.779253
+cap "XM1/w_n1079_n719#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" 0.173075
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" 1.78455
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" 31.5066
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" 0.282652
+cap "XM1/w_n1079_n719#" "XM1/a_n801_531#" 54.5303
+cap "XM1/w_n1079_n719#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" 19.5814
+cap "XM1/w_n1079_n719#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" 1.12069
+cap "XM1/w_n1079_n719#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" 0.374014
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" 1.55763
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" 0.239798
+cap "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" 39.683
+merge "XM1/a_831_n597#" "XM1/a_639_n597#" -5215.42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50692 -3952 0 0 0 0 0 0 0 0 0 0
+merge "XM1/a_639_n597#" "XM1/a_447_n597#"
+merge "XM1/a_447_n597#" "XM1/a_255_n597#"
+merge "XM1/a_255_n597#" "XM1/a_63_n597#"
+merge "XM1/a_63_n597#" "XM1/a_n129_n597#"
+merge "XM1/a_n129_n597#" "XM1/a_n321_n597#"
+merge "XM1/a_n321_n597#" "XM1/a_n513_n597#"
+merge "XM1/a_n513_n597#" "XM1/a_n705_n597#"
+merge "XM1/a_n705_n597#" "XM1/a_n897_n597#"
+merge "XM1/a_n897_n597#" "XM1/a_735_531#"
+merge "XM1/a_735_531#" "XM1/a_543_531#"
+merge "XM1/a_543_531#" "XM1/a_351_531#"
+merge "XM1/a_351_531#" "XM1/a_159_531#"
+merge "XM1/a_159_531#" "XM1/a_n33_531#"
+merge "XM1/a_n33_531#" "XM1/a_n225_531#"
+merge "XM1/a_n225_531#" "XM1/a_n417_531#"
+merge "XM1/a_n417_531#" "XM1/a_n609_531#"
+merge "XM1/a_n609_531#" "XM1/a_n801_531#"
+merge "XM1/a_n801_531#" "m1_970_n860#"
+merge "XM1/VSUBS" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n563_n674#" "VSUBS"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_303_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_111_n500#" -1365.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -144900 -7680 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_111_n500#" "XM1/a_783_n500#"
+merge "XM1/a_783_n500#" "XM1/a_591_n500#"
+merge "XM1/a_591_n500#" "XM1/a_399_n500#"
+merge "XM1/a_399_n500#" "XM1/a_207_n500#"
+merge "XM1/a_207_n500#" "XM1/a_15_n500#"
+merge "XM1/a_15_n500#" "XM1/a_n177_n500#"
+merge "XM1/a_n177_n500#" "XM1/a_n369_n500#"
+merge "XM1/a_n369_n500#" "XM1/a_n561_n500#"
+merge "XM1/a_n561_n500#" "XM1/a_n753_n500#"
+merge "XM1/a_n753_n500#" "XM1/a_n941_n500#"
+merge "XM1/a_n941_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n81_n500#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n81_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n273_n500#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n273_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n461_n500#" "m1_1100_n50#"
+merge "XM1/w_n1079_n719#" "li_1200_n1070#" -890.793 0 0 0 0 -12000 -1400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11520 -1248 0 0 0 0 0 0 0 0 0 0 0 0
+merge "li_1200_n1070#" "w_2760_n990#"
+merge "w_2760_n990#" "w_2440_n990#"
+merge "w_2440_n990#" "w_2120_n990#"
+merge "w_2120_n990#" "w_1820_n990#"
+merge "w_1820_n990#" "w_1500_n990#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_399_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_207_n500#" -1919.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -144900 -7680 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_207_n500#" "XM1/a_879_n500#"
+merge "XM1/a_879_n500#" "XM1/a_687_n500#"
+merge "XM1/a_687_n500#" "XM1/a_495_n500#"
+merge "XM1/a_495_n500#" "XM1/a_303_n500#"
+merge "XM1/a_303_n500#" "XM1/a_111_n500#"
+merge "XM1/a_111_n500#" "XM1/a_n81_n500#"
+merge "XM1/a_n81_n500#" "XM1/a_n273_n500#"
+merge "XM1/a_n273_n500#" "XM1/a_n465_n500#"
+merge "XM1/a_n465_n500#" "XM1/a_n657_n500#"
+merge "XM1/a_n657_n500#" "XM1/a_n849_n500#"
+merge "XM1/a_n849_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_15_n500#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_15_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n177_n500#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n177_n500#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n369_n500#" "m1_1190_n720#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_351_n588#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_159_n588#" -895.279 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24012 -1872 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_159_n588#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_255_522#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_255_522#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n33_n588#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n33_n588#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n225_n588#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n225_n588#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n417_n588#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n417_n588#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_63_522#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_63_522#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n129_522#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n129_522#" "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#"
+merge "sky130_fd_pr__nfet_01v8_KBNS5F_0/a_n321_522#" "m1_3210_n860#"

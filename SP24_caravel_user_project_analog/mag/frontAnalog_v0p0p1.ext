@@ -1,0 +1,322 @@
+timestamp 1717288695
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_sc_hd__buf_1 x65 1 0 5160 0 1 3924
+use sky130_fd_sc_hd__buf_1 x63 1 0 5160 0 -1 2948
+use RSfetsym RSfetsym_0 0 -1 6750 -1 0 4830
+use class_AB_v3_sym class_AB_v3_sym_0 0 1 4324 -1 0 5162
+port "VN" 2 3770 1130 3970 1330 m1
+port "Q" 6 8020 1620 8220 1820 m1
+port "GND" 1 1120 2780 1320 2980 m1
+port "CLK" 5 5100 3340 5300 3540 m1
+port "IB" 4 1650 4790 1850 4990 m1
+port "VIN" 3 3640 5290 3840 5490 m1
+port "VDD" 0 5160 4770 5360 4970 m1
+node "m4_3170_1590#" 2 3966.2 3170 1590 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2475100 20160 0 0 0 0
+node "m3_9260_2790#" 0 185.672 9260 2790 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43700 840 0 0 0 0 0 0
+node "VN" 0 188.06 3770 1130 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40000 800 0 0 0 0 0 0 0 0 0 0
+node "Q" 0 183.568 8020 1620 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40000 800 0 0 0 0 0 0 0 0 0 0
+node "GND" 0 188.06 1120 2780 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40000 800 0 0 0 0 0 0 0 0 0 0
+node "CLK" 0 237.754 5100 3340 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40000 800 0 0 0 0 0 0 0 0 0 0
+node "IB" 0 188.06 1650 4790 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40000 800 0 0 0 0 0 0 0 0 0 0
+node "VIN" 0 188.06 3640 5290 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40000 800 0 0 0 0 0 0 0 0 0 0
+node "li_5390_2720#" 18 1192.08 5390 2720 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2000 180 387384 5264 0 0 0 0 0 0 0 0 0 0
+node "li_5182_2686#" 13 131.962 5182 2686 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2500 200 16924 604 0 0 0 0 0 0 0 0 0 0
+node "li_5390_4150#" 15 1225.48 5390 4150 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1600 160 391904 5284 0 0 0 0 0 0 0 0 0 0
+node "li_5182_4136#" 16 121.757 5182 4136 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3000 220 14824 564 0 0 0 0 0 0 0 0 0 0
+node "w_5120_2070#" 1770 3623.71 5120 2070 nw 0 0 0 0 223200 1960 0 0 25600 640 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25600 640 770928 3700 81872 1164 82992 1184 120992 1404 1272000 5860 0 0
+node "VDD" 1566 3573.07 5160 4770 m1 0 0 0 0 171500 1680 0 0 29900 720 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29900 720 560592 3572 137700 1560 137800 1580 129024 1528 1027200 5800 0 0
+substrate "a_5120_3050#" 0 0 5120 3050 ppd 0 0 0 0 0 0 0 0 0 0 88100 1840 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 88100 1840 191800 2640 81200 1720 89600 1760 422400 5920 0 0 0 0
+cap "li_5390_4150#" "VDD" 249.318
+cap "VDD" "CLK" 2.25477
+cap "li_5390_2720#" "li_5182_2686#" 17.5018
+cap "li_5182_2686#" "m4_3170_1590#" 0.916172
+cap "li_5182_4136#" "li_5182_2686#" 1.79285
+cap "li_5390_2720#" "li_5390_4150#" 7.1773
+cap "li_5390_2720#" "w_5120_2070#" 259.197
+cap "li_5182_4136#" "li_5390_4150#" 19.1326
+cap "w_5120_2070#" "m4_3170_1590#" 1028.94
+cap "li_5182_4136#" "CLK" 2.07547
+cap "m3_9260_2790#" "m4_3170_1590#" 11.1373
+cap "li_5182_4136#" "VDD" 42.9486
+cap "Q" "li_5390_2720#" 3.92857
+cap "Q" "m4_3170_1590#" 39.5676
+cap "li_5390_2720#" "m4_3170_1590#" 119.133
+cap "VN" "m4_3170_1590#" 9.23828
+cap "li_5182_2686#" "w_5120_2070#" 43.6939
+cap "w_5120_2070#" "CLK" 2.77551
+cap "class_AB_v3_sym_0/VIN" "class_AB_v3_sym_0/CLK" 0.0122581
+cap "class_AB_v3_sym_0/CLK" "x65/VGND" 18.2229
+cap "class_AB_v3_sym_0/w_1880_n1260#" "x65/VGND" 1.59592
+cap "class_AB_v3_sym_0/CLK" "class_AB_v3_sym_0/XM11/a_15_n131#" 2.84217e-14
+cap "class_AB_v3_sym_0/VIN" "x63/VPWR" 0.726561
+cap "x65/VGND" "x63/VPWR" 27.3899
+cap "class_AB_v3_sym_0/VIN" "class_AB_v3_sym_0/XM6/a_n35_n497#" 0.0375347
+cap "class_AB_v3_sym_0/XM6/a_n35_n497#" "x65/VGND" 8.60625
+cap "class_AB_v3_sym_0/XM11/a_15_n131#" "x63/VPWR" 3.53838
+cap "x63/A" "x65/VGND" 2.10436
+cap "class_AB_v3_sym_0/CLK" "x63/VPWR" 0.44865
+cap "class_AB_v3_sym_0/VIN" "x65/VGND" 17.1927
+cap "class_AB_v3_sym_0/VIN" "class_AB_v3_sym_0/XM11/a_15_n131#" -3.55271e-15
+cap "x65/VGND" "class_AB_v3_sym_0/XM11/a_15_n131#" 0.0272318
+cap "class_AB_v3_sym_0/XM6/a_n35_n497#" "x63/VPWR" 0.0474639
+cap "class_AB_v3_sym_0/CLK" "class_AB_v3_sym_0/VIN" 0.00282239
+cap "x63/a_27_47#" "x65/VGND" 3.64421
+cap "x63/X" "x65/VGND" 1.49592
+cap "x63/VPWR" "x63/A" 84.6809
+cap "x63/VPWR" "x65/A" 0.0746559
+cap "x63/VPWR" "class_AB_v3_sym_0/CLK" 37.9826
+cap "class_AB_v3_sym_0/w_1880_n1260#" "x65/VGND" 2.67293
+cap "class_AB_v3_sym_0/CLK" "x63/a_27_47#" 0.422195
+cap "class_AB_v3_sym_0/CLK" "x63/X" 0.284463
+cap "x63/VPWR" "class_AB_v3_sym_0/VOP" 4.39631
+cap "x63/VPWR" "RSfetsym_0/VDD" 1.5775
+cap "x63/VPWR" "class_AB_v3_sym_0/VIN" 40.4566
+cap "x63/A" "x65/VGND" 8.57275
+cap "class_AB_v3_sym_0/CLK" "x65/VGND" 29.9455
+cap "x63/VPWR" "x63/a_27_47#" 1.32627
+cap "x63/VPWR" "x63/X" 2.35439
+cap "class_AB_v3_sym_0/CLK" "x63/A" 0.549571
+cap "x63/VPWR" "class_AB_v3_sym_0/XM6/a_n35_n497#" 4.94705
+cap "x63/VPWR" "RSfetsym_0/m3_2150_n210#" 2.19278
+cap "class_AB_v3_sym_0/VIN" "x65/VGND" 11.886
+cap "x63/VPWR" "x65/VGND" 194.317
+cap "x63/VPWR" "x65/a_27_47#" 0.15624
+cap "x63/VPWR" "class_AB_v3_sym_0/XM11/a_15_n131#" 5.82456
+cap "x65/A" "x63/VPWR" 0.00823495
+cap "x63/VPWR" "x65/VGND" -8.26893
+cap "RSfetsym_0/m3_2150_n210#" "x63/X" 13.2011
+cap "x63/VPWR" "x65/X" 0.186888
+cap "x63/X" "RSfetsym_0/w_2480_n930#" 21.313
+cap "x63/a_27_47#" "x63/VPWR" 8.7518
+cap "x63/X" "x63/A" 0.363566
+cap "RSfetsym_0/m3_2150_n210#" "x63/A" 0.199451
+cap "RSfetsym_0/m3_2150_n210#" "m4_3170_1590#" 3.81133
+cap "m4_3170_1590#" "x63/X" 1.6496
+cap "x63/A" "RSfetsym_0/w_2480_n930#" 0.0668039
+cap "m4_3170_1590#" "RSfetsym_0/w_2480_n930#" 3.92985
+cap "m4_3170_1590#" "x63/A" 0.0506925
+cap "class_AB_v3_sym_0/CLK" "x63/VPWR" 5.55112e-17
+cap "x63/X" "x63/VPWR" 14.1535
+cap "x63/a_27_47#" "x63/X" 1.25532
+cap "x63/VPWR" "x65/a_27_47#" 0.0828909
+cap "RSfetsym_0/m3_2150_n210#" "x63/VPWR" 45.5605
+cap "RSfetsym_0/m3_2150_n210#" "x63/a_27_47#" 0.394692
+cap "m4_3170_1590#" "x65/VGND" 0.354745
+cap "x63/VPWR" "RSfetsym_0/w_2480_n930#" 21.6676
+cap "x63/a_27_47#" "RSfetsym_0/w_2480_n930#" 0.284819
+cap "x63/VPWR" "x63/A" 1.21033
+cap "m4_3170_1590#" "x63/VPWR" 35.575
+cap "m4_3170_1590#" "x63/a_27_47#" 1.60463
+cap "m4_3170_1590#" "RSfetsym_0/XM3/a_15_n100#" 0.614161
+cap "m4_3170_1590#" "x63/X" 294.801
+cap "RSfetsym_0/w_2480_n930#" "m4_3170_1590#" 48.1261
+cap "m4_3170_1590#" "RSfetsym_0/XM6/a_n33_n297#" 2.58041
+cap "RSfetsym_0/Q" "RSfetsym_0/VDD" 2.42325
+cap "RSfetsym_0/Q" "x63/X" -3.92857
+cap "RSfetsym_0/m3_2150_n210#" "RSfetsym_0/VDD" 11.9602
+cap "RSfetsym_0/Q" "m4_3170_1590#" 32.1839
+cap "m4_3170_1590#" "x65/VGND" 32.9643
+cap "RSfetsym_0/m3_2150_n210#" "x63/X" 9.96638
+cap "m4_3170_1590#" "RSfetsym_0/x2/Y" 0.194635
+cap "x63/VPWR" "x63/X" 1.34475
+cap "x63/VPWR" "RSfetsym_0/w_2480_n930#" 0.298956
+cap "x63/X" "RSfetsym_0/VDD" 60.9454
+cap "m4_3170_1590#" "RSfetsym_0/m3_2150_n210#" 5.53016
+cap "RSfetsym_0/w_2480_n930#" "RSfetsym_0/VDD" 8.27689
+cap "RSfetsym_0/Q" "x65/VGND" -1.78734
+cap "m4_3170_1590#" "RSfetsym_0/VDD" 58.9353
+cap "RSfetsym_0/w_2480_n930#" "x63/X" 17.1209
+cap "RSfetsym_0/GND" "RSfetsym_0/x2/A" 0.28476
+cap "RSfetsym_0/GND" "RSfetsym_0/x1/Y" 0.123752
+cap "RSfetsym_0/GND" "RSfetsym_0/R" 41.5511
+cap "RSfetsym_0/GND" "RSfetsym_0/VDD" 11.0247
+cap "RSfetsym_0/x2/Y" "RSfetsym_0/GND" 9.36507
+cap "RSfetsym_0/Q" "RSfetsym_0/GND" 82.2666
+cap "RSfetsym_0/x1/A" "RSfetsym_0/GND" 0.724813
+cap "RSfetsym_0/Q" "RSfetsym_0/GND" 0.0667489
+cap "RSfetsym_0/x1/VPB" "RSfetsym_0/GND" 11.695
+cap "class_AB_v3_sym_0/XM13/a_n118_109#" "class_AB_v3_sym_0/VSS" -2.27374e-13
+cap "x63/a_27_47#" "x65/A" 0.0281826
+cap "x65/VPWR" "x65/A" 7.10543e-15
+cap "class_AB_v3_sym_0/VIP" "x63/A" 7.10543e-15
+cap "class_AB_v3_sym_0/VIN" "x63/a_27_47#" 0.0187968
+cap "class_AB_v3_sym_0/w_1258_n1260#" "x65/VGND" 0.0191772
+cap "x65/A" "x65/VGND" 2.70021
+cap "class_AB_v3_sym_0/VIN" "x65/VGND" 2.11803
+cap "x63/A" "x65/VPWR" 0.0264886
+cap "x63/A" "x65/A" 0.0150874
+cap "x65/A" "x63/X" 0.00633114
+cap "class_AB_v3_sym_0/w_1880_n1260#" "x65/VGND" 0.0241788
+cap "class_AB_v3_sym_0/VIN" "x63/A" 0.00977955
+cap "x63/A" "x65/VGND" 0.00111264
+cap "class_AB_v3_sym_0/VIP" "x65/VGND" 0.750565
+cap "class_AB_v3_sym_0/CLK" "x63/A" 4.16835
+cap "x65/VPWR" "x63/A" 51.4194
+cap "x65/VPWR" "x65/VGND" 103.507
+cap "x65/VGND" "class_AB_v3_sym_0/CLK" 315.585
+cap "x65/VGND" "class_AB_v3_sym_0/w_1258_n1260#" 0.125481
+cap "x63/X" "class_AB_v3_sym_0/CLK" 1.10778
+cap "x65/VPWR" "x63/X" 0.755535
+cap "x65/VGND" "class_AB_v3_sym_0/XM11/a_15_n131#" 0.00506551
+cap "x65/VPWR" "x65/A" -5.68434e-14
+cap "class_AB_v3_sym_0/CLK" "x65/A" 1.52252
+cap "x65/VGND" "class_AB_v3_sym_0/VIP" 0.0881727
+cap "class_AB_v3_sym_0/CLK" "x63/a_27_47#" 1.60071
+cap "x65/VPWR" "x63/a_27_47#" 3.4581
+cap "class_AB_v3_sym_0/VIN" "x63/A" 0.109868
+cap "x65/VGND" "x63/A" 68.8296
+cap "x65/VGND" "class_AB_v3_sym_0/VIN" 0.420165
+cap "x63/X" "x63/A" 6.01318
+cap "x65/VGND" "x63/X" 2.90046
+cap "x65/A" "x63/A" -0.384102
+cap "x65/VGND" "x65/A" 74.0336
+cap "x63/a_27_47#" "x63/A" 28.0921
+cap "x65/VGND" "x63/a_27_47#" 12.0291
+cap "x65/VPWR" "class_AB_v3_sym_0/CLK" 28.807
+cap "x65/a_27_47#" "x63/A" 0.0209733
+cap "class_AB_v3_sym_0/w_1880_n1260#" "x63/A" 0.0978536
+cap "x65/VGND" "class_AB_v3_sym_0/w_1880_n1260#" 0.248273
+cap "x63/A" "class_AB_v3_sym_0/CLK" 0.0388511
+cap "RSfetsym_0/m3_2150_n210#" "x63/X" 1.73653
+cap "x65/VGND" "x63/a_27_47#" 11.2747
+cap "x63/A" "x63/X" 5.37983
+cap "x65/VPWR" "class_AB_v3_sym_0/CLK" 12.7339
+cap "x63/A" "RSfetsym_0/m3_2150_n210#" 0.768727
+cap "x65/VGND" "class_AB_v3_sym_0/CLK" 3.55271e-15
+cap "x65/VPWR" "x63/X" 13.0047
+cap "x65/VPWR" "RSfetsym_0/m3_2150_n210#" 1.46017
+cap "x65/VGND" "x63/X" 4.34005
+cap "x65/a_27_47#" "x63/a_27_47#" 0.381479
+cap "x65/VPWR" "x63/A" 4.18656
+cap "x63/X" "x63/a_27_47#" 12.7317
+cap "x63/A" "x65/VGND" 0.495271
+cap "RSfetsym_0/m3_2150_n210#" "x63/a_27_47#" 0.77745
+cap "x63/A" "x65/A" 0.0392927
+cap "m4_3170_1590#" "x63/a_27_47#" 0.00913722
+cap "x63/A" "x63/a_27_47#" 2.26218
+cap "x65/VPWR" "x65/X" 0.676923
+cap "x65/VPWR" "x65/VGND" 11.866
+cap "x65/VGND" "x65/X" -1.83875
+cap "x65/VPWR" "x63/a_27_47#" 6.6155
+cap "x63/VPWR" "x65/VPWR" 0.0608486
+cap "m4_3170_1590#" "x65/VGND" 10.9405
+cap "x65/VGND" "x65/VPWR" 10.5038
+cap "x63/X" "x65/VPWR" 4.79499
+cap "RSfetsym_0/Q" "x65/VPWR" -1.8917
+cap "x65/X" "x65/VPWR" 2.49989
+cap "x65/VGND" "x63/X" -5.68434e-14
+cap "x63/X" "RSfetsym_0/Q" 0.0313258
+cap "x65/VGND" "RSfetsym_0/Q" -0.959765
+cap "m4_3170_1590#" "RSfetsym_0/QN" 0.102378
+cap "x65/VGND" "x65/X" -2.27374e-13
+cap "RSfetsym_0/QN" "x65/VPWR" 9.15381e-05
+cap "x65/VGND" "RSfetsym_0/XM3/a_15_n100#" -5.68434e-14
+cap "RSfetsym_0/XM3/a_15_n100#" "x63/X" 5.68434e-14
+cap "m4_3170_1590#" "RSfetsym_0/x2/Y" 0.0245563
+cap "RSfetsym_0/QN" "x65/VGND" 2.27374e-13
+cap "RSfetsym_0/QN" "x63/X" 0.400758
+cap "m4_3170_1590#" "x65/VPWR" 6.95355
+cap "RSfetsym_0/QN" "RSfetsym_0/XM3/a_15_n100#" -5.68434e-14
+cap "RSfetsym_0/x2/Y" "RSfetsym_0/GND" 12.5507
+cap "RSfetsym_0/x2/Y" "RSfetsym_0/VDD" 24.6681
+cap "RSfetsym_0/VDD" "RSfetsym_0/GND" 62.477
+cap "RSfetsym_0/R" "RSfetsym_0/VDD" 13.815
+cap "RSfetsym_0/R" "RSfetsym_0/GND" 0.696024
+cap "RSfetsym_0/x1/Y" "RSfetsym_0/GND" 0.978144
+cap "RSfetsym_0/Q" "RSfetsym_0/VDD" -3.01956
+cap "RSfetsym_0/Q" "RSfetsym_0/GND" -3.26353
+cap "RSfetsym_0/S" "RSfetsym_0/GND" 4.58246
+cap "RSfetsym_0/S" "RSfetsym_0/VDD" 1.65352
+cap "RSfetsym_0/x1/A" "RSfetsym_0/GND" 0.0844598
+cap "RSfetsym_0/GND" "RSfetsym_0/x1/VPB" 396.181
+cap "RSfetsym_0/x2/Y" "RSfetsym_0/GND" 7.54853
+cap "class_AB_v3_sym_0/VIP" "x65/a_27_47#" 0.0255733
+cap "x65/VPWR" "x63/A" 0.0208764
+cap "x65/A" "class_AB_v3_sym_0/VIP" 0.0197254
+cap "x65/VGND" "class_AB_v3_sym_0/VIP" 1.46903
+cap "x65/VPWR" "class_AB_v3_sym_0/VIP" 8.73424
+cap "class_AB_v3_sym_0/VIP" "class_AB_v3_sym_0/CLK" 0.00660167
+cap "x65/A" "class_AB_v3_sym_0/w_1258_n1260#" -7.10543e-15
+cap "x65/A" "x65/VPWR" 0.0157869
+cap "x65/A" "x65/VGND" 1.14955
+cap "x65/VGND" "x63/A" 0.00179234
+cap "x65/VGND" "class_AB_v3_sym_0/w_1258_n1260#" 0.0784228
+cap "x65/VGND" "x65/a_27_47#" 14.5473
+cap "x65/VGND" "class_AB_v3_sym_0/VIP" 0.424564
+cap "x65/VGND" "x65/VPWR" 49.0454
+cap "x65/VGND" "x65/X" 4.23604
+cap "x65/VGND" "class_AB_v3_sym_0/XM11/a_15_n131#" 0.000850415
+cap "x65/VGND" "x65/A" 59.2795
+cap "class_AB_v3_sym_0/CLK" "x65/a_27_47#" 2.04522
+cap "x63/a_27_47#" "x65/A" 0.0209733
+cap "class_AB_v3_sym_0/CLK" "x65/X" 1.15437
+cap "class_AB_v3_sym_0/CLK" "x65/VPWR" 24.5744
+cap "class_AB_v3_sym_0/CLK" "x65/A" 3.38984
+cap "x63/A" "x65/VPWR" 0.646817
+cap "x65/VPWR" "class_AB_v3_sym_0/VIP" 15.7635
+cap "x65/VPWR" "x65/a_27_47#" 6.00614
+cap "x63/A" "x65/A" -0.393604
+cap "x65/A" "class_AB_v3_sym_0/w_1258_n1260#" 0.0978536
+cap "class_AB_v3_sym_0/VIP" "x65/A" 0.136674
+cap "x65/a_27_47#" "x65/A" 29.7896
+cap "x65/X" "x65/VPWR" 3.06817
+cap "x65/VGND" "class_AB_v3_sym_0/CLK" 19.4707
+cap "x65/VPWR" "x65/A" 108.48
+cap "x65/X" "x65/A" 2.47157
+cap "x65/VPWR" "x65/a_27_47#" 14.5826
+cap "x65/A" "x65/VGND" 0.577571
+cap "x65/A" "x65/X" 1.10339
+cap "x65/X" "RSfetsym_0/XM6/a_n33_n297#" 0.0266849
+cap "x65/A" "class_AB_v3_sym_0/CLK" 0.0399085
+cap "x65/VPWR" "x65/A" 7.5585
+cap "x65/a_27_47#" "x65/A" 2.52065
+cap "x65/X" "x65/VGND" 6.62966
+cap "x65/A" "x63/A" 0.0392927
+cap "x65/a_27_47#" "x63/a_27_47#" 0.381479
+cap "x65/VPWR" "x65/VGND" -21.8421
+cap "x65/VPWR" "x65/X" 82.8978
+cap "x65/a_27_47#" "x65/VGND" 11.7157
+cap "x65/a_27_47#" "x65/X" 11.6261
+cap "x65/VPWR" "class_AB_v3_sym_0/CLK" -5.55112e-17
+cap "x65/a_27_47#" "x65/VPWR" 2.5448e-05
+cap "x65/VGND" "x65/VPWR" 0.733424
+cap "RSfetsym_0/QN" "x65/VPWR" 22.1504
+cap "x65/VGND" "RSfetsym_0/QN" 2.84217e-14
+cap "x65/X" "x65/VPWR" 145.341
+cap "x65/X" "RSfetsym_0/QN" 2.5987
+cap "RSfetsym_0/XM5/a_n33_n297#" "x65/VPWR" 5.68434e-14
+cap "x65/VGND" "RSfetsym_0/XM5/a_n33_n297#" 3.55271e-15
+merge "RSfetsym_0/GND" "x63/VNB" -3758.48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -90244 -2264 0 0 0 0 -889192 -8964 0 0 0 0
+merge "x63/VNB" "x63/VGND"
+merge "x63/VGND" "x65/VNB"
+merge "x65/VNB" "x65/VGND"
+merge "x65/VGND" "class_AB_v3_sym_0/VSS"
+merge "class_AB_v3_sym_0/VSS" "a_5120_3050#"
+merge "a_5120_3050#" "m4_3170_1590#"
+merge "m4_3170_1590#" "GND"
+merge "x65/A" "class_AB_v3_sym_0/VOP" -207.531 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3000 -220 -1540 -184 0 0 0 0 0 0 0 0 0 0
+merge "class_AB_v3_sym_0/VOP" "li_5182_4136#"
+merge "RSfetsym_0/x1/VPB" "x65/VPWR" -3909.42 0 0 0 0 -216000 -2634 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -195648 -3828 0 0 -2000 -240 0 0 -187300 -2740 0 0
+merge "x65/VPWR" "x65/VPB"
+merge "x65/VPB" "VDD"
+merge "VDD" "RSfetsym_0/VDD"
+merge "RSfetsym_0/VDD" "m3_9260_2790#"
+merge "m3_9260_2790#" "class_AB_v3_sym_0/VDD"
+merge "class_AB_v3_sym_0/VDD" "x63/VPWR"
+merge "x63/VPWR" "x63/VPB"
+merge "x63/VPB" "w_5120_2070#"
+merge "RSfetsym_0/Q" "Q" -183.622 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40000 -800 0 0 0 0 0 0 0 0 0 0
+merge "class_AB_v3_sym_0/VON" "x63/A" -208.626 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2500 -200 -2560 -244 0 0 0 0 0 0 0 0 0 0
+merge "x63/A" "li_5182_2686#"
+merge "class_AB_v3_sym_0/IB" "IB" -188.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40000 -800 0 0 0 0 0 0 0 0 0 0
+merge "class_AB_v3_sym_0/VIP" "VIN" -205.087 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -39088 -792 0 0 0 0 0 0 0 0 0 0
+merge "class_AB_v3_sym_0/CLK" "CLK" -255.236 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4752 -444 0 0 0 0 0 0 0 0 0 0
+merge "RSfetsym_0/S" "x65/X" -331.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1160 -138 -46500 -880 0 0 0 0 0 0 0 0 0 0
+merge "x65/X" "li_5390_4150#"
+merge "class_AB_v3_sym_0/VIN" "VN" -225.631 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38808 -788 0 0 0 0 0 0 0 0 0 0
+merge "RSfetsym_0/R" "x63/X" -279.607 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1160 -138 -16000 -560 0 0 0 0 0 0 0 0 0 0
+merge "x63/X" "li_5390_2720#"

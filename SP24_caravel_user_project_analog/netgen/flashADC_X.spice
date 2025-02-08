@@ -1,0 +1,195 @@
+** sch_path: /foss/designs/Analog_FA23_SP24/flashADC/xschem/flashADC.sch
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.subckt flashADC VFS OUT3 OUT2 OUT1 OUT0 VL VDD CLK VIN GND
+*.PININFO OUT3:O OUT2:O OUT1:O OUT0:O VFS:I VL:I VDD:I GND:I CLK:I VIN:I
+XR1 VL net2 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR2 net2 net1 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR3 net1 net3 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR4 net3 net4 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR5 net4 net5 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR6 net5 net6 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR7 net6 net7 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR8 net7 net8 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR9 net8 net9 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR10 net9 net10 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR11 net10 net11 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR12 net11 net12 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR13 net12 net13 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR14 net13 net14 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR15 net14 net15 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR16 net15 net16 GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+XR18 net16 VFS GND sky130_fd_pr__res_xhigh_po_5p73 L=2.667 mult=8 m=8
+x1 OUT3 VDD net17 net18 net19 net20 net21 net22 OUT2 net23 net24 VDD net25 net26 net27 net28 OUT1 net29 net30 GND net31 net32 OUT0
++ 16to4_PriorityEncoder_v0p0p1
+x18 VDD IB GND PTAT_v0p0p0
+x2 VDD GND net15 VIN CLK net18 IB frontAnalog_v0p0p1
+x3 VDD GND net14 VIN CLK net19 IB frontAnalog_v0p0p1
+x4 VDD GND net13 VIN CLK net20 IB frontAnalog_v0p0p1
+x5 VDD GND net12 VIN CLK net21 IB frontAnalog_v0p0p1
+x6 VDD GND net11 VIN CLK net22 IB frontAnalog_v0p0p1
+x7 VDD GND net10 VIN CLK net23 IB frontAnalog_v0p0p1
+x8 VDD GND net9 VIN CLK net24 IB frontAnalog_v0p0p1
+x9 VDD GND net8 VIN CLK net25 IB frontAnalog_v0p0p1
+x10 VDD GND net7 VIN CLK net26 IB frontAnalog_v0p0p1
+x11 VDD GND net6 VIN CLK net27 IB frontAnalog_v0p0p1
+x12 VDD GND net5 VIN CLK net28 IB frontAnalog_v0p0p1
+x13 VDD GND net4 VIN CLK net29 IB frontAnalog_v0p0p1
+x14 VDD GND net3 VIN CLK net30 IB frontAnalog_v0p0p1
+x15 VDD GND net1 VIN CLK net31 IB frontAnalog_v0p0p1
+x16 VDD GND net2 VIN CLK net32 IB frontAnalog_v0p0p1
+x17 VDD GND net16 VIN CLK net17 IB frontAnalog_v0p0p1
+XC1 IB GND sky130_fd_pr__cap_mim_m3_2 W=30 L=30 m=70
+.ends
+
+* expanding   symbol:  /foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sym # of pins=23
+** sym_path: /foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sym
+** sch_path: /foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sch
+.subckt 16to4_PriorityEncoder_v0p0p1 A3 EI I15 I14 I13 I12 I11 I10 A2 I9 I8 VDD I7 I6 I5 I4 A1 I3 I2 GND I1 I0 A0
+*.PININFO I14:I I13:I I12:I I11:I I10:I I9:I I8:I I7:I I6:I I5:I I4:I I3:I I2:I I1:I I0:I A3:O I15:I EI:I A2:O A1:O A0:O VDD:I
+*+ GND:I
+x11 net4 net5 GND GND VDD VDD net14 sky130_fd_sc_hd__or2_1
+x20 net15 GND GND VDD VDD net16 sky130_fd_sc_hd__inv_1
+x21 net16 GND GND VDD VDD net17 sky130_fd_sc_hd__inv_4
+x22 net17 GND GND VDD VDD net13 sky130_fd_sc_hd__inv_16
+x27 net18 GND GND VDD VDD net19 sky130_fd_sc_hd__inv_1
+x28 net19 GND GND VDD VDD net20 sky130_fd_sc_hd__inv_4
+x29 net20 GND GND VDD VDD net12 sky130_fd_sc_hd__inv_16
+x34 net14 GND GND VDD VDD net21 sky130_fd_sc_hd__inv_1
+x35 net21 GND GND VDD VDD net22 sky130_fd_sc_hd__inv_4
+x36 net22 GND GND VDD VDD net11 sky130_fd_sc_hd__inv_16
+x41 net3 GND GND VDD VDD net23 sky130_fd_sc_hd__inv_1
+x42 net23 GND GND VDD VDD net24 sky130_fd_sc_hd__inv_4
+x43 net24 GND GND VDD VDD net10 sky130_fd_sc_hd__inv_16
+x7 net2 GND GND VDD VDD net1 sky130_fd_sc_hd__inv_1
+x1 net6 net7 GND GND VDD VDD net18 sky130_fd_sc_hd__or2_1
+x2 net8 net9 GND GND VDD VDD net15 sky130_fd_sc_hd__or2_1
+* noconn #net25
+* noconn #net26
+x5 I9 I13 I11 I8 I10 I14 I15 I12 net2 net3 net4 net6 net8 EI VDD GND 8to3_Priority_Encoder_v0p2p0
+x3 I1 I5 I3 I0 I2 I6 I7 I4 net25 net26 net5 net7 net9 net1 VDD GND 8to3_Priority_Encoder_v0p2p0
+x6 net10 GND GND VDD VDD A3 sky130_fd_sc_hd__inv_16
+x4 net10 GND GND VDD VDD A3 sky130_fd_sc_hd__inv_16
+x8 net10 GND GND VDD VDD A3 sky130_fd_sc_hd__inv_16
+x9 net10 GND GND VDD VDD A3 sky130_fd_sc_hd__inv_16
+x10 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__inv_16
+x12 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__inv_16
+x13 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__inv_16
+x14 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__inv_16
+x15 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__inv_16
+x16 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__inv_16
+x17 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__inv_16
+x18 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__inv_16
+x19 net13 GND GND VDD VDD A0 sky130_fd_sc_hd__inv_16
+x23 net13 GND GND VDD VDD A0 sky130_fd_sc_hd__inv_16
+x24 net13 GND GND VDD VDD A0 sky130_fd_sc_hd__inv_16
+x25 net13 GND GND VDD VDD A0 sky130_fd_sc_hd__inv_16
+.ends
+
+
+* expanding   symbol:  /foss/designs/Analog_FA23_SP24/PTAT/xschem/PTAT_v0p0p0.sym # of pins=3
+** sym_path: /foss/designs/Analog_FA23_SP24/PTAT/xschem/PTAT_v0p0p0.sym
+** sch_path: /foss/designs/Analog_FA23_SP24/PTAT/xschem/PTAT_v0p0p0.sch
+.subckt PTAT_v0p0p0 VDD VOUT VSS
+*.PININFO VSS:I VDD:I VOUT:O
+XM1 net1 net2 VDD VDD sky130_fd_pr__pfet_01v8_lvt L=1 W=19 nf=1 m=1
+XM2 net2 net2 VDD VDD sky130_fd_pr__pfet_01v8_lvt L=1 W=19 nf=1 m=1
+XM3 VOUT net2 VDD VDD sky130_fd_pr__pfet_01v8_lvt L=1 W=19 nf=1 m=1
+XM4 net1 net1 VSS VSS sky130_fd_pr__nfet_01v8_lvt L=0.6 W=4 nf=1 m=1
+XM5 net2 net1 net3 VSS sky130_fd_pr__nfet_01v8_lvt L=0.6 W=4 nf=1 m=20
+XM6 net2 net2 net1 VSS sky130_fd_pr__nfet_01v8_lvt L=0.15 W=0.42 nf=1 m=1
+XM7 VOUT VOUT VSS VSS sky130_fd_pr__nfet_01v8_lvt L=0.6 W=4 nf=1 m=1
+XR1 VSS net3 VSS sky130_fd_pr__res_xhigh_po_5p73 L=85.94 mult=1 m=1
+XR2 VSS net3 VSS sky130_fd_pr__res_xhigh_po_5p73 L=85.94 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  /foss/designs/Analog_FA23_SP24/flashADC/xschem/frontAnalog_v0p0p1.sym # of pins=7
+** sym_path: /foss/designs/Analog_FA23_SP24/flashADC/xschem/frontAnalog_v0p0p1.sym
+** sch_path: /foss/designs/Analog_FA23_SP24/flashADC/xschem/frontAnalog_v0p0p1.sch
+.subckt frontAnalog_v0p0p1 VDD GND VN VIN CLK Q IB
+*.PININFO VDD:I GND:I VN:I VIN:I IB:I CLK:I Q:O
+x63 net1 GND GND VDD VDD net3 sky130_fd_sc_hd__buf_1
+x65 net2 GND GND VDD VDD net4 sky130_fd_sc_hd__buf_1
+* noconn #net5
+x1 VDD net3 net4 Q net5 GND RSfetsym
+x2 VDD net2 net1 VN VIN CLK IB GND class_AB_v4_sym
+.ends
+
+
+* expanding   symbol:  /foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/8to3_Priority_Encoder_v0p2p0.sym # of pins=16
+** sym_path: /foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/8to3_Priority_Encoder_v0p2p0.sym
+** sch_path: /foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/8to3_Priority_Encoder_v0p2p0.sch
+.subckt 8to3_Priority_Encoder_v0p2p0 I1 I5 I3 I0 I2 I6 I7 I4 EO GS A2 A1 A0 EI VDD GND
+*.PININFO I0:I I1:I I2:I I3:I I4:I I5:I I6:I I7:I EI:I EO:O GS:O A2:O A1:O A0:O VDD:I GND:I
+x9 EI GND GND VDD VDD net5 sky130_fd_sc_hd__inv_1
+x1 I0 I1 I2 I3 GND GND VDD VDD net7 sky130_fd_sc_hd__or4_1
+x2 I4 I5 I6 I7 GND GND VDD VDD net6 sky130_fd_sc_hd__or4_1
+x4 net5 net7 net6 GND GND VDD VDD EO sky130_fd_sc_hd__or3_1
+x8 EO EI GND GND VDD VDD GS sky130_fd_sc_hd__and2_1
+x10 EI I4 GND GND VDD VDD net8 sky130_fd_sc_hd__and2_1
+x11 EI I5 GND GND VDD VDD net9 sky130_fd_sc_hd__and2_1
+x12 EI I6 GND GND VDD VDD net10 sky130_fd_sc_hd__and2_1
+x13 EI I7 GND GND VDD VDD net11 sky130_fd_sc_hd__and2_1
+x14 net8 net9 net10 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__or4_1
+x17 net10 net11 net13 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__or4_1
+x15 I2 net2 net3 EI GND GND VDD VDD net13 sky130_fd_sc_hd__and4_1
+x16 I3 net2 net3 EI GND GND VDD VDD net12 sky130_fd_sc_hd__and4_1
+x18 net2 I1 net1 net4 GND GND VDD VDD net14 sky130_fd_sc_hd__and4_1
+x19 EI I3 net2 net4 GND GND VDD VDD net15 sky130_fd_sc_hd__and4_1
+x20 I5 net4 EI GND GND VDD VDD net17 sky130_fd_sc_hd__and3_1
+x21 EI net14 GND GND VDD VDD net16 sky130_fd_sc_hd__and2_1
+x22 net11 net16 net15 net17 GND GND VDD VDD A0 sky130_fd_sc_hd__or4_1
+x3 I6 GND GND VDD VDD net4 sky130_fd_sc_hd__inv_1
+x5 I5 GND GND VDD VDD net3 sky130_fd_sc_hd__inv_1
+x6 I4 GND GND VDD VDD net2 sky130_fd_sc_hd__inv_1
+x7 I2 GND GND VDD VDD net1 sky130_fd_sc_hd__inv_1
+.ends
+
+
+* expanding   symbol:  /foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym # of pins=6
+** sym_path: /foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sym
+** sch_path: /foss/designs/Analog_FA23_SP24/RSlatch/xschem/RSfetsym.sch
+.subckt RSfetsym VDD S R Q QN GND
+*.PININFO Q:O QN:O S:I R:I VDD:B GND:B
+XM1 QN S net1 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM2 net1 Q GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM3 Q R net2 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM4 net2 QN GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM5 QN Q VDD VDD sky130_fd_pr__pfet_01v8 L=0.30 W=2 nf=1 m=1
+XM6 Q QN VDD VDD sky130_fd_pr__pfet_01v8 L=0.30 W=2 nf=1 m=1
+XM7 QN S VDD VDD sky130_fd_pr__pfet_01v8 L=0.25 W=4 nf=2 m=1
+XM8 Q R VDD VDD sky130_fd_pr__pfet_01v8 L=0.25 W=4 nf=2 m=1
+XM9 QN net3 GND GND sky130_fd_pr__nfet_01v8 L=0.25 W=2 nf=1 m=1
+XM10 Q net4 GND GND sky130_fd_pr__nfet_01v8 L=0.25 W=2 nf=1 m=1
+x2 R GND GND VDD VDD net3 sky130_fd_sc_hd__inv_4
+x1 S GND GND VDD VDD net4 sky130_fd_sc_hd__inv_4
+.ends
+
+
+* expanding   symbol:  /foss/designs/Analog_FA23_SP24/strongARM/class_AB_v4_sym.sym # of pins=8
+** sym_path: /foss/designs/Analog_FA23_SP24/strongARM/class_AB_v4_sym.sym
+** sch_path: /foss/designs/Analog_FA23_SP24/strongARM/class_AB_v4_sym.sch
+.subckt class_AB_v4_sym VDD VON VOP VIN VIP CLK IB VSS
+*.PININFO VDD:B IB:I VSS:B VIP:I VIN:I VON:O VOP:O CLK:I
+XM17 net3 VIP VIR VSS sky130_fd_pr__nfet_01v8_lvt L=0.6 W=4 nf=1 m=1
+XM15 net2 VIN VIR VSS sky130_fd_pr__nfet_01v8_lvt L=0.6 W=4 nf=1 m=1
+XM13 VIR IB VSS VSS sky130_fd_pr__nfet_01v8_lvt L=0.6 W=4 nf=1 m=2
+XM6 VON VOP VDD VDD sky130_fd_pr__pfet_01v8_lvt L=0.35 W=4 nf=1 m=1
+XM7 VOP VON VDD VDD sky130_fd_pr__pfet_01v8_lvt L=0.35 W=4 nf=1 m=1
+XM10 VOP VON net1 VSS sky130_fd_pr__nfet_01v8_lvt L=0.15 W=1 nf=1 m=1
+XM11 VON VOP net1 VSS sky130_fd_pr__nfet_01v8_lvt L=0.15 W=1 nf=1 m=1
+XM1 net1 CLK VSS VSS sky130_fd_pr__nfet_01v8_lvt L=0.15 W=1 nf=1 m=1
+XM2 VOP CLK VON VDD sky130_fd_pr__pfet_01v8_lvt L=0.35 W=4 nf=1 m=1
+XM9 net2 CLK VOP VDD sky130_fd_pr__pfet_01v8_lvt L=0.35 W=4 nf=1 m=1
+XM14 net3 CLK VON VDD sky130_fd_pr__pfet_01v8_lvt L=0.35 W=4 nf=1 m=1
+XM3 VDD CLK net3 VSS sky130_fd_pr__nfet_01v8_lvt L=0.6 W=4 nf=1 m=1
+XM4 VDD CLK net2 VSS sky130_fd_pr__nfet_01v8_lvt L=0.6 W=4 nf=1 m=1
+XC1 VIP net2 VSS sky130_fd_pr__cap_var_lvt W=2 L=0.18 m=1
+XC2 VIN net3 VSS sky130_fd_pr__cap_var_lvt W=2 L=0.18 m=1
+.ends
+
+.GLOBAL VDD
+.GLOBAL GND
+.end

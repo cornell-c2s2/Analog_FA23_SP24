@@ -1,0 +1,7 @@
+** sch_path: /foss/designs/Analog_FA23_SP24/flashADC/xschem/ESD.sch
+.subckt ESD VDD VIO VSS
+*.PININFO VSS:I VDD:I VIO:B
+XM24 VSS VSS VIO VSS sky130_fd_pr__nfet_01v8 L=0.2 W=500 nf=10 m=1
+XM25 VIO VIO VDD VSS sky130_fd_pr__nfet_01v8 L=0.2 W=500 nf=10 m=1
+.ends
+.end

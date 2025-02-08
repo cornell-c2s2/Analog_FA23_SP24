@@ -1,0 +1,69 @@
+* NGSPICE file created from PTAT_v0p0p0_mag.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_BKH6ZK a_60_n400# a_n118_n400# a_n60_n488# a_n220_n574#
+X0 a_60_n400# a_n60_n488# a_n118_n400# a_n220_n574# sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.6
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_5p73_GWLG8Y a_n703_n9140# a_n573_8578# a_n573_n9010#
+X0 a_n573_8578# a_n573_n9010# a_n703_n9140# sky130_fd_pr__res_xhigh_po_5p73 l=85.8
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_GUHUBJ w_n296_n2119# a_n158_n1900# a_n100_n1997#
++ a_100_n1900#
+X0 a_100_n1900# a_n100_n1997# a_n158_n1900# w_n296_n2119# sky130_fd_pr__pfet_01v8_lvt ad=5.51 pd=38.6 as=5.51 ps=38.6 w=19 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_B7MEP5 a_n33_33# a_15_n73# a_n73_n73# a_n175_n185#
+X0 a_15_n73# a_n33_33# a_n73_n73# a_n175_n185# sky130_fd_pr__nfet_01v8_lvt ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.15
+.ends
+
+.subckt PTAT_v0p0p0_mag VDD VOUT VSS
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_18 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_19 m1_n2520_n1110# VSS m1_n2520_n1110# VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_0 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_1 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_3 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_2 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+XXR1 VSS VSS m1_n2413_n1004# sky130_fd_pr__res_xhigh_po_5p73_GWLG8Y
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_4 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+XXR2 VSS VSS m1_n2413_n1004# sky130_fd_pr__res_xhigh_po_5p73_GWLG8Y
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_5 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_6 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+XXM1 VDD m1_n2520_n1110# m1_n2210_n1005# VDD sky130_fd_pr__pfet_01v8_lvt_GUHUBJ
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_7 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+XM5 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110# VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+XXM2 VDD VDD m1_n2210_n1005# m1_n2210_n1005# sky130_fd_pr__pfet_01v8_lvt_GUHUBJ
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_8 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+XXM3 VDD VDD m1_n2210_n1005# VOUT sky130_fd_pr__pfet_01v8_lvt_GUHUBJ
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_9 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+XXM6 m1_n2210_n1005# m1_n2520_n1110# m1_n2210_n1005# VSS sky130_fd_pr__nfet_01v8_lvt_B7MEP5
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_20 VSS VOUT VOUT VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_11 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_10 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_12 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_13 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_14 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_15 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_16 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+Xsky130_fd_pr__nfet_01v8_lvt_BKH6ZK_17 m1_n2210_n1005# m1_n2413_n1004# m1_n2520_n1110#
++ VSS sky130_fd_pr__nfet_01v8_lvt_BKH6ZK
+.ends
+

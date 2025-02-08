@@ -1,0 +1,44 @@
+** sch_path: /foss/designs/Analog_FA23_SP24/PriorityEncoder/xschem/16to4_PriorityEncoder_v0p0p1.sch
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.subckt 16to4_PriorityEncoder_v0p0p1 A3 EI I15 I14 I13 I12 I11 I10 A2 I9 I8 I7 I6 I5 I4 A1 I3 I2 I1 I0 A0
+*.PININFO I14:I I13:I I12:I I11:I I10:I I9:I I8:I I7:I I6:I I5:I I4:I I3:I I2:I I1:I I0:I A3:O I15:I EI:I A2:O A1:O A0:O
+x11 net4 net5 GND GND VDD VDD net14 sky130_fd_sc_hd__or2_1
+x20 net15 GND GND VDD VDD net16 sky130_fd_sc_hd__inv_1
+x21 net16 GND GND VDD VDD net17 sky130_fd_sc_hd__inv_4
+x22 net17 GND GND VDD VDD net13 sky130_fd_sc_hd__inv_16
+x27 net18 GND GND VDD VDD net19 sky130_fd_sc_hd__inv_1
+x28 net19 GND GND VDD VDD net20 sky130_fd_sc_hd__inv_4
+x29 net20 GND GND VDD VDD net12 sky130_fd_sc_hd__inv_16
+x34 net14 GND GND VDD VDD net21 sky130_fd_sc_hd__inv_1
+x35 net21 GND GND VDD VDD net22 sky130_fd_sc_hd__inv_4
+x36 net22 GND GND VDD VDD net11 sky130_fd_sc_hd__inv_16
+x41 net3 GND GND VDD VDD net23 sky130_fd_sc_hd__inv_1
+x42 net23 GND GND VDD VDD net24 sky130_fd_sc_hd__inv_4
+x43 net24 GND GND VDD VDD net10 sky130_fd_sc_hd__inv_16
+x7 net2 GND GND VDD VDD net1 sky130_fd_sc_hd__inv_1
+x1 net6 net7 GND GND VDD VDD net18 sky130_fd_sc_hd__or2_1
+x2 net8 net9 GND GND VDD VDD net15 sky130_fd_sc_hd__or2_1
+* noconn #net25
+* noconn #net26
+x5 I9 I13 I11 I8 I10 I14 I15 I12 net2 net3 net4 net6 net8 EI 8to3_Priority_Encoder_v0p2p0
+x3 I1 I5 I3 I0 I2 I6 I7 I4 net25 net26 net5 net7 net9 net1 8to3_Priority_Encoder_v0p2p0
+x6 net10 GND GND VDD VDD A3 sky130_fd_sc_hd__inv_16
+x4 net10 GND GND VDD VDD A3 sky130_fd_sc_hd__inv_16
+x8 net10 GND GND VDD VDD A3 sky130_fd_sc_hd__inv_16
+x9 net10 GND GND VDD VDD A3 sky130_fd_sc_hd__inv_16
+x10 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__inv_16
+x12 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__inv_16
+x13 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__inv_16
+x14 net11 GND GND VDD VDD A2 sky130_fd_sc_hd__inv_16
+x15 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__inv_16
+x16 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__inv_16
+x17 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__inv_16
+x18 net12 GND GND VDD VDD A1 sky130_fd_sc_hd__inv_16
+x19 net13 GND GND VDD VDD A0 sky130_fd_sc_hd__inv_16
+x23 net13 GND GND VDD VDD A0 sky130_fd_sc_hd__inv_16
+x24 net13 GND GND VDD VDD A0 sky130_fd_sc_hd__inv_16
+x25 net13 GND GND VDD VDD A0 sky130_fd_sc_hd__inv_16
+.ends
+.end

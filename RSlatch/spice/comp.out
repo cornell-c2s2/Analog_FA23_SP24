@@ -1,0 +1,53 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 2 cell sky130_fd_sc_hd__inv_4 is a black box; will not flatten Circuit 1
+Class sky130_fd_sc_hd__inv_4 (0):  Merged 6 parallel devices.
+Equate elements:  no current cell.
+Device classes sky130_fd_sc_hd__inv_4 and sky130_fd_sc_hd__inv_4 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_8X7CJE in circuit RSfetsym-lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_ENQT6S in circuit RSfetsym-lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_CBNSG2 in circuit RSfetsym-lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_GNLSML in circuit RSfetsym-lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_K7FRP5 in circuit RSfetsym-lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_GHY9W9 in circuit RSfetsym-lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_E3L9V7 in circuit RSfetsym-lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_EDASV7 in circuit RSfetsym-lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_4WSMTB in circuit RSfetsym-lvs (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_XJSMYS in circuit RSfetsym-lvs (0)(1 instance)
+
+Class RSfetsym-lvs (0):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: RSfetsym-lvs                    |Circuit 2: RSfetsym                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__inv_4 (2)                 |sky130_fd_sc_hd__inv_4 (2)                 
+sky130_fd_pr__nfet_01v8 (6)                |sky130_fd_pr__nfet_01v8 (6)                
+sky130_fd_pr__pfet_01v8 (6->4)             |sky130_fd_pr__pfet_01v8 (4)                
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: RSfetsym-lvs                    |Circuit 2: RSfetsym                        
+-------------------------------------------|-------------------------------------------
+Q                                          |Q                                          
+QN                                         |QN                                         
+VDD                                        |VDD                                        
+GND                                        |GND                                        
+S                                          |S                                          
+R                                          |R                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes RSfetsym-lvs and RSfetsym are equivalent.
+
+Final result: Circuits match uniquely.
+.

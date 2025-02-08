@@ -1,0 +1,11 @@
+** sch_path: /foss/designs/Analog_FA23_SP24/DeltaSigma/xschem/1Bit_DAC_Inv.sch
+.subckt 1Bit_DAC_Inv VREF_P VDD OUT VIN VSS VREF_N
+*.PININFO VREF_P:B VREF_N:B VSS:B VDD:B VIN:I OUT:O
+XM1 VREF_N net1 OUT VDD sky130_fd_pr__pfet_01v8 L=0.15 W=95 nf=19 m=1
+XM2 VREF_N VIN OUT VSS sky130_fd_pr__nfet_01v8 L=0.15 W=45 nf=9 m=1
+XM3 VREF_P VIN OUT VDD sky130_fd_pr__pfet_01v8 L=0.15 W=95 nf=19 m=1
+XM4 VREF_P net1 OUT VSS sky130_fd_pr__nfet_01v8 L=0.15 W=45 nf=9 m=1
+XM8 net1 VIN VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=20 nf=4 m=1
+XM5 net1 VIN VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=2 m=1
+.ends
+.end

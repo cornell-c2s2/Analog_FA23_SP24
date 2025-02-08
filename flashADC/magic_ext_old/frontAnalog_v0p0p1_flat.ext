@@ -1,0 +1,244 @@
+timestamp 0
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8_hvt l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__cap_var_lvt l=l w=w
+parameters sky130_fd_pr__pfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__nfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+port "Q" 6 8020 1620 8220 1820 m1
+port "VN" 2 3770 1130 3970 1330 m1
+port "VIN" 3 3640 5290 3840 5490 m1
+port "CLK" 5 5100 3340 5300 3540 m1
+port "IB" 4 1650 4790 1850 4990 m1
+port "VDD" 0 5160 4770 5360 4970 m1
+port "GND" 1 1120 2780 1320 2980 m1
+node "x63.buf_1" 0 0 5160 2948 comment 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "x65.buf_1" 0 0 5160 3924 comment 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "RSfetsym_0.x2.inv_4" 0 0 9372 3602 comment 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "RSfetsym_0.x1.inv_4" 0 0 8208 3602 comment 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_6460_2180#" 0 228.138 6460 2180 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250000 2000 0 0 0 0 0 0
+node "a_7641_3047#" 1311 561.369 7641 3047 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 25064 1060 52500 980 0 0 0 0 0 0 0 0
+node "a_5187_2451#" 1873 319.018 5187 2451 pdif 0 0 0 0 0 0 0 0 5408 312 8216 420 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16644 1112 0 0 23518 1394 0 0 0 0 0 0 0 0 0 0 0 0
+node "RSfetsym_0.x2.Y" 3813 1533.27 7922 2686 p 0 0 0 0 0 0 0 0 14040 736 21600 1016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30912 1316 0 0 67122 2972 85880 2162 114800 2140 0 0 0 0 0 0 0 0
+node "RSfetsym_0.R" 6015 5404.25 5357 2451 pdif 0 0 0 0 0 0 0 0 5408 312 8216 420 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147054 7670 0 0 46902 2618 652732 10056 335300 6840 394200 8300 0 0 0 0 0 0
+equiv "RSfetsym_0.R" "x63.X"
+equiv "RSfetsym_0.R" "RSfetsym_0.x1.A"
+node "a_7642_3560#" 1311 555.409 7642 3560 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 24000 1040 52300 980 0 0 0 0 0 0 0 0
+node "RSfetsym_0.x1.Y" 3817 1934.42 7922 4052 p 0 0 0 0 0 0 0 0 14040 736 21600 1016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30912 1316 0 0 67190 2976 32600 1300 49200 2180 90800 2640 0 0 0 0 0 0
+node "Q" 6625 3617.88 8020 1620 m1 0 0 0 0 0 0 0 0 34800 1432 46400 1832 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52464 2288 0 0 57664 3936 293684 7232 271100 7240 343000 6280 0 0 0 0 0 0
+equiv "Q" "RSfetsym_0.Q"
+node "VN" 1205 2252.31 3770 1130 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141816 3536 0 0 12648 1016 330492 7012 222000 4420 0 0 0 0 0 0 0 0
+equiv "VN" "class_AB_v3_sym_0.VIN"
+node "RSfetsym_0.QN" 6643 3511.44 7151 2744 p 0 0 0 0 0 0 0 0 35780 1460 46400 1832 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52464 2288 0 0 57664 3936 303754 7862 320300 6660 430500 7780 0 0 0 0 0 0
+node "RSfetsym_0.S" 6003 5091.53 5357 3971 ndif 0 0 0 0 0 0 0 0 5408 312 8216 420 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 145864 7632 0 0 46502 2598 609268 9600 433100 8220 437100 9240 0 0 0 0 0 0
+equiv "RSfetsym_0.S" "x65.X"
+equiv "RSfetsym_0.S" "RSfetsym_0.x2.A"
+node "a_5187_3971#" 1873 318.023 5187 3971 ndif 0 0 0 0 0 0 0 0 5408 312 8216 420 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16644 1112 0 0 23518 1394 0 0 0 0 0 0 0 0 0 0 0 0
+node "VIN" 1204 2031.37 3640 5290 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141816 3536 0 0 12648 1016 334408 6204 220600 4400 0 0 0 0 0 0 0 0
+equiv "VIN" "class_AB_v3_sym_0.VIP"
+node "a_3332_2594#" 2114 1182.31 3332 2594 ndif 0 0 0 0 0 0 0 0 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21216 1452 73428 2116 51700 1600 217600 4820 0 0 0 0 0 0
+node "CLK" 4113 4206.43 5100 3340 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 454776 11528 0 0 32844 2680 183268 5464 692300 13760 297150 6790 0 0 0 0 0 0
+equiv "CLK" "class_AB_v3_sym_0.CLK"
+node "a_1694_2534#" 8672 2612.84 1694 2534 ndif 0 0 0 0 0 0 0 0 185600 6864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 109888 6736 446596 6340 0 0 0 0 0 0 0 0 0 0
+node "IB" 1164 3126.36 1650 4790 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 234240 4384 0 0 16320 1232 218084 3084 32200 1020 292500 5110 0 0 0 0 0 0
+equiv "IB" "class_AB_v3_sym_0.IB"
+node "class_AB_v3_sym_0.VOP" 12586 2331.89 2036 2070 p 0 0 0 0 0 0 0 0 11600 516 139200 5148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 99760 4068 0 0 101524 6436 501892 11624 286900 5880 263900 4320 0 0 0 0 0 0
+equiv "class_AB_v3_sym_0.VOP" "x65.A"
+node "class_AB_v3_sym_0.VON" 12586 2093.13 2046 4742 p 0 0 0 0 0 0 0 0 11600 516 139200 5148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 99760 4068 0 0 101524 6436 520696 12114 236400 4700 200150 4530 0 0 0 0 0 0
+equiv "class_AB_v3_sym_0.VON" "x63.A"
+node "w_3064_2980#" 10976 2688.73 3064 2980 nw 0 0 0 0 193160 1884 0 0 170400 5420 46400 1716 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 108528 6724 474180 9572 0 0 0 0 0 0 0 0 0 0
+node "w_3064_3602#" 10977 2686.77 3064 3602 nw 0 0 0 0 193160 1884 0 0 170400 5420 46400 1716 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 108528 6724 431576 8572 52200 1700 0 0 0 0 0 0 0 0
+node "VDD" 54300 39388.2 5160 4770 m1 0 0 0 0 4979708 25346 0 0 876242 46728 313528 12824 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1223186 61352 3611039 32640 2698872 30604 719692 8004 971016 9532 5319600 20600 0 0
+equiv "VDD" "x63.VPWR"
+equiv "VDD" "x63.VPB"
+equiv "VDD" "x63.VPWR"
+equiv "VDD" "x65.VPWR"
+equiv "VDD" "x65.VPB"
+equiv "VDD" "x65.VPWR"
+equiv "VDD" "class_AB_v3_sym_0.VDD"
+equiv "VDD" "RSfetsym_0.x2.VPWR"
+equiv "VDD" "RSfetsym_0.x2.VPB"
+equiv "VDD" "RSfetsym_0.x1.VPWR"
+equiv "VDD" "RSfetsym_0.x1.VPB"
+equiv "VDD" "RSfetsym_0.VDD"
+substrate "x63.VNB" 0 0 1414 2360 ppd 0 0 0 0 0 0 0 0 227144 9652 1143846 61304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1518218 73476 1968426 26174 797000 15200 855900 15440 5946976 57848 0 0 0 0
+equiv "x63.VNB" "x63.VGND"
+equiv "x63.VNB" "x65.VNB"
+equiv "x63.VNB" "x63.VGND"
+equiv "x63.VNB" "x65.VGND"
+equiv "x63.VNB" "RSfetsym_0.x2.VNB"
+equiv "x63.VNB" "x65.VGND"
+equiv "x63.VNB" "class_AB_v3_sym_0.VSS"
+equiv "x63.VNB" "RSfetsym_0.x2.VGND"
+equiv "x63.VNB" "RSfetsym_0.x1.VNB"
+equiv "x63.VNB" "GND"
+equiv "x63.VNB" "RSfetsym_0.x1.VGND"
+equiv "x63.VNB" "RSfetsym_0.GND"
+cap "VDD" "class_AB_v3_sym_0.VOP" 2936.71
+cap "a_7642_3560#" "VDD" 20.732
+cap "RSfetsym_0.S" "RSfetsym_0.R" 143.416
+cap "VDD" "VN" 355.091
+cap "a_7642_3560#" "RSfetsym_0.QN" 254.967
+cap "VIN" "IB" 46.4289
+cap "class_AB_v3_sym_0.VON" "m3_6460_2180#" 0.968178
+cap "a_1694_2534#" "IB" 461.953
+cap "VDD" "class_AB_v3_sym_0.VON" 3183.2
+cap "CLK" "IB" 54.5494
+cap "w_3064_2980#" "class_AB_v3_sym_0.VOP" 98.7929
+cap "class_AB_v3_sym_0.VOP" "w_3064_3602#" 658.401
+cap "class_AB_v3_sym_0.VOP" "a_3332_2594#" 461.321
+cap "CLK" "RSfetsym_0.R" 1.39224
+cap "w_3064_2980#" "VN" 750.151
+cap "RSfetsym_0.x1.Y" "RSfetsym_0.R" 882.567
+cap "w_3064_3602#" "VN" 794.684
+cap "VDD" "m3_6460_2180#" 1275.71
+cap "VDD" "RSfetsym_0.x2.Y" 926.215
+cap "a_3332_2594#" "VN" 203.127
+cap "Q" "RSfetsym_0.R" 1550.05
+cap "w_3064_2980#" "class_AB_v3_sym_0.VON" 659.33
+cap "w_3064_3602#" "class_AB_v3_sym_0.VON" 79.2482
+cap "class_AB_v3_sym_0.VON" "a_3332_2594#" 1238.17
+cap "CLK" "RSfetsym_0.S" 1.15437
+cap "RSfetsym_0.QN" "RSfetsym_0.x2.Y" 17.9519
+cap "class_AB_v3_sym_0.VOP" "IB" 35.2371
+cap "RSfetsym_0.S" "RSfetsym_0.x1.Y" 182.476
+cap "a_5187_3971#" "RSfetsym_0.S" 119.073
+cap "VDD" "RSfetsym_0.QN" 2542.35
+cap "RSfetsym_0.S" "Q" 444.084
+cap "a_5187_2451#" "RSfetsym_0.R" 121.433
+cap "VDD" "a_7641_3047#" 17.1176
+cap "class_AB_v3_sym_0.VOP" "RSfetsym_0.R" 0.00633114
+cap "VDD" "w_3064_2980#" 675.826
+cap "VN" "IB" 48.3872
+cap "VDD" "w_3064_3602#" 679.09
+cap "VDD" "a_3332_2594#" 117.32
+cap "VIN" "a_1694_2534#" 264.737
+cap "a_7641_3047#" "RSfetsym_0.QN" 417.642
+cap "a_7642_3560#" "RSfetsym_0.R" 0.411518
+cap "CLK" "VIN" 349.678
+cap "class_AB_v3_sym_0.VON" "IB" 78.4008
+cap "VIN" "a_5187_3971#" 0.0255733
+cap "CLK" "a_1694_2534#" 13.6016
+cap "class_AB_v3_sym_0.VOP" "RSfetsym_0.S" 23.5555
+cap "CLK" "a_5187_3971#" 2.04522
+cap "a_7642_3560#" "RSfetsym_0.S" 435.53
+cap "class_AB_v3_sym_0.VON" "RSfetsym_0.R" 30.1063
+cap "RSfetsym_0.x1.Y" "Q" 38.6067
+cap "w_3064_2980#" "w_3064_3602#" 327.286
+cap "w_3064_2980#" "a_3332_2594#" 120.43
+cap "w_3064_3602#" "a_3332_2594#" 149.208
+cap "VDD" "IB" 150.729
+cap "CLK" "a_5187_2451#" 2.0229
+cap "class_AB_v3_sym_0.VOP" "VIN" 625.575
+cap "a_5187_3971#" "a_5187_2451#" 0.762958
+cap "class_AB_v3_sym_0.VOP" "a_1694_2534#" 0.0134037
+cap "m3_6460_2180#" "RSfetsym_0.R" 138.779
+cap "RSfetsym_0.R" "RSfetsym_0.x2.Y" 92.2928
+cap "class_AB_v3_sym_0.VOP" "CLK" 2610.67
+cap "VDD" "RSfetsym_0.R" 3135.36
+cap "class_AB_v3_sym_0.VOP" "a_5187_3971#" 213.759
+cap "VIN" "VN" 107.651
+cap "a_7642_3560#" "RSfetsym_0.x1.Y" 2.81834
+cap "RSfetsym_0.R" "RSfetsym_0.QN" 378.114
+cap "a_7642_3560#" "Q" 419.733
+cap "w_3064_2980#" "IB" 21.719
+cap "VN" "a_1694_2534#" 278.473
+cap "RSfetsym_0.S" "RSfetsym_0.x2.Y" 525.613
+cap "w_3064_3602#" "IB" 21.5652
+cap "a_3332_2594#" "IB" 84.8478
+cap "VDD" "RSfetsym_0.S" 3484.34
+cap "CLK" "VN" 587.645
+cap "class_AB_v3_sym_0.VON" "VIN" 132.766
+cap "class_AB_v3_sym_0.VON" "a_1694_2534#" 0.00971722
+cap "RSfetsym_0.R" "a_7641_3047#" 280.296
+cap "class_AB_v3_sym_0.VON" "CLK" 1792.87
+cap "class_AB_v3_sym_0.VON" "a_5187_3971#" 0.0209733
+cap "class_AB_v3_sym_0.VOP" "a_5187_2451#" 0.049156
+cap "RSfetsym_0.S" "RSfetsym_0.QN" 2279.97
+cap "RSfetsym_0.S" "a_7641_3047#" 3.25452
+cap "VDD" "VIN" 453.074
+cap "a_5187_2451#" "VN" 0.0187968
+cap "VDD" "a_1694_2534#" 26.1496
+cap "VDD" "CLK" 2471.35
+cap "class_AB_v3_sym_0.VON" "a_5187_2451#" 211.803
+cap "RSfetsym_0.x1.Y" "RSfetsym_0.x2.Y" 25.4056
+cap "class_AB_v3_sym_0.VOP" "VN" 220.171
+cap "m3_6460_2180#" "Q" 41.5946
+cap "VDD" "RSfetsym_0.x1.Y" 732.615
+cap "VDD" "a_5187_3971#" 215.104
+cap "Q" "RSfetsym_0.x2.Y" 181.906
+cap "VDD" "Q" 2596.82
+cap "class_AB_v3_sym_0.VOP" "class_AB_v3_sym_0.VON" 3158.5
+cap "RSfetsym_0.x1.Y" "RSfetsym_0.QN" 170.191
+cap "Q" "RSfetsym_0.QN" 2019.9
+cap "w_3064_2980#" "VIN" 730.277
+cap "w_3064_3602#" "VIN" 863.627
+cap "a_3332_2594#" "VIN" 173.506
+cap "w_3064_2980#" "a_1694_2534#" 393.704
+cap "m3_6460_2180#" "a_5187_2451#" 1.17214
+cap "w_3064_3602#" "a_1694_2534#" 359.352
+cap "class_AB_v3_sym_0.VON" "VN" 577.373
+cap "a_3332_2594#" "a_1694_2534#" 15.0046
+cap "VDD" "a_5187_2451#" 214.712
+cap "Q" "a_7641_3047#" 289.869
+cap "w_3064_2980#" "CLK" 535.3
+cap "w_3064_3602#" "CLK" 570.421
+cap "CLK" "a_3332_2594#" 235.37
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3352 1896 3353 1897 l=30 w=200 "x63.VNB" "CLK" 60 0 "x63.VNB" 200 11600,516 "a_3332_2594#" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 8010 2694 8011 2695 l=50 w=400 "x63.VNB" "RSfetsym_0.x2.Y" 100 0 "x63.VNB" 400 23200,916 "Q" 400 23200,916
+device msubckt sky130_fd_pr__pfet_01v8_lvt 2133 2070 2134 2071 l=70 w=800 "VDD" "class_AB_v3_sym_0.VOP" 140 0 "VDD" 800 46400,1716 "class_AB_v3_sym_0.VON" 800 46400,1716
+device msubckt sky130_fd_pr__pfet_01v8 7177 2372 7178 2373 l=50 w=400 "VDD" "RSfetsym_0.R" 100 0 "VDD" 400 23200,916 "Q" 400 11600,458
+device msubckt sky130_fd_pr__pfet_01v8 7177 2480 7178 2481 l=50 w=400 "VDD" "RSfetsym_0.R" 100 0 "Q" 400 11600,458 "VDD" 400 23200,916
+device msubckt sky130_fd_pr__pfet_01v8_hvt 5327 2451 5328 2452 l=30 w=158 "VDD" "a_5187_2451#" 60 0 "VDD" 158 4582,216 "RSfetsym_0.R" 158 8216,420
+device msubckt sky130_fd_pr__pfet_01v8_hvt 5239 2451 5240 2452 l=30 w=158 "VDD" "class_AB_v3_sym_0.VON" 60 0 "a_5187_2451#" 158 8216,420 "VDD" 158 4582,216
+device msubckt sky130_fd_pr__nfet_01v8 9195 3231 9196 3232 l=30 w=130 "x63.VNB" "RSfetsym_0.S" 60 0 "x63.VNB" 130 6760,364 "RSfetsym_0.x2.Y" 130 3510,184
+device msubckt sky130_fd_pr__pfet_01v8_hvt 8875 3231 8876 3232 l=30 w=200 "VDD" "RSfetsym_0.S" 60 0 "VDD" 200 10400,504 "RSfetsym_0.x2.Y" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 8505 3231 8506 3232 l=30 w=200 "VDD" "RSfetsym_0.R" 60 0 "VDD" 200 10400,504 "RSfetsym_0.x1.Y" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 8255 3231 8256 3232 l=30 w=130 "x63.VNB" "RSfetsym_0.R" 60 0 "x63.VNB" 130 6760,364 "RSfetsym_0.x1.Y" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 9195 3315 9196 3316 l=30 w=130 "x63.VNB" "RSfetsym_0.S" 60 0 "RSfetsym_0.x2.Y" 130 3510,184 "x63.VNB" 130 3510,184
+device msubckt sky130_fd_pr__pfet_01v8_hvt 8875 3315 8876 3316 l=30 w=200 "VDD" "RSfetsym_0.S" 60 0 "RSfetsym_0.x2.Y" 200 5400,254 "VDD" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 8505 3315 8506 3316 l=30 w=200 "VDD" "RSfetsym_0.R" 60 0 "RSfetsym_0.x1.Y" 200 5400,254 "VDD" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 8255 3315 8256 3316 l=30 w=130 "x63.VNB" "RSfetsym_0.R" 60 0 "RSfetsym_0.x1.Y" 130 3510,184 "x63.VNB" 130 3510,184
+device msubckt sky130_fd_pr__nfet_01v8 7927 3047 7928 3048 l=30 w=200 "x63.VNB" "RSfetsym_0.QN" 60 0 "a_7641_3047#" 200 11600,516 "x63.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 7611 3047 7612 3048 l=30 w=200 "x63.VNB" "RSfetsym_0.R" 60 0 "Q" 200 11600,516 "a_7641_3047#" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 9195 3399 9196 3400 l=30 w=130 "x63.VNB" "RSfetsym_0.S" 60 0 "x63.VNB" 130 3510,184 "RSfetsym_0.x2.Y" 130 3510,184
+device msubckt sky130_fd_pr__pfet_01v8_hvt 8875 3399 8876 3400 l=30 w=200 "VDD" "RSfetsym_0.S" 60 0 "VDD" 200 5400,254 "RSfetsym_0.x2.Y" 200 5400,254
+device msubckt sky130_fd_pr__pfet_01v8_hvt 8505 3399 8506 3400 l=30 w=200 "VDD" "RSfetsym_0.R" 60 0 "VDD" 200 5400,254 "RSfetsym_0.x1.Y" 200 5400,254
+device msubckt sky130_fd_pr__nfet_01v8 8255 3399 8256 3400 l=30 w=130 "x63.VNB" "RSfetsym_0.R" 60 0 "x63.VNB" 130 3510,184 "RSfetsym_0.x1.Y" 130 3510,184
+device msubckt sky130_fd_pr__pfet_01v8 7154 2841 7155 2842 l=60 w=400 "VDD" "RSfetsym_0.QN" 120 0 "VDD" 400 23200,916 "Q" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 5327 2797 5328 2798 l=30 w=104 "x63.VNB" "a_5187_2451#" 60 0 "x63.VNB" 104 3016,162 "RSfetsym_0.R" 104 5408,312
+device msubckt sky130_fd_pr__nfet_01v8 5239 2797 5240 2798 l=30 w=104 "x63.VNB" "class_AB_v3_sym_0.VON" 60 0 "a_5187_2451#" 104 5408,312 "x63.VNB" 104 3016,162
+device msubckt sky130_fd_pr__nfet_01v8 9195 3483 9196 3484 l=30 w=130 "x63.VNB" "RSfetsym_0.S" 60 0 "RSfetsym_0.x2.Y" 130 3510,184 "x63.VNB" 130 6760,364
+device msubckt sky130_fd_pr__pfet_01v8_hvt 8875 3483 8876 3484 l=30 w=200 "VDD" "RSfetsym_0.S" 60 0 "RSfetsym_0.x2.Y" 200 5400,254 "VDD" 200 10400,504
+device msubckt sky130_fd_pr__pfet_01v8_hvt 8505 3483 8506 3484 l=30 w=200 "VDD" "RSfetsym_0.R" 60 0 "RSfetsym_0.x1.Y" 200 5400,254 "VDD" 200 10400,504
+device msubckt sky130_fd_pr__nfet_01v8 8255 3483 8256 3484 l=30 w=130 "x63.VNB" "RSfetsym_0.R" 60 0 "RSfetsym_0.x1.Y" 130 3510,184 "x63.VNB" 130 6760,364
+device msubckt sky130_fd_pr__nfet_01v8 7928 3560 7929 3561 l=30 w=200 "x63.VNB" "Q" 60 0 "a_7642_3560#" 200 11600,516 "x63.VNB" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 7612 3560 7613 3561 l=30 w=200 "x63.VNB" "RSfetsym_0.S" 60 0 "RSfetsym_0.QN" 200 12580,544 "a_7642_3560#" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 8010 4060 8011 4061 l=50 w=400 "x63.VNB" "RSfetsym_0.x1.Y" 100 0 "x63.VNB" 400 23200,916 "RSfetsym_0.QN" 400 23200,916
+device msubckt sky130_fd_pr__pfet_01v8 7154 3571 7155 3572 l=60 w=400 "VDD" "Q" 120 0 "VDD" 400 23200,916 "RSfetsym_0.QN" 400 23200,916
+device msubckt sky130_fd_pr__pfet_01v8_lvt 4540 3043 4541 3044 l=70 w=800 "VDD" "CLK" 140 0 "class_AB_v3_sym_0.VON" 800 46400,1716 "class_AB_v3_sym_0.VOP" 800 46400,1716
+device msubckt sky130_fd_pr__nfet_01v8 5327 3971 5328 3972 l=30 w=104 "x63.VNB" "a_5187_3971#" 60 0 "x63.VNB" 104 3016,162 "RSfetsym_0.S" 104 5408,312
+device msubckt sky130_fd_pr__nfet_01v8 5239 3971 5240 3972 l=30 w=104 "x63.VNB" "class_AB_v3_sym_0.VOP" 60 0 "a_5187_3971#" 104 5408,312 "x63.VNB" 104 3016,162
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3930 2488 3931 2489 l=120 w=800 "x63.VNB" "CLK" 240 0 "w_3064_2980#" 800 46400,1716 "VDD" 800 46400,1716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3390 2594 3391 2595 l=30 w=200 "x63.VNB" "class_AB_v3_sym_0.VOP" 60 0 "a_3332_2594#" 200 11600,516 "class_AB_v3_sym_0.VON" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8_lvt 2133 2426 2134 2427 l=70 w=800 "VDD" "CLK" 140 0 "class_AB_v3_sym_0.VOP" 800 46400,1716 "w_3064_3602#" 800 46400,1716
+device subckt sky130_fd_pr__cap_var_lvt 3182 3113 3183 3114 l=36 w=400 "x63.VNB" "VN" 72 0 "w_3064_2980#" 800 38800,994
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1994 3180 1995 3181 l=120 w=800 "x63.VNB" "VN" 240 0 "w_3064_3602#" 800 46400,1716 "a_1694_2534#" 800 46400,1716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1574 2534 1575 2535 l=120 w=800 "x63.VNB" "IB" 240 0 "x63.VNB" 800 46400,1716 "a_1694_2534#" 800 46400,1716
+device msubckt sky130_fd_pr__pfet_01v8 7177 4279 7178 4280 l=50 w=400 "VDD" "RSfetsym_0.S" 100 0 "VDD" 400 23200,916 "RSfetsym_0.QN" 400 11600,458
+device msubckt sky130_fd_pr__pfet_01v8 7177 4387 7178 4388 l=50 w=400 "VDD" "RSfetsym_0.S" 100 0 "RSfetsym_0.QN" 400 11600,458 "VDD" 400 23200,916
+device msubckt sky130_fd_pr__pfet_01v8_hvt 5327 4263 5328 4264 l=30 w=158 "VDD" "a_5187_3971#" 60 0 "VDD" 158 4582,216 "RSfetsym_0.S" 158 8216,420
+device msubckt sky130_fd_pr__pfet_01v8_hvt 5239 4263 5240 4264 l=30 w=158 "VDD" "class_AB_v3_sym_0.VOP" 60 0 "a_5187_3971#" 158 8216,420 "VDD" 158 4582,216
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3930 3602 3931 3603 l=120 w=800 "x63.VNB" "CLK" 240 0 "w_3064_3602#" 800 46400,1716 "VDD" 800 46400,1716
+device subckt sky130_fd_pr__cap_var_lvt 3182 3735 3183 3736 l=36 w=400 "x63.VNB" "VIN" 72 0 "w_3064_3602#" 800 38800,994
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1994 3586 1995 3587 l=120 w=800 "x63.VNB" "VIN" 240 0 "a_1694_2534#" 800 46400,1716 "w_3064_2980#" 800 46400,1716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3400 4090 3401 4091 l=30 w=200 "x63.VNB" "class_AB_v3_sym_0.VON" 60 0 "a_3332_2594#" 200 11600,516 "class_AB_v3_sym_0.VOP" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8_lvt 2143 4386 2144 4387 l=70 w=800 "VDD" "CLK" 140 0 "w_3064_2980#" 800 46400,1716 "class_AB_v3_sym_0.VON" 800 46400,1716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1574 3552 1575 3553 l=120 w=800 "x63.VNB" "IB" 240 0 "x63.VNB" 800 46400,1716 "a_1694_2534#" 800 46400,1716
+device msubckt sky130_fd_pr__pfet_01v8_lvt 2143 4742 2144 4743 l=70 w=800 "VDD" "class_AB_v3_sym_0.VON" 140 0 "class_AB_v3_sym_0.VOP" 800 46400,1716 "VDD" 800 46400,1716
